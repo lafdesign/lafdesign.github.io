@@ -1,0 +1,62 @@
+.tabs{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.tabs:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 242px;
+}
+
+.tabs li{
+	float:left;
+}
+
+.tabs li > input {
+	display: none;
+}
+
+.tabs li > label {
+	display: inline-block;
+	border: 1px solid #000;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 20px;
+	cursor: pointer;
+
+}
+
+.tabs li:last-child > label {
+	border-right-width: 1px;
+
+}
+
+.tabs .tab-content{
+	display: none;
+	position: absolute;
+	left: 0;
+	padding: 20px;
+	border: 1px solid black;
+	height: 200px;
+	overflow-y: scroll; 
+
+
+}
+
+
+/* functional */
+
+.tabs li > input:checked + label {
+	background-color: #ddd;
+
+}
+
+.tabs li > input:checked ~ .tab-content {
+	display: block;
+}

@@ -1,0 +1,2 @@
+/*! Compiled on: 2014-06-05 */
+"use strict";define(["modules/app"],function(app){app.directiveManager("showOnLoad",function(){return{restrict:"C",link:function($scope,elem){console.log("Hide"),elem.hide(),$scope.$on("loaded",function(){elem.show()})}}})});

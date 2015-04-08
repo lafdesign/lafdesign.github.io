@@ -1,0 +1,26 @@
+ .rotator div {
+	position:relative;
+	display:none;
+	border: none;
+}
+/* rotator css */
+ .rotator ul {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+ .rotator  li {
+	float: left;
+	position: absolute;
+	list-style: none;
+	border: none;
+}
+/* rotator image style */	
+ .show {
+	z-index:500;
+	border: none;
+}
+
+.rotator img {
+	border: none;
+}

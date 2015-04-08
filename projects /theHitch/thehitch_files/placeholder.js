@@ -1,0 +1,2 @@
+/*! Compiled on: 2014-06-05 */
+"use strict";define(["modules/app"],function(app){app.directiveManager("placeholderDefault",function(){return{restrict:"A",replace:!0,template:"<input foo='bar' placeholder='{{ currentPlaceholder }}'>",link:function($scope,elem,attrs){var originalPlaceholder=attrs.placeholderDefault,placeholderReplace=function(w){$scope.currentPlaceholder=w.width()<=768?attrs.placeholderSm:originalPlaceholder};placeholderReplace($(window)),$(window).bind("resize",function(e){placeholderReplace($(e.currentTarget))})}}})});

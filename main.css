@@ -1,0 +1,261 @@
+html{
+	max-width: 1000px;
+	margin:  auto; 
+
+	
+	}
+
+
+a{
+	color: black;
+}
+
+div.contact ul a{
+	 color:#A8A8A8;
+}
+
+
+
+h1, h2{
+	text-align: center;
+}
+
+header{
+	text-align: ;
+}
+hr{
+	margin: 0;
+}
+
+div.eduication{
+	text-align: center;
+	padding-top: 4%;
+}
+
+
+h1{
+	font-family: 'Syncopate', sans-serif;
+}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h4{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+p.eduText{
+	
+	position: relative;
+	left: 18%;
+	top: -3em;
+
+}
+
+
+h3.title{
+}
+
+
+.skills{
+	position: relative;
+	left: 55%;
+	top: -12em;
+}
+
+.design{
+	text-align: center;
+	position: relative;
+	top: -10em;
+}
+
+img.logo{
+
+	width: 8%;
+
+}
+
+img.logo-hobbies{
+
+
+
+}
+
+img.logoRow2{
+	
+	width: 5%;
+}
+
+
+.row2Text{
+	display: inline;
+	position: relative;
+	top: -.6em;
+	padding-left: 1%;
+
+
+}
+
+h3.SI{
+	position: relative;
+	left:7%;
+}
+
+
+h3.uvm{
+	position: relative;
+	left:10%;
+}
+p.skillText{
+	display: inline;
+	position: relative;
+	top: -1em;
+	padding-left: 1%;
+
+}
+.workText{
+	display: inline;
+	position: relative;
+	top: -1em;
+	padding-left: 1%;
+}
+
+.examples, .hobbies{
+	display: inline-block;
+	text-align: center;
+}
+
+.work{
+	position: relative;
+	top: 2em;
+	max-width: 50%;
+
+}
+
+.work ul li p.txt {
+	position: relative;
+	top: .5em;
+}
+
+
+.contact{
+	color:#A8A8A8;
+	position: absolute;
+	top: 17%;
+	left: 11%;
+
+}
+
+
+.contact2{
+	color:#A8A8A8;
+	position: fixed;
+	top: 96vh;
+	
+}
+
+.nav-justify{
+	width: 1000px;
+	background-color: #fff;
+	opacity: .7;
+}
+
+.nav-justify ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	text-align:justify;
+}
+
+
+.nav-justify ul li {
+	display: inline-block;
+
+
+
+}
+
+.nav-justify ul:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+
+}
+.nav-justify ul li a {
+	background-color: #ccc;
+
+
+}
+
+.hobbies{
+	position: relative;
+	display: flex;
+	left: 54%;
+	top: -18em;
+
+
+}
+
+figure{
+	padding-left: 4%;
+
+}
+h3.hobbies-title{
+	position: relative;
+left: 59%;
+top: -10.5em;
+
+}
+
+
+ figcaption.pottery{
+	position: relative;
+top: .73em;
+}
+
+.pottery{
+
+}
+
+.examples{
+	position: relative;
+left: 17%;
+top: -7.1em;
+line-height: 3em;
+}
+.line{
+	position: relative;
+	top: -7em;
+}
+
+.hr-line{
+	position: absolute;
+	top: 5%;
+}
+@media screen and (max-width: 800px) {
+	
+	.skills{
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+
+	.design{
+	text-align: center;
+	position: relative;
+	top: 0em;
+}
+
+}

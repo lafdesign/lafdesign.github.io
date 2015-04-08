@@ -1,0 +1,20 @@
+body{
+	background-color: #ccc;
+	margin: 0;
+}
+
+h1{
+	font-size: 5em;
+	font-family: Georgia;
+
+}
+
+.container{
+	padding: 20px 50px;
+}
+
+
+.inset-shadow{
+	color: transparent;
+	text-shadow: 1px 1px 2px rgba(255,255,255,0.6), 0 0 0 #222;
+}

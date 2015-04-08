@@ -1,0 +1,332 @@
+
+html, body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-size: font-size: 3em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: fff;
+}
+
+
+
+/* top-nav */
+
+.logo-top{
+	position: absolute;
+	top: 14%;
+	left: 45%;
+	width: 10%;
+	min-width: 100px
+}
+
+hr {
+	margin-top: 0px;
+}
+
+
+/* dropdown */
+
+button.stack{
+	position: absolute;
+	background-color: rgb(117,154,215) ;
+	color: #fff;
+	font-size: 2em;
+	border:  none;
+	 border-right: 7px solid white;
+	box-shadow: 1px 0px 0px #D7D5D5;
+	
+}
+button.stack:hover {
+	background-color:  #87CEFA;
+	color: #fff;
+}
+
+.dropdown-menu{
+	opacity: 0.88;
+}
+
+ul.dropdown-menu a{
+	color: #87CEFA;
+	text-decoration: none;
+	background-color: rgb(117,154,215) ;
+
+}
+ul.modal-menu{
+	width: 102vw;
+	height: 30vh;
+	background-color: rgb(117,154,215) ;
+
+}
+
+ul.dropdown-menu a:hover{
+	color: #fff;
+	background-color: rgb(117,154,215)
+}
+
+.dropdown-menu>li>a {
+	display: block;
+	padding: 20px 20px;
+	font-size: 2em;
+}
+
+
+/* top buttons */
+
+.btn-group .dropdown-toggle {
+
+	border-radius: 0px;
+}
+.btn-group .dropdown-toggle:active, .btn-group.open .dropdown-toggle {
+	background-color: #87CEFA;
+	color: #fff;
+}
+
+button.btn-primary{
+	position: absolute;
+	left: 75%;
+	top: 13%;
+	width: 8%;
+	background-color: #1563e1;
+	border-color: transparent;
+
+}
+
+
+
+button.btn-success{
+	position: absolute;
+	left: 85%%;
+	top: 13%;
+	width: 8%;
+	background-color: #0cf60c;
+	border-color: transparent;
+
+}
+
+button.btn{
+	border-radius: 6px;
+}
+
+
+
+
+
+
+/* 2nd section Phone  */
+
+img.phone{
+	position: relative;
+	width: 60%;
+	left: 20%;
+
+
+}
+
+.phone-block{
+	display: ;
+	width: 50%;
+}
+
+.slide-text-block{
+	display: inline;
+	width: 49%
+
+}
+
+h1.slide-title{
+	position: absolute;
+	color: #888;
+	top: 27%;
+	left: 45%;
+}
+
+h3.slide-text{
+	position: absolute;
+	top: 43%;
+	left: 45%;
+	color: #888;
+	max-width: 500px;
+}
+
+.slide-icon{
+	position: absolute;
+	width: 8%;
+	left: 45%;
+	top: 18%;
+
+}
+
+
+
+
+
+
+
+/* slides */
+
+
+img.screen-1{
+	
+	position: absolute;
+	z-index: 2;
+	top: 14%;
+	width: 26.3%;
+	left: 12.1%;
+
+}
+
+img.screen-2{
+	position: absolute;
+	z-index: 2;
+	top: 14%;
+	width: 26.3%;
+	left: 12.1%;
+}
+
+img.screen-3{
+	position: absolute;
+	z-index: 2;
+	top: 14%;
+	width: 26.3%;
+	left: 12.1%;
+}
+
+img.screen-4{
+	position: absolute;
+	z-index: 2;
+	top: 14%;
+	width: 26.3%;
+	left: 12.1%;
+}
+
+
+
+
+/* dots */
+
+
+.slick-dots li button:before {
+	position: absolute;
+	top: -16px;
+	left: 0;
+	content: "•";
+	width: 20px;
+	height: 20px;
+	font-family: "slick"; 
+	font-size: 25px;
+	line-height: 20px;
+	text-align: center;
+	color: blue;
+	opacity: 0.25;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+/* Section 3 */
+
+div.section-3{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	background-color: rgb(235,235,235);
+	padding-top: 2.5%;
+}
+
+
+
+
+
+/* lower-nav */
+
+
+
+nav.navbar-fixed-bottom{
+	background-color:  rgb(105,148,217);
+
+	
+}
+
+.container-btm{
+	background-color: rgb(105,148,217) ;
+	width: 100%;
+	margin: 0 auto;
+	height: 20vh;
+}
+.nav-justify-btm ul {
+	list-style-type: none;
+	padding: 2%;
+	margin: 0;
+	text-align:justify;
+}
+
+
+.nav-justify-btm ul li {
+	display: inline-block;
+
+
+}
+
+.nav-justify-btm ul:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+
+}
+
+.nav-justify-btm ul li a {
+	background-color: rgb(105,148,217);
+	color: #fff;
+
+}
+
+p.copyright{
+	color: #fff; 
+}
+
+i {
+	color: #fff;
+
+}
+
+
+
+
+
+
+@media (max-width: 750px) { 
+
+	h1.slide-title{
+	font-size: 1.5em;
+
+	}
+
+	h3.slide-text{
+	font-size: 1.2em;
+	}
+
+}
+
+
+
+@media (max-width: 500px) { 
+	h3.slide-text{
+	font-size: .9em;
+	}
+
+	nav ul li.a{
+		font-size: .7em;
+	}
+}
+
+
+

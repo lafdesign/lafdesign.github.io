@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Angular portfolio for NY based front-end developer and designer working with SVG (scale vector graphic) animations and Sass" />
+    <title>Jordan Lafland: developer & designer - New York </title>
+<!-- Google+ publisher  -->
+    <link rel="publisher" href="https://plus.google.com/107317302310208443628/" />
+<!-- FB Open Graph meta tags -->
+    <meta property="og:title" content="Jordan Lafland: New York Front-end web developer and designer " />
+    <meta property="og:description" content="Angular portfolio for NY based front-end developer and designer working with SVG (scale vector graphic) animations and Sass " />
+    <meta property="og:type" content="product" />
+    <meta property="og:image" content="http://laf.land/images/assets/tilipia-icon.png" />
+    <meta property="og:url" content="http://laf.land" />
+    <meta property="og:site_name" content=" Jordan Lafland: front-end developer & designer" />
+    <meta property="fb:app_id" content="" />
+<!-- Twitter card meta tags -->
+    <meta property="twitter:card" content="summary" />
+    <meta name="twitter:url" content="http://www.laf.land" />
+    <meta property="twitter:title" content="Jordan Lafland: New York: front-end developer & designer" />
+    <meta name="twitter:description" content=" Angular portfolio for NY based front-end developer and designer working with SVG (scale vector graphic) animations and Sass  " />
+    <meta name="twitter:image" content="http://laf.land/images/assets/tilipia-icon.png" />
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.css" rel='stylesheet' type='text/css' />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/old-styles.css" />
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+    <link rel="stylesheet" type="css/" href="css/animate.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Syncopate|Nothing+You+Could+Do' rel='stylesheet' type='text/css' />
+    <base href="/" />
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script> 
+  </head>
+  <body>
+    <script>
+    dataLayer = [];
+    </script>
+  <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KXK6BT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXK6BT');</script>
+<!-- End Google Tag Manager -->
+  <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+        <img src="loader/loader/loader1.png" class="gwd-img-2g75 animated bounce">
+        <img src="loader/loader/loader4.png" class="gwd-img-unf6 gwd-gen-zg4lgwdanimation">
+        <img src="loader/loader/loader2a.png" class="gwd-img-qybj gwd-gen-jkgfgwdanimation">
+        <img src="loader/loader/loader2.png" class="gwd-img-5adz gwd-gen-5w8dgwdanimation">
+        <img src="loader/loader/loader5.png" class="gwd-img-yfsa gwd-gen-ijaggwdanimation">
+    </div>
+    <div class="container" ng-app="app">
+      <header ng-include="'templates/nav.html'"></header>
+      <div ui-view></div>
+      <footer ng-include="'templates/footer.html'"></footer>
+    </div>          
+  </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers/contactCtrl.js"></script>
+  <script src="js/controllers/aboutCtrl.js"></script>
+  <script src="js/controllers/homeCtrl.js"></script>
+  <script src="js/controllers/portfolioCtrl.js"></script>
+  <script src="js/controllers/resumeCtrl.js"></script>
+  <script src="js/main.js"></script>
+<!-- Preloader -->
+  <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(2300).css({'overflow':'visible'});
+        })
+      //]]>
+        var s = skrollr.init();
+    </script>
+</html>

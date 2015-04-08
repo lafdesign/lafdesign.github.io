@@ -1,0 +1,24 @@
+body,
+html {
+	min-height: 100%;
+}
+
+
+body{
+	background-color:;
+	background-image: url('../../images/assets/plants.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.top-header {
+	width: 100%;
+	max-width: 960px;
+	font: 6em "Amatic SC", cursive;
+	color: #DF7373;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+	margin: 40px auto;
+	text-align: center;
+
+}

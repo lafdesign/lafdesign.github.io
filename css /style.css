@@ -1,0 +1,59 @@
+body html {
+	  background-color: rgb(251, 251, 247);
+}
+
+img.tree-scg {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  z-index: -2;
+}
+
+img.plastic_bag {
+	position: relative;
+	width: 50%;
+	left: 25%
+
+}
+
+img.github_logo {
+  width: 10%;
+  position: relative;
+  left: 20%;
+ 
+
+}
+
+
+img.train {
+  width:40%;
+  position: relative;
+  left: 20%;
+}
+
+
+ul.contact_list {
+  list-style: none;
+  display: inline-block;
+  font-size: 3em;
+
+
+}
+.demo {
+  display: block;
+  max-width: 80rem;
+  width: 100%;
+  min-width: 320px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.demo5 {
+  background-image: url("../images/suit.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+}

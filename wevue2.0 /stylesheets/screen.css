@@ -1,0 +1,146 @@
+/* line 17, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/screen.sass */
+.how-it-works {
+  margin-bottom: 30px;
+}
+
+/* line 12, ../sass/screen.sass */
+#section-team {
+  background: #2ea28e;
+  color: white;
+}
+/* line 17, ../sass/screen.sass */
+#section-team .head-section h1:after, #section-team .head-section h2:after {
+  background: white;
+}
+/* line 22, ../sass/screen.sass */
+#section-team .person {
+  min-height: 510px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* line 26, ../sass/screen.sass */
+#section-team .person .person-name {
+  margin-bottom: 2px;
+}
+/* line 29, ../sass/screen.sass */
+#section-team .person > ul.list-links-social {
+  position: relative;
+  display: inline-block;
+  margin: 5px 0 0 0;
+  padding: 8px 0 0 0;
+  display: inline-block;
+}
+/* line 36, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* line 41, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li > a {
+  color: white;
+  font-size: 20px;
+  float: left;
+  margin-right: 22px;
+}
+/* line 47, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li > a:hover {
+  opacity: 0.5;
+}
+/* line 51, ../sass/screen.sass */
+#section-team .person > ul.list-links-social > li > a:hover {
+  text-decoration: none;
+}
+/* line 56, ../sass/screen.sass */
+#section-team .person > ul.list-links-social:after {
+  content: "";
+  height: 1px;
+  width: 50%;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 25%;
+  opacity: 0.25;
+}
+/* line 66, ../sass/screen.sass */
+#section-team .person p.person-description {
+  padding-top: 25px;
+  position: relative;
+  margin-top: 5px;
+}
+/* line 71, ../sass/screen.sass */
+#section-team .person p.person-description:after {
+  content: "";
+  height: 2px;
+  width: 50%;
+  background: white;
+  position: absolute;
+  top: 10px;
+  right: 25%;
+  opacity: 0.25;
+}

@@ -1,0 +1,52 @@
+body{
+	font-family: 'Open Sans';
+}
+
+a{
+	color:#e93a30;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.roll-link{
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.roll-link span {
+	display: block;
+	padding: 0 2px;
+
+	-webkit-transition:all 400ms ease;
+	-webkit-transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+
+	transition:all 400ms ease;
+	transform-origin: 50% 0;
+	transform-style: preserve-3d;
+
+}
+
+.roll-link:hover span {
+	background-color: #e93a30;
+	-webkit-transform:rotateX(90deg);
+	transform:rotateX(90deg);
+}
+
+.roll-link span:after {
+	content: attr(data-title);
+	display: block;
+	position: absolute;
+	left: 0;
+	top:0;
+	padding:0 2px;
+	background-color: #e93a30;
+	color: #fff;
+
+	-webkit-transform-origin:50% 0;
+	transform-origin:50% 0;
+
+	-webkit-transform: translate3d(0, 100%, 0) rotateX(-90deg);
+	transform: translate3d(0, 100%, 0) rotateX(-90deg);
+}

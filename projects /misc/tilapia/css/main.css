@@ -1,0 +1,369 @@
+body, html{
+	background-color: #101A1A;
+}
+
+
+
+img.fish2{
+position: absolute;
+top: 195px;
+left: 683px;
+}
+
+img.fish3{
+	position: relative;
+top: -208px;
+left: -208px;
+}
+
+
+img.fish-btn{
+	position: absolute;
+	top:0;
+	width: 5%;
+}
+
+img.fish-btna{
+	position: absolute;
+	top: 0;
+	width: 6.3%;
+}
+
+.fish-btn1{
+
+padding-top: 26px;
+left: 803px;
+
+}
+.fish-btn2{
+margin-top: 25px;
+margin-left: -23px;
+}
+.fish-btn3{
+	padding-top: 86px;
+margin-left: -43px;
+
+}
+.fish-btn4{
+padding-top: 64px;
+margin-left: -84px;
+}
+
+a img{
+	border: '';
+}
+a img:hover{
+	border: 1px solid transparent;
+}
+
+
+.main-fish1{
+
+position: absolute;
+top: 1000px;
+left: 0;
+
+}
+
+.main-fish2{
+position: absolute;
+left: 688px;
+top: 1197px;
+}
+
+
+.main-fish3{
+	
+position: absolute;
+top: 1687px;
+left: -209px;
+}
+
+.fish-b{
+	position: absolute;
+
+}
+
+.fish-b1{
+width: 6.3%;
+top: 43px;
+left: 34px;
+}
+.fish-b2{
+	width: 5%;
+	top: 43px;
+left: 93px;
+}
+
+.fish-b3{
+	width: 6.3%;
+	top: 104px;
+left: 73px;
+}
+
+.fish-b4{
+	width: 5%;
+	top: 82px;
+left: 32px;
+}
+
+
+
+.middle-content{
+background-color: rgba(95, 134, 161, 0.22);
+position: relative;
+top: 200px;
+height: 900px;
+width: 150%;
+}
+
+img.recycle{
+	margin-left: 31%;
+/* margin-right: 31%; */
+width: 30%;
+position: absolute;
+top: 420px;
+animation-delay:0.5s;
+-webkit-animation-delay:0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.wrapper-1{
+	top: 10%;
+	left:0%;
+	position: absolute;
+	height: 850px;
+	width:60%;
+	background-color: #fff;
+}
+
+
+img.e-icons{
+	top: ;
+	position: ;
+	width: ;
+}
+
+img.icon-1a{
+	top:0;
+}
+img.icon-1b{
+	top: 0;
+	left:;
+	width:;
+}
+img.icon-1c{
+	top: ;
+left:;
+width:;
+
+}
+img.icon-1e{
+	top: 0;
+	left: ;
+	width:;
+
+}
+img.icon-1d{
+	top: ;
+left:;
+width: ;
+}
+
+
+
+
+img.icon-2a{
+	top: ;
+	left: ;
+	width: ;
+}
+
+img.icon-2e{
+top:;
+left: ;
+width: ;
+}
+
+img.icon-2c{
+top: ;
+left: ;
+wi;
+}
+
+img.icon-2d{
+top:;
+left: ;
+width: ;
+}
+
+
+
+img.icon-3a{
+top: ;
+
+}
+img.icon-3b{
+	top:;
+left:;
+width:;
+}
+img.icon-3c{
+left: ;
+top: ;
+
+}
+img.icon-3e{
+left:;
+top: ;
+width:;
+}
+img.icon-3f{
+left:;
+top:;
+width:;
+}
+img.icon-3g{
+left: ;
+to;
+
+}
+
+
+
+
+img.icon-4a{
+	left: ;
+top: ;
+width: ;
+}
+
+img.icon
+left:;
+top: ;
+width: ;
+}
+img.icon-4c{
+left: ;
+top: ;
+width: ;
+
+}
+img.icon-4i{
+left: ;
+top: ;
+width: ;
+
+}
+
+
+img.icon-5a{
+	left: 0;
+width: ;
+}
+img.icon-5b{
+left:;
+top:;
+width:;
+
+}
+img.icon-5c{
+left:;
+top:;
+width:;
+
+
+}
+
+
+.template{
+	position: absolute;
+	top:1%;
+	left: 0;
+}
+
+
+
+
+
+
+
+div.wrapper-1{
+	top: 10%;
+	left:0%;
+	position: absolute;
+	height: 850px;
+	width:60%;
+	background-color: #fff;
+}
+
+
+img.e-icons{
+	top: 500px;
+	position: absolute;
+	width: 15%;
+}
+
+img.icon-1a{
+	top:0;
+}
+img.icon-1b{
+	top: 0;
+	left: 10%;
+	width: 27%;
+}
+img.icon-1c{
+	top: 31px;
+left: 22%;
+width: 22%;
+
+}
+img.icon-1e{
+	top: 0;
+	left: 72.5%;
+	width: 17%;
+
+}
+img.icon-1d{
+	top: 0;
+left: 55%;
+width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <script src="js/parallax.js"></script>
+	 <style>
+	 body{background-color:black;}
+	
+	 </style>
+</head>
+<body>
+	 <div id="container" class="container lantern-container">
+        <ul id="scene" class="scene lantern-scene">
+        <li class="layer" data-depth="0"><img src="background2.png" height="2000px" width="2000px"></li>
+        <li class="layer metro6" data-depth=".3"><img src="metro6.png" height="100%" width="100%"></li>
+          <li class="layer metro2 " data-depth=".4"><img src="metro2.png" height="100%" width="100%"></li>
+          <li class="layer metro3" data-depth=".2"><img src="metro7.png" height="100%" width="100%"></li>
+          <li class="layer " data-depth=".5"><img src="metrolight1.png" height="100%" width="100%"></li>
+           <li class="layer " data-depth=".60"><img src="metrolight2.png" height="100%" width="100%"></li>
+           <li class="layer" data-depth="0"><img src="hidden.png" height="100%" width="100%"></li>
+            <li class="layer" data-depth="0"><img src="metro1.png" height="100%" width="100%"></li>
+
+        </ul>
+   
+      </div>
+
+
+   <script>
+      var scene = document.getElementById('scene');
+      var parallax = new Parallax(scene);      
+    </script>
+</body>
+</html>
