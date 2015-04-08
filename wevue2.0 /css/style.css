@@ -1284,7 +1284,7 @@ ul.social {
 			}
 		}
 
-@media(max-width:768px) {
+@media(min-width:768px) {
 		.how-it-works-mobile {
 			display: none;
 			}
