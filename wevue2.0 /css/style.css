@@ -1285,6 +1285,14 @@ ul.social {
 		}
 
 @media(max-width:767px) {
+		.how-it-works-mobile {
+			display: none;
+			}
+		.how-it-works-mobile-text{
+			display: none;
+			}
+		}
+@media(max-width:767px) {
 
 		h1.brand-heading {
 			top: 102px
@@ -1312,6 +1320,16 @@ ul.social {
 		.iframe {
 			width: 100%;
 			left: 0;
+			}
+		.how-it-works-mobile {
+			display: inline-block;
+			width: 50%
+			}
+		.how-it-works-mobile-text{
+			display: inline;
+			}
+		.how-it-works{
+			display: none;
 			}
 		}
 
