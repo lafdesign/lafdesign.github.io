@@ -41,7 +41,7 @@
 		<path class="st9" d="M509.613,236.363c9.1,1.802,17.162-0.063,18.4-4.161l-33.829-6.698
 			C493.766,229.763,500.512,234.562,509.613,236.363L509.613,236.363z">
 		</path>
-<animateTransform attributeName="transform" begin="0.1" attributeType="HML" type="translate" dur="5.5s" values="25,360;0,-25;0,25;310,35;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.1" attributeType="HML" type="translate" dur="7.5s" values="25,360;0,-25;0,25;310,35;" repeatCount="indefinite"/>
 	</g>
 	<!-- this is the eye in the folder-->
 
@@ -57,7 +57,7 @@
 		<path class="st9" d="M588.189,223.693c-0.376,3.476-3.502,5.99-6.979,5.614c-3.476-0.377-5.991-3.5-5.613-6.979
 			c0.376-3.476,3.499-5.989,6.978-5.613C586.053,217.091,588.565,220.216,588.189,223.693L588.189,223.693z">
 		</path>
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="0,350;0,-15;0,15;300,25;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="7s" values="0,350;0,-15;0,15;300,25;" repeatCount="indefinite"/>
 	</g>
 <!-- this is the FILM in the folder-->
 
@@ -109,7 +109,7 @@
 			c0.097,0.804,0.473,1.211,1.139,1.147c0.287-0.028,0.572-0.075,0.856-0.118c1.335-0.195,1.774-0.602,1.554-1.536
 			C539.355,217.705,538.52,218.043,537.768,218.162L537.768,218.162z">
 
-<animateTransform attributeName="transform" begin="1.3" attributeType="HML" type="translate" dur="5s" values="15,350;0,-25;0,25;390,35;390,25;360,635;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="1.3" attributeType="HML" type="translate" dur="7s" values="15,350;0,-25;0,25;390,35;390,25;360,635;" repeatCount="indefinite"/>
 		</path>
 		<!-- this is the photo in the folder-->
 	<g>
@@ -117,7 +117,7 @@
 			</rect>
 			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">
 			</rect>
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="-20,350;20,-15;0,15;360,15;360,25;320,650" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="7s" values="-20,350;20,-15;0,15;360,15;360,25;320,650" repeatCount="indefinite"/>
 	</g>
 	<g>
 		<!-- this is the photo in the folder-->
@@ -125,7 +125,7 @@
 			</rect>
 			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">	
 			</rect>
-<animateTransform attributeName="transform" begin="0.7" attributeType="HML" type="translate" dur="5.5s" values="-50,350;0,-15;30,15; 360,25;350,25;360,625;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.7" attributeType="HML" type="translate" dur="7.5s" values="-50,350;0,-15;30,15; 360,25;350,25;360,625;" repeatCount="indefinite"/>
 	</g>
 	<g>
 			<!-- this is the photo in the folder-->
@@ -133,7 +133,7 @@
 			</rect>
 			<rect x="456.332" y="209.919" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -16.6752 39.6825)" class="st13" width="19.222" height="18.446">
 			</rect>
-<animateTransform attributeName="transform" begin="0.5" attributeType="HML" type="translate" dur="5.5s" values="40,350;10,-20;0,15; 370,19;380,10;390,619;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.5" attributeType="HML" type="translate" dur="7.5s" values="40,350;10,-20;0,15; 370,19;380,10;390,619;" repeatCount="indefinite"/>
 	</g>
 			<rect x="448.129" y="230.516" transform="matrix(0.9617 -0.2741 0.2741 0.9617 -47.4573 131.946)" class="st13" width="0.773" height="10.619"/>
 			<rect x="469.725" y="224.354" transform="matrix(0.9618 -0.2737 0.2737 0.9618 -44.9098 137.4508)" class="st13" width="0.774" height="10.62"/>
@@ -149,7 +149,7 @@
 			c-1.511,4.299-3.007,8.604-4.495,12.913c-0.557,1.617-1.08,3.245-1.619,4.868C492.103,235.982,492.032,236.094,491.96,236.201
 			L491.96,236.201z">
 
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="0,350;0,-15;0,15;385,15;370,25;390,615;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="7s" values="0,350;0,-15;0,15;385,15;370,25;390,615;" repeatCount="indefinite"/>
 
 		</path>
 		<polygon class="st13" points="595.722,320.529 452.839,320.529 442.904,226.495 602.583,226.495 		"/>
@@ -244,7 +244,7 @@
 		<path class="st8" d="M111.364,254.353c-0.142-0.433-0.283-0.865-0.424-1.297c0.403,0.064,0.788,0.748,1.216,0.038
 			c0.806,0.417,1.409,1.034,1.923,1.929C112.985,255.247,112.158,254.876,111.364,254.353z">
 		</path>
-<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="5s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="7s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
 </g>
 <rect x="373.712" y="135.672" class="st10" width="388.013" height="92.683"/>
 <text transform="matrix(1 0 0 1 459.7124 164.1753)" class="st9 st15 st17">WeVue</text>
