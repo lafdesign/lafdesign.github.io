@@ -1,0 +1,166 @@
+
+@import compass/reset
+
+
+body html 
+  background-color: rgb(251, 251, 247)
+
+$near-black : #002626
+$near-white : #FDFFFF
+
+$awesome-teal : #AEFEFF
+$material-gray : #F9F9F9
+
+$blue-font : #85C3EC
+$blue-shadow : #42B1E6
+$light-shadow : #E2E2E2
+$success-blue : #4386FC
+$light-blue : #B6B6FF
+
+
+$SourceSans : 'Source Sans Pro', sans-serif
+$Syncopate : 'Syncopate', sans-serif
+$cursive : 'Nothing You Could Do', cursive
+
+
+.container
+  width: 100%
+  padding: 0
+  
+p 
+  font-family: $SourceSans
+
+h1 
+  font-family: $cursive
+  font-size: 2em
+
+a 
+  font-family: $Syncopate
+
+li a
+  font-family: $SourceSans
+  font-size: 1.5em
+
+a.nav:hover 
+  font-size: 2em
+  color: black
+
+.center-block
+  float: none
+  margin: 0 auto
+
+ul 
+  list-style: none
+
+ul.catalogue
+  font-size: .6em
+
+img.tree-svg 
+  position: relative
+  left: 3%
+
+img.plastic_bag 
+  position: relative
+  display: block
+  width: 50%
+  left: 25%
+  z-index: -5
+
+img.github_logo 
+  width: 10%
+  position: relative
+  left: 20%
+
+img.tilapia 
+  width: 40%
+  left: 30%
+  position: relative
+
+img.train 
+  position: relative
+  left: -530px
+  top: 400px
+  z-index: -4
+
+ul.contact_list 
+  list-style: none
+  display: inline-block
+  font-size: 3em
+  width: 100%
+  text-align: center
+
+img.train-bridge 
+  position: absolute
+  top: 500px
+  left: 0
+
+div.contact_info 
+  width: 56%
+  text-align: right
+  position: relative
+
+img.waves
+  width: 100%
+  position: relative
+
+div.wave-box 
+  width: 25%
+  left: 35%
+  position: relative
+
+.flip3d 
+  width: 240px
+  height: 240px
+  margin: 10px
+  float: left
+
+.flip3d > .front 
+  position: absolute
+  transform: perspective( 600px ) rotateY( 0deg )
+  -webkit-transform: perspective( 600px ) rotateY( 0deg )
+  background-color: #AD3737
+  width: 13%
+  height: 10%
+  backface-visibility: hidden
+  -webkit-backface-visability: hidden
+  border-radius: 7px
+  transition: transform .5s linear 0s
+  webkit-transition: transform .5s linear 0s
+
+.flip3d > .back 
+  position: absolute
+  transform: perspective( 600px ) rotateY( 180deg )
+  -webkit-transform: perspective( 600px ) rotateY( -180deg )
+  background-color: #80bfff
+  width: 13%
+  height: 10%
+  backface-visibility: hidden
+  -webkit-backface-visability: hidden
+  border-radius: 7px
+  transition: transform .5s linear 0s
+  -webkit-transition: transform .5s linear 0s
+
+.flip3d:hover > .front 
+  transform: perspective( 600px ) rotateY( -180deg )
+  -webkit-transform: perspective( 600px ) rotateY( -180deg )
+
+.flip3d:hover > .back 
+  transform: perspective( 600px ) rotateY( 0deg )
+  -webkit-transform: perspective( 600px ) rotateY( 0deg )
+
+ul.contact 
+  position: relative
+  top: -45px
+  left: -50px
+
+.workText
+  padding: 0
+
+h3.hobbies-title 
+  position: relative
+  left: 64%
+  top: -20.5em
+
+
+
+
