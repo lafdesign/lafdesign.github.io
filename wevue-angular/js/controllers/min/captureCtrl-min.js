@@ -1,0 +1,1 @@
+angular.module("app").controller("captureCtrl",["$scope",function(e){e.title="capture",e.items=["intro","team","our-story","capture","promote","enhance"],e.selectedValue="capture"}]);

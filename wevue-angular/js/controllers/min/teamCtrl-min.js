@@ -1,0 +1,1 @@
+angular.module("app").controller("teamCtrl",["$scope",function(e){e.title="team",e.items=["intro","team","our-story","capture","promote","enhance"],e.selectedValue="team"}]);

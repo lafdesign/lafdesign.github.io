@@ -1,0 +1,1 @@
+angular.module("app").controller("introCtrl",["$scope",function(t){t.title="intro",t.items=["intro","team","our-story","capture","promote","enhance"],t.selectedValue="intro"}]);
