@@ -1109,7 +1109,7 @@ ul.social {
 .pop-up-container {
 	position: absolute;
 	top: 500px;
-	left: -175px;
+	left: -10%;
 	height: 150px;
 	width: 200px;
 	overflow: hidden;
@@ -1312,6 +1312,11 @@ ul.social {
 		ul.features-list {
 			width: 62%;
 			}
+		.pop-up-container {
+			left:0;
+			}
+		.pop-up-container-box {
+			display:none;
 		}
 
 @media(min-width:768px) {
