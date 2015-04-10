@@ -1120,7 +1120,9 @@ ul.social {
 	border-radius: 15px;
 
 }
-
+.how-it-works-mobile {
+			display: none;
+			}
 
 @media(min-width:1500px) {
 
@@ -1235,6 +1237,9 @@ ul.social {
 			left: 0%;
 			position: relative;
 			}
+			.how-it-works-mobile-text {
+			display: none;
+			}
 		}
 
 @media(max-width:840px) {
@@ -1292,6 +1297,12 @@ ul.social {
 		.pop-up-container-box {
 			display: none;
 		}
+		.how-it-works-mobile {
+			display: none;
+			}
+		.how-it-works-mobile-text {
+			display: none;
+			}
 		}
 
 
