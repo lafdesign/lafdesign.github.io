@@ -1,14 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="242.735 0 341.737 560" enable-background="new 242.735 0 341.737 560"
-	 xml:space="preserve" style="background-color:black;">
+	 width="341.737px" height="560px" viewBox="242.735 0 341.737 560" enable-background="new 242.735 0 341.737 560"
+	 xml:space="preserve">
+<rect x="194.604" y="-26.4" fill="#00C2D0" width="406.479" height="595.471"/>
 <path fill="none" d="z"/>
-
-			<polygon fill="#30CCCF" points="326.56,361.19 320.428,354.239 292.87,354.239 292.87,361.19 292.87,415.554 368.37,415.554 
-				368.37,361.19 			"/>
-			<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="327.371,361.191 321.24,354.239 293.682,354.239 
-				293.682,361.191 293.682,415.554 369.181,415.554 369.181,361.191 			"/>
-
 <g>
 	<path fill="#FFFFFF" d="M362.599,74.586c-0.559,5.717-10.602,10.333-22.944,10.333c-12.348,0-22.391-4.586-22.95-10.045h-0.038
 		l11.415-5.289l4.801-2.353v-1.989c-4.852-3.494-7.589-10.469-7.589-18.517c0-11.542,1.937-19.895,14.306-20.061
@@ -20,13 +17,13 @@
 	
 		<rect x="463.485" y="242.319" transform="matrix(0.8891 0.4578 -0.4578 0.8891 164.8746 -186.9085)" fill="#3F474F" width="9.162" height="8.791"/>
 	
-	<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="8.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.4" values="0,0;-145,140;-135,153; -10,490" additive="replace">
+		<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="5.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;20,500" additive="replace">
 		</animateTransform>
 </g>
 <path fill="#FFFFFF" d="M469.924,239.653l-4.39,0.995l8.068,1.597l8.07,1.599l-3.681-2.593l-1.564-1.102l0.141-0.699
 	c1.84-0.91,3.42-3.145,3.98-5.972c0.802-4.055,0.854-7.217-3.618-8.041c-4.357-0.801-5.605,2.002-6.408,6.055
 	c-0.56,2.827,0.049,5.495,1.404,7.038l-0.138,0.7L469.924,239.653z">
-<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="8.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.2" values="0,0;-150,120;-145,143; 10,500" additive="replace">
+<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="5.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;20,500" additive="replace">
 		</animateTransform>
 </path>
 <g>
@@ -39,7 +36,7 @@
 	<path fill="#FFFFFF" d="M510.352,239.79c-0.18,1.657-1.67,2.855-3.327,2.676c-1.656-0.18-2.854-1.668-2.675-3.326
 		c0.179-1.657,1.667-2.855,3.326-2.676C509.333,236.644,510.53,238.133,510.352,239.79L510.352,239.79z"/>
 	
-		<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="8.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;-150,135;-145,123; 4,500" additive="replace">
+		<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="5.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;-30,500" additive="replace">
 		</animateTransform>
 </g>
 <path fill="#FFFFFF" d="M501.51,239.818c0.489,3.354,0.977,6.708,1.474,10.062c0.089,0.605,0.1,1.196-0.254,1.624
@@ -89,7 +86,7 @@
 	c-0.137,0.019-0.271,0.041-0.407,0.06c-0.299,0.041-0.42,0.254-0.378,0.612c0.047,0.384,0.226,0.577,0.543,0.547
 	c0.138-0.013,0.272-0.036,0.408-0.057c0.637-0.093,0.846-0.287,0.741-0.732C487.076,236.936,486.679,237.098,486.32,237.154
 	L486.32,237.154z">
-<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="8.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;-120,130;-125,123; 10,500" additive="replace">
+<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="5.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.1" values="0,0;0,500" additive="replace">
 		</animateTransform>
 </path>
 <g>
@@ -97,7 +94,8 @@
 		<rect x="447.014" y="232.369" transform="matrix(0.9965 -0.0836 0.0836 0.9965 -18.3702 38.6237)" fill="#FFFFFF" width="10.336" height="12.757"/>
 	
 		<rect x="447.506" y="233.232" transform="matrix(0.9965 -0.0835 0.0835 0.9965 -18.2657 38.5852)" fill="#3F474F" width="9.162" height="8.791"/>
-	<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="8.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;-120,130;-105,133; 0,500" additive="replace">
+	
+		<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="5.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;20,500" additive="replace">
 		</animateTransform>
 </g>
 <path fill="#FFFFFF" d="M464.487,245.752c-0.111-0.047-0.233-0.079-0.333-0.145c-3.18-2.075-6.352-4.164-9.541-6.226
@@ -110,7 +108,7 @@
 	c-0.188,0.271-0.135,0.385,0.122,0.552c2.428,1.574,4.848,3.164,7.277,4.736c0.265,0.171,0.305,0.332,0.205,0.612
 	c-0.721,2.049-1.434,4.101-2.143,6.155c-0.265,0.771-0.514,1.546-0.771,2.32C464.556,245.647,464.522,245.701,464.487,245.752
 	L464.487,245.752z">
-<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="8.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;-120,130;-105,133; 0,500" additive="replace">
+<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="5.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="0,0;20,500" additive="replace">
 		</animateTransform>
 </path>
 <g>
@@ -150,34 +148,37 @@
 	<path fill="#BDBFBA" d="M348.093,57.59c0.002-0.238,0.005-0.477,0.008-0.714c0.188,0.1,0.265,0.503,0.597,0.224
 		c0.329,0.342,0.525,0.749,0.63,1.279C348.746,58.306,348.398,57.983,348.093,57.59z"/>
 	
-		<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="8.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="-40,0;-48,10;120,160" additive="replace">
+		<animateTransform  type="translate" fill="remove" attributeName="transform" attributeType="HML" dur="5.5s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin="0.3" values="-40,0;-48,10;40,240" additive="replace">
 		</animateTransform>
 </g>
 <path fill="none" d="z"/>
 <g>
 	<g>
-		<g>
-
-			<polygon fill="#30CCCF" points="369.181,415.76 293.682,415.76 288.432,366.07 372.807,366.07 			"/>
-			<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="369.181,415.76 293.682,415.76 288.432,366.07 
-				372.807,366.07 			"/>
-			<path fill="#FFFFFF" d="M347.227,391.567l-2.613-1.695l-1.246-8.874l-3.076,0.442l-6.773-5.89l-2.007,2.353h-8.999v2.978
-				l-5.861,3.663l1.647,2.638l-2.662,8.712l3.101,0.948l3.569,8.011l2.846-1.268l8.121,3.789l1.317-2.825l8.613-2.47l-0.857-2.994
-				L347.227,391.567z M331.431,399.903c-4.662,0-8.44-3.779-8.44-8.442c0-4.662,3.778-8.442,8.44-8.442
-				c4.663,0,8.443,3.78,8.443,8.442C339.875,396.124,336.094,399.903,331.431,399.903			">
-
-			</path>
-			<polygon fill="#FFFFFF" points="328.871,387.402 335.9,391.463 328.871,395.521 			"/>
-		</g>
-	
+		<polygon fill="#30CCCF" points="326.56,361.19 320.428,354.239 292.87,354.239 292.87,361.19 292.87,415.554 368.37,415.554 
+			368.37,361.19 		"/>
+		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="327.371,361.191 321.24,354.239 293.682,354.239 
+			293.682,361.191 293.682,415.554 369.181,415.554 369.181,361.191 		"/>
+		<polygon fill="#30CCCF" points="369.181,415.76 293.682,415.76 288.432,366.07 372.807,366.07 		"/>
+		<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="369.181,415.76 293.682,415.76 288.432,366.07 
+			372.807,366.07 		"/>
+		<path fill="#FFFFFF" d="M347.227,391.567l-2.613-1.695l-1.246-8.874l-3.076,0.442l-6.773-5.89l-2.007,2.353h-8.999v2.978
+			l-5.861,3.663l1.647,2.638l-2.662,8.712l3.101,0.948l3.569,8.011l2.846-1.268l8.121,3.789l1.317-2.825l8.613-2.47l-0.857-2.994
+			L347.227,391.567z M331.431,399.903c-4.662,0-8.44-3.779-8.44-8.442c0-4.662,3.778-8.442,8.44-8.442
+			c4.663,0,8.443,3.78,8.443,8.442C339.875,396.124,336.094,399.903,331.431,399.903		">
+<animateTransform  type="" fill="remove" attributeName="transform" attributeType="HML" dur="3s" repeatCount="indefinite" accumulate="none" calcMode="linear" restart="always" begin=".2" additive="replace" from="0 " to="360 ">
+				</animateTransform>
+		</path>
+		<polygon fill="#FFFFFF" points="328.871,387.402 335.9,391.463 328.871,395.521 		"/>
+	</g>
+	<g>
+		<rect x="407.244" y="15.404" fill="none" width="177.228" height="92.372"/>
 	</g>
 </g>
-
+<rect x="407.244" y="351.057" fill="none" width="177.228" height="92.371"/>
 <rect x="242.735" y="205.053" fill="none" width="177.228" height="92.372"/>
 <text transform="matrix(1 0 0 1 419.9629 484.5762)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="24">Your Website</text>
 <text transform="matrix(1 0 0 1 261.7354 450.6426)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="16">Display the content on   </text>
 <line fill="none" x1="615.833" y1="335.834" x2="686.544" y2="265.123"/>
 <text transform="matrix(1 0 0 1 251.7354 113.1909)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="16">Deputized members of the community to- </text>
 <text transform="matrix(1 0 0 1 249.7354 281.4785)" fill="#FFFFFF" font-family="'Avenir-Heavy'" font-size="16">submit and caption their photos and videos</text>
-
 </svg>
