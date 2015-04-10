@@ -485,26 +485,29 @@ hr.hr {
 	z-index: 3;
 	}
 #features-1 {
-	/*background-color: #36424d;
-	margin-top: 135px;*/
+	background-color: #36424d;
+	/*margin-top: 135px;*/
 	padding-top: 40px;
-	padding-bottom: 7%;
+	padding-bottom: 9%;
 	}
 #features-2 {
-	/*background: #eb7260;*/
+	background: #eb7260;
 	padding-top: 0px;
+	padding-bottom: 50px;
+	border-top: 1px solid rgb(239, 139, 139);
 	}
 .features-section-2 {
-	/*background: #eb7260;*/
+	background: #eb7260;
 	}
 #features-3 {
-	/*background-color: #2ea28e;*/
+	background-color: #2ea28e;
 	padding-top: 20px;
 	padding-bottom: 45px;
 	}
 #showcase {
 	background-color: #548db5;
 	padding-top: 10px;
+	border-top: 1px solid rgb(117, 117, 234);
 	}
 #contact {
 	background-color: #36424d;
@@ -1096,6 +1099,27 @@ ul.social {
   margin-bottom: -25px;
 }
 
+.under-line {
+  border-bottom: 2px solid #fff;
+  width: 40%;
+  left: 30%;
+  position: relative;
+}
+
+.pop-up-container {
+	position: absolute;
+	top: 500px;
+	left: -175px;
+	height: 150px;
+	width: 200px;
+	overflow: hidden;
+	z-index: 3;
+	background-color: #219ab3;
+	border: 1px solid #1EDFDF;
+	opacity: 0.9; 
+	border-radius: 15px;
+
+}
 
 
 @media(min-width:1500px) {
@@ -1205,6 +1229,12 @@ ul.social {
 		img.intro-icons {
 			margin-bottom: 4%;
 			}
+		.under-line {
+			border-bottom: 2px solid #fff;
+			width: 100%;
+			left: 0%;
+			position: relative;
+			}
 		}
 
 @media(max-width:840px) {
@@ -1288,7 +1318,7 @@ ul.social {
 		.how-it-works-mobile {
 			display: none;
 			}
-		.how-it-works-mobile-text{
+		.how-it-works-mobile-text {
 			display: none;
 			}
 		}
@@ -1370,8 +1400,17 @@ ul.social {
 		.phone-helper {
 			left: -16%;
 			}
+		.copyright {
+			display: none;
+			}
+			.story-head h2 {
+  			padding-top: 25px;
+			}
+		.story p {
+  			font-size: 19px;
+  			line-height: 1.5;
+			}
 		}
-
 @media(min-width:651px) and (max-width: 839px) {
 
 		.iphone-container {
@@ -1432,7 +1471,10 @@ ul.social {
 		ul.last-list {
 			padding-bottom: 0;
 			padding-top: 0;
-			margin-bottom: -40px;
+			margin-top: 40px;
+			}
+		h2.learn-more {
+			 margin-top: -50px;
 			}
 		}
 
@@ -1480,6 +1522,9 @@ ul.social {
 		div.form-area {
 			width: 100%;
 			}
+		ul.list-last {
+			margin-top: 0px;
+		}
 		.to-about {
 			position: relative;
 			top: -10px;
@@ -1506,9 +1551,8 @@ ul.social {
 			}
 		li.li-2 {
 			text-align: left;
-			top:-50px;
+			top:150px;
 			left: 0;
-			position: relative;
 			}
 		.phone-helper {
 			left: -13%;
