@@ -16,7 +16,7 @@
 	.st10{fill:none;}
 	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#969893;}
 	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#black;}
-	.st13{fill:#3F474F;}
+	.st13{fill:#fff; opacity:0.8;}
 	.st14{font-family:'Avenir-Heavy', sans-serif;}
 	.st15{font-family:'Avenir-Roman', sans-serif;}
 	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#D3D7CF;}

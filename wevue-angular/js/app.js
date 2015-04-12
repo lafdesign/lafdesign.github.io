@@ -6,7 +6,7 @@ angular
     $urlRouterProvider.otherwise('/');
     $stateProvider
       .state('intro', {
-        url: '/intro',
+        url: '/',
         templateUrl: 'templates/intro.html',
         controller: 'introCtrl'
       })
