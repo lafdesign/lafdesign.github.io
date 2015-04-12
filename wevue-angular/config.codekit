@@ -20,7 +20,7 @@
 		"outputAbbreviatedPath": "\/img\/album-navigation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/background-app.jpg": {
 		"fileType": 16384,
@@ -31,7 +31,7 @@
 		"outputAbbreviatedPath": "\/img\/background-app.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/branded-screen-3.png": {
 		"fileType": 32768,
@@ -42,7 +42,7 @@
 		"outputAbbreviatedPath": "\/img\/branded-screen-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/branded-screen-4.jpg": {
 		"fileType": 16384,
@@ -53,7 +53,7 @@
 		"outputAbbreviatedPath": "\/img\/branded-screen-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/create-a-vue.jpg": {
 		"fileType": 16384,
@@ -64,7 +64,18 @@
 		"outputAbbreviatedPath": "\/img\/create-a-vue.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/DeathtoStock_Creative Community5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.83767e+06,
+		"inputAbbreviatedPath": "\/img\/DeathtoStock_Creative Community5.png",
+		"outputAbbreviatedPath": "\/img\/DeathtoStock_Creative Community5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/dot.png": {
 		"fileType": 32768,
@@ -75,7 +86,7 @@
 		"outputAbbreviatedPath": "\/img\/dot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feed.jpg": {
 		"fileType": 16384,
@@ -86,7 +97,62 @@
 		"outputAbbreviatedPath": "\/img\/feed.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/into.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17058,
+		"inputAbbreviatedPath": "\/img\/into.png",
+		"outputAbbreviatedPath": "\/img\/into.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/intro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76638,
+		"inputAbbreviatedPath": "\/img\/intro.jpg",
+		"outputAbbreviatedPath": "\/img\/intro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/intro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.42093e+06,
+		"inputAbbreviatedPath": "\/img\/intro.png",
+		"outputAbbreviatedPath": "\/img\/intro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/intro2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/intro2.jpg",
+		"outputAbbreviatedPath": "\/img\/intro2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/intro3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31446,
+		"inputAbbreviatedPath": "\/img\/intro3.jpg",
+		"outputAbbreviatedPath": "\/img\/intro3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/lance-background.jpg": {
 		"fileType": 16384,
@@ -97,7 +163,7 @@
 		"outputAbbreviatedPath": "\/img\/lance-background.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
@@ -108,7 +174,7 @@
 		"outputAbbreviatedPath": "\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/persons\/alex.jpg": {
 		"fileType": 16384,
@@ -119,7 +185,7 @@
 		"outputAbbreviatedPath": "\/img\/persons\/alex.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/persons\/jeff.jpg": {
 		"fileType": 16384,
@@ -130,7 +196,7 @@
 		"outputAbbreviatedPath": "\/img\/persons\/jeff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/persons\/jon.jpg": {
 		"fileType": 16384,
@@ -141,7 +207,7 @@
 		"outputAbbreviatedPath": "\/img\/persons\/jon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/persons\/mark.jpg": {
 		"fileType": 16384,
@@ -152,7 +218,7 @@
 		"outputAbbreviatedPath": "\/img\/persons\/mark.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/persons\/saxon.jpg": {
 		"fileType": 16384,
@@ -163,7 +229,7 @@
 		"outputAbbreviatedPath": "\/img\/persons\/saxon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/persons\/taylor.jpg": {
 		"fileType": 16384,
@@ -174,7 +240,7 @@
 		"outputAbbreviatedPath": "\/img\/persons\/taylor.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/phone.png": {
 		"fileType": 32768,
@@ -185,7 +251,7 @@
 		"outputAbbreviatedPath": "\/img\/phone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/phone_white.png": {
 		"fileType": 32768,
@@ -196,7 +262,7 @@
 		"outputAbbreviatedPath": "\/img\/phone_white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/wevue-facebook-card.jpeg": {
 		"fileType": 16384,
@@ -207,7 +273,7 @@
 		"outputAbbreviatedPath": "\/img\/wevue-facebook-card.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/wevue-logo-png.png": {
 		"fileType": 32768,
@@ -218,7 +284,18 @@
 		"outputAbbreviatedPath": "\/img\/wevue-logo-png.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/wevue-logo-w-text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11177,
+		"inputAbbreviatedPath": "\/img\/wevue-logo-w-text.png",
+		"outputAbbreviatedPath": "\/img\/wevue-logo-w-text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/wevue-social-media-card.jpeg": {
 		"fileType": 16384,
@@ -229,7 +306,7 @@
 		"outputAbbreviatedPath": "\/img\/wevue-social-media-card.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/wevue-social-media-card.jpg": {
 		"fileType": 16384,
@@ -240,7 +317,7 @@
 		"outputAbbreviatedPath": "\/img\/wevue-social-media-card.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/wevue_logo_icon.jpg": {
 		"fileType": 16384,
@@ -251,7 +328,7 @@
 		"outputAbbreviatedPath": "\/img\/wevue_logo_icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/widget-1.jpg": {
 		"fileType": 16384,
@@ -262,7 +339,7 @@
 		"outputAbbreviatedPath": "\/img\/widget-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/widget-2.jpg": {
 		"fileType": 16384,
@@ -273,7 +350,7 @@
 		"outputAbbreviatedPath": "\/img\/widget-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/widget-3.jpg": {
 		"fileType": 16384,
@@ -284,7 +361,7 @@
 		"outputAbbreviatedPath": "\/img\/widget-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -438,6 +515,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/formApp.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/formApp.js",
+		"outputAbbreviatedPath": "\/js\/min\/formApp-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/main.js",
+		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/min\/app-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -465,6 +564,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_capture.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_capture.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_capture.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/partials\/_enhance.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_enhance.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_enhance.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/partials\/_features.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_features.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_features.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/sass\/partials\/_footer.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -481,6 +628,70 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/sass\/partials\/_intro.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_intro.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_intro.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/partials\/_nav.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_nav.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/partials\/_promote.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_promote.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_promote.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/partials\/_sign-up.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_sign-up.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_sign-up.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/sass\/partials\/_story.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -490,6 +701,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/_story.sass",
 		"outputAbbreviatedPath": "\/stylesheets\/_story.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/partials\/_team.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_team.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_team.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -529,6 +756,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/stylesheets\/enhance.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/enhance.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/stylesheets\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -537,6 +773,22 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/partials\/_nav.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/partials\/_nav.sass",
+		"outputAbbreviatedPath": "\/stylesheets\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
 		},
 	"\/stylesheets\/partials\/footer.css": {
 		"fileType": 16,
@@ -664,7 +916,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "wevue-angular",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_darkGray"
 	},
 "projectSettings": {

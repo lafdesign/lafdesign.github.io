@@ -1,21 +1,21 @@
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1038.77 866.689" style=" background-color:black;enable-background:new 0 0 1038.77 766.689;"
+	 viewBox="0 0 1038.77 866.689" style=" background-color:white;enable-background:new 0 0 1038.77 766.689;"
 	 xml:space="preserve">
 <style type="text/css">
 	.st0{font-size:75.4068px;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#A3A5A1;}
-	.st2{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10.669,10.669;}
+	.st2{fill:none;stroke:black;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10.669,10.669;}
 	.st3{font-size:21.9937px;}
-	.st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:black;stroke-miterlimit:10;}
 	.st5{font-size:28.3069px;}
 	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#898B86;}
 	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#EDEDEB;}
 	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#BDBFBA;}
-	.st9{fill:#FFFFFF;}
+	.st9{fill:#black;}
 	.st10{fill:none;}
 	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#969893;}
-	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#black;}
 	.st13{fill:#3F474F;}
 	.st14{font-family:'Avenir-Heavy', sans-serif;}
 	.st15{font-family:'Avenir-Roman', sans-serif;}
