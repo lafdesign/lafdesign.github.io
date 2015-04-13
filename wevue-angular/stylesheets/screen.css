@@ -689,9 +689,10 @@ h1.pitch {
   width: 50%;
   position: relative;
   left: 25%;
+  display: block;
 }
 
-/* line 23, ../sass/partials/_whatwedo.sass */
+/* line 24, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -699,13 +700,12 @@ h3.title {
   line-height: 66px;
 }
 
-/* line 30, ../sass/partials/_whatwedo.sass */
+/* line 31, ../sass/partials/_whatwedo.sass */
 section#about {
-  background-color: #bd58c0;
   width: 100%;
 }
 
-/* line 37, ../sass/partials/_whatwedo.sass */
+/* line 38, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -714,14 +714,15 @@ div.thumbnail {
   float: left;
   display: inline;
   width: 30%;
+  background-color: #bd58c0;
 }
 
-/* line 46, ../sass/partials/_whatwedo.sass */
+/* line 48, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 48, ../sass/partials/_whatwedo.sass */
+/* line 50, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
 }
