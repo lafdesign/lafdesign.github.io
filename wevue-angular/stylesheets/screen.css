@@ -158,12 +158,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 1, ../sass/partials/_intro.sass */
+body, html {
+  background-color: black;
+}
+
+/* line 3, ../sass/partials/_intro.sass */
 .intro_image {
   width: 100%;
   margin-bottom: -4px;
 }
 
-/* line 5, ../sass/partials/_intro.sass */
+/* line 7, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
@@ -172,7 +177,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   top: 90px;
 }
 
-/* line 12, ../sass/partials/_intro.sass */
+/* line 14, ../sass/partials/_intro.sass */
 .elevator {
   font-family: Avenir-Heavy;
   font-size: 36px;
