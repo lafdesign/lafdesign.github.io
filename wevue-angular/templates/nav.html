@@ -1,39 +1,27 @@
-<div class="container-fluid navigation">
 <input class="pull-left"></input>
 
 
 
+<ul class="nav nav-pills">
+    <li>
+        <a class="page-scroll os-animation" data-os-animation="fadeIn" data-os-animation-delay=".3s"ui-sref="intro">About</a>
+    </li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      Features <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+        <li><a ui-sref="capture">capture</a></li>
+        <li><a ui-sref="enhance">enhance</a></li>
+        <li><a ui-sref="promote">promote</a></li>
+    </ul>
+  </li>
+    <li>
+        <a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".5s"  ui-sref="team">Team</a>
+    </li>
+    <li>
+        <a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".6s" ui-sref="our-story">Our Story</a>
+    </li>
 
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-            </div>
-<!-- content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll os-animation" data-os-animation="fadeIn" data-os-animation-delay=".3s"ui-sref="intro">About</a>
-                    </li>
-                  <li><a ui-sref="capture">capture</a></li>
-	<li><a ui-sref="enhance">enhance</a></li>
-	<li><a ui-sref="promote">promote</a></li>
-                    <li>
-                        <a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".5s"  ui-sref="team">Team</a>
-                    </li>
-                    <li>
-                        <a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".6s" ui-sref="our-story">Our Story</a>
-                    </li>
-                </ul>
-            </div>
-<!-- /.navbar-collapse -->
-        </div>
-<!-- /.container -->
-    </nav>
-    </div>
+</ul>
+
