@@ -477,7 +477,12 @@ section#features-3 li {
   height: 650px;
 }
 
-/* line 2, ../sass/partials/_nav.sass */
+/* line 1, ../sass/partials/_nav.sass */
+.nav-container {
+  background-color: black;
+}
+
+/* line 3, ../sass/partials/_nav.sass */
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -486,48 +491,48 @@ section#features-3 li {
   background-color: black;
 }
 
-/* line 10, ../sass/partials/_nav.sass */
+/* line 11, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
 
-/* line 13, ../sass/partials/_nav.sass */
+/* line 14, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-/* line 17, ../sass/partials/_nav.sass */
+/* line 18, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
   color: white;
 }
 
-/* line 23, ../sass/partials/_nav.sass */
+/* line 24, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-/* line 28, ../sass/partials/_nav.sass */
+/* line 29, ../sass/partials/_nav.sass */
 .navbar-custom a {
   color: white;
 }
 
-/* line 32, ../sass/partials/_nav.sass */
+/* line 33, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 37, ../sass/partials/_nav.sass */
+/* line 38, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 
-/* line 43, ../sass/partials/_nav.sass */
+/* line 44, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -536,7 +541,7 @@ section#features-3 li {
 }
 
 @media(min-width:767px) {
-  /* line 53, ../sass/partials/_nav.sass */
+  /* line 54, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -547,13 +552,13 @@ section#features-3 li {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 63, ../sass/partials/_nav.sass */
+  /* line 64, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
     background-color: black;
   }
 
-  /* line 68, ../sass/partials/_nav.sass */
+  /* line 69, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
