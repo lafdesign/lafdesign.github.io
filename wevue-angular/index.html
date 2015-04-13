@@ -32,6 +32,7 @@
     <script data-require="angular.js@1.2.10" data-semver="1.2.10" src="http://code.angularjs.org/1.2.10/angular.js"></script>
     <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
     <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/extra.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="http://laf.land/wevue-angular/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -49,7 +50,9 @@
     <div class="container-fluid" ng-app="app">
       <header ng-include="'templates/nav.html'"></header>
       <div ui-view></div>
+      <div ng-include="'templates/whatwedo.html'" ></div>
       <div ng-include="'templates/sign-up.html'" ></div>
+      <div ng-include="'templates/form-social.html'" ></div>
       <footer ng-include="'templates/footer.html'"></footer>
     </div>
   </body>
