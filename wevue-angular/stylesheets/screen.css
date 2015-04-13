@@ -86,8 +86,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 19, ../sass/partials/_footer.sass */
 .footer-wrapper {
   position: relative;
-  left: 11.4%;
-  width: 50%;
   margin: 0 auto;
 }
 
