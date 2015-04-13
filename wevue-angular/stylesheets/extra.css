@@ -1,11 +1,16 @@
 
 p.intro-1-bk {
 
-	background-image: url(../img/intro2.jpg) no-repeat center center fixed;
+	background-image: url(../img/intro2.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
 p.intro-2-bk{
 
-	background-image: url(../img/intro3.jpg) no-repeat center center fixed;
+	background-image: url(../img/intro3.jpg) no-repeat ;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
