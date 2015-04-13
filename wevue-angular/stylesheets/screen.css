@@ -319,6 +319,14 @@ div.form-area {
   top: 90px;
 }
 
+/* line 12, ../sass/partials/_intro.sass */
+.elevator {
+  font-family: Avenir-Heavy;
+  font-size: 36px;
+  color: white;
+  line-height: 49px;
+}
+
 /* line 1, ../sass/partials/_team.sass */
 .section-team {
   color: white;
