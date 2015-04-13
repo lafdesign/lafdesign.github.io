@@ -246,13 +246,16 @@ input {
 
 /* line 109, ../sass/partials/_sign-up.sass */
 .amazing-quote {
-  font-family: LucidaGrandeUI;
+  font-family: Sans-serif;
   font-size: 36px;
   color: white;
   line-height: 43px;
+  width: 90%;
+  left: 5%;
+  position: absolute;
 }
 
-/* line 114, ../sass/partials/_sign-up.sass */
+/* line 118, ../sass/partials/_sign-up.sass */
 .channel-text {
   font-family: Avenir-Light;
   font-size: 14px;
@@ -260,62 +263,62 @@ input {
   line-height: 19px;
 }
 
-/* line 120, ../sass/partials/_sign-up.sass */
+/* line 124, ../sass/partials/_sign-up.sass */
 input#Name.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 124, ../sass/partials/_sign-up.sass */
+/* line 128, ../sass/partials/_sign-up.sass */
 input#Email.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 127, ../sass/partials/_sign-up.sass */
+/* line 131, ../sass/partials/_sign-up.sass */
 input#Email.ng-invalid.ng-dirty:focus {
   border: 1px solid #219ab3;
 }
 
-/* line 131, ../sass/partials/_sign-up.sass */
+/* line 135, ../sass/partials/_sign-up.sass */
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
   border-bottom: 1px solid gray;
 }
 
-/* line 136, ../sass/partials/_sign-up.sass */
+/* line 140, ../sass/partials/_sign-up.sass */
 form.ng-invalid > #submit {
   display: none;
 }
 
-/* line 139, ../sass/partials/_sign-up.sass */
+/* line 143, ../sass/partials/_sign-up.sass */
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
 }
 
-/* line 143, ../sass/partials/_sign-up.sass */
+/* line 147, ../sass/partials/_sign-up.sass */
 form {
   padding: 5%;
 }
 
-/* line 146, ../sass/partials/_sign-up.sass */
+/* line 150, ../sass/partials/_sign-up.sass */
 div.form-area {
   width: 50%;
 }
 
-/* line 149, ../sass/partials/_sign-up.sass */
+/* line 153, ../sass/partials/_sign-up.sass */
 .form-control {
   color: #219ab3;
 }
 
-/* line 151, ../sass/partials/_sign-up.sass */
+/* line 155, ../sass/partials/_sign-up.sass */
 #contact {
   background-color: #36424d;
   padding-bottom: 20px;
   border-bottom: 1px solid #4d5a5e;
 }
 
-/* line 158, ../sass/partials/_sign-up.sass */
+/* line 162, ../sass/partials/_sign-up.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -326,7 +329,7 @@ div.form-area {
   left: 20%;
 }
 
-/* line 167, ../sass/partials/_sign-up.sass */
+/* line 171, ../sass/partials/_sign-up.sass */
 .success-display {
   display: block;
 }
