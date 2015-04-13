@@ -263,62 +263,88 @@ input {
   line-height: 19px;
 }
 
-/* line 123, ../sass/partials/_sign-up.sass */
+/* line 127, ../sass/partials/_sign-up.sass */
+.how-it-works {
+  margin-top: -6%;
+}
+
+/* line 130, ../sass/partials/_sign-up.sass */
 input#Name.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 127, ../sass/partials/_sign-up.sass */
+/* line 134, ../sass/partials/_sign-up.sass */
 input#Email.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 130, ../sass/partials/_sign-up.sass */
+/* line 137, ../sass/partials/_sign-up.sass */
 input#Email.ng-invalid.ng-dirty:focus {
   border: 1px solid #219ab3;
 }
 
-/* line 134, ../sass/partials/_sign-up.sass */
+/* line 141, ../sass/partials/_sign-up.sass */
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
   border-bottom: 1px solid gray;
 }
 
-/* line 139, ../sass/partials/_sign-up.sass */
+/* line 146, ../sass/partials/_sign-up.sass */
 form.ng-invalid > #submit {
   display: none;
 }
 
-/* line 142, ../sass/partials/_sign-up.sass */
+/* line 149, ../sass/partials/_sign-up.sass */
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
 }
 
-/* line 146, ../sass/partials/_sign-up.sass */
+/* line 153, ../sass/partials/_sign-up.sass */
 form {
   padding: 5%;
 }
 
-/* line 149, ../sass/partials/_sign-up.sass */
+/* line 156, ../sass/partials/_sign-up.sass */
 div.form-area {
   width: 50%;
 }
 
-/* line 152, ../sass/partials/_sign-up.sass */
+/* line 159, ../sass/partials/_sign-up.sass */
 .form-control {
   color: #219ab3;
 }
 
-/* line 154, ../sass/partials/_sign-up.sass */
+/* line 161, ../sass/partials/_sign-up.sass */
 #contact {
   background-color: #36424d;
   padding-bottom: 20px;
   border-bottom: 1px solid #4d5a5e;
 }
 
-/* line 161, ../sass/partials/_sign-up.sass */
+/* line 166, ../sass/partials/_sign-up.sass */
+h2#fade-success {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* line 174, ../sass/partials/_sign-up.sass */
+p.contact {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 1em;
+}
+
+/* line 183, ../sass/partials/_sign-up.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -329,7 +355,7 @@ div.form-area {
   left: 20%;
 }
 
-/* line 170, ../sass/partials/_sign-up.sass */
+/* line 192, ../sass/partials/_sign-up.sass */
 .success-display {
   display: block;
 }
