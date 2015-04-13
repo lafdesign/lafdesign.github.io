@@ -217,9 +217,10 @@ h1.pitch {
   font-size: 48px;
   color: white;
   line-height: 66px;
+  width: 50%;
 }
 
-/* line 92, ../sass/partials/_sign-up.sass */
+/* line 93, ../sass/partials/_sign-up.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -227,68 +228,68 @@ h3.title {
   line-height: 66px;
 }
 
-/* line 98, ../sass/partials/_sign-up.sass */
+/* line 99, ../sass/partials/_sign-up.sass */
 input {
   border-radius: 5px;
   color: #219ab3;
 }
 
-/* line 103, ../sass/partials/_sign-up.sass */
+/* line 104, ../sass/partials/_sign-up.sass */
 input#Name.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 107, ../sass/partials/_sign-up.sass */
+/* line 108, ../sass/partials/_sign-up.sass */
 input#Email.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 110, ../sass/partials/_sign-up.sass */
+/* line 111, ../sass/partials/_sign-up.sass */
 input#Email.ng-invalid.ng-dirty:focus {
   border: 1px solid #219ab3;
 }
 
-/* line 114, ../sass/partials/_sign-up.sass */
+/* line 115, ../sass/partials/_sign-up.sass */
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
   border-bottom: 1px solid gray;
 }
 
-/* line 119, ../sass/partials/_sign-up.sass */
+/* line 120, ../sass/partials/_sign-up.sass */
 form.ng-invalid > #submit {
   display: none;
 }
 
-/* line 122, ../sass/partials/_sign-up.sass */
+/* line 123, ../sass/partials/_sign-up.sass */
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
 }
 
-/* line 126, ../sass/partials/_sign-up.sass */
+/* line 127, ../sass/partials/_sign-up.sass */
 form {
   padding: 5%;
 }
 
-/* line 129, ../sass/partials/_sign-up.sass */
+/* line 130, ../sass/partials/_sign-up.sass */
 div.form-area {
   width: 50%;
 }
 
-/* line 132, ../sass/partials/_sign-up.sass */
+/* line 133, ../sass/partials/_sign-up.sass */
 .form-control {
   color: #219ab3;
 }
 
-/* line 134, ../sass/partials/_sign-up.sass */
+/* line 135, ../sass/partials/_sign-up.sass */
 #contact {
   background-color: #36424d;
   padding-bottom: 20px;
   border-bottom: 1px solid #4d5a5e;
 }
 
-/* line 141, ../sass/partials/_sign-up.sass */
+/* line 142, ../sass/partials/_sign-up.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -299,7 +300,7 @@ div.form-area {
   left: 20%;
 }
 
-/* line 150, ../sass/partials/_sign-up.sass */
+/* line 151, ../sass/partials/_sign-up.sass */
 .success-display {
   display: block;
 }
@@ -325,6 +326,11 @@ div.form-area {
   font-size: 36px;
   color: white;
   line-height: 49px;
+  position: absolute;
+  top: 326px;
+  text-align: center;
+  width: 60%;
+  left: 20%;
 }
 
 /* line 1, ../sass/partials/_team.sass */
