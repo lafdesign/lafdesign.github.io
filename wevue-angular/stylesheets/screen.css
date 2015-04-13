@@ -112,12 +112,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: none;
 }
 
-/* line 5, ../sass/partials/_sign-up.sass */
-.how-it-works {
-  margin-top: -6%;
-}
-
-/* line 9, ../sass/partials/_sign-up.sass */
+/* line 8, ../sass/partials/_sign-up.sass */
 .amazing-1 {
   background-color: #279dc1;
   width: 100%;
@@ -127,7 +122,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: white;
 }
 
-/* line 17, ../sass/partials/_sign-up.sass */
+/* line 16, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   background: #f49967;
   border: 1px solid #979797;
@@ -138,7 +133,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   line-height: 27px;
 }
 
-/* line 34, ../sass/partials/_sign-up.sass */
+/* line 33, ../sass/partials/_sign-up.sass */
 .intro-1 {
   min-height: 300px;
   text-align: center;
@@ -150,7 +145,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   line-height: 49px;
 }
 
-/* line 43, ../sass/partials/_sign-up.sass */
+/* line 42, ../sass/partials/_sign-up.sass */
 .intro-2 {
   font-family: Avenir-BookOblique;
   font-size: 20px;
@@ -666,9 +661,12 @@ p.contact {
   font-size: 14px;
   color: white;
   line-height: 19px;
+  width: 70%;
+  position: relative;
+  left: 14.5%;
 }
 
-/* line 9, ../sass/partials/_whatwedo.sass */
+/* line 12, ../sass/partials/_whatwedo.sass */
 h1.pitch {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -679,7 +677,7 @@ h1.pitch {
   left: 25%;
 }
 
-/* line 20, ../sass/partials/_whatwedo.sass */
+/* line 23, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -687,13 +685,13 @@ h3.title {
   line-height: 66px;
 }
 
-/* line 27, ../sass/partials/_whatwedo.sass */
+/* line 30, ../sass/partials/_whatwedo.sass */
 section#about {
   background-color: #bd58c0;
   width: 100%;
 }
 
-/* line 34, ../sass/partials/_whatwedo.sass */
+/* line 37, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -704,12 +702,12 @@ div.thumbnail {
   width: 30%;
 }
 
-/* line 43, ../sass/partials/_whatwedo.sass */
+/* line 46, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 45, ../sass/partials/_whatwedo.sass */
+/* line 48, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
 }
