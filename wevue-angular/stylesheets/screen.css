@@ -120,98 +120,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 9, ../sass/partials/_sign-up.sass */
 .amazing-1 {
   background-color: #279dc1;
+  width: 100%;
+  border: 1px solid #979797;
+  min-height: 300px;
+  text-align: center;
+  color: white;
 }
 
-/* line 12, ../sass/partials/_sign-up.sass */
+/* line 17, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   background: #f49967;
   border: 1px solid #979797;
-}
-
-/* line 18, ../sass/partials/_sign-up.sass */
-.intro2 {
   width: 100%;
-  height: 10%;
-  overflow: hidden;
-}
-
-/* line 23, ../sass/partials/_sign-up.sass */
-.intro2-section {
-  background-color: #279dc1;
-  min-height: 300px;
-  text-align: center;
-  color: white;
-}
-
-/* line 29, ../sass/partials/_sign-up.sass */
-.intro3-img {
-  width: 100%;
-}
-
-/* line 33, ../sass/partials/_sign-up.sass */
-.intro3-section {
-  background: #f49967;
-  border: 1px solid #979797;
-  min-height: 300px;
-  text-align: center;
-  color: white;
-  margin-top: -108px;
-}
-
-/* line 41, ../sass/partials/_sign-up.sass */
-.intro3-section p {
   font-family: Avenir-BookOblique;
   font-size: 20px;
   color: #3b4044;
   line-height: 27px;
-  width: 100%;
-  margin-top: 4%;
 }
 
-/* line 49, ../sass/partials/_sign-up.sass */
-.intro2-section p {
+/* line 34, ../sass/partials/_sign-up.sass */
+.intro-1 {
+  min-height: 300px;
+  text-align: center;
+  color: white;
   line-height: 43px;
   font-family: Avenir-Heavy;
   font-size: 36px;
   color: #3b4044;
   line-height: 49px;
-  position: relative;
-  top: -200px;
-  width: 100%;
-  text-align: center;
 }
 
-/* line 61, ../sass/partials/_sign-up.sass */
-.intro2-section-quotes {
+/* line 43, ../sass/partials/_sign-up.sass */
+.intro-2 {
+  font-family: Avenir-BookOblique;
+  font-size: 20px;
   font-family: LucidaGrandeUI;
   font-size: 36px;
   color: white;
   line-height: 43px;
-  display: inline;
-  position: relative;
-  top: -90px;
-}
-
-/* line 70, ../sass/partials/_sign-up.sass */
-.intro-3-callaction {
-  font-family: Avenir-Heavy;
-  font-size: 36px;
-  color: white;
-  line-height: 49px;
-  top: -129px;
+  min-height: 300px;
   text-align: center;
-  position: relative;
-}
-
-/* line 79, ../sass/partials/_sign-up.sass */
-.amazing-quote {
-  font-family: Sans-serif;
-  font-size: 36px;
-  color: white;
-  line-height: 43px;
-  width: 90%;
-  left: 5%;
-  position: relative;
 }
 
 /* line 1, ../sass/partials/_intro.sass */
