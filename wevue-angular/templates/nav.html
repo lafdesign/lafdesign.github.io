@@ -1,13 +1,38 @@
-<div class="container-fluid navigation">
-<input class="pull-left"></input>
 
 
-<ul class="nav nav-pills pull-right">
-  <li><a class="active" ui-sref="intro">about</a></li>
-  <li><a ui-sref="capture">capture</a></li>
-	<li><a ui-sref="enhance">enhance</a></li>
-	<li><a ui-sref="promote">promote</a></li>
-  <li><a ui-sref="team">team</a></li>
-  <li><a ui-sref="our-story">our story</a></li>
-</ul>
-</div>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+<!-- Top Left (fixed) WeVue Icon -->
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="img/wevue_logo_icon.svg" class="main-logo os-animation" data-os-animation="rotateIn" alt="WeVue Cultrue App icon outline: scroll to page-top" />
+                </a>
+            </div>
+<!-- content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll os-animation" data-os-animation="fadeIn" data-os-animation-delay=".3s" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".4s" href="pages/features.html">Features</a>
+                    </li>
+                    <li>
+                        <a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".5s" href="pages/team.html">Team</a>
+                    </li>
+                    <li>
+                        <a class="os-animation" data-os-animation="fadeIn" data-os-animation-delay=".6s" href="pages/story.html">Our Story</a>
+                    </li>
+                </ul>
+            </div>
+<!-- /.navbar-collapse -->
+        </div>
+<!-- /.container -->
+    </nav>
