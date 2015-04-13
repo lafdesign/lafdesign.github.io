@@ -291,9 +291,10 @@ div.form-area {
 /* line 1, ../sass/partials/_intro.sass */
 .intro_image {
   width: 100%;
+  margin-bottom: -4px;
 }
 
-/* line 3, ../sass/partials/_intro.sass */
+/* line 5, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
