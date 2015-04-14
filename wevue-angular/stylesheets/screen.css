@@ -882,12 +882,18 @@ div.form-area {
   width: 50%;
 }
 
-/* line 34, ../sass/partials/_form-social.sass */
+@media (max-width: 750px) {
+  /* line 34, ../sass/partials/_form-social.sass */
+  div.form-area {
+    width: 100%;
+  }
+}
+/* line 37, ../sass/partials/_form-social.sass */
 .form-control {
   color: #219ab3;
 }
 
-/* line 36, ../sass/partials/_form-social.sass */
+/* line 39, ../sass/partials/_form-social.sass */
 #contact {
   background-color: #36424d;
   padding-bottom: 20px;
@@ -895,7 +901,7 @@ div.form-area {
   padding-top: 3%;
 }
 
-/* line 42, ../sass/partials/_form-social.sass */
+/* line 45, ../sass/partials/_form-social.sass */
 h2#fade-success {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -905,7 +911,7 @@ h2#fade-success {
   color: white;
 }
 
-/* line 50, ../sass/partials/_form-social.sass */
+/* line 53, ../sass/partials/_form-social.sass */
 p.contact {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -916,7 +922,7 @@ p.contact {
   font-size: 1em;
 }
 
-/* line 59, ../sass/partials/_form-social.sass */
+/* line 62, ../sass/partials/_form-social.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -927,12 +933,12 @@ p.contact {
   left: 20%;
 }
 
-/* line 68, ../sass/partials/_form-social.sass */
+/* line 71, ../sass/partials/_form-social.sass */
 .success-display {
   display: block;
 }
 
-/* line 71, ../sass/partials/_form-social.sass */
+/* line 74, ../sass/partials/_form-social.sass */
 #fade-success {
   font-size: 30px;
   font-weight: bold;
@@ -947,7 +953,7 @@ p.contact {
   text-transform: uppercase;
 }
 
-/* line 85, ../sass/partials/_form-social.sass */
+/* line 88, ../sass/partials/_form-social.sass */
 a.email {
   color: #219ab3;
   cursor: auto;
@@ -985,8 +991,8 @@ h1.pitch {
 @media (max-width: 750px) {
   /* line 21, ../sass/partials/_whatwedo.sass */
   h1.pitch {
-    width: 90%;
-    left: 5%;
+    width: 100%;
+    left: 0%;
     font-size: 28px;
   }
 }
@@ -998,19 +1004,19 @@ h3.title {
   line-height: 66px;
 }
 
-@media(max-width:767px) {
-  /* line 34, ../sass/partials/_whatwedo.sass */
+@media(max-width:750px) {
+  /* line 32, ../sass/partials/_whatwedo.sass */
   h3.title {
     font-size: 20px;
   }
 }
 
-/* line 38, ../sass/partials/_whatwedo.sass */
+/* line 35, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 41, ../sass/partials/_whatwedo.sass */
+/* line 38, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1022,12 +1028,19 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 51, ../sass/partials/_whatwedo.sass */
+@media(max-width:750px) {
+  /* line 49, ../sass/partials/_whatwedo.sass */
+  div.thumbnail {
+    width: 100% !important;
+  }
+}
+
+/* line 52, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 54, ../sass/partials/_whatwedo.sass */
+/* line 55, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
