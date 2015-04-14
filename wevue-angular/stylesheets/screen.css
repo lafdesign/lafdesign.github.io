@@ -359,7 +359,7 @@ h2.feature-1-title {
 /* line 11, ../sass/partials/_enhance.sass */
 #features-1 {
   background-color: #36424d;
-  height: 600px;
+  height: 740px;
   padding-top: 40px;
 }
 
@@ -370,16 +370,17 @@ h2.feature-1-title {
   display: inline;
   width: 35%;
   left: -15px;
+  top: 140px;
 }
 
-/* line 23, ../sass/partials/_enhance.sass */
+/* line 24, ../sass/partials/_enhance.sass */
 .phone-android {
   position: relative;
   width: 100%;
   z-index: 2;
 }
 
-/* line 28, ../sass/partials/_enhance.sass */
+/* line 29, ../sass/partials/_enhance.sass */
 .feed-android {
   position: relative;
   width: 100%;
@@ -389,17 +390,17 @@ h2.feature-1-title {
   -webkit-user-select: none;
 }
 
-/* line 36, ../sass/partials/_enhance.sass */
+/* line 37, ../sass/partials/_enhance.sass */
 #inner:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 39, ../sass/partials/_enhance.sass */
+/* line 40, ../sass/partials/_enhance.sass */
 li:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 42, ../sass/partials/_enhance.sass */
+/* line 43, ../sass/partials/_enhance.sass */
 .inner {
   position: absolute;
   overflow: hidden;
@@ -566,7 +567,7 @@ section#features-2 li {
   padding-top: 40px;
   padding-bottom: 50px;
   border-top: 1px solid #ef8b8b;
-  height: 650px;
+  sheight: 740px;
 }
 
 /* line 14, ../sass/partials/_promote.sass */
@@ -622,7 +623,7 @@ section#features-3 li {
   background-color: #2ea28e;
   padding-top: 40px;
   padding-bottom: 45px;
-  height: 650px;
+  height: 740px;
 }
 
 /* line 12, ../sass/partials/_capture.sass */
