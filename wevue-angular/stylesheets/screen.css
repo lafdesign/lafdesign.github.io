@@ -1,10 +1,10 @@
 /*
 Syntax error: Invalid CSS after "33%": expected expression (e.g. 1px, bold), was ";"
-        on line 50 of /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/partials/_whatwedo.sass
+        on line 48 of /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/partials/_whatwedo.sass
         from line 15 of /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/screen.sass
 
 Backtrace:
-/Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/partials/_whatwedo.sass:50
+/Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/partials/_whatwedo.sass:48
 /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/screen.sass:15
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/script/lexer.rb:206:in `expected!'
@@ -86,4 +86,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"33%\": expected expression (e.g. 1px, bold), was \";\"\A         on line 50 of /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/partials/_whatwedo.sass\A         from line 15 of /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/screen.sass"; }
+  content: "Syntax error: Invalid CSS after \"33%\": expected expression (e.g. 1px, bold), was \";\"\A         on line 48 of /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/partials/_whatwedo.sass\A         from line 15 of /Users/jordanlafland/lafdesign.github.io/wevue-angular/sass/screen.sass"; }
