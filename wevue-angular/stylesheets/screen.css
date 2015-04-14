@@ -360,7 +360,7 @@ body, html {
 #section-team .person {
   min-height: 510px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: -100px;
 }
 /* line 47, ../sass/partials/_team.sass */
 #section-team .person .person-name {
