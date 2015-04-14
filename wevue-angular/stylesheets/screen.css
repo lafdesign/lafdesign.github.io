@@ -269,6 +269,11 @@ h4.story-header {
   opacity: 0.85;
 }
 
+/* line 97, ../sass/partials/_sign-up.sass */
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* line 2, ../sass/partials/_intro.sass */
 body, html {
   background-color: black;
@@ -715,27 +720,33 @@ section#features-2 li {
   height: 740px;
 }
 
-/* line 14, ../sass/partials/_promote.sass */
+@media (max-width: 750px) {
+  /* line 14, ../sass/partials/_promote.sass */
+  #features-2 {
+    height: 900px;
+  }
+}
+/* line 17, ../sass/partials/_promote.sass */
 .features-section-2 {
   background: #eb7260;
 }
 
-/* line 17, ../sass/partials/_promote.sass */
+/* line 20, ../sass/partials/_promote.sass */
 #phone-2 {
   border: 0px;
 }
 
-/* line 19, ../sass/partials/_promote.sass */
+/* line 22, ../sass/partials/_promote.sass */
 #phone-2:hover {
   border: 1px solid transparent;
 }
 
-/* line 23, ../sass/partials/_promote.sass */
+/* line 26, ../sass/partials/_promote.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 26, ../sass/partials/_promote.sass */
+/* line 29, ../sass/partials/_promote.sass */
 .salmon {
   color: #3f474f;
   display: block;
