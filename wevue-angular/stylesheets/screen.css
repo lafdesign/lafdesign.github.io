@@ -264,13 +264,18 @@ body, html {
   left: 20%;
 }
 
-/* line 2, ../sass/partials/_team.sass */
+/* line 1, ../sass/partials/_team.sass */
+.team {
+  text-align: center;
+}
+
+/* line 4, ../sass/partials/_team.sass */
 .section-page h1, .section-page h2 {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 
-/* line 6, ../sass/partials/_team.sass */
+/* line 8, ../sass/partials/_team.sass */
 .section-page h1 {
   font-size: 60px;
 }
@@ -278,7 +283,7 @@ body, html {
 @media (max-width: 600px) {
   font-size: 48px;
 }
-/* line 12, ../sass/partials/_team.sass */
+/* line 14, ../sass/partials/_team.sass */
 .section-page h2 {
   font-size: 48px;
 }
@@ -286,27 +291,27 @@ body, html {
 @media (max-width: 600px) {
   font-size: 40px;
 }
-/* line 19, ../sass/partials/_team.sass */
+/* line 21, ../sass/partials/_team.sass */
 #section-team {
   background: #2ea28e;
   color: white;
   padding-top: 50px;
 }
-/* line 25, ../sass/partials/_team.sass */
+/* line 27, ../sass/partials/_team.sass */
 #section-team .head-section h1:after, #section-team .head-section h2:after {
   background: white;
 }
-/* line 29, ../sass/partials/_team.sass */
+/* line 31, ../sass/partials/_team.sass */
 #section-team .person {
   min-height: 510px;
   text-align: center;
   margin-bottom: 25px;
 }
-/* line 33, ../sass/partials/_team.sass */
+/* line 35, ../sass/partials/_team.sass */
 #section-team .person .person-name {
   margin-bottom: 2px;
 }
-/* line 36, ../sass/partials/_team.sass */
+/* line 38, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social {
   position: relative;
   display: inline-block;
@@ -314,24 +319,24 @@ body, html {
   padding: 8px 0 0 0;
   display: inline-block;
 }
-/* line 43, ../sass/partials/_team.sass */
+/* line 45, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li {
   list-style: none;
   display: inline-block;
   margin-bottom: 10px;
 }
-/* line 48, ../sass/partials/_team.sass */
+/* line 50, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li > a {
   color: white;
   font-size: 20px;
   float: left;
   margin-right: 22px;
 }
-/* line 56, ../sass/partials/_team.sass */
+/* line 58, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li > a:hover {
   text-decoration: none;
 }
-/* line 61, ../sass/partials/_team.sass */
+/* line 63, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social:after {
   content: "";
   height: 1px;
@@ -342,13 +347,13 @@ body, html {
   right: 25%;
   opacity: 0.25;
 }
-/* line 71, ../sass/partials/_team.sass */
+/* line 73, ../sass/partials/_team.sass */
 #section-team .person p.person-description {
   padding-top: 25px;
   position: relative;
   margin-top: 5px;
 }
-/* line 76, ../sass/partials/_team.sass */
+/* line 78, ../sass/partials/_team.sass */
 #section-team .person p.person-description:after {
   content: "";
   height: 2px;
