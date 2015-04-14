@@ -64,29 +64,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 1, ../sass/partials/_footer.sass */
+.footer-wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 5, ../sass/partials/_footer.sass */
 .nav-justify ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  text-align: justify;
 }
 
-/* line 7, ../sass/partials/_footer.sass */
+/* line 11, ../sass/partials/_footer.sass */
 .nav-justify ul li {
   display: inline-block;
 }
 
-/* line 10, ../sass/partials/_footer.sass */
+/* line 14, ../sass/partials/_footer.sass */
 .nav-justify ul:after {
   content: "";
   display: inline-block;
   width: 100%;
   height: 0;
-}
-
-/* line 18, ../sass/partials/_footer.sass */
-.footer-wrapper {
-  position: relative;
-  margin: 0 auto;
 }
 
 /* line 1, ../sass/partials/_story.sass */
