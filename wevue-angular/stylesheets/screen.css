@@ -129,7 +129,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-size: 36px;
   color: white;
   line-height: 55px;
-  padding-top: 8%;
+  padding: 8%;
 }
 
 /* line 23, ../sass/partials/_sign-up.sass */
@@ -180,9 +180,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-size: 36px;
   color: #3b4044;
   line-height: 43px;
+  opacity: 0.85;
 }
 
-/* line 66, ../sass/partials/_sign-up.sass */
+/* line 67, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -191,6 +192,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-size: 36px;
   color: #3b4044;
   line-height: 43px;
+  opacity: 0.85;
 }
 
 /* line 2, ../sass/partials/_intro.sass */
