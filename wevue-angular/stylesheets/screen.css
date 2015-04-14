@@ -312,17 +312,17 @@ body, html {
   padding-top: 50px;
 }
 
-/* line 41, ../sass/partials/_team.sass */
+/* line 40, ../sass/partials/_team.sass */
 .head-section h1:after .person, h2:after .person {
   min-height: 510px;
   text-align: center;
   margin-bottom: 25px;
 }
-/* line 45, ../sass/partials/_team.sass */
+/* line 44, ../sass/partials/_team.sass */
 .head-section h1:after .person .person-name, h2:after .person .person-name {
   margin-bottom: 2px;
 }
-/* line 48, ../sass/partials/_team.sass */
+/* line 47, ../sass/partials/_team.sass */
 .head-section h1:after .person > ul.list-links-social, h2:after .person > ul.list-links-social {
   position: relative;
   display: inline-block;
@@ -330,24 +330,24 @@ body, html {
   padding: 8px 0 0 0;
   display: inline-block;
 }
-/* line 55, ../sass/partials/_team.sass */
+/* line 54, ../sass/partials/_team.sass */
 .head-section h1:after .person > ul.list-links-social > li, h2:after .person > ul.list-links-social > li {
   list-style: none;
   display: inline-block;
   margin-bottom: 10px;
 }
-/* line 60, ../sass/partials/_team.sass */
+/* line 59, ../sass/partials/_team.sass */
 .head-section h1:after .person > ul.list-links-social > li > a, h2:after .person > ul.list-links-social > li > a {
   color: white;
   font-size: 20px;
   float: left;
   margin-right: 22px;
 }
-/* line 66, ../sass/partials/_team.sass */
+/* line 65, ../sass/partials/_team.sass */
 .head-section h1:after .person > ul.list-links-social > li > a:hover, h2:after .person > ul.list-links-social > li > a:hover {
   text-decoration: none;
 }
-/* line 69, ../sass/partials/_team.sass */
+/* line 68, ../sass/partials/_team.sass */
 .head-section h1:after .person > ul.list-links-social:after, h2:after .person > ul.list-links-social:after {
   content: "";
   height: 1px;
@@ -358,13 +358,13 @@ body, html {
   right: 25%;
   opacity: 0.25;
 }
-/* line 79, ../sass/partials/_team.sass */
+/* line 78, ../sass/partials/_team.sass */
 .head-section h1:after .person p.person-description, h2:after .person p.person-description {
   padding-top: 25px;
   position: relative;
   margin-top: 5px;
 }
-/* line 84, ../sass/partials/_team.sass */
+/* line 83, ../sass/partials/_team.sass */
 .head-section h1:after .person p.person-description:after, h2:after .person p.person-description:after {
   content: "";
   height: 2px;
