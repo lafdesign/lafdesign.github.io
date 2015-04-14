@@ -112,6 +112,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-bottom: 15px;
 }
 
+/* line 21, ../sass/partials/_story.sass */
+h4.story-header {
+  color: #333333;
+  display: block;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  height: 27px;
+  line-height: 27.2px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
 /* line 1, ../sass/partials/_sign-up.sass */
 .how-it-works-mobile {
   display: none;
