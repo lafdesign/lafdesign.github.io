@@ -103,6 +103,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 9, ../sass/partials/_story.sass */
+p.story-sub-header {
+  background-color: #e6e6e6;
+  padding-top: 20px;
+  box-sizing: border-box;
+  color: #333333;
+  display: block;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+/* line 21, ../sass/partials/_story.sass */
 p.story-p {
   background-color: #e6e6e6;
   padding-top: 40px;
@@ -117,7 +131,7 @@ p.story-p {
   text-align: left;
 }
 
-/* line 23, ../sass/partials/_story.sass */
+/* line 35, ../sass/partials/_story.sass */
 h4.story-header {
   color: #333333;
   display: block;
