@@ -242,41 +242,20 @@ body, html {
   width: 100%;
 }
 
-/* line 8, ../sass/partials/_intro.sass */
+/* line 11, ../sass/partials/_intro.sass */
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 12, ../sass/partials/_intro.sass */
-.btn {
-  text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  border: 1px solid #219ab3;
-  color: white;
-  background-color: transparent;
-}
-
-/* line 27, ../sass/partials/_intro.sass */
-.btn-default:hover,
-.btn-default:focus {
-  border: 1px solid #219ab3;
-  outline: 0;
-  color: black;
-  background-color: #219ab3;
-}
-
-/* line 35, ../sass/partials/_intro.sass */
+/* line 18, ../sass/partials/_intro.sass */
 .intro_image {
   width: 100%;
   margin-bottom: -4px;
+  min-height: 550px;
 }
 
-/* line 39, ../sass/partials/_intro.sass */
+/* line 23, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
@@ -285,7 +264,40 @@ body, html {
   top: 90px;
 }
 
+@media (max-width: 750px) {
+  /* line 31, ../sass/partials/_intro.sass */
+  .intro_logo {
+    width: 100%;
+    left: 0;
+  }
+}
+/* line 37, ../sass/partials/_intro.sass */
+.btn {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 /* line 46, ../sass/partials/_intro.sass */
+.btn-default {
+  border: 1px solid #219ab3;
+  color: white;
+  background-color: transparent;
+}
+
+/* line 52, ../sass/partials/_intro.sass */
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #219ab3;
+  outline: 0;
+  color: black;
+  background-color: #219ab3;
+}
+
+/* line 59, ../sass/partials/_intro.sass */
 .elevator {
   font-family: Avenir-Heavy;
   font-size: 36px;
@@ -978,16 +990,15 @@ h1.pitch {
   padding: 3%;
 }
 
-@media(max-width:767px) {
-  /* line 22, ../sass/partials/_whatwedo.sass */
+@media (max-width: 750px) {
+  /* line 21, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 90%;
     left: 5%;
     font-size: 28px;
   }
 }
-
-/* line 27, ../sass/partials/_whatwedo.sass */
+/* line 26, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -996,18 +1007,18 @@ h3.title {
 }
 
 @media(max-width:767px) {
-  /* line 35, ../sass/partials/_whatwedo.sass */
+  /* line 34, ../sass/partials/_whatwedo.sass */
   h3.title {
     font-size: 20px;
   }
 }
 
-/* line 39, ../sass/partials/_whatwedo.sass */
+/* line 38, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 42, ../sass/partials/_whatwedo.sass */
+/* line 41, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1019,12 +1030,12 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 52, ../sass/partials/_whatwedo.sass */
+/* line 51, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 55, ../sass/partials/_whatwedo.sass */
+/* line 54, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
