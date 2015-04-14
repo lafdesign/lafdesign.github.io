@@ -201,15 +201,14 @@ h4.story-header {
   font-family: Avenir-Heavy;
   font-size: 36px;
   color: white;
-  min-height: 350px;
+  min-height: 200px;
   text-align: center;
   line-height: 66px;
-  min-height: 350px;
   text-align: center;
-  padding: 10%;
+  padding: 2%;
 }
 
-/* line 57, ../sass/partials/_sign-up.sass */
+/* line 56, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -221,7 +220,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 67, ../sass/partials/_sign-up.sass */
+/* line 66, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
