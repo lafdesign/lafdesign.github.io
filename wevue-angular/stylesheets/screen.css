@@ -783,18 +783,26 @@ section#features-3 li {
 }
 
 /* line 1, ../sass/partials/_nav.sass */
+.email-input {
+  display: inline;
+}
+
+@media (max-width: 750px) {
+  display: none;
+}
+/* line 11, ../sass/partials/_nav.sass */
 .nav-container {
   background-color: black;
   width: 100%;
   height: 36.5px;
 }
 
-/* line 6, ../sass/partials/_nav.sass */
+/* line 16, ../sass/partials/_nav.sass */
 .open > .dropdown-menu {
   opacity: 0.9;
 }
 
-/* line 9, ../sass/partials/_nav.sass */
+/* line 19, ../sass/partials/_nav.sass */
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -803,48 +811,48 @@ section#features-3 li {
   background-color: black;
 }
 
-/* line 16, ../sass/partials/_nav.sass */
+/* line 26, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
 
-/* line 19, ../sass/partials/_nav.sass */
+/* line 29, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-/* line 22, ../sass/partials/_nav.sass */
+/* line 32, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
   color: white;
 }
 
-/* line 27, ../sass/partials/_nav.sass */
+/* line 37, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-/* line 31, ../sass/partials/_nav.sass */
+/* line 41, ../sass/partials/_nav.sass */
 .navbar-custom a {
   color: white;
 }
 
-/* line 34, ../sass/partials/_nav.sass */
+/* line 44, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 38, ../sass/partials/_nav.sass */
+/* line 48, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 
-/* line 43, ../sass/partials/_nav.sass */
+/* line 53, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -853,7 +861,7 @@ section#features-3 li {
 }
 
 @media(min-width:767px) {
-  /* line 51, ../sass/partials/_nav.sass */
+  /* line 61, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -864,13 +872,13 @@ section#features-3 li {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 60, ../sass/partials/_nav.sass */
+  /* line 70, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
     background-color: black;
   }
 
-  /* line 64, ../sass/partials/_nav.sass */
+  /* line 74, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
