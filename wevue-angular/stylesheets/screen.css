@@ -265,17 +265,30 @@ body, html {
 }
 
 /* line 1, ../sass/partials/_team.sass */
+#section-team {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 3, ../sass/partials/_team.sass */
 .team {
   text-align: center;
 }
 
-/* line 4, ../sass/partials/_team.sass */
+/* line 5, ../sass/partials/_team.sass */
+.team-p {
+  width: 70%;
+  left: 15%;
+  position: relative;
+  padding: 2%;
+}
+
+/* line 12, ../sass/partials/_team.sass */
 .section-page h1, .section-page h2 {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 
-/* line 8, ../sass/partials/_team.sass */
+/* line 16, ../sass/partials/_team.sass */
 .section-page h1 {
   font-size: 60px;
 }
@@ -283,7 +296,7 @@ body, html {
 @media (max-width: 600px) {
   font-size: 48px;
 }
-/* line 14, ../sass/partials/_team.sass */
+/* line 22, ../sass/partials/_team.sass */
 .section-page h2 {
   font-size: 48px;
 }
@@ -291,27 +304,27 @@ body, html {
 @media (max-width: 600px) {
   font-size: 40px;
 }
-/* line 21, ../sass/partials/_team.sass */
+/* line 29, ../sass/partials/_team.sass */
 #section-team {
   background: #2ea28e;
   color: white;
   padding-top: 50px;
 }
-/* line 27, ../sass/partials/_team.sass */
+/* line 35, ../sass/partials/_team.sass */
 #section-team .head-section h1:after, #section-team .head-section h2:after {
   background: white;
 }
-/* line 31, ../sass/partials/_team.sass */
+/* line 39, ../sass/partials/_team.sass */
 #section-team .person {
   min-height: 510px;
   text-align: center;
   margin-bottom: 25px;
 }
-/* line 35, ../sass/partials/_team.sass */
+/* line 43, ../sass/partials/_team.sass */
 #section-team .person .person-name {
   margin-bottom: 2px;
 }
-/* line 38, ../sass/partials/_team.sass */
+/* line 46, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social {
   position: relative;
   display: inline-block;
@@ -319,24 +332,24 @@ body, html {
   padding: 8px 0 0 0;
   display: inline-block;
 }
-/* line 45, ../sass/partials/_team.sass */
+/* line 53, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li {
   list-style: none;
   display: inline-block;
   margin-bottom: 10px;
 }
-/* line 50, ../sass/partials/_team.sass */
+/* line 58, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li > a {
   color: white;
   font-size: 20px;
   float: left;
   margin-right: 22px;
 }
-/* line 58, ../sass/partials/_team.sass */
+/* line 66, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li > a:hover {
   text-decoration: none;
 }
-/* line 63, ../sass/partials/_team.sass */
+/* line 71, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social:after {
   content: "";
   height: 1px;
@@ -347,13 +360,13 @@ body, html {
   right: 25%;
   opacity: 0.25;
 }
-/* line 73, ../sass/partials/_team.sass */
+/* line 81, ../sass/partials/_team.sass */
 #section-team .person p.person-description {
   padding-top: 25px;
   position: relative;
   margin-top: 5px;
 }
-/* line 78, ../sass/partials/_team.sass */
+/* line 86, ../sass/partials/_team.sass */
 #section-team .person p.person-description:after {
   content: "";
   height: 2px;
@@ -363,6 +376,15 @@ body, html {
   top: 10px;
   right: 25%;
   opacity: 0.25;
+}
+
+/* line 97, ../sass/partials/_team.sass */
+#section-team .person p.person-description {
+  padding-top: 25px;
+  position: relative;
+  margin-top: 5px;
+  padding: 7%;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 1, ../sass/partials/_enhance.sass */
