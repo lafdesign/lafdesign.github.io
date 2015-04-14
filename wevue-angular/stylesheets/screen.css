@@ -357,13 +357,20 @@ h2.feature-1-title {
 }
 
 /* line 11, ../sass/partials/_enhance.sass */
+.list-right {
+  left: 50%;
+  position: relative;
+  top: 40px;
+}
+
+/* line 16, ../sass/partials/_enhance.sass */
 #features-1 {
   background-color: #36424d;
   height: 740px;
   padding-top: 40px;
 }
 
-/* line 16, ../sass/partials/_enhance.sass */
+/* line 21, ../sass/partials/_enhance.sass */
 .container-android {
   overflow: hidden;
   position: absolute;
@@ -373,14 +380,14 @@ h2.feature-1-title {
   top: 140px;
 }
 
-/* line 24, ../sass/partials/_enhance.sass */
+/* line 29, ../sass/partials/_enhance.sass */
 .phone-android {
   position: relative;
   width: 100%;
   z-index: 2;
 }
 
-/* line 29, ../sass/partials/_enhance.sass */
+/* line 34, ../sass/partials/_enhance.sass */
 .feed-android {
   position: relative;
   width: 100%;
@@ -390,17 +397,17 @@ h2.feature-1-title {
   -webkit-user-select: none;
 }
 
-/* line 37, ../sass/partials/_enhance.sass */
+/* line 42, ../sass/partials/_enhance.sass */
 #inner:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 40, ../sass/partials/_enhance.sass */
+/* line 45, ../sass/partials/_enhance.sass */
 li:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 43, ../sass/partials/_enhance.sass */
+/* line 48, ../sass/partials/_enhance.sass */
 .inner {
   position: absolute;
   overflow: hidden;
@@ -432,43 +439,37 @@ ul.features-list > li:before {
 }
 
 /* line 18, ../sass/partials/_features.sass */
-.list-right {
-  left: 50%;
-  position: relative;
-}
-
-/* line 22, ../sass/partials/_features.sass */
 .list-left {
   left: -4%;
 }
 
-/* line 25, ../sass/partials/_features.sass */
+/* line 21, ../sass/partials/_features.sass */
 .i-phone {
   left: -0.4%;
   top: -42px;
 }
 
-/* line 29, ../sass/partials/_features.sass */
+/* line 25, ../sass/partials/_features.sass */
 .iphone-container {
   position: relative;
   width: 30%;
   left: 60%;
 }
 
-/* line 34, ../sass/partials/_features.sass */
+/* line 30, ../sass/partials/_features.sass */
 .iphone-frame {
   position: absolute;
   width: 100%;
 }
 
-/* line 38, ../sass/partials/_features.sass */
+/* line 34, ../sass/partials/_features.sass */
 .iphone-inner {
   position: absolute;
   width: 87%;
   left: 12.6%;
 }
 
-/* line 43, ../sass/partials/_features.sass */
+/* line 39, ../sass/partials/_features.sass */
 .iphone-screenshot {
   position: absolute;
   width: 100%;
@@ -476,7 +477,7 @@ ul.features-list > li:before {
   left: 51%;
 }
 
-/* line 49, ../sass/partials/_features.sass */
+/* line 45, ../sass/partials/_features.sass */
 h3.list-title {
   color: white;
   text-align: left;
@@ -496,13 +497,13 @@ h3.list-title {
   width: 870px;
 }
 
-/* line 69, ../sass/partials/_features.sass */
+/* line 65, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
   font-size: 2em;
 }
 
-/* line 74, ../sass/partials/_features.sass */
+/* line 70, ../sass/partials/_features.sass */
 .feature-1-title {
   margin: 0 0 35px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -516,32 +517,32 @@ h3.list-title2 {
   text-transform: uppercase;
 }
 
-/* line 86, ../sass/partials/_features.sass */
+/* line 82, ../sass/partials/_features.sass */
 .blue-text {
   color: #219ab3;
 }
 
-/* line 88, ../sass/partials/_features.sass */
+/* line 84, ../sass/partials/_features.sass */
 .blue-text-med {
   color: #1c8296;
 }
 
-/* line 90, ../sass/partials/_features.sass */
+/* line 86, ../sass/partials/_features.sass */
 .blue-text-light {
   color: #e4fffa;
 }
 
-/* line 94, ../sass/partials/_features.sass */
+/* line 90, ../sass/partials/_features.sass */
 li.li {
   font-size: 1.5em;
 }
 
-/* line 97, ../sass/partials/_features.sass */
+/* line 93, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 100, ../sass/partials/_features.sass */
+/* line 96, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", sans-serif;
   list-style: none;
