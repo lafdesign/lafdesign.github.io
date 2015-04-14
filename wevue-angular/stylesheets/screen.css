@@ -851,7 +851,7 @@ h1.pitch {
   display: block;
 }
 
-@media(min-width:767px) {
+@media(max-width:767px) {
   /* line 21, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 90%;
@@ -866,13 +866,11 @@ h3.title {
   font-size: 48px;
   color: white;
   line-height: 66px;
-  width: 33%;
 }
 
 @media(max-width:767px) {
   /* line 34, ../sass/partials/_whatwedo.sass */
   h3.title {
-    width: 33%;
     font-size: 20px;
   }
 }
