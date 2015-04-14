@@ -21,8 +21,8 @@
 }
 
 #arm:hover {
-	fill: none;
-	transition: 1s;
+	fill: #bd58c0;
+	transition: .8s;
 }
  </style>
 
