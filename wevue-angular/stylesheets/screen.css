@@ -248,22 +248,18 @@ body, html {
   font-size: 36px;
   color: white;
   line-height: 49px;
-  position: absolute;
-  top: 326px;
   text-align: center;
-  width: 60%;
-  left: 20%;
-  margin-bottom: -4px;
   min-height: 550px;
+  padding-top: 400px;
 }
 
-/* line 21, ../sass/partials/_intro.sass */
+/* line 17, ../sass/partials/_intro.sass */
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 28, ../sass/partials/_intro.sass */
+/* line 24, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
@@ -273,13 +269,13 @@ body, html {
 }
 
 @media (max-width: 750px) {
-  /* line 36, ../sass/partials/_intro.sass */
+  /* line 32, ../sass/partials/_intro.sass */
   .intro_logo {
     width: 100%;
     left: 0;
   }
 }
-/* line 42, ../sass/partials/_intro.sass */
+/* line 38, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -289,14 +285,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 51, ../sass/partials/_intro.sass */
+/* line 47, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 57, ../sass/partials/_intro.sass */
+/* line 53, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
