@@ -93,9 +93,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .story {
   background-color: #e6e6e6;
   width: 100%;
+  width: 50%;
+  left: 25%;
+  position: relative;
 }
 
-/* line 5, ../sass/partials/_story.sass */
+/* line 8, ../sass/partials/_story.sass */
 .story p {
   background-color: #e6e6e6;
   padding-top: 40px;
