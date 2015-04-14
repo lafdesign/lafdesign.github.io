@@ -103,7 +103,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 9, ../sass/partials/_story.sass */
-.story p {
+.story-p {
   background-color: #e6e6e6;
   padding-top: 40px;
   box-sizing: border-box;
