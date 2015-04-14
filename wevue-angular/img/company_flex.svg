@@ -16,11 +16,11 @@
 }
 
 #arm {
-	fill: #979797;
+
 
 }
 
-#arm:hover {
+ #arm:hover {
 	fill: #bd58c0;
 	transition: .8s;
 }
