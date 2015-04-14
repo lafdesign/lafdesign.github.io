@@ -274,13 +274,20 @@ body, html {
   margin-top: 21px;
 }
 
-/* line 19, ../sass/partials/_intro.sass */
+@media (max-width: 750px) {
+  /* line 19, ../sass/partials/_intro.sass */
+  .elevator {
+    padding-top: 250px;
+    font-size: 24px;
+  }
+}
+/* line 23, ../sass/partials/_intro.sass */
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 26, ../sass/partials/_intro.sass */
+/* line 30, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
@@ -290,13 +297,14 @@ body, html {
 }
 
 @media (max-width: 750px) {
-  /* line 34, ../sass/partials/_intro.sass */
+  /* line 38, ../sass/partials/_intro.sass */
   .intro_logo {
     width: 100%;
     left: 0;
+    top: 125px;
   }
 }
-/* line 40, ../sass/partials/_intro.sass */
+/* line 46, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -306,14 +314,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 49, ../sass/partials/_intro.sass */
+/* line 55, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 55, ../sass/partials/_intro.sass */
+/* line 61, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
