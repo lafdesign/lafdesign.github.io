@@ -1,9 +1,9 @@
 angular
   .module('app')
-  .controller('enhancesCtrl', ['$scope', function($scope) {
-    $scope.title = "enhances";
+  .controller('enhanceCtrl', ['$scope', function($scope) {
+    $scope.title = "enhance";
     $scope.items = ['intro','team','our-story','capture','promote','enhance'];
-    $scope.selectedValue = 'enhances';
+    $scope.selectedValue = 'enhance';
 
   
   }]);
