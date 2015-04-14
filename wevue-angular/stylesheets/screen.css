@@ -589,6 +589,24 @@ h3.list-title2 {
   color: #6c747b;
 }
 
+/* line 26, ../sass/partials/_promote.sass */
+.salmon {
+  color: #3f474f;
+  display: block;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  height: 33px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  margin-bottom: 35px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* line 1, ../sass/partials/_capture.sass */
 section#features-3 li:before {
   color: #1f5f6c;
