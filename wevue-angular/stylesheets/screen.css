@@ -155,7 +155,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-size: 36px;
   color: #3b4044;
   line-height: 65px;
-  padding-top: 8%;
+  padding: 8%;
 }
 
 /* line 45, ../sass/partials/_sign-up.sass */
@@ -168,7 +168,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   line-height: 66px;
   min-height: 350px;
   text-align: center;
-  padding-top: 10%;
+  padding: 10%;
 }
 
 /* line 57, ../sass/partials/_sign-up.sass */
@@ -504,38 +504,43 @@ h3.list-title2 {
 /* line 74, ../sass/partials/_features.sass */
 .feature-1-title {
   margin: 0 0 35px;
-  text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+  font-size: 30px;
+  font-weight: bold;
+  height: 33px;
   letter-spacing: 1px;
+  line-height: 33px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
-/* line 81, ../sass/partials/_features.sass */
+/* line 86, ../sass/partials/_features.sass */
 .blue-text {
   color: #219ab3;
 }
 
-/* line 83, ../sass/partials/_features.sass */
+/* line 88, ../sass/partials/_features.sass */
 .blue-text-med {
   color: #1c8296;
 }
 
-/* line 85, ../sass/partials/_features.sass */
+/* line 90, ../sass/partials/_features.sass */
 .blue-text-light {
   color: #e4fffa;
 }
 
-/* line 89, ../sass/partials/_features.sass */
+/* line 94, ../sass/partials/_features.sass */
 li.li {
   font-size: 1.5em;
 }
 
-/* line 92, ../sass/partials/_features.sass */
+/* line 97, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 95, ../sass/partials/_features.sass */
+/* line 100, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", sans-serif;
   list-style: none;
