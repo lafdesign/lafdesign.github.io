@@ -93,12 +93,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .story {
   background-color: #e6e6e6;
   width: 100%;
+}
+
+/* line 4, ../sass/partials/_story.sass */
+.story h2 {
   width: 50%;
   left: 25%;
   position: relative;
 }
 
-/* line 8, ../sass/partials/_story.sass */
+/* line 9, ../sass/partials/_story.sass */
 .story p {
   background-color: #e6e6e6;
   padding-top: 40px;
@@ -112,7 +116,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-bottom: 15px;
 }
 
-/* line 21, ../sass/partials/_story.sass */
+/* line 22, ../sass/partials/_story.sass */
 h4.story-header {
   color: #333333;
   display: block;
