@@ -887,6 +887,13 @@ section#features-3 li {
   }
 }
 
+@media (max-width: 750px) {
+  /* line 78, ../sass/partials/_nav.sass */
+  .navbar-custom {
+    font-size: 0.85em;
+    width: 100%;
+  }
+}
 /* line 4, ../sass/partials/_form-social.sass */
 input {
   border-radius: 5px;
