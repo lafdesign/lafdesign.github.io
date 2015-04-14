@@ -1,5 +1,22 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
  viewBox="71 -129 818 818" enable-background="new 71 -129 818 818" xml:space="preserve">
+
+ <defs>
+ <style type="text/css">
+
+
+
+#circle {
+	fill: #D8D8D8;
+	
+}
+#circle:hover {
+	fill: white;
+	transition: .8s;
+	
+}
+ </style>
+</defs>
 <circle fill="#D8D8D8" stroke="#979797" stroke-miterlimit="10" cx="480" cy="280" r="409"/>
 <path id="arm" opacity="0.76" d="M610.959,323.795c-24.311,4.834-42.531,17.922-55.805,32.544c-1.985-0.489-3.946-0.998-5.896-1.515
 	c0-32.614,0-73.352,0-105.835c-12.449,8.422-24.534,16.598-37.219,25.18c0-8.693,0-16.692,0-25.379

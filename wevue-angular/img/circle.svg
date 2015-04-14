@@ -1,6 +1,24 @@
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	  viewBox="71 -129 818 818" enable-background="new 71 -129 818 818" xml:space="preserve">
+
+
+	  <defs>
+ <style type="text/css">
+
+
+
+#circle {
+	fill: #D8D8D8;
+	
+}
+#circle:hover {
+	fill: white;
+	transition: .8s;
+	
+}
+ </style>
+</defs>
 <circle fill="#D8D8D8" stroke="#979797" stroke-miterlimit="10" cx="480" cy="280" r="409"/>
 <g>
 	
