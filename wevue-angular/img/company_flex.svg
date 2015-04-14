@@ -1,4 +1,4 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg class="svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
  viewBox="71 -129 818 818" enable-background="new 71 -129 818 818" xml:space="preserve">
 
  <defs>
@@ -13,9 +13,19 @@
 #circle3:hover {
 	fill: white;
 	transition: .8s;
-	
+}
+
+#arm {
+	fill: #979797;
+
+}
+
+#arm:hover {
+	fill: none;
+	transition: 1s;
 }
  </style>
+
 </defs>
 <circle id="circle3" stroke="#979797" stroke-miterlimit="10" cx="480" cy="280" r="409"/>
 <path id="arm" opacity="0.76" d="M610.959,323.795c-24.311,4.834-42.531,17.922-55.805,32.544c-1.985-0.489-3.946-0.998-5.896-1.515
