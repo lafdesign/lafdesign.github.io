@@ -242,62 +242,7 @@ body, html {
   width: 100%;
 }
 
-/* line 11, ../sass/partials/_intro.sass */
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-/* line 18, ../sass/partials/_intro.sass */
-.intro_image {
-  width: 100%;
-  margin-bottom: -4px;
-  min-height: 550px;
-}
-
-/* line 23, ../sass/partials/_intro.sass */
-.intro_logo {
-  width: 60%;
-  left: 20%;
-  position: absolute;
-  z-index: 3;
-  top: 90px;
-}
-
-@media (max-width: 750px) {
-  /* line 31, ../sass/partials/_intro.sass */
-  .intro_logo {
-    width: 100%;
-    left: 0;
-  }
-}
-/* line 37, ../sass/partials/_intro.sass */
-.btn {
-  text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-/* line 46, ../sass/partials/_intro.sass */
-.btn-default {
-  border: 1px solid #219ab3;
-  color: white;
-  background-color: transparent;
-}
-
-/* line 52, ../sass/partials/_intro.sass */
-.btn-default:hover,
-.btn-default:focus {
-  border: 1px solid #219ab3;
-  outline: 0;
-  color: black;
-  background-color: #219ab3;
-}
-
-/* line 59, ../sass/partials/_intro.sass */
+/* line 8, ../sass/partials/_intro.sass */
 .elevator {
   font-family: Avenir-Heavy;
   font-size: 36px;
@@ -308,6 +253,56 @@ body, html {
   text-align: center;
   width: 60%;
   left: 20%;
+  margin-bottom: -4px;
+  min-height: 550px;
+}
+
+/* line 21, ../sass/partials/_intro.sass */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 28, ../sass/partials/_intro.sass */
+.intro_logo {
+  width: 60%;
+  left: 20%;
+  position: absolute;
+  z-index: 3;
+  top: 90px;
+}
+
+@media (max-width: 750px) {
+  /* line 36, ../sass/partials/_intro.sass */
+  .intro_logo {
+    width: 100%;
+    left: 0;
+  }
+}
+/* line 42, ../sass/partials/_intro.sass */
+.btn {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 51, ../sass/partials/_intro.sass */
+.btn-default {
+  border: 1px solid #219ab3;
+  color: white;
+  background-color: transparent;
+}
+
+/* line 57, ../sass/partials/_intro.sass */
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #219ab3;
+  outline: 0;
+  color: black;
+  background-color: #219ab3;
 }
 
 /* line 1, ../sass/partials/_team.sass */
