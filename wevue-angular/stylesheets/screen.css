@@ -114,9 +114,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: 300;
   line-height: 30px;
   margin-bottom: 15px;
+  text-align: left;
 }
 
-/* line 22, ../sass/partials/_story.sass */
+/* line 23, ../sass/partials/_story.sass */
 h4.story-header {
   color: #333333;
   display: block;
@@ -125,7 +126,7 @@ h4.story-header {
   font-weight: normal;
   height: 27px;
   line-height: 27.2px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 15px;
 }
 
