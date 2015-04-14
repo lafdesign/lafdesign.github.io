@@ -788,7 +788,10 @@ section#features-3 li {
 }
 
 @media (max-width: 750px) {
-  display: none;
+  /* line 5, ../sass/partials/_nav.sass */
+  .email-input {
+    display: none;
+  }
 }
 /* line 11, ../sass/partials/_nav.sass */
 .nav-container {
