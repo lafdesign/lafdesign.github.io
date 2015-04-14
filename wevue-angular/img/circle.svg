@@ -8,18 +8,18 @@
 
 
 
-#circle {
+#circle1 {
 	fill: #D8D8D8;
 	
 }
-#circle:hover {
+#circle1:hover {
 	fill: white;
 	transition: .8s;
 	
 }
  </style>
 </defs>
-<circle fill="#D8D8D8" stroke="#979797" stroke-miterlimit="10" cx="480" cy="280" r="409"/>
+<circle id="circle1" stroke="#979797" stroke-miterlimit="10" cx="480" cy="280" r="409"/>
 <g>
 	
 		<circle opacity="0.7" fill="none" stroke="#4CE570" stroke-width="7" stroke-miterlimit="10" stroke-dasharray="10,5" enable-background="new    " cx="485.707" cy="265.917" r="197.586"/>
