@@ -67,9 +67,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .container-nav {
   max-width: 960px;
   margin: 0 auto;
+  padding-top: 2%;
 }
 
-/* line 6, ../sass/partials/_footer.sass */
+/* line 7, ../sass/partials/_footer.sass */
 .nav-justify ul {
   list-style-type: none;
   padding: 0;
@@ -77,12 +78,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-align: justify;
 }
 
-/* line 14, ../sass/partials/_footer.sass */
+/* line 15, ../sass/partials/_footer.sass */
 .nav-justify ul li {
   display: inline-block;
 }
 
-/* line 20, ../sass/partials/_footer.sass */
+/* line 21, ../sass/partials/_footer.sass */
 .nav-justify ul:after {
   content: "";
   display: inline-block;
@@ -1055,9 +1056,20 @@ a.email {
 /* line 14, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   margin-top: 4%;
+  font-family: Avenir-Heavy;
+  border-radius: 2px;
+  opacity: 0.9;
+  color: purple;
 }
 
-/* line 17, ../sass/partials/_whatwedo.sass */
+@media(max-width:750px) {
+  /* line 21, ../sass/partials/_whatwedo.sass */
+  .button-im-ready {
+    font-size: 2em;
+  }
+}
+
+/* line 24, ../sass/partials/_whatwedo.sass */
 h1.pitch {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -1069,14 +1081,14 @@ h1.pitch {
 }
 
 @media (max-width: 750px) {
-  /* line 26, ../sass/partials/_whatwedo.sass */
+  /* line 33, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 28px;
   }
 }
-/* line 31, ../sass/partials/_whatwedo.sass */
+/* line 38, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -1088,12 +1100,12 @@ h3.title {
   font-size: 40px;
 }
 
-/* line 40, ../sass/partials/_whatwedo.sass */
+/* line 47, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 43, ../sass/partials/_whatwedo.sass */
+/* line 50, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1105,25 +1117,25 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 54, ../sass/partials/_whatwedo.sass */
+/* line 61, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
 }
 
 @media(max-width:750px) {
-  /* line 59, ../sass/partials/_whatwedo.sass */
+  /* line 66, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
   }
 }
 
-/* line 62, ../sass/partials/_whatwedo.sass */
+/* line 69, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 65, ../sass/partials/_whatwedo.sass */
+/* line 72, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
