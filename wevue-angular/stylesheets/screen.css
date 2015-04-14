@@ -813,6 +813,21 @@ p.contact {
   display: block;
 }
 
+/* line 70, ../sass/partials/_form-social.sass */
+#fade-success {
+  font-size: 30px;
+  font-weight: bold;
+  height: 33px;
+  letter-spacing: 1px;
+  line-height: 33px;
+  margin-bottom: 35px;
+  margin-left: 0px;
+  margin-right: 30px;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* line 1, ../sass/partials/_whatwedo.sass */
 .channel-text {
   font-family: Avenir-Light;
