@@ -994,14 +994,7 @@ section#features-3 li {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 49, ../sass/partials/_nav.sass */
-.navbar-custom .nav li a {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-
-/* line 54, ../sass/partials/_nav.sass */
+/* line 50, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -1010,7 +1003,7 @@ section#features-3 li {
 }
 
 @media(min-width:767px) {
-  /* line 62, ../sass/partials/_nav.sass */
+  /* line 58, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -1021,20 +1014,20 @@ section#features-3 li {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 71, ../sass/partials/_nav.sass */
+  /* line 67, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
     background-color: black;
   }
 
-  /* line 75, ../sass/partials/_nav.sass */
+  /* line 71, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 79, ../sass/partials/_nav.sass */
+  /* line 75, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.83em;
     width: 100%;
