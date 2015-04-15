@@ -1023,7 +1023,7 @@ header {
 }
 
 /* line 68, ../sass/partials/_nav.sass */
-.open > a, .nav .open > a:focus, .nav .open > a:hover {
+.open > a {
   border: 2px solid rgba(255, 255, 255, 0.3);
   background-color: none;
 }
@@ -1040,10 +1040,11 @@ header {
 .navbar-custom .nav li a.active {
   outline: 0;
   border: 2px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
 }
 
 @media(min-width:767px) {
-  /* line 84, ../sass/partials/_nav.sass */
+  /* line 85, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -1052,19 +1053,19 @@ header {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 91, ../sass/partials/_nav.sass */
+  /* line 92, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
   }
 
-  /* line 95, ../sass/partials/_nav.sass */
+  /* line 96, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 99, ../sass/partials/_nav.sass */
+  /* line 100, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.83em;
     width: 100%;
