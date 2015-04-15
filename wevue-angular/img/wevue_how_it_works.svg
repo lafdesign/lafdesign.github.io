@@ -5,19 +5,20 @@
 <style type="text/css">
 	.st0{font-size:75.4068px;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#A3A5A1;}
-	.st2{fill:none;stroke:black;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10.669,10.669;}
+	.st2{fill:none;stroke:#2d2d2d;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10.669,10.669;}
 	.st3{font-size:21.9937px;}
-	.st4{fill:none;stroke:black;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#2d2d2d;stroke-miterlimit:10;}
 	.st5{font-size:28.3069px;}
 	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#898B86;}
 	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#EDEDEB;}
 	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#BDBFBA;}
-	.st9{fill:#black;}
+	.st9{fill:#2d2d2d;}
+	.st9w{fill:white;}
 	.st10{fill:none;}
 	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#969893;}
-	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#black;}
-	.st13{fill:#fff; opacity:0.8;}
-	.st14{font-family:'Avenir-Heavy', sans-serif;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#2d2d2d;}
+	.st13{fill:#fff;}
+	.st14{font-family:'Avenir', sans-serif;}
 	.st15{font-family:'Avenir-Roman', sans-serif;}
 	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#D3D7CF;}
 	.st17{font-size:37.7034px;}
@@ -26,7 +27,7 @@
 <!--<text font-family="Sans" transform="matrix(1 0 0 1 286.9243 55.5347)" class="st9 st14 st0">How it works</text>-->
 <g>
 	<g>
-		<polygon class="st13" points="516.596,217.259 504.992,204.103 452.839,204.103 452.839,217.259 452.839,320.139 595.722,320.139 
+		<polygon class="st13" style="opacity: 0.8;" points="516.596,217.259 504.992,204.103 452.839,204.103 452.839,217.259 452.839,320.139 595.722,320.139 
 			595.722,217.259 		"/>
 		<polygon class="st4" points="516.596,217.259 504.992,204.103 452.839,204.103 452.839,217.259 452.839,320.139 595.722,320.139 
 			595.722,217.259 		"/>
