@@ -459,9 +459,9 @@ body, html {
   width: 70%;
   left: 15%;
   position: relative;
-  padding: 2%;
+  padding: 2% 10%;
   font-size: 1.4em;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 /* line 14, ../sass/partials/_team.sass */
@@ -572,8 +572,9 @@ body, html {
   padding-top: 25px;
   position: relative;
   margin-top: 5px;
-  padding: 7%;
+  padding: 7% 10%;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
 /* line 1, ../sass/partials/_enhance.sass */
@@ -1022,12 +1023,17 @@ header {
 }
 
 /* line 68, ../sass/partials/_nav.sass */
+.open > a, .nav .open > a:focus, .nav .open > a:hover {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 71, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 72, ../sass/partials/_nav.sass */
+/* line 75, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -1036,7 +1042,7 @@ header {
 }
 
 @media(min-width:767px) {
-  /* line 80, ../sass/partials/_nav.sass */
+  /* line 83, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -1045,19 +1051,19 @@ header {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 87, ../sass/partials/_nav.sass */
+  /* line 90, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
   }
 
-  /* line 91, ../sass/partials/_nav.sass */
+  /* line 94, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 95, ../sass/partials/_nav.sass */
+  /* line 98, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.83em;
     width: 100%;
