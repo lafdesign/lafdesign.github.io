@@ -137,9 +137,10 @@ p.story-p {
   line-height: 30px;
   margin-bottom: 15px;
   text-align: left;
+  padding: 2% 8%;
 }
 
-/* line 35, ../sass/partials/_story.sass */
+/* line 36, ../sass/partials/_story.sass */
 h4.story-header {
   color: #333333;
   display: block;
@@ -969,7 +970,13 @@ header {
   padding: 22px 32px;
 }
 
-/* line 33, ../sass/partials/_nav.sass */
+@media (max-width: 750px) {
+  /* line 33, ../sass/partials/_nav.sass */
+  .nav > li > a {
+    padding: 22px 20px;
+  }
+}
+/* line 36, ../sass/partials/_nav.sass */
 .navbar-custom {
   margin-bottom: 0;
   text-transform: uppercase;
@@ -977,35 +984,35 @@ header {
   font-weight: 100;
 }
 
-/* line 40, ../sass/partials/_nav.sass */
+/* line 43, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
 
-/* line 43, ../sass/partials/_nav.sass */
+/* line 46, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-/* line 46, ../sass/partials/_nav.sass */
+/* line 49, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
   color: white;
 }
 
-/* line 51, ../sass/partials/_nav.sass */
+/* line 54, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-/* line 55, ../sass/partials/_nav.sass */
+/* line 58, ../sass/partials/_nav.sass */
 .navbar-custom a {
   color: white;
 }
 
-/* line 58, ../sass/partials/_nav.sass */
+/* line 61, ../sass/partials/_nav.sass */
 .dropdown-menu > li > a {
   font-weight: 200;
   line-height: 1.5;
@@ -1014,13 +1021,13 @@ header {
   font-size: 1.34em;
 }
 
-/* line 65, ../sass/partials/_nav.sass */
+/* line 68, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 69, ../sass/partials/_nav.sass */
+/* line 72, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -1029,30 +1036,28 @@ header {
 }
 
 @media(min-width:767px) {
-  /* line 77, ../sass/partials/_nav.sass */
+  /* line 80, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
     letter-spacing: 1px;
     background: 0 0;
-    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 86, ../sass/partials/_nav.sass */
+  /* line 87, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
   }
 
-  /* line 90, ../sass/partials/_nav.sass */
+  /* line 91, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 94, ../sass/partials/_nav.sass */
+  /* line 95, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.83em;
     width: 100%;
