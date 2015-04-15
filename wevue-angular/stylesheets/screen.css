@@ -558,14 +558,20 @@ h2.feature-1-title {
   top: 40px;
 }
 
-/* line 16, ../sass/partials/_enhance.sass */
+@media (max-width: 750px) {
+  /* line 16, ../sass/partials/_enhance.sass */
+  .list-right {
+    font-size: 0.9em;
+  }
+}
+/* line 18, ../sass/partials/_enhance.sass */
 #features-1 {
   background-color: #36424d;
   height: 740px;
   padding-top: 40px;
 }
 
-/* line 21, ../sass/partials/_enhance.sass */
+/* line 23, ../sass/partials/_enhance.sass */
 .container-android {
   overflow: hidden;
   position: absolute;
@@ -575,14 +581,14 @@ h2.feature-1-title {
   top: 140px;
 }
 
-/* line 29, ../sass/partials/_enhance.sass */
+/* line 31, ../sass/partials/_enhance.sass */
 .phone-android {
   position: relative;
   width: 100%;
   z-index: 2;
 }
 
-/* line 34, ../sass/partials/_enhance.sass */
+/* line 36, ../sass/partials/_enhance.sass */
 .feed-android {
   position: relative;
   width: 100%;
@@ -592,17 +598,17 @@ h2.feature-1-title {
   -webkit-user-select: none;
 }
 
-/* line 42, ../sass/partials/_enhance.sass */
+/* line 44, ../sass/partials/_enhance.sass */
 #inner:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 45, ../sass/partials/_enhance.sass */
+/* line 47, ../sass/partials/_enhance.sass */
 li:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 48, ../sass/partials/_enhance.sass */
+/* line 50, ../sass/partials/_enhance.sass */
 .inner {
   position: absolute;
   overflow: hidden;
@@ -644,6 +650,7 @@ ul.features-list > li:before {
   /* line 23, ../sass/partials/_features.sass */
   .list-left {
     width: 60%;
+    font-size: 0.9em;
   }
 }
 /* line 27, ../sass/partials/_features.sass */
@@ -706,7 +713,15 @@ h3.list-title2 {
   font-size: 2em;
 }
 
-/* line 76, ../sass/partials/_features.sass */
+@media (max-width: 750px) {
+  /* line 75, ../sass/partials/_features.sass */
+  h3.list-title2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+  }
+}
+/* line 82, ../sass/partials/_features.sass */
 .feature-1-title {
   margin: 0 0 35px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -720,32 +735,32 @@ h3.list-title2 {
   text-transform: uppercase;
 }
 
-/* line 88, ../sass/partials/_features.sass */
+/* line 94, ../sass/partials/_features.sass */
 .blue-text {
   color: #219ab3;
 }
 
-/* line 90, ../sass/partials/_features.sass */
+/* line 96, ../sass/partials/_features.sass */
 .blue-text-med {
   color: #1c8296;
 }
 
-/* line 92, ../sass/partials/_features.sass */
+/* line 98, ../sass/partials/_features.sass */
 .blue-text-light {
   color: #e4fffa;
 }
 
-/* line 96, ../sass/partials/_features.sass */
+/* line 102, ../sass/partials/_features.sass */
 li.li {
   font-size: 1.5em;
 }
 
-/* line 99, ../sass/partials/_features.sass */
+/* line 105, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 102, ../sass/partials/_features.sass */
+/* line 108, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", sans-serif;
   list-style: none;
@@ -855,6 +870,15 @@ section#features-3 li {
   text-transform: uppercase;
 }
 
+@media (max-width: 750px) {
+  /* line 30, ../sass/partials/_capture.sass */
+  .list-title2 {
+    margin-top: 110px;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 1.7em;
+  }
+}
 /* line 1, ../sass/partials/_nav.sass */
 .email-input {
   display: inline;
