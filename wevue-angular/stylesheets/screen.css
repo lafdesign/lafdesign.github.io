@@ -1025,15 +1025,16 @@ header {
 /* line 68, ../sass/partials/_nav.sass */
 .open > a, .nav .open > a:focus, .nav .open > a:hover {
   border: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: none;
 }
 
-/* line 71, ../sass/partials/_nav.sass */
+/* line 72, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 75, ../sass/partials/_nav.sass */
+/* line 76, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -1042,7 +1043,7 @@ header {
 }
 
 @media(min-width:767px) {
-  /* line 83, ../sass/partials/_nav.sass */
+  /* line 84, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -1051,19 +1052,19 @@ header {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 90, ../sass/partials/_nav.sass */
+  /* line 91, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
   }
 
-  /* line 94, ../sass/partials/_nav.sass */
+  /* line 95, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 98, ../sass/partials/_nav.sass */
+  /* line 99, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.83em;
     width: 100%;
@@ -1394,21 +1395,26 @@ div.thumbnail {
 .thumbnail-container {
   width: 33%;
   padding: 2%;
+  width: 33%;
+  padding: 0% 5% 4%;
+  margin: 0px -5%;
+  left: 16.5%;
+  position: relative;
 }
 
 @media(max-width:750px) {
-  /* line 132, ../sass/partials/_whatwedo.sass */
+  /* line 137, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
   }
 }
 
-/* line 135, ../sass/partials/_whatwedo.sass */
+/* line 140, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 138, ../sass/partials/_whatwedo.sass */
+/* line 143, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
