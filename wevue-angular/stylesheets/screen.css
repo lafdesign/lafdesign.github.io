@@ -1209,13 +1209,13 @@ a.email {
 }
 
 /* line 8, ../sass/partials/_whatwedo.sass */
-.svg-inline {
+.mobile-svg {
   display: block;
 }
 
 @media(max-width:849px) {
   /* line 12, ../sass/partials/_whatwedo.sass */
-  .svg-inline {
+  .mobile-svg {
     display: none;
   }
 }
