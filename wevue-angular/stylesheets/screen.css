@@ -954,48 +954,53 @@ section#features-3 li {
   opacity: 0.9;
 }
 
-/* line 24, ../sass/partials/_nav.sass */
+/* line 23, ../sass/partials/_nav.sass */
+.nav > li > a {
+  padding: 22px 32px;
+}
+
+/* line 25, ../sass/partials/_nav.sass */
 .navbar-custom {
   margin-bottom: 0;
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 30, ../sass/partials/_nav.sass */
+/* line 31, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
 
-/* line 33, ../sass/partials/_nav.sass */
+/* line 34, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-/* line 36, ../sass/partials/_nav.sass */
+/* line 37, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
   color: white;
 }
 
-/* line 41, ../sass/partials/_nav.sass */
+/* line 42, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-/* line 45, ../sass/partials/_nav.sass */
+/* line 46, ../sass/partials/_nav.sass */
 .navbar-custom a {
   color: white;
 }
 
-/* line 48, ../sass/partials/_nav.sass */
+/* line 49, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 53, ../sass/partials/_nav.sass */
+/* line 54, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -1004,7 +1009,7 @@ section#features-3 li {
 }
 
 @media(min-width:767px) {
-  /* line 61, ../sass/partials/_nav.sass */
+  /* line 62, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -1015,19 +1020,19 @@ section#features-3 li {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 70, ../sass/partials/_nav.sass */
+  /* line 71, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
   }
 
-  /* line 74, ../sass/partials/_nav.sass */
+  /* line 75, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 78, ../sass/partials/_nav.sass */
+  /* line 79, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.83em;
     width: 100%;
