@@ -1259,7 +1259,7 @@ a.email {
 
 /* line 8, ../sass/partials/_whatwedo.sass */
 .svg-mobile {
-  display: initial;
+  display: inline-block;
 }
 
 @media(min-width:849px) {
