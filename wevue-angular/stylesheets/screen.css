@@ -561,17 +561,18 @@ h2.feature-1-title {
 @media (max-width: 750px) {
   /* line 16, ../sass/partials/_enhance.sass */
   .list-right {
+    width: 60%;
     font-size: 0.9em;
   }
 }
-/* line 18, ../sass/partials/_enhance.sass */
+/* line 19, ../sass/partials/_enhance.sass */
 #features-1 {
-  background-color: #36424d;
+  background-colors: #36424d;
   height: 740px;
   padding-top: 40px;
 }
 
-/* line 23, ../sass/partials/_enhance.sass */
+/* line 24, ../sass/partials/_enhance.sass */
 .container-android {
   overflow: hidden;
   position: absolute;
@@ -581,14 +582,20 @@ h2.feature-1-title {
   top: 140px;
 }
 
-/* line 31, ../sass/partials/_enhance.sass */
+@media (max-width: 750px) {
+  /* line 33, ../sass/partials/_enhance.sass */
+  .container-android {
+    top: 270px;
+  }
+}
+/* line 36, ../sass/partials/_enhance.sass */
 .phone-android {
   position: relative;
   width: 100%;
   z-index: 2;
 }
 
-/* line 36, ../sass/partials/_enhance.sass */
+/* line 41, ../sass/partials/_enhance.sass */
 .feed-android {
   position: relative;
   width: 100%;
@@ -598,17 +605,17 @@ h2.feature-1-title {
   -webkit-user-select: none;
 }
 
-/* line 44, ../sass/partials/_enhance.sass */
+/* line 49, ../sass/partials/_enhance.sass */
 #inner:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 47, ../sass/partials/_enhance.sass */
+/* line 52, ../sass/partials/_enhance.sass */
 li:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 50, ../sass/partials/_enhance.sass */
+/* line 55, ../sass/partials/_enhance.sass */
 .inner {
   position: absolute;
   overflow: hidden;
@@ -872,6 +879,12 @@ section#features-3 li {
 
 @media (max-width: 750px) {
   /* line 30, ../sass/partials/_capture.sass */
+  .capture-title {
+    margin-bottom: 65px;
+  }
+}
+@media (max-width: 750px) {
+  /* line 33, ../sass/partials/_capture.sass */
   .list-title2 {
     margin-top: 110px;
     margin-bottom: 50px;
