@@ -1197,6 +1197,30 @@ a.email {
 }
 
 /* line 1, ../sass/partials/_whatwedo.sass */
+.svg-inline {
+  display: none;
+}
+
+@media(min-width:850px) {
+  /* line 5, ../sass/partials/_whatwedo.sass */
+  .svg-inline {
+    display: block;
+  }
+}
+
+/* line 8, ../sass/partials/_whatwedo.sass */
+.svg-inline {
+  display: block;
+}
+
+@media(max-width:849px) {
+  /* line 12, ../sass/partials/_whatwedo.sass */
+  .svg-inline {
+    display: none;
+  }
+}
+
+/* line 15, ../sass/partials/_whatwedo.sass */
 .channel-text {
   font-family: Avenir-Light;
   font-size: 14px;
@@ -1208,13 +1232,13 @@ a.email {
 }
 
 @media(max-width:750px) {
-  /* line 11, ../sass/partials/_whatwedo.sass */
+  /* line 25, ../sass/partials/_whatwedo.sass */
   .channel-text {
     font-size: 20px;
   }
 }
 
-/* line 14, ../sass/partials/_whatwedo.sass */
+/* line 28, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   opacity--webkit-background-clip: border-box;
@@ -1270,13 +1294,13 @@ a.email {
 }
 
 @media(max-width:750px) {
-  /* line 70, ../sass/partials/_whatwedo.sass */
+  /* line 84, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 2em;
   }
 }
 
-/* line 73, ../sass/partials/_whatwedo.sass */
+/* line 87, ../sass/partials/_whatwedo.sass */
 h1.pitch {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -1290,14 +1314,14 @@ h1.pitch {
 }
 
 @media (max-width: 750px) {
-  /* line 84, ../sass/partials/_whatwedo.sass */
+  /* line 98, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 28px;
   }
 }
-/* line 89, ../sass/partials/_whatwedo.sass */
+/* line 103, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -1309,12 +1333,12 @@ h3.title {
   font-size: 40px;
 }
 
-/* line 98, ../sass/partials/_whatwedo.sass */
+/* line 112, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 101, ../sass/partials/_whatwedo.sass */
+/* line 115, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1326,25 +1350,25 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 112, ../sass/partials/_whatwedo.sass */
+/* line 126, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
 }
 
 @media(max-width:750px) {
-  /* line 117, ../sass/partials/_whatwedo.sass */
+  /* line 131, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
   }
 }
 
-/* line 120, ../sass/partials/_whatwedo.sass */
+/* line 134, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 123, ../sass/partials/_whatwedo.sass */
+/* line 137, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
