@@ -99,13 +99,13 @@ footer {
 
 /* line 33, ../sass/partials/_footer.sass */
 .copyright {
-  dissplay: initial;
+  display: initial;
 }
 
 @media (max-width: 750px) {
   /* line 37, ../sass/partials/_footer.sass */
   .copyright {
-    dissplay: none;
+    display: none;
   }
 }
 /* line 1, ../sass/partials/_story.sass */
@@ -1258,13 +1258,13 @@ a.email {
 }
 
 /* line 8, ../sass/partials/_whatwedo.sass */
-.mobile-svg {
-  display: block;
+.svg-mobile {
+  display: initial;
 }
 
-@media(max-width:849px) {
+@media(min-width:849px) {
   /* line 12, ../sass/partials/_whatwedo.sass */
-  .mobile-svg {
+  .svg-mobile {
     display: none;
   }
 }
