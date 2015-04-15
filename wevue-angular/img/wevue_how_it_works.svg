@@ -247,5 +247,5 @@
 <animateTransform attributeName="transform" begin="0.6" attributeType="HML" type="translate" dur="7s" values="50,0;0,-15;0,15;400,360;" repeatCount="indefinite"/>
 </g>
 <rect x="373.712" y="135.672" class="st10" width="388.013" height="92.683"/>
-<text transform="matrix(1 0 0 1 459.7124 164.1753)" class="st9 st15 st17">Your App</text>
+<text transform="matrix(1 0 0 1 441.7124 154.1753)" class="st9 st15 st17">Your App</text>
 </svg>
