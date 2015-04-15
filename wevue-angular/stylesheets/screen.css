@@ -159,15 +159,25 @@ h4.story-header {
 }
 /* line 7, ../sass/partials/_sign-up.sass */
 .how-works-title {
-  display: inline;
-  position: relative;
+  position: absolute;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
-  font-size: 2em;
+  font-size: 3.5em;
   text-align: center;
+  width: 100%;
+  padding-top: 3%;
+  font-weight: 700;
 }
 
-/* line 14, ../sass/partials/_sign-up.sass */
+@media (max-width: 750px) {
+  /* line 17, ../sass/partials/_sign-up.sass */
+  .how-works-title {
+    font-size: 1.9em;
+    padding-top: 0.8%;
+    z-index: 2;
+  }
+}
+/* line 23, ../sass/partials/_sign-up.sass */
 .how-it-works {
   display: block;
   border-left: 35px solid white;
@@ -175,12 +185,12 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 19, ../sass/partials/_sign-up.sass */
+  /* line 28, ../sass/partials/_sign-up.sass */
   .how-it-works {
     display: none;
   }
 }
-/* line 22, ../sass/partials/_sign-up.sass */
+/* line 31, ../sass/partials/_sign-up.sass */
 .amazing-1 {
   background-color: #279dc1;
   width: 100%;
@@ -196,14 +206,14 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 35, ../sass/partials/_sign-up.sass */
+  /* line 44, ../sass/partials/_sign-up.sass */
   .amazing-1 {
     font-size: 17px;
     line-height: 43px;
     padding: 3%;
   }
 }
-/* line 41, ../sass/partials/_sign-up.sass */
+/* line 50, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   background: #f49967;
   border: 1px solid #979797;
@@ -217,13 +227,13 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 52, ../sass/partials/_sign-up.sass */
+  /* line 61, ../sass/partials/_sign-up.sass */
   .amazing-2 {
     text-align: left;
     font-size: 21px;
   }
 }
-/* line 56, ../sass/partials/_sign-up.sass */
+/* line 65, ../sass/partials/_sign-up.sass */
 .intro-1 {
   min-height: 300px;
   text-align: center;
@@ -237,13 +247,13 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 68, ../sass/partials/_sign-up.sass */
+  /* line 77, ../sass/partials/_sign-up.sass */
   .intro-1 {
     font-size: 28px;
     line-height: 42px;
   }
 }
-/* line 73, ../sass/partials/_sign-up.sass */
+/* line 82, ../sass/partials/_sign-up.sass */
 .intro-2 {
   font-family: Avenir-Heavy;
   font-size: 36px;
@@ -255,7 +265,7 @@ h4.story-header {
   padding: 2%;
 }
 
-/* line 84, ../sass/partials/_sign-up.sass */
+/* line 93, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -267,7 +277,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 94, ../sass/partials/_sign-up.sass */
+/* line 103, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -279,7 +289,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 104, ../sass/partials/_sign-up.sass */
+/* line 113, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -333,7 +343,7 @@ h4.story-header {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 156, ../sass/partials/_sign-up.sass */
+/* line 165, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }

@@ -5,12 +5,21 @@
 		display: block
 
 .how-works-title
-	display: inline
-	position: relative
+	position: absolute
 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
 	color: black
-	font-size: 2em
+	font-size: 3.5em
 	text-align: center
+	width: 100%
+	padding-top: 3%
+	font-weight: 700
+@media (max-width: 750px)
+	.how-works-title
+		font-size: 1.9em
+		padding-top: 0.8%
+		z-index: 2
+
+
 .how-it-works
 	display: block
 	border-left: 35px solid white
