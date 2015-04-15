@@ -65,9 +65,7 @@ header
     white-space: nowrap
     font-size: 1.34em
 
-.open > a
-    border: 2px solid rgba(255,255,255,.3)
-    background-color: none
+
 
 .navbar-custom .nav li.active 
     outline: none
@@ -78,9 +76,19 @@ header
 .navbar-custom .nav li a.active 
     outline: 0
     border: 2px solid rgba(255,255,255,.3)
-    box-sizing: border-box
 
-@media(min-width:767px) 
+
+.navbar-custom 
+    background-color: none
+.navbar-custom:active
+    background-color: none
+.navbar-custom:hover
+    background-color: none
+    color: green
+.dropdown-menu
+    background-color: rgb(45, 45, 45)
+
+@media(min-width: 767px) 
 
     .navbar 
         padding: 20px 0
