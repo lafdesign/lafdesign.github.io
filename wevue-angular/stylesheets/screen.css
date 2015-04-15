@@ -372,7 +372,7 @@ body, html {
 
 /* line 15, ../sass/partials/_intro.sass */
 .elevator {
-  font-family: Avenir-Heavy;
+  font-family: Avenir, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
   color: white;
   line-height: 49px;
@@ -380,40 +380,43 @@ body, html {
   min-height: 550px;
   padding-top: 400px;
   margin-top: 60px;
+  font-weight: 200;
 }
 
 @media (max-width: 540px) {
-  /* line 27, ../sass/partials/_intro.sass */
+  /* line 28, ../sass/partials/_intro.sass */
   .elevator {
     padding-top: 250px;
     font-size: 24px;
   }
 }
 @media (max-width: 750px) {
-  /* line 34, ../sass/partials/_intro.sass */
+  /* line 35, ../sass/partials/_intro.sass */
   .elevator {
     padding: 11%;
     padding-top: 339px;
   }
 }
-/* line 42, ../sass/partials/_intro.sass */
+/* line 43, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
   position: absolute;
   z-index: 2;
   top: 90px;
+  padding: 10%;
+  padding-top: 5%;
 }
 
 @media (max-width: 750px) {
-  /* line 50, ../sass/partials/_intro.sass */
+  /* line 53, ../sass/partials/_intro.sass */
   .intro_logo {
     width: 100%;
     left: 0;
     top: 125px;
   }
 }
-/* line 58, ../sass/partials/_intro.sass */
+/* line 61, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -423,14 +426,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 67, ../sass/partials/_intro.sass */
+/* line 70, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 73, ../sass/partials/_intro.sass */
+/* line 76, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
