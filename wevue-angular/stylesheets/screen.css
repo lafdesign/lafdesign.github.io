@@ -208,18 +208,19 @@ h4.story-header {
   font-size: 28px;
   color: white;
   line-height: 55px;
-  padding: 8%;
+  padding: 2% 13%;
+  font-weight: 100;
 }
 
 @media (max-width: 750px) {
-  /* line 44, ../sass/partials/_sign-up.sass */
+  /* line 45, ../sass/partials/_sign-up.sass */
   .amazing-1 {
     font-size: 17px;
     line-height: 43px;
     padding: 3%;
   }
 }
-/* line 50, ../sass/partials/_sign-up.sass */
+/* line 51, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   background: #f49967;
   border: 1px solid #979797;
@@ -233,13 +234,13 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 61, ../sass/partials/_sign-up.sass */
+  /* line 62, ../sass/partials/_sign-up.sass */
   .amazing-2 {
     text-align: left;
     font-size: 21px;
   }
 }
-/* line 65, ../sass/partials/_sign-up.sass */
+/* line 66, ../sass/partials/_sign-up.sass */
 .intro-1 {
   min-height: 300px;
   text-align: center;
@@ -253,13 +254,13 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 77, ../sass/partials/_sign-up.sass */
+  /* line 78, ../sass/partials/_sign-up.sass */
   .intro-1 {
     font-size: 28px;
     line-height: 42px;
   }
 }
-/* line 82, ../sass/partials/_sign-up.sass */
+/* line 83, ../sass/partials/_sign-up.sass */
 .intro-2 {
   font-family: Avenir-Heavy;
   font-size: 36px;
@@ -271,7 +272,7 @@ h4.story-header {
   padding: 2%;
 }
 
-/* line 93, ../sass/partials/_sign-up.sass */
+/* line 94, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -283,7 +284,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 103, ../sass/partials/_sign-up.sass */
+/* line 104, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -295,7 +296,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 113, ../sass/partials/_sign-up.sass */
+/* line 114, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -349,7 +350,7 @@ h4.story-header {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 165, ../sass/partials/_sign-up.sass */
+/* line 166, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
@@ -1005,12 +1006,21 @@ header {
 }
 
 /* line 58, ../sass/partials/_nav.sass */
+.dropdown-menu > li > a {
+  font-weight: 200;
+  line-height: 1.5;
+  color: #333333;
+  white-space: nowrap;
+  font-size: 1.34em;
+}
+
+/* line 65, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 63, ../sass/partials/_nav.sass */
+/* line 70, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -1019,7 +1029,7 @@ header {
 }
 
 @media(min-width:767px) {
-  /* line 71, ../sass/partials/_nav.sass */
+  /* line 78, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -1030,19 +1040,19 @@ header {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 80, ../sass/partials/_nav.sass */
+  /* line 87, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
   }
 
-  /* line 84, ../sass/partials/_nav.sass */
+  /* line 91, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 88, ../sass/partials/_nav.sass */
+  /* line 95, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.83em;
     width: 100%;
@@ -1317,26 +1327,27 @@ a.email {
 
 /* line 87, ../sass/partials/_whatwedo.sass */
 h1.pitch {
-  font-family: Avenir-Heavy;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   font-size: 48px;
   color: white;
   line-height: 56px;
   position: relative;
   display: block;
-  padding: 3%;
+  padding: 2% 3%;
   width: 52%;
   left: 25%;
 }
 
 @media (max-width: 750px) {
-  /* line 98, ../sass/partials/_whatwedo.sass */
+  /* line 99, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 28px;
   }
 }
-/* line 103, ../sass/partials/_whatwedo.sass */
+/* line 104, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -1345,15 +1356,18 @@ h3.title {
 }
 
 @media(max-width:750px) {
-  font-size: 40px;
+  /* line 110, ../sass/partials/_whatwedo.sass */
+  h3.title {
+    font-size: 40px;
+  }
 }
 
-/* line 112, ../sass/partials/_whatwedo.sass */
+/* line 113, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 115, ../sass/partials/_whatwedo.sass */
+/* line 116, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1365,25 +1379,25 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 126, ../sass/partials/_whatwedo.sass */
+/* line 127, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
 }
 
 @media(max-width:750px) {
-  /* line 131, ../sass/partials/_whatwedo.sass */
+  /* line 132, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
   }
 }
 
-/* line 134, ../sass/partials/_whatwedo.sass */
+/* line 135, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 137, ../sass/partials/_whatwedo.sass */
+/* line 138, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
