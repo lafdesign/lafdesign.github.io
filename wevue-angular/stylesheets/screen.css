@@ -97,6 +97,17 @@ footer {
   font-weight: 100;
 }
 
+/* line 33, ../sass/partials/_footer.sass */
+.copyright {
+  dissplay: initial;
+}
+
+@media (max-width: 750px) {
+  /* line 37, ../sass/partials/_footer.sass */
+  .copyright {
+    dissplay: none;
+  }
+}
 /* line 1, ../sass/partials/_story.sass */
 .story {
   background-color: #e6e6e6;
