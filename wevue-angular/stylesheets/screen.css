@@ -269,7 +269,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 97, ../sass/partials/_sign-up.sass */
+/* line 98, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
@@ -1095,17 +1095,19 @@ h1.pitch {
   position: relative;
   display: block;
   padding: 3%;
+  width: 50%;
+  left: 25%;
 }
 
 @media (max-width: 750px) {
-  /* line 33, ../sass/partials/_whatwedo.sass */
+  /* line 35, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 28px;
   }
 }
-/* line 38, ../sass/partials/_whatwedo.sass */
+/* line 40, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -1117,12 +1119,12 @@ h3.title {
   font-size: 40px;
 }
 
-/* line 47, ../sass/partials/_whatwedo.sass */
+/* line 49, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 50, ../sass/partials/_whatwedo.sass */
+/* line 52, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1134,25 +1136,25 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 61, ../sass/partials/_whatwedo.sass */
+/* line 63, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
 }
 
 @media(max-width:750px) {
-  /* line 66, ../sass/partials/_whatwedo.sass */
+  /* line 68, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
   }
 }
 
-/* line 69, ../sass/partials/_whatwedo.sass */
+/* line 71, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 72, ../sass/partials/_whatwedo.sass */
+/* line 74, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
