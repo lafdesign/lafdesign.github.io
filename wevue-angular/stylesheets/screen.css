@@ -1144,12 +1144,13 @@ p.contact {
   text-transform: uppercase;
 }
 
-/* line 94, ../sass/partials/_form-social.sass */
+/* line 95, ../sass/partials/_form-social.sass */
 .social {
   top: 15px;
+  position: relative;
 }
 
-/* line 98, ../sass/partials/_form-social.sass */
+/* line 100, ../sass/partials/_form-social.sass */
 a.email {
   color: #219ab3;
   cursor: auto;
