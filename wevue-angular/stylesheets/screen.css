@@ -785,7 +785,7 @@ ul.list-x li {
 }
 
 /* line 9, ../sass/partials/_features.sass */
-phone-container-x {
+.phone-container-x {
   float: right;
   padding: 0 0 15px 15px;
   opacity: 0.5;
