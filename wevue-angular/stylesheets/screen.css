@@ -391,7 +391,7 @@ body, html {
 }
 
 /* line 13, ../sass/partials/_intro.sass */
-.into-button {
+.intro-button {
   position: relative;
   text-align: center;
   width: 15%;
