@@ -441,8 +441,11 @@ body, html {
 }
 
 @media (max-width: 750px) {
-  width: 50%;
-  left: 25%;
+  /* line 21, ../sass/partials/_intro.sass */
+  .intro-button {
+    width: 50%;
+    left: 25%;
+  }
 }
 /* line 24, ../sass/partials/_intro.sass */
 .elevator {
