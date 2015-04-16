@@ -867,9 +867,10 @@ h3.list-title2 {
     margin-top: 75px;
     margin-bottom: 20px;
     font-size: 1.4em;
+    margin-top: 93px;
   }
 }
-/* line 86, ../sass/partials/_features.sass */
+/* line 87, ../sass/partials/_features.sass */
 .feature-1-title {
   margin: 0 0 35px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -883,32 +884,32 @@ h3.list-title2 {
   text-transform: uppercase;
 }
 
-/* line 98, ../sass/partials/_features.sass */
+/* line 99, ../sass/partials/_features.sass */
 .blue-text {
   color: #219ab3;
 }
 
-/* line 100, ../sass/partials/_features.sass */
+/* line 101, ../sass/partials/_features.sass */
 .blue-text-med {
   color: #1c8296;
 }
 
-/* line 102, ../sass/partials/_features.sass */
+/* line 103, ../sass/partials/_features.sass */
 .blue-text-light {
   color: #e4fffa;
 }
 
-/* line 106, ../sass/partials/_features.sass */
+/* line 107, ../sass/partials/_features.sass */
 li.li {
   font-size: 1.5em;
 }
 
-/* line 109, ../sass/partials/_features.sass */
+/* line 110, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 112, ../sass/partials/_features.sass */
+/* line 113, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", sans-serif;
   list-style: none;
