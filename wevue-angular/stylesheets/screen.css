@@ -721,7 +721,7 @@ h2.feature-1-title {
 @media (max-width: 750px) {
   /* line 24, ../sass/partials/_enhance.sass */
   #features-1 {
-    height: 790px;
+    height: 810px;
   }
 }
 /* line 26, ../sass/partials/_enhance.sass */
@@ -737,7 +737,7 @@ h2.feature-1-title {
 @media (max-width: 750px) {
   /* line 35, ../sass/partials/_enhance.sass */
   .container-android {
-    top: 270px;
+    top: 320px;
   }
 }
 /* line 38, ../sass/partials/_enhance.sass */
@@ -966,7 +966,7 @@ section#features-2 li {
 @media (max-width: 750px) {
   /* line 14, ../sass/partials/_promote.sass */
   #features-2 {
-    height: 900px;
+    height: 925px;
   }
 }
 /* line 17, ../sass/partials/_promote.sass */
@@ -1208,7 +1208,7 @@ header {
 @media (max-width: 750px) {
   /* line 93, ../sass/partials/_nav.sass */
   .navbar-custom {
-    font-size: 0.73em;
+    font-size: 0.93em;
     width: 100%;
   }
 }
@@ -1273,6 +1273,13 @@ header {
   text-align: center;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
+  opacity: 0.95;
+}
+
+/* line 161, ../sass/partials/_nav.sass */
+.button-nav-form:hover {
+  opacity: 1;
+  transition: 0.5s;
 }
 
 /* line 1, ../sass/partials/_form-social.sass */
