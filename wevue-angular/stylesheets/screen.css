@@ -1452,11 +1452,12 @@ a.email {
 @media(max-width:750px) {
   /* line 25, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
-    left: 5.5%;
+    width: 90%;
+    left: 9%;
   }
 }
 
-/* line 28, ../sass/partials/_whatwedo.sass */
+/* line 29, ../sass/partials/_whatwedo.sass */
 h1.pitch {
   font-family: roboto;
   font-weight: 300;
@@ -1472,14 +1473,14 @@ h1.pitch {
 }
 
 @media (max-width: 750px) {
-  /* line 41, ../sass/partials/_whatwedo.sass */
+  /* line 42, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 28px;
   }
 }
-/* line 46, ../sass/partials/_whatwedo.sass */
+/* line 47, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir;
   font-size: 48px;
@@ -1490,18 +1491,18 @@ h3.title {
 }
 
 @media(max-width:750px) {
-  /* line 54, ../sass/partials/_whatwedo.sass */
+  /* line 55, ../sass/partials/_whatwedo.sass */
   h3.title {
     font-size: 40px;
   }
 }
 
-/* line 57, ../sass/partials/_whatwedo.sass */
+/* line 58, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 60, ../sass/partials/_whatwedo.sass */
+/* line 61, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1513,7 +1514,7 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 72, ../sass/partials/_whatwedo.sass */
+/* line 73, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
@@ -1525,14 +1526,14 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 82, ../sass/partials/_whatwedo.sass */
+  /* line 83, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
     left: 0;
   }
 }
 
-/* line 87, ../sass/partials/_whatwedo.sass */
+/* line 88, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   opacity--webkit-background-clip: border-box;
@@ -1588,7 +1589,7 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 143, ../sass/partials/_whatwedo.sass */
+  /* line 144, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 2em;
   }
