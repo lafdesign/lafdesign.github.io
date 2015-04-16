@@ -16,3 +16,16 @@ WeVue is the platform to capture that identity and showcase it to the world. </h
 <button class="intro-button center-block button-1">learn more</button>
  <div ng-include="'templates/whatwedo.html'" ></div>
       <div ng-include="'templates/sign-up.html'" ></div>
+
+
+         <script type="text/javascript">
+  $('a[href^="#"]').on('click', function(event) {
+    var target = $(this.href);
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
+  </script>
