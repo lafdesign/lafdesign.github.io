@@ -164,7 +164,56 @@ h4.story-header {
   margin-top: 15px;
 }
 
-/* line 2, ../sass/partials/_sign-up.sass */
+/* line 1, ../sass/partials/_sign-up.sass */
+.how-it-works-mobile {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  /* line 4, ../sass/partials/_sign-up.sass */
+  .how-it-works-mobile {
+    display: block;
+    border-top: 25px solid white;
+  }
+}
+/* line 8, ../sass/partials/_sign-up.sass */
+.how-works-title {
+  position: absolute;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 3.5em;
+  text-align: center;
+  width: 100%;
+  padding-top: 5%;
+  font-weight: 700;
+}
+
+@media (max-width: 750px) {
+  /* line 18, ../sass/partials/_sign-up.sass */
+  .how-works-title {
+    font-size: 1.9em;
+    padding-top: 0.8%;
+    z-index: 2;
+    border-top: 40px solid white;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+  }
+}
+/* line 26, ../sass/partials/_sign-up.sass */
+.how-it-works {
+  display: block;
+  border-left: 15em solid white;
+  border-right: 15em solid white;
+  border-top: 4em solid white;
+}
+
+@media (max-width: 750px) {
+  /* line 32, ../sass/partials/_sign-up.sass */
+  .how-it-works {
+    display: none;
+  }
+}
+/* line 35, ../sass/partials/_sign-up.sass */
 .amazing-1 {
   background-color: #279dc1;
   width: 100%;
@@ -181,14 +230,14 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 16, ../sass/partials/_sign-up.sass */
+  /* line 49, ../sass/partials/_sign-up.sass */
   .amazing-1 {
     font-size: 17px;
     line-height: 43px;
-    padding: 3%;
+    padding: 7% 10%;
   }
 }
-/* line 22, ../sass/partials/_sign-up.sass */
+/* line 55, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   background: #f49967;
   border: 1px solid #979797;
@@ -202,13 +251,14 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 33, ../sass/partials/_sign-up.sass */
+  /* line 66, ../sass/partials/_sign-up.sass */
   .amazing-2 {
     text-align: left;
     font-size: 21px;
+    padding: 5% 9%;
   }
 }
-/* line 37, ../sass/partials/_sign-up.sass */
+/* line 71, ../sass/partials/_sign-up.sass */
 .intro-1 {
   min-height: 300px;
   text-align: center;
@@ -222,13 +272,13 @@ h4.story-header {
 }
 
 @media (max-width: 750px) {
-  /* line 49, ../sass/partials/_sign-up.sass */
+  /* line 83, ../sass/partials/_sign-up.sass */
   .intro-1 {
     font-size: 28px;
     line-height: 42px;
   }
 }
-/* line 54, ../sass/partials/_sign-up.sass */
+/* line 88, ../sass/partials/_sign-up.sass */
 .intro-2 {
   font-family: Avenir-Heavy;
   font-size: 36px;
@@ -241,7 +291,7 @@ h4.story-header {
   opacity: 0.9;
 }
 
-/* line 66, ../sass/partials/_sign-up.sass */
+/* line 100, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -253,7 +303,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 76, ../sass/partials/_sign-up.sass */
+/* line 110, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -265,7 +315,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 86, ../sass/partials/_sign-up.sass */
+/* line 120, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -319,7 +369,7 @@ h4.story-header {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 138, ../sass/partials/_sign-up.sass */
+/* line 172, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
@@ -1208,40 +1258,11 @@ a.email {
   font-size: 20px;
   height: auto;
   line-height: 32px;
+  position: relative;
+  top: -18px;
 }
 
 /* line 1, ../sass/partials/_whatwedo.sass */
-.svg-inline {
-  display: none;
-}
-
-@media(min-width:850px) {
-  /* line 5, ../sass/partials/_whatwedo.sass */
-  .svg-inline {
-    display: block;
-  }
-}
-
-/* line 8, ../sass/partials/_whatwedo.sass */
-.svg-mobile {
-  display: block;
-}
-
-@media(min-width:849px) {
-  /* line 12, ../sass/partials/_whatwedo.sass */
-  .svg-mobile {
-    display: none;
-  }
-}
-
-@media(min-width:849px) {
-  /* line 18, ../sass/partials/_whatwedo.sass */
-  .svg-mobile3 {
-    display: none;
-  }
-}
-
-/* line 20, ../sass/partials/_whatwedo.sass */
 .channel-text {
   font-family: Avenir-Light, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -1253,20 +1274,20 @@ a.email {
 }
 
 @media(max-width:750px) {
-  /* line 30, ../sass/partials/_whatwedo.sass */
+  /* line 11, ../sass/partials/_whatwedo.sass */
   .channel-text {
     font-size: 20px;
   }
 }
 
 @media(max-width:750px) {
-  /* line 34, ../sass/partials/_whatwedo.sass */
+  /* line 15, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     left: 5.5%;
   }
 }
 
-/* line 36, ../sass/partials/_whatwedo.sass */
+/* line 17, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   opacity--webkit-background-clip: border-box;
@@ -1322,13 +1343,13 @@ a.email {
 }
 
 @media(max-width:750px) {
-  /* line 92, ../sass/partials/_whatwedo.sass */
+  /* line 73, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 2em;
   }
 }
 
-/* line 95, ../sass/partials/_whatwedo.sass */
+/* line 76, ../sass/partials/_whatwedo.sass */
 h1.pitch {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -1343,14 +1364,14 @@ h1.pitch {
 }
 
 @media (max-width: 750px) {
-  /* line 107, ../sass/partials/_whatwedo.sass */
+  /* line 88, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 28px;
   }
 }
-/* line 112, ../sass/partials/_whatwedo.sass */
+/* line 93, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir-Heavy;
   font-size: 48px;
@@ -1359,18 +1380,18 @@ h3.title {
 }
 
 @media(max-width:750px) {
-  /* line 118, ../sass/partials/_whatwedo.sass */
+  /* line 99, ../sass/partials/_whatwedo.sass */
   h3.title {
     font-size: 40px;
   }
 }
 
-/* line 121, ../sass/partials/_whatwedo.sass */
+/* line 102, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 124, ../sass/partials/_whatwedo.sass */
+/* line 105, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1382,7 +1403,7 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 135, ../sass/partials/_whatwedo.sass */
+/* line 116, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
@@ -1394,18 +1415,18 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 145, ../sass/partials/_whatwedo.sass */
+  /* line 126, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
   }
 }
 
-/* line 148, ../sass/partials/_whatwedo.sass */
+/* line 129, ../sass/partials/_whatwedo.sass */
 .svg {
   width: 75%;
 }
 
-/* line 151, ../sass/partials/_whatwedo.sass */
+/* line 132, ../sass/partials/_whatwedo.sass */
 #about {
   display: block;
   background-color: #bd58c0;
