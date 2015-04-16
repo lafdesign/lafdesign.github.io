@@ -217,7 +217,7 @@ h4.story-header {
   font-weight: 700;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 550px) {
   /* line 22, ../sass/partials/_sign-up.sass */
   .how-works-title {
     font-size: 1.9em;
@@ -352,13 +352,19 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 127, ../sass/partials/_sign-up.sass */
+@media (max-width: 750px) {
+  /* line 128, ../sass/partials/_sign-up.sass */
+  .button-1 {
+    margin-bottom: 9%;
+  }
+}
+/* line 131, ../sass/partials/_sign-up.sass */
 .button-1:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 131, ../sass/partials/_sign-up.sass */
+/* line 135, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -370,13 +376,13 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 141, ../sass/partials/_sign-up.sass */
+/* line 145, ../sass/partials/_sign-up.sass */
 .button-2:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 144, ../sass/partials/_sign-up.sass */
+/* line 148, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -430,7 +436,7 @@ h4.story-header {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 196, ../sass/partials/_sign-up.sass */
+/* line 200, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
@@ -575,21 +581,27 @@ body, html {
   font-weight: 200;
 }
 
+/* line 12, ../sass/partials/_team.sass */
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 @media (max-width: 750px) {
-  /* line 15, ../sass/partials/_team.sass */
+  /* line 17, ../sass/partials/_team.sass */
   .team-p {
     width: 100%;
     left: 0;
     font-size: 1.4em;
   }
 }
-/* line 20, ../sass/partials/_team.sass */
+/* line 22, ../sass/partials/_team.sass */
 .section-page h1, .section-page h2 {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 
-/* line 24, ../sass/partials/_team.sass */
+/* line 26, ../sass/partials/_team.sass */
 .section-page h1 {
   font-size: 60px;
 }
@@ -597,12 +609,12 @@ body, html {
 @media (max-width: 600px) {
   font-size: 48px;
 }
-/* line 28, ../sass/partials/_team.sass */
+/* line 30, ../sass/partials/_team.sass */
 .story-head h2, p {
   text-align: center;
 }
 
-/* line 31, ../sass/partials/_team.sass */
+/* line 33, ../sass/partials/_team.sass */
 .section-page h2 {
   font-size: 48px;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -612,27 +624,27 @@ body, html {
 @media (max-width: 600px) {
   font-size: 40px;
 }
-/* line 41, ../sass/partials/_team.sass */
+/* line 43, ../sass/partials/_team.sass */
 #section-team {
   background: #2ea28e;
   color: white;
   padding-top: 50px;
 }
-/* line 47, ../sass/partials/_team.sass */
+/* line 49, ../sass/partials/_team.sass */
 #section-team .head-section h1:after, #section-team .head-section h2:after {
   background: white;
 }
-/* line 51, ../sass/partials/_team.sass */
+/* line 53, ../sass/partials/_team.sass */
 #section-team .person {
   min-height: 510px;
   text-align: center;
   margin-bottom: -100px;
 }
-/* line 55, ../sass/partials/_team.sass */
+/* line 57, ../sass/partials/_team.sass */
 #section-team .person .person-name {
   margin-bottom: 2px;
 }
-/* line 58, ../sass/partials/_team.sass */
+/* line 60, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social {
   position: relative;
   display: inline-block;
@@ -640,24 +652,24 @@ body, html {
   padding: 8px 0 0 0;
   display: inline-block;
 }
-/* line 65, ../sass/partials/_team.sass */
+/* line 67, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li {
   list-style: none;
   display: inline-block;
   margin-bottom: 10px;
 }
-/* line 70, ../sass/partials/_team.sass */
+/* line 72, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li > a {
   color: white;
   font-size: 20px;
   float: left;
   margin-right: 22px;
 }
-/* line 78, ../sass/partials/_team.sass */
+/* line 80, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social > li > a:hover {
   text-decoration: none;
 }
-/* line 83, ../sass/partials/_team.sass */
+/* line 85, ../sass/partials/_team.sass */
 #section-team .person > ul.list-links-social:after {
   content: "";
   height: 1px;
@@ -668,13 +680,13 @@ body, html {
   right: 25%;
   opacity: 0.25;
 }
-/* line 93, ../sass/partials/_team.sass */
+/* line 95, ../sass/partials/_team.sass */
 #section-team .person p.person-description {
   padding-top: 25px;
   position: relative;
   margin-top: 5px;
 }
-/* line 98, ../sass/partials/_team.sass */
+/* line 100, ../sass/partials/_team.sass */
 #section-team .person p.person-description:after {
   content: "";
   height: 2px;
@@ -686,7 +698,7 @@ body, html {
   opacity: 0.25;
 }
 
-/* line 109, ../sass/partials/_team.sass */
+/* line 111, ../sass/partials/_team.sass */
 #section-team .person p.person-description {
   padding-top: 25px;
   position: relative;
