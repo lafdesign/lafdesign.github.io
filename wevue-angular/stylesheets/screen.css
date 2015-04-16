@@ -102,13 +102,19 @@ footer div nav ul li a {
   color: #279dc1;
 }
 
-/* line 34, ../sass/partials/_footer.sass */
+@media (max-width: 750px) {
+  /* line 34, ../sass/partials/_footer.sass */
+  footer div nav ul li a {
+    font-size: 0.8em;
+  }
+}
+/* line 36, ../sass/partials/_footer.sass */
 .copyright {
   display: initial;
 }
 
 @media (max-width: 750px) {
-  /* line 38, ../sass/partials/_footer.sass */
+  /* line 40, ../sass/partials/_footer.sass */
   .copyright {
     display: none;
   }
@@ -1089,7 +1095,7 @@ header {
 @media (max-width: 750px) {
   /* line 30, ../sass/partials/_nav.sass */
   .nav > li > a {
-    padding: 22px 5px;
+    padding: 22px 9px;
   }
 }
 /* line 33, ../sass/partials/_nav.sass */
