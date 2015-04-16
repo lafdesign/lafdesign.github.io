@@ -97,13 +97,18 @@ footer {
   font-weight: 400;
 }
 
-/* line 33, ../sass/partials/_footer.sass */
+/* line 31, ../sass/partials/_footer.sass */
+footer div nav ul li a {
+  color: #279dc1;
+}
+
+/* line 34, ../sass/partials/_footer.sass */
 .copyright {
   display: initial;
 }
 
 @media (max-width: 750px) {
-  /* line 37, ../sass/partials/_footer.sass */
+  /* line 38, ../sass/partials/_footer.sass */
   .copyright {
     display: none;
   }
@@ -279,18 +284,20 @@ h4.story-header {
 }
 /* line 87, ../sass/partials/_sign-up.sass */
 .intro-2 {
-  font-family: Avenir-Heavy;
+  font-family: Avenir;
   font-size: 36px;
-  color: white;
+  color: #f49967;
   min-height: 200px;
   text-align: center;
-  line-height: 66px;
+  line-height: 52px;
   text-align: center;
-  padding: 2%;
+  padding: 12%;
   opacity: 0.9;
+  font-weight: 800;
+  letter-spacing: 4pt;
 }
 
-/* line 99, ../sass/partials/_sign-up.sass */
+/* line 102, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -302,7 +309,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 109, ../sass/partials/_sign-up.sass */
+/* line 112, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -314,7 +321,7 @@ h4.story-header {
   opacity: 0.85;
 }
 
-/* line 119, ../sass/partials/_sign-up.sass */
+/* line 122, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -368,7 +375,7 @@ h4.story-header {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 171, ../sass/partials/_sign-up.sass */
+/* line 174, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
