@@ -19,13 +19,10 @@ WeVue is the platform to capture that identity and showcase it to the world. </h
 
 
          <script type="text/javascript">
-  $('.scrollTop').on('click', function(event) {
-    var target = $(this.href);
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#go-to-form").offset().top
+    }, 2000);
 });
+
   </script>
