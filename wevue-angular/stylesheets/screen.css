@@ -420,13 +420,13 @@ body, html {
   }
 }
 @media (max-width: 750px) {
-  /* line 40, ../sass/partials/_intro.sass */
+  /* line 39, ../sass/partials/_intro.sass */
   .elevator {
     padding: 11%;
     padding-top: 339px;
   }
 }
-/* line 48, ../sass/partials/_intro.sass */
+/* line 43, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
@@ -438,14 +438,14 @@ body, html {
 }
 
 @media (max-width: 750px) {
-  /* line 58, ../sass/partials/_intro.sass */
+  /* line 53, ../sass/partials/_intro.sass */
   .intro_logo {
     width: 100%;
     left: 0;
     top: 125px;
   }
 }
-/* line 66, ../sass/partials/_intro.sass */
+/* line 58, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -455,14 +455,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 75, ../sass/partials/_intro.sass */
+/* line 67, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 81, ../sass/partials/_intro.sass */
+/* line 73, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
@@ -1002,7 +1002,7 @@ header {
   position: fixed;
   z-index: 99;
   height: 61px;
-  background-color: #2d2d2d;
+  background-color: #3f484f;
   opacity: 0.99;
   border-bottom: 3px solid rgba(255, 255, 255, 0.3);
 }
@@ -1403,47 +1403,50 @@ a.email {
 
 /* line 28, ../sass/partials/_whatwedo.sass */
 h1.pitch {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: roboto;
   font-weight: 300;
-  font-size: 48px;
-  color: white;
-  line-height: 56px;
+  font-size: 44px;
+  color: #969595;
+  line-height: 51px;
   position: relative;
   display: block;
   padding: 2% 3%;
-  width: 52%;
-  left: 25%;
+  width: 70%;
+  left: 15%;
+  letter-spacing: 5pt;
 }
 
 @media (max-width: 750px) {
-  /* line 40, ../sass/partials/_whatwedo.sass */
+  /* line 41, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 28px;
   }
 }
-/* line 45, ../sass/partials/_whatwedo.sass */
+/* line 46, ../sass/partials/_whatwedo.sass */
 h3.title {
-  font-family: Avenir-Heavy;
+  font-family: Avenir;
   font-size: 48px;
   color: white;
-  line-height: 66px;
+  line-height: 45px;
+  font-weight: 400;
+  letter-spacing: 3pt;
 }
 
 @media(max-width:750px) {
-  /* line 51, ../sass/partials/_whatwedo.sass */
+  /* line 54, ../sass/partials/_whatwedo.sass */
   h3.title {
     font-size: 40px;
   }
 }
 
-/* line 54, ../sass/partials/_whatwedo.sass */
+/* line 57, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 57, ../sass/partials/_whatwedo.sass */
+/* line 60, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1455,7 +1458,7 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 69, ../sass/partials/_whatwedo.sass */
+/* line 72, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
@@ -1467,14 +1470,14 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 79, ../sass/partials/_whatwedo.sass */
+  /* line 82, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
     left: 0;
   }
 }
 
-/* line 84, ../sass/partials/_whatwedo.sass */
+/* line 87, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   opacity--webkit-background-clip: border-box;
@@ -1530,7 +1533,7 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 140, ../sass/partials/_whatwedo.sass */
+  /* line 143, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 2em;
   }
