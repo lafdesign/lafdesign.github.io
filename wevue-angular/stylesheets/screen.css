@@ -1141,23 +1141,28 @@ form {
   padding: 5%;
 }
 
-/* line 34, ../sass/partials/_form-social.sass */
+/* line 33, ../sass/partials/_form-social.sass */
+.center-text {
+  text-align: center;
+}
+
+/* line 36, ../sass/partials/_form-social.sass */
 div.form-area {
   width: 50%;
 }
 
 @media (max-width: 750px) {
-  /* line 37, ../sass/partials/_form-social.sass */
+  /* line 39, ../sass/partials/_form-social.sass */
   div.form-area {
     width: 100%;
   }
 }
-/* line 40, ../sass/partials/_form-social.sass */
+/* line 42, ../sass/partials/_form-social.sass */
 .form-control {
   color: #219ab3;
 }
 
-/* line 42, ../sass/partials/_form-social.sass */
+/* line 44, ../sass/partials/_form-social.sass */
 #contact {
   background-color: #36424d;
   padding-bottom: 20px;
@@ -1165,7 +1170,7 @@ div.form-area {
   padding-top: 3%;
 }
 
-/* line 48, ../sass/partials/_form-social.sass */
+/* line 50, ../sass/partials/_form-social.sass */
 h2#fade-success {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -1175,7 +1180,7 @@ h2#fade-success {
   color: white;
 }
 
-/* line 56, ../sass/partials/_form-social.sass */
+/* line 58, ../sass/partials/_form-social.sass */
 p.contact {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -1187,14 +1192,14 @@ p.contact {
 }
 
 @media (max-width: 750px) {
-  /* line 65, ../sass/partials/_form-social.sass */
+  /* line 67, ../sass/partials/_form-social.sass */
   p.contact {
     font-weight: 100;
     padding: 6%;
     text-transform: lowercase;
   }
 }
-/* line 70, ../sass/partials/_form-social.sass */
+/* line 72, ../sass/partials/_form-social.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -1205,12 +1210,12 @@ p.contact {
   left: 20%;
 }
 
-/* line 79, ../sass/partials/_form-social.sass */
+/* line 81, ../sass/partials/_form-social.sass */
 .success-display {
   display: block;
 }
 
-/* line 82, ../sass/partials/_form-social.sass */
+/* line 84, ../sass/partials/_form-social.sass */
 #fade-success {
   font-size: 30px;
   font-weight: bold;
@@ -1225,31 +1230,31 @@ p.contact {
   text-transform: uppercase;
 }
 
-/* line 95, ../sass/partials/_form-social.sass */
+/* line 97, ../sass/partials/_form-social.sass */
 .social {
   top: 15px;
   position: relative;
 }
 
-/* line 99, ../sass/partials/_form-social.sass */
+/* line 101, ../sass/partials/_form-social.sass */
 .inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 104, ../sass/partials/_form-social.sass */
+/* line 106, ../sass/partials/_form-social.sass */
 i.inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 108, ../sass/partials/_form-social.sass */
+/* line 110, ../sass/partials/_form-social.sass */
 i:hover {
   text-shadow: none;
   color: initial;
 }
 
-/* line 114, ../sass/partials/_form-social.sass */
+/* line 116, ../sass/partials/_form-social.sass */
 a.email {
   color: #219ab3;
   cursor: auto;
