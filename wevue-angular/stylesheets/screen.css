@@ -718,35 +718,42 @@ ul.features-list > li:before {
   .list-left {
     width: 60%;
     font-size: 0.9em;
+    left: 1.5%;
   }
 }
-/* line 27, ../sass/partials/_features.sass */
+/* line 28, ../sass/partials/_features.sass */
 .i-phone {
   left: -0.4%;
   top: -42px;
 }
 
-/* line 31, ../sass/partials/_features.sass */
+/* line 32, ../sass/partials/_features.sass */
 .iphone-container {
   position: relative;
   width: 30%;
   left: 60%;
 }
 
-/* line 36, ../sass/partials/_features.sass */
+@media (max-width: 750px) {
+  /* line 37, ../sass/partials/_features.sass */
+  .iphone-container {
+    left: 51%;
+  }
+}
+/* line 40, ../sass/partials/_features.sass */
 .iphone-frame {
   position: absolute;
   width: 100%;
 }
 
-/* line 40, ../sass/partials/_features.sass */
+/* line 44, ../sass/partials/_features.sass */
 .iphone-inner {
   position: absolute;
   width: 87%;
   left: 12.6%;
 }
 
-/* line 45, ../sass/partials/_features.sass */
+/* line 49, ../sass/partials/_features.sass */
 .iphone-screenshot {
   position: absolute;
   width: 100%;
@@ -754,7 +761,7 @@ ul.features-list > li:before {
   left: 51%;
 }
 
-/* line 51, ../sass/partials/_features.sass */
+/* line 55, ../sass/partials/_features.sass */
 h3.list-title {
   color: white;
   text-align: left;
@@ -773,21 +780,21 @@ h3.list-title {
   width: 100%;
 }
 
-/* line 71, ../sass/partials/_features.sass */
+/* line 75, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
   font-size: 2em;
 }
 
 @media (max-width: 750px) {
-  /* line 75, ../sass/partials/_features.sass */
+  /* line 79, ../sass/partials/_features.sass */
   h3.list-title2 {
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 1.4em;
   }
 }
-/* line 82, ../sass/partials/_features.sass */
+/* line 86, ../sass/partials/_features.sass */
 .feature-1-title {
   margin: 0 0 35px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -801,32 +808,32 @@ h3.list-title2 {
   text-transform: uppercase;
 }
 
-/* line 94, ../sass/partials/_features.sass */
+/* line 98, ../sass/partials/_features.sass */
 .blue-text {
   color: #219ab3;
 }
 
-/* line 96, ../sass/partials/_features.sass */
+/* line 100, ../sass/partials/_features.sass */
 .blue-text-med {
   color: #1c8296;
 }
 
-/* line 98, ../sass/partials/_features.sass */
+/* line 102, ../sass/partials/_features.sass */
 .blue-text-light {
   color: #e4fffa;
 }
 
-/* line 102, ../sass/partials/_features.sass */
+/* line 106, ../sass/partials/_features.sass */
 li.li {
   font-size: 1.5em;
 }
 
-/* line 105, ../sass/partials/_features.sass */
+/* line 109, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 108, ../sass/partials/_features.sass */
+/* line 112, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", sans-serif;
   list-style: none;
@@ -942,8 +949,14 @@ section#features-3 li {
     margin-bottom: 65px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   /* line 33, ../sass/partials/_capture.sass */
+  .capture-title {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 750px) {
+  /* line 37, ../sass/partials/_capture.sass */
   .list-title2 {
     margin-top: 110px;
     margin-bottom: 50px;
