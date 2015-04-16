@@ -402,40 +402,39 @@ body, html {
   text-align: center;
   width: 15%;
   left: 42.5%;
-  top: -145px;
+  top: -155px;
 }
 
 /* line 19, ../sass/partials/_intro.sass */
 .elevator {
-  font-family: Avenir, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Avenir-Heavy, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: white;
-  line-height: 40px;
+  line-height: 33px;
   text-align: left;
-  min-height: 600px;
+  min-height: 400px;
   padding-top: 230px;
   margin-top: 60px;
-  font-weight: 400;
-  padding-left: 21%;
+  font-weight: 200;
+  padding-left: 18%;
   margin-bottom: -102px;
-  letter-spacing: 0pt;
 }
 
 @media (max-width: 540px) {
-  /* line 35, ../sass/partials/_intro.sass */
+  /* line 34, ../sass/partials/_intro.sass */
   .elevator {
     padding-top: 250px;
     font-size: 24px;
   }
 }
 @media (max-width: 750px) {
-  /* line 41, ../sass/partials/_intro.sass */
+  /* line 40, ../sass/partials/_intro.sass */
   .elevator {
     padding: 11%;
     padding-top: 339px;
   }
 }
-/* line 45, ../sass/partials/_intro.sass */
+/* line 44, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
@@ -447,14 +446,14 @@ body, html {
 }
 
 @media (max-width: 750px) {
-  /* line 55, ../sass/partials/_intro.sass */
+  /* line 54, ../sass/partials/_intro.sass */
   .intro_logo {
     width: 100%;
     left: 0;
     top: 125px;
   }
 }
-/* line 60, ../sass/partials/_intro.sass */
+/* line 59, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -464,14 +463,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 69, ../sass/partials/_intro.sass */
+/* line 68, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 75, ../sass/partials/_intro.sass */
+/* line 74, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
