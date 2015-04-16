@@ -450,10 +450,15 @@ body, html {
   /* line 40, ../sass/partials/_intro.sass */
   .elevator {
     padding: 11%;
-    padding-top: 339px;
+    padding-top: 158px;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 6%;
+    margin-top: 60px;
+    line-height: 25px;
   }
 }
-/* line 44, ../sass/partials/_intro.sass */
+/* line 48, ../sass/partials/_intro.sass */
 .intro_logo {
   width: 60%;
   left: 20%;
@@ -465,14 +470,14 @@ body, html {
 }
 
 @media (max-width: 750px) {
-  /* line 54, ../sass/partials/_intro.sass */
+  /* line 58, ../sass/partials/_intro.sass */
   .intro_logo {
     width: 100%;
     left: 0;
-    top: 125px;
+    top: 52px;
   }
 }
-/* line 59, ../sass/partials/_intro.sass */
+/* line 63, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -482,14 +487,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 68, ../sass/partials/_intro.sass */
+/* line 72, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 74, ../sass/partials/_intro.sass */
+/* line 78, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
