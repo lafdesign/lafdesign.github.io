@@ -832,20 +832,28 @@ ul.features-list > li:before {
     left: 51%;
   }
 }
-/* line 50, ../sass/partials/_features.sass */
+@media (max-width: 750px) {
+  /* line 51, ../sass/partials/_features.sass */
+  .iphone-container {
+    left: 43%;
+    width: 41%;
+    top: 99px;
+  }
+}
+/* line 56, ../sass/partials/_features.sass */
 .iphone-frame {
   position: absolute;
   width: 100%;
 }
 
-/* line 54, ../sass/partials/_features.sass */
+/* line 60, ../sass/partials/_features.sass */
 .iphone-inner {
   position: absolute;
   width: 87%;
   left: 12.6%;
 }
 
-/* line 59, ../sass/partials/_features.sass */
+/* line 65, ../sass/partials/_features.sass */
 .iphone-screenshot {
   position: absolute;
   width: 100%;
@@ -853,7 +861,7 @@ ul.features-list > li:before {
   left: 51%;
 }
 
-/* line 65, ../sass/partials/_features.sass */
+/* line 71, ../sass/partials/_features.sass */
 h3.list-title {
   color: white;
   text-align: left;
@@ -872,14 +880,14 @@ h3.list-title {
   width: 100%;
 }
 
-/* line 85, ../sass/partials/_features.sass */
+/* line 91, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
   font-size: 2em;
 }
 
 @media (max-width: 750px) {
-  /* line 89, ../sass/partials/_features.sass */
+  /* line 95, ../sass/partials/_features.sass */
   h3.list-title2 {
     margin-top: 75px;
     margin-bottom: 20px;
@@ -887,7 +895,7 @@ h3.list-title2 {
     margin-top: 93px;
   }
 }
-/* line 97, ../sass/partials/_features.sass */
+/* line 103, ../sass/partials/_features.sass */
 .feature-1-title {
   margin: 0 0 35px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -901,32 +909,32 @@ h3.list-title2 {
   text-transform: uppercase;
 }
 
-/* line 109, ../sass/partials/_features.sass */
+/* line 115, ../sass/partials/_features.sass */
 .blue-text {
   color: #219ab3;
 }
 
-/* line 111, ../sass/partials/_features.sass */
+/* line 117, ../sass/partials/_features.sass */
 .blue-text-med {
   color: #1c8296;
 }
 
-/* line 113, ../sass/partials/_features.sass */
+/* line 119, ../sass/partials/_features.sass */
 .blue-text-light {
   color: #e4fffa;
 }
 
-/* line 117, ../sass/partials/_features.sass */
+/* line 123, ../sass/partials/_features.sass */
 li.li {
   font-size: 1.5em;
 }
 
-/* line 120, ../sass/partials/_features.sass */
+/* line 126, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 123, ../sass/partials/_features.sass */
+/* line 129, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", sans-serif;
   list-style: none;
@@ -1023,7 +1031,13 @@ section#features-3 li {
     height: 780px;
   }
 }
-/* line 15, ../sass/partials/_capture.sass */
+@media (max-width: 550px) {
+  /* line 16, ../sass/partials/_capture.sass */
+  #features-3 {
+    height: 840px;
+  }
+}
+/* line 18, ../sass/partials/_capture.sass */
 .capture-title {
   box-sizing: border-box;
   color: #3f474f;
@@ -1043,19 +1057,19 @@ section#features-3 li {
 }
 
 @media (max-width: 750px) {
-  /* line 33, ../sass/partials/_capture.sass */
+  /* line 36, ../sass/partials/_capture.sass */
   .capture-title {
     margin-bottom: 65px;
   }
 }
 @media (max-width: 650px) {
-  /* line 36, ../sass/partials/_capture.sass */
+  /* line 39, ../sass/partials/_capture.sass */
   .capture-title {
     margin-bottom: 100px;
   }
 }
 @media (max-width: 750px) {
-  /* line 40, ../sass/partials/_capture.sass */
+  /* line 43, ../sass/partials/_capture.sass */
   .list-title2 {
     margin-top: 110px;
     margin-bottom: 50px;
