@@ -151,9 +151,17 @@ p.sub-header-story {
   font-weight: 300;
   line-height: 30px;
   margin-bottom: 15px;
+  font-size: 19px;
 }
 
-/* line 26, ../sass/partials/_story.sass */
+@media (max-width: 750px) {
+  /* line 29, ../sass/partials/_story.sass */
+  p.sub-header-story {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+/* line 32, ../sass/partials/_story.sass */
 p.story-p {
   background-color: #e6e6e6;
   padding-top: 40px;
@@ -169,7 +177,7 @@ p.story-p {
   padding: 2% 8%;
 }
 
-/* line 41, ../sass/partials/_story.sass */
+/* line 47, ../sass/partials/_story.sass */
 h4.story-header {
   color: #333333;
   display: block;
@@ -1374,7 +1382,7 @@ p.contact {
     padding: 6%;
     text-transform: lowercase;
     position: relative;
-    top: -22px;
+    top: 22px;
   }
 }
 /* line 88, ../sass/partials/_form-social.sass */
