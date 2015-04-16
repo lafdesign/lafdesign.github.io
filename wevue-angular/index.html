@@ -53,6 +53,7 @@
       <footer ng-include="'templates/footer.html'"></footer>
     </div>
   </body>
+
   <!-- Angular -->
   <script src="http://laf.land/wevue-angular/js/app.js"></script>
   <script src="http://laf.land/wevue-angular/js/controllers/aboutCtrl.js"></script>
@@ -68,4 +69,16 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script type="text/javascript">
+  $('a[href^="#"]').on('click', function(event) {
+    var target = $(this.href);
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
+  </script>
 </html>
