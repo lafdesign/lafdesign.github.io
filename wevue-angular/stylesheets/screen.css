@@ -324,7 +324,7 @@ h4.story-header {
   -webkit-user-select: none;
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: #4386fc;
+  background-color: #279dc1;
   background-image: none;
   background-origin: padding-box;
   background-size: auto;
@@ -759,7 +759,6 @@ h3.list-title {
   color: white;
   text-align: left;
   position: relative;
-  z-index: 10;
   text-transform: lowercase;
   display: block;
   font-family: Roboto, sans-serif;
@@ -981,10 +980,10 @@ header {
 .nav-container {
   width: 100%;
   position: fixed;
-  z-index: 3;
+  z-index: 99;
   height: 61px;
   background-color: #2d2d2d;
-  opacity: 0.97;
+  opacity: 0.99;
   border-bottom: 3px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -1402,7 +1401,7 @@ div.thumbnail {
   -webkit-user-select: none;
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: #4386fc;
+  background-color: #279dc1;
   background-image: none;
   background-origin: padding-box;
   background-size: auto;
