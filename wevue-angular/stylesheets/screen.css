@@ -1308,17 +1308,19 @@ p.contact {
   letter-spacing: 1px;
   color: white;
   font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.8pt;
 }
 
 @media (max-width: 750px) {
-  /* line 79, ../sass/partials/_form-social.sass */
+  /* line 81, ../sass/partials/_form-social.sass */
   p.contact {
     font-weight: 100;
     padding: 6%;
     text-transform: lowercase;
   }
 }
-/* line 84, ../sass/partials/_form-social.sass */
+/* line 86, ../sass/partials/_form-social.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -1329,13 +1331,14 @@ p.contact {
   left: 20%;
 }
 
-/* line 93, ../sass/partials/_form-social.sass */
+/* line 95, ../sass/partials/_form-social.sass */
 .success-display {
   display: block;
 }
 
-/* line 96, ../sass/partials/_form-social.sass */
+/* line 98, ../sass/partials/_form-social.sass */
 #fade-success {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
   font-weight: bold;
   height: 33px;
@@ -1349,31 +1352,31 @@ p.contact {
   text-transform: uppercase;
 }
 
-/* line 109, ../sass/partials/_form-social.sass */
+/* line 112, ../sass/partials/_form-social.sass */
 .social {
   top: 15px;
   position: relative;
 }
 
-/* line 113, ../sass/partials/_form-social.sass */
+/* line 116, ../sass/partials/_form-social.sass */
 .inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 118, ../sass/partials/_form-social.sass */
+/* line 121, ../sass/partials/_form-social.sass */
 i.inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 122, ../sass/partials/_form-social.sass */
+/* line 125, ../sass/partials/_form-social.sass */
 i:hover {
   text-shadow: none;
   color: initial;
 }
 
-/* line 128, ../sass/partials/_form-social.sass */
+/* line 131, ../sass/partials/_form-social.sass */
 a.email {
   color: #219ab3;
   cursor: auto;
