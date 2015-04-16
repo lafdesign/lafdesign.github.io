@@ -777,7 +777,21 @@ li:hover .move-up {
   top: 10%;
 }
 
-/* line 1, ../sass/partials/_features.sass */
+/* line 2, ../sass/partials/_features.sass */
+ul.list-x li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid grey;
+}
+
+/* line 7, ../sass/partials/_features.sass */
+phone-container-x {
+  float: right;
+  padding: 0 0 15px 15px;
+  opacity: 0.5;
+  width: 250px;
+}
+
+/* line 21, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   list-style: none;
@@ -787,7 +801,7 @@ ul.features-list > li {
   margin-bottom: 20pt;
 }
 
-/* line 9, ../sass/partials/_features.sass */
+/* line 29, ../sass/partials/_features.sass */
 ul.features-list > li:before {
   position: relative;
   top: 6pt;
@@ -798,7 +812,7 @@ ul.features-list > li:before {
   margin-left: -1.4em;
 }
 
-/* line 18, ../sass/partials/_features.sass */
+/* line 38, ../sass/partials/_features.sass */
 .list-left {
   position: relative;
   padding-top: 4%;
@@ -806,20 +820,20 @@ ul.features-list > li:before {
 }
 
 @media (max-width: 750px) {
-  /* line 23, ../sass/partials/_features.sass */
+  /* line 43, ../sass/partials/_features.sass */
   .list-left {
     width: 60%;
     font-size: 0.9em;
     left: 1.5%;
   }
 }
-/* line 28, ../sass/partials/_features.sass */
+/* line 48, ../sass/partials/_features.sass */
 .i-phone {
   left: -0.4%;
   top: -42px;
 }
 
-/* line 32, ../sass/partials/_features.sass */
+/* line 52, ../sass/partials/_features.sass */
 .iphone-container {
   position: relative;
   width: 30%;
@@ -827,25 +841,25 @@ ul.features-list > li:before {
 }
 
 @media (max-width: 750px) {
-  /* line 37, ../sass/partials/_features.sass */
+  /* line 57, ../sass/partials/_features.sass */
   .iphone-container {
     left: 51%;
   }
 }
-/* line 40, ../sass/partials/_features.sass */
+/* line 60, ../sass/partials/_features.sass */
 .iphone-frame {
   position: absolute;
   width: 100%;
 }
 
-/* line 44, ../sass/partials/_features.sass */
+/* line 64, ../sass/partials/_features.sass */
 .iphone-inner {
   position: absolute;
   width: 87%;
   left: 12.6%;
 }
 
-/* line 49, ../sass/partials/_features.sass */
+/* line 69, ../sass/partials/_features.sass */
 .iphone-screenshot {
   position: absolute;
   width: 100%;
@@ -853,7 +867,7 @@ ul.features-list > li:before {
   left: 51%;
 }
 
-/* line 55, ../sass/partials/_features.sass */
+/* line 75, ../sass/partials/_features.sass */
 h3.list-title {
   color: white;
   text-align: left;
@@ -872,14 +886,14 @@ h3.list-title {
   width: 100%;
 }
 
-/* line 75, ../sass/partials/_features.sass */
+/* line 95, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
   font-size: 2em;
 }
 
 @media (max-width: 750px) {
-  /* line 79, ../sass/partials/_features.sass */
+  /* line 99, ../sass/partials/_features.sass */
   h3.list-title2 {
     margin-top: 75px;
     margin-bottom: 20px;
@@ -887,7 +901,7 @@ h3.list-title2 {
     margin-top: 93px;
   }
 }
-/* line 87, ../sass/partials/_features.sass */
+/* line 107, ../sass/partials/_features.sass */
 .feature-1-title {
   margin: 0 0 35px;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -901,32 +915,32 @@ h3.list-title2 {
   text-transform: uppercase;
 }
 
-/* line 99, ../sass/partials/_features.sass */
+/* line 119, ../sass/partials/_features.sass */
 .blue-text {
   color: #219ab3;
 }
 
-/* line 101, ../sass/partials/_features.sass */
+/* line 121, ../sass/partials/_features.sass */
 .blue-text-med {
   color: #1c8296;
 }
 
-/* line 103, ../sass/partials/_features.sass */
+/* line 123, ../sass/partials/_features.sass */
 .blue-text-light {
   color: #e4fffa;
 }
 
-/* line 107, ../sass/partials/_features.sass */
+/* line 127, ../sass/partials/_features.sass */
 li.li {
   font-size: 1.5em;
 }
 
-/* line 110, ../sass/partials/_features.sass */
+/* line 130, ../sass/partials/_features.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 113, ../sass/partials/_features.sass */
+/* line 133, ../sass/partials/_features.sass */
 ul.features-list > li {
   font-family: "Roboto", sans-serif;
   list-style: none;
