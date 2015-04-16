@@ -1089,84 +1089,86 @@ header {
 }
 /* line 1, ../sass/partials/_form-social.sass */
 #mc_embed_signup {
-  background: white;
   clear: left;
   font: 14px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 2px solid #575f5f;
+  background-color: #2b2b2b;
+  border-radius: 4px;
 }
 
-/* line 5, ../sass/partials/_form-social.sass */
+/* line 7, ../sass/partials/_form-social.sass */
 #mc_embed_signup {
   background: none;
   clear: left;
   font: 14px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 10, ../sass/partials/_form-social.sass */
+/* line 12, ../sass/partials/_form-social.sass */
 input {
   border-radius: 5px;
   color: #219ab3;
 }
 
-/* line 14, ../sass/partials/_form-social.sass */
+/* line 16, ../sass/partials/_form-social.sass */
 input#Name.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 18, ../sass/partials/_form-social.sass */
+/* line 20, ../sass/partials/_form-social.sass */
 input#Email.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 21, ../sass/partials/_form-social.sass */
+/* line 23, ../sass/partials/_form-social.sass */
 input#Email.ng-invalid.ng-dirty:focus {
   border: 1px solid #219ab3;
 }
 
-/* line 25, ../sass/partials/_form-social.sass */
+/* line 27, ../sass/partials/_form-social.sass */
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
   border-bottom: 1px solid gray;
 }
 
-/* line 30, ../sass/partials/_form-social.sass */
+/* line 32, ../sass/partials/_form-social.sass */
 form.ng-invalid > #submit {
   display: none;
 }
 
-/* line 33, ../sass/partials/_form-social.sass */
+/* line 35, ../sass/partials/_form-social.sass */
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
 }
 
-/* line 37, ../sass/partials/_form-social.sass */
+/* line 39, ../sass/partials/_form-social.sass */
 form {
   padding: 5%;
 }
 
-/* line 39, ../sass/partials/_form-social.sass */
+/* line 41, ../sass/partials/_form-social.sass */
 .center-text {
   text-align: center;
 }
 
-/* line 42, ../sass/partials/_form-social.sass */
+/* line 44, ../sass/partials/_form-social.sass */
 div.form-area {
   width: 50%;
 }
 
 @media (max-width: 750px) {
-  /* line 45, ../sass/partials/_form-social.sass */
+  /* line 47, ../sass/partials/_form-social.sass */
   div.form-area {
     width: 100%;
   }
 }
-/* line 48, ../sass/partials/_form-social.sass */
+/* line 50, ../sass/partials/_form-social.sass */
 .form-control {
   color: #219ab3;
 }
 
-/* line 50, ../sass/partials/_form-social.sass */
+/* line 52, ../sass/partials/_form-social.sass */
 #contact {
   background-color: #36424d;
   padding-bottom: 20px;
@@ -1174,7 +1176,7 @@ div.form-area {
   padding-top: 3%;
 }
 
-/* line 56, ../sass/partials/_form-social.sass */
+/* line 58, ../sass/partials/_form-social.sass */
 h2#fade-success {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -1184,7 +1186,7 @@ h2#fade-success {
   color: white;
 }
 
-/* line 64, ../sass/partials/_form-social.sass */
+/* line 66, ../sass/partials/_form-social.sass */
 p.contact {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -1196,14 +1198,14 @@ p.contact {
 }
 
 @media (max-width: 750px) {
-  /* line 73, ../sass/partials/_form-social.sass */
+  /* line 75, ../sass/partials/_form-social.sass */
   p.contact {
     font-weight: 100;
     padding: 6%;
     text-transform: lowercase;
   }
 }
-/* line 78, ../sass/partials/_form-social.sass */
+/* line 80, ../sass/partials/_form-social.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -1214,12 +1216,12 @@ p.contact {
   left: 20%;
 }
 
-/* line 87, ../sass/partials/_form-social.sass */
+/* line 89, ../sass/partials/_form-social.sass */
 .success-display {
   display: block;
 }
 
-/* line 90, ../sass/partials/_form-social.sass */
+/* line 92, ../sass/partials/_form-social.sass */
 #fade-success {
   font-size: 30px;
   font-weight: bold;
@@ -1234,31 +1236,31 @@ p.contact {
   text-transform: uppercase;
 }
 
-/* line 103, ../sass/partials/_form-social.sass */
+/* line 105, ../sass/partials/_form-social.sass */
 .social {
   top: 15px;
   position: relative;
 }
 
-/* line 107, ../sass/partials/_form-social.sass */
+/* line 109, ../sass/partials/_form-social.sass */
 .inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 112, ../sass/partials/_form-social.sass */
+/* line 114, ../sass/partials/_form-social.sass */
 i.inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 116, ../sass/partials/_form-social.sass */
+/* line 118, ../sass/partials/_form-social.sass */
 i:hover {
   text-shadow: none;
   color: initial;
 }
 
-/* line 122, ../sass/partials/_form-social.sass */
+/* line 124, ../sass/partials/_form-social.sass */
 a.email {
   color: #219ab3;
   cursor: auto;
@@ -1376,10 +1378,11 @@ div.thumbnail {
   /* line 79, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
+    left: 0;
   }
 }
 
-/* line 83, ../sass/partials/_whatwedo.sass */
+/* line 84, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   opacity--webkit-background-clip: border-box;
@@ -1435,7 +1438,7 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 139, ../sass/partials/_whatwedo.sass */
+  /* line 140, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 2em;
   }
