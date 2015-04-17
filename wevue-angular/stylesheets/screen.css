@@ -259,13 +259,20 @@ div.wevue_album_widget_image {
     padding-right: 10%;
   }
 }
+@media (max-width: 875px) {
+  /* line 52, ../sass/partials/_sign-up.sass */
+  .how-it-works {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
 @media (max-width: 750px) {
-  /* line 51, ../sass/partials/_sign-up.sass */
+  /* line 56, ../sass/partials/_sign-up.sass */
   .how-it-works {
     display: none;
   }
 }
-/* line 54, ../sass/partials/_sign-up.sass */
+/* line 59, ../sass/partials/_sign-up.sass */
 .amazing-1 {
   background-color: #279dc1;
   width: 100%;
@@ -282,14 +289,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 69, ../sass/partials/_sign-up.sass */
+  /* line 74, ../sass/partials/_sign-up.sass */
   .amazing-1 {
     font-size: 17px;
     line-height: 43px;
     padding: 7% 10%;
   }
 }
-/* line 75, ../sass/partials/_sign-up.sass */
+/* line 80, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #f49967;
@@ -303,14 +310,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 86, ../sass/partials/_sign-up.sass */
+  /* line 91, ../sass/partials/_sign-up.sass */
   .amazing-2 {
     text-align: left;
     font-size: 21px;
     padding: 5% 9%;
   }
 }
-/* line 91, ../sass/partials/_sign-up.sass */
+/* line 96, ../sass/partials/_sign-up.sass */
 .intro-1 {
   min-height: 300px;
   text-align: center;
@@ -323,14 +330,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 102, ../sass/partials/_sign-up.sass */
+  /* line 107, ../sass/partials/_sign-up.sass */
   .intro-1 {
     padding: 14% 4% 4% 1%;
     font-size: 33px;
     line-height: 31px;
   }
 }
-/* line 107, ../sass/partials/_sign-up.sass */
+/* line 112, ../sass/partials/_sign-up.sass */
 .intro-2 {
   font-family: Avenir, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
@@ -346,7 +353,7 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 122, ../sass/partials/_sign-up.sass */
+  /* line 127, ../sass/partials/_sign-up.sass */
   .intro-1 {
     font-family: Avenir;
     font-size: 26px;
@@ -360,7 +367,7 @@ div.wevue_album_widget_image {
     letter-spacing: 2pt;
   }
 }
-/* line 133, ../sass/partials/_sign-up.sass */
+/* line 138, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -373,18 +380,18 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 143, ../sass/partials/_sign-up.sass */
+  /* line 148, ../sass/partials/_sign-up.sass */
   .button-1 {
     margin-bottom: 9%;
   }
 }
-/* line 146, ../sass/partials/_sign-up.sass */
+/* line 151, ../sass/partials/_sign-up.sass */
 .button-1:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 150, ../sass/partials/_sign-up.sass */
+/* line 155, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -396,13 +403,13 @@ div.wevue_album_widget_image {
   opacity: 0.85;
 }
 
-/* line 160, ../sass/partials/_sign-up.sass */
+/* line 165, ../sass/partials/_sign-up.sass */
 .button-2:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 163, ../sass/partials/_sign-up.sass */
+/* line 168, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -456,7 +463,7 @@ div.wevue_album_widget_image {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 215, ../sass/partials/_sign-up.sass */
+/* line 220, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
