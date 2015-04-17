@@ -1686,6 +1686,16 @@ div.thumbnail {
 @media(max-width:750px) {
   /* line 91, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
+    width: 80%;
+    left: 20%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media(max-width:550px) {
+  /* line 97, ../sass/partials/_whatwedo.sass */
+  .thumbnail-container {
     width: 100%;
     left: 0;
     padding: 0;
@@ -1693,7 +1703,7 @@ div.thumbnail {
   }
 }
 
-/* line 98, ../sass/partials/_whatwedo.sass */
+/* line 103, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   -webkit-background-clip: border-box;
@@ -1749,7 +1759,7 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 154, ../sass/partials/_whatwedo.sass */
+  /* line 159, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 21px;
   }
