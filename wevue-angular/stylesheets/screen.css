@@ -202,13 +202,13 @@ div.wevue_album_widget_image {
   top: -50px;
 }
 
-/* line 8, ../sass/partials/_sign-up.sass */
+/* line 9, ../sass/partials/_sign-up.sass */
 .how-it-works-mobile {
   display: none;
 }
 
 @media (max-width: 750px) {
-  /* line 11, ../sass/partials/_sign-up.sass */
+  /* line 12, ../sass/partials/_sign-up.sass */
   .how-it-works-mobile {
     display: block;
     border-top: 25px solid white;
@@ -217,7 +217,7 @@ div.wevue_album_widget_image {
     border-right: 20px solid white;
   }
 }
-/* line 18, ../sass/partials/_sign-up.sass */
+/* line 19, ../sass/partials/_sign-up.sass */
 .how-works-title {
   position: absolute;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -230,7 +230,7 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 550px) {
-  /* line 29, ../sass/partials/_sign-up.sass */
+  /* line 30, ../sass/partials/_sign-up.sass */
   .how-works-title {
     font-size: 1.9em;
     padding-top: 0.8%;
@@ -238,12 +238,12 @@ div.wevue_album_widget_image {
   }
 }
 @media (max-width: 750px) {
-  /* line 35, ../sass/partials/_sign-up.sass */
+  /* line 36, ../sass/partials/_sign-up.sass */
   .how-works-title {
     padding-top: 6.8%;
   }
 }
-/* line 37, ../sass/partials/_sign-up.sass */
+/* line 38, ../sass/partials/_sign-up.sass */
 .how-it-works {
   display: block;
   border-top: 4em solid white;
@@ -253,12 +253,12 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 45, ../sass/partials/_sign-up.sass */
+  /* line 46, ../sass/partials/_sign-up.sass */
   .how-it-works {
     display: none;
   }
 }
-/* line 48, ../sass/partials/_sign-up.sass */
+/* line 49, ../sass/partials/_sign-up.sass */
 .amazing-1 {
   background-color: #279dc1;
   width: 100%;
@@ -275,14 +275,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 63, ../sass/partials/_sign-up.sass */
+  /* line 64, ../sass/partials/_sign-up.sass */
   .amazing-1 {
     font-size: 17px;
     line-height: 43px;
     padding: 7% 10%;
   }
 }
-/* line 69, ../sass/partials/_sign-up.sass */
+/* line 70, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #f49967;
@@ -296,14 +296,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 80, ../sass/partials/_sign-up.sass */
+  /* line 81, ../sass/partials/_sign-up.sass */
   .amazing-2 {
     text-align: left;
     font-size: 21px;
     padding: 5% 9%;
   }
 }
-/* line 85, ../sass/partials/_sign-up.sass */
+/* line 86, ../sass/partials/_sign-up.sass */
 .intro-1 {
   min-height: 300px;
   text-align: center;
@@ -316,14 +316,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 96, ../sass/partials/_sign-up.sass */
+  /* line 97, ../sass/partials/_sign-up.sass */
   .intro-1 {
     padding: 14% 4% 4% 1%;
     font-size: 33px;
     line-height: 31px;
   }
 }
-/* line 101, ../sass/partials/_sign-up.sass */
+/* line 102, ../sass/partials/_sign-up.sass */
 .intro-2 {
   font-family: Avenir, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
@@ -339,7 +339,7 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 116, ../sass/partials/_sign-up.sass */
+  /* line 117, ../sass/partials/_sign-up.sass */
   .intro-1 {
     font-family: Avenir;
     font-size: 26px;
@@ -353,7 +353,7 @@ div.wevue_album_widget_image {
     letter-spacing: 2pt;
   }
 }
-/* line 127, ../sass/partials/_sign-up.sass */
+/* line 128, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -366,18 +366,18 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 137, ../sass/partials/_sign-up.sass */
+  /* line 138, ../sass/partials/_sign-up.sass */
   .button-1 {
     margin-bottom: 9%;
   }
 }
-/* line 140, ../sass/partials/_sign-up.sass */
+/* line 141, ../sass/partials/_sign-up.sass */
 .button-1:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 144, ../sass/partials/_sign-up.sass */
+/* line 145, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -389,13 +389,13 @@ div.wevue_album_widget_image {
   opacity: 0.85;
 }
 
-/* line 154, ../sass/partials/_sign-up.sass */
+/* line 155, ../sass/partials/_sign-up.sass */
 .button-2:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 157, ../sass/partials/_sign-up.sass */
+/* line 158, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -449,7 +449,7 @@ div.wevue_album_widget_image {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 209, ../sass/partials/_sign-up.sass */
+/* line 210, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
@@ -785,7 +785,13 @@ h2.feature-1-title {
     height: 810px;
   }
 }
-/* line 29, ../sass/partials/_enhance.sass */
+@media (max-width: 500px) {
+  /* line 30, ../sass/partials/_enhance.sass */
+  #features-1 {
+    height: 910px;
+  }
+}
+/* line 33, ../sass/partials/_enhance.sass */
 .container-android {
   overflow: hidden;
   position: absolute;
@@ -796,19 +802,19 @@ h2.feature-1-title {
 }
 
 @media (max-width: 750px) {
-  /* line 38, ../sass/partials/_enhance.sass */
+  /* line 42, ../sass/partials/_enhance.sass */
   .container-android {
     top: 320px;
   }
 }
-/* line 41, ../sass/partials/_enhance.sass */
+/* line 45, ../sass/partials/_enhance.sass */
 .phone-android {
   position: relative;
   width: 100%;
   z-index: 2;
 }
 
-/* line 46, ../sass/partials/_enhance.sass */
+/* line 50, ../sass/partials/_enhance.sass */
 .feed-android {
   position: relative;
   width: 100%;
@@ -818,17 +824,17 @@ h2.feature-1-title {
   -webkit-user-select: none;
 }
 
-/* line 54, ../sass/partials/_enhance.sass */
+/* line 58, ../sass/partials/_enhance.sass */
 #inner:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 57, ../sass/partials/_enhance.sass */
+/* line 61, ../sass/partials/_enhance.sass */
 li:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 60, ../sass/partials/_enhance.sass */
+/* line 64, ../sass/partials/_enhance.sass */
 .inner {
   position: absolute;
   overflow: hidden;
@@ -1095,7 +1101,7 @@ section#features-3 li {
 @media (max-width: 550px) {
   /* line 16, ../sass/partials/_capture.sass */
   #features-3 {
-    height: 840px;
+    height: 1040px;
   }
 }
 /* line 18, ../sass/partials/_capture.sass */
