@@ -45,7 +45,7 @@
         <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
   </head>
-  <body id="page-top">
+  <body id="scrollArea" ng-controller="ScrollController">
     <div class="container-fluid" ng-app="app">
       <header ng-include="'templates/nav.html'"></header>
       <div ui-view></div>
@@ -72,27 +72,8 @@
 
 
 <script>
-$.noConflict();
-jQuery( document ).ready(function( $ ) {
+angular.module('anchorScrollExample', [])
 
-$("#button1").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#page-top").offset().top
-    }, 2000);
-});
-$("#button2").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#page-top").offset().top
-    }, 2000);
-});
-$("#button3").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#page-top").offset().top
-    }, 2000);
-});
-
-});
-// Code that uses other library's $ can follow here.
 </script>
       
 
