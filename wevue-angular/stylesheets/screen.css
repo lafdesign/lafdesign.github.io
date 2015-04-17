@@ -1624,7 +1624,7 @@ h1.pitch {
   h1.pitch {
     width: 100%;
     left: 0%;
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 /* line 50, ../sass/partials/_whatwedo.sass */
@@ -1672,8 +1672,16 @@ div.thumbnail {
   position: relative;
 }
 
+@media(max-width:990px) {
+  /* line 87, ../sass/partials/_whatwedo.sass */
+  .thumbnail-container {
+    margin: 0;
+    left: 0;
+  }
+}
+
 @media(max-width:750px) {
-  /* line 86, ../sass/partials/_whatwedo.sass */
+  /* line 91, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
     left: 0;
@@ -1682,7 +1690,7 @@ div.thumbnail {
   }
 }
 
-/* line 93, ../sass/partials/_whatwedo.sass */
+/* line 98, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   -webkit-background-clip: border-box;
@@ -1738,7 +1746,7 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 149, ../sass/partials/_whatwedo.sass */
+  /* line 154, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 2em;
   }
