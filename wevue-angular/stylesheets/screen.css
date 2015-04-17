@@ -568,7 +568,7 @@ body, html {
   .intro_logo {
     width: 100%;
     left: 0;
-    top: 52px;
+    top: 82px;
   }
 }
 @media (max-width: 700px) {
@@ -1052,27 +1052,33 @@ section#features-2 li {
     height: 925px;
   }
 }
-/* line 17, ../sass/partials/_promote.sass */
+@media (max-width: 600px) {
+  /* line 17, ../sass/partials/_promote.sass */
+  #features-2 {
+    height: 1050px;
+  }
+}
+/* line 20, ../sass/partials/_promote.sass */
 .features-section-2 {
   background: #eb7260;
 }
 
-/* line 20, ../sass/partials/_promote.sass */
+/* line 23, ../sass/partials/_promote.sass */
 #phone-2 {
   border: 0px;
 }
 
-/* line 22, ../sass/partials/_promote.sass */
+/* line 25, ../sass/partials/_promote.sass */
 #phone-2:hover {
   border: 1px solid transparent;
 }
 
-/* line 26, ../sass/partials/_promote.sass */
+/* line 29, ../sass/partials/_promote.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 29, ../sass/partials/_promote.sass */
+/* line 32, ../sass/partials/_promote.sass */
 .salmon {
   color: #3f474f;
   display: block;
