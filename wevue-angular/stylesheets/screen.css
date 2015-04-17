@@ -491,11 +491,11 @@ body, html {
   min-width: 120px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1210px) {
   /* line 22, ../sass/partials/_intro.sass */
   .intro-button {
-    width: 40%;
-    left: 30%;
+    width: 30%;
+    left: 35%;
   }
 }
 @media (max-width: 750px) {
