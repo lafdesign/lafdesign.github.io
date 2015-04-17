@@ -1,1 +1,0 @@
-angular.module("app").controller("enhancesCtrl",["$scope",function(e){e.title="enhances",e.items=["intro","team","our-story","capture","promote","enhance"],e.selectedValue="enhances"}]);

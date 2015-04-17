@@ -1,1 +1,0 @@
-angular.module("app").controller("promoteCtrl",["$scope",function(e){e.title="promote",e.items=["intro","team","our-story","capture","promote","enhance"],e.selectedValue="promote"}]);
