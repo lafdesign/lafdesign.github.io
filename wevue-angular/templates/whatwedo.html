@@ -23,8 +23,7 @@
            <a ng-click="gotoBottom()">Go to bottom</a>
            <a id="bottom"></a> You're at the bottom!
          </div>
-       </file>
-       <file name="script.js">
+ <script type="text/javascript">
          angular.module('anchorScrollExample', [])
            .controller('ScrollController', ['$scope', '$location', '$anchorScroll',
              function ($scope, $location, $anchorScroll) {
@@ -36,8 +35,7 @@
                  $anchorScroll();
                };
              }]);
-       </file>
-
+       </script>
 
     <a ui-sref="enhance" ng-click="gotoTop()">
       <div class="pull-left thumbnail-container tumbnail">
