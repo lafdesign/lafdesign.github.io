@@ -571,7 +571,15 @@ body, html {
     top: 52px;
   }
 }
-/* line 82, ../sass/partials/_intro.sass */
+@media (max-width: 700px) {
+  /* line 82, ../sass/partials/_intro.sass */
+  .intro_logo {
+    width: 100%;
+    left: 0;
+    top: 37px;
+  }
+}
+/* line 87, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -581,14 +589,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 91, ../sass/partials/_intro.sass */
+/* line 96, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 97, ../sass/partials/_intro.sass */
+/* line 102, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
@@ -1687,7 +1695,7 @@ div.thumbnail {
   /* line 91, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 80%;
-    left: 20%;
+    left: 10%;
     padding: 0;
     margin: 0;
   }
