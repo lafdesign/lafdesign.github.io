@@ -1114,13 +1114,13 @@ section#features-3 li {
   height: 740px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 450px) {
   /* line 13, ../sass/partials/_capture.sass */
   #features-3 {
     height: 780px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 350px) {
   /* line 16, ../sass/partials/_capture.sass */
   #features-3 {
     height: 1040px;
