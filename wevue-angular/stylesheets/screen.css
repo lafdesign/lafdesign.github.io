@@ -1046,13 +1046,13 @@ section#features-2 li {
   height: 740px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 450px) {
   /* line 14, ../sass/partials/_promote.sass */
   #features-2 {
     height: 925px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 370px) {
   /* line 17, ../sass/partials/_promote.sass */
   #features-2 {
     height: 1050px;
