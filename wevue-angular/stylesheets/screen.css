@@ -196,13 +196,19 @@ div.wevue_album_widget_image {
   height: 180px !important;
 }
 
-/* line 7, ../sass/partials/_sign-up.sass */
+/* line 5, ../sass/partials/_sign-up.sass */
+.wevue_album_widget {
+  position: relative;
+  top: -50px;
+}
+
+/* line 8, ../sass/partials/_sign-up.sass */
 .how-it-works-mobile {
   display: none;
 }
 
 @media (max-width: 750px) {
-  /* line 10, ../sass/partials/_sign-up.sass */
+  /* line 11, ../sass/partials/_sign-up.sass */
   .how-it-works-mobile {
     display: block;
     border-top: 25px solid white;
@@ -211,7 +217,7 @@ div.wevue_album_widget_image {
     border-right: 20px solid white;
   }
 }
-/* line 17, ../sass/partials/_sign-up.sass */
+/* line 18, ../sass/partials/_sign-up.sass */
 .how-works-title {
   position: absolute;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -224,7 +230,7 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 550px) {
-  /* line 28, ../sass/partials/_sign-up.sass */
+  /* line 29, ../sass/partials/_sign-up.sass */
   .how-works-title {
     font-size: 1.9em;
     padding-top: 0.8%;
@@ -232,12 +238,12 @@ div.wevue_album_widget_image {
   }
 }
 @media (max-width: 750px) {
-  /* line 34, ../sass/partials/_sign-up.sass */
+  /* line 35, ../sass/partials/_sign-up.sass */
   .how-works-title {
     padding-top: 6.8%;
   }
 }
-/* line 36, ../sass/partials/_sign-up.sass */
+/* line 37, ../sass/partials/_sign-up.sass */
 .how-it-works {
   display: block;
   border-top: 4em solid white;
@@ -247,12 +253,12 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 44, ../sass/partials/_sign-up.sass */
+  /* line 45, ../sass/partials/_sign-up.sass */
   .how-it-works {
     display: none;
   }
 }
-/* line 47, ../sass/partials/_sign-up.sass */
+/* line 48, ../sass/partials/_sign-up.sass */
 .amazing-1 {
   background-color: #279dc1;
   width: 100%;
@@ -269,14 +275,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 62, ../sass/partials/_sign-up.sass */
+  /* line 63, ../sass/partials/_sign-up.sass */
   .amazing-1 {
     font-size: 17px;
     line-height: 43px;
     padding: 7% 10%;
   }
 }
-/* line 68, ../sass/partials/_sign-up.sass */
+/* line 69, ../sass/partials/_sign-up.sass */
 .amazing-2 {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #f49967;
@@ -290,14 +296,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 79, ../sass/partials/_sign-up.sass */
+  /* line 80, ../sass/partials/_sign-up.sass */
   .amazing-2 {
     text-align: left;
     font-size: 21px;
     padding: 5% 9%;
   }
 }
-/* line 84, ../sass/partials/_sign-up.sass */
+/* line 85, ../sass/partials/_sign-up.sass */
 .intro-1 {
   min-height: 300px;
   text-align: center;
@@ -310,14 +316,14 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 95, ../sass/partials/_sign-up.sass */
+  /* line 96, ../sass/partials/_sign-up.sass */
   .intro-1 {
     padding: 14% 4% 4% 1%;
     font-size: 33px;
     line-height: 31px;
   }
 }
-/* line 100, ../sass/partials/_sign-up.sass */
+/* line 101, ../sass/partials/_sign-up.sass */
 .intro-2 {
   font-family: Avenir, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
@@ -333,7 +339,7 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 115, ../sass/partials/_sign-up.sass */
+  /* line 116, ../sass/partials/_sign-up.sass */
   .intro-1 {
     font-family: Avenir;
     font-size: 26px;
@@ -347,7 +353,7 @@ div.wevue_album_widget_image {
     letter-spacing: 2pt;
   }
 }
-/* line 126, ../sass/partials/_sign-up.sass */
+/* line 127, ../sass/partials/_sign-up.sass */
 .button-1 {
   background: white;
   border: 1px solid #bd58c0;
@@ -360,18 +366,18 @@ div.wevue_album_widget_image {
 }
 
 @media (max-width: 750px) {
-  /* line 136, ../sass/partials/_sign-up.sass */
+  /* line 137, ../sass/partials/_sign-up.sass */
   .button-1 {
     margin-bottom: 9%;
   }
 }
-/* line 139, ../sass/partials/_sign-up.sass */
+/* line 140, ../sass/partials/_sign-up.sass */
 .button-1:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 143, ../sass/partials/_sign-up.sass */
+/* line 144, ../sass/partials/_sign-up.sass */
 .button-2 {
   background: white;
   border: 1px solid #f49967;
@@ -383,13 +389,13 @@ div.wevue_album_widget_image {
   opacity: 0.85;
 }
 
-/* line 153, ../sass/partials/_sign-up.sass */
+/* line 154, ../sass/partials/_sign-up.sass */
 .button-2:hover {
   opacity: 1;
   transition: 0.7s;
 }
 
-/* line 156, ../sass/partials/_sign-up.sass */
+/* line 157, ../sass/partials/_sign-up.sass */
 .button-1, .button-2 {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -443,7 +449,7 @@ div.wevue_album_widget_image {
   text-shadow: rgba(0, 0, 0, 0.07843) 0px -1px 0px;
 }
 
-/* line 208, ../sass/partials/_sign-up.sass */
+/* line 209, ../sass/partials/_sign-up.sass */
 .uppercase {
   text-transform: uppercase;
 }
