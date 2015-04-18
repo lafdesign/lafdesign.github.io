@@ -4,6 +4,4 @@ angular
     $scope.title = "intro";
     $scope.items = ['intro','team','our-story','capture','promote','enhance'];
     $scope.selectedValue = 'intro';
-
-  
   }]);
