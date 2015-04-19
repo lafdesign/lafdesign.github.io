@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 /* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,19 +63,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-@font-face {
-  font-family: "WebSymbolsRegular";
-  src: url("http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.eot");
-  src: url("http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.woff") format("woff"), url("http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont.ttf") format("truetype"), url("http://html5css3demos.bplaced.net/css3-slider-v3/websymbols-regular-webfont#WebSymbolsRegular") format("svg");
-}
-
-/* line 11, ../sass/screen.sass */
+/* line 5, ../sass/screen.sass */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 16, ../sass/screen.sass */
+/* line 10, ../sass/screen.sass */
 body {
   background-image: url(http://subtlepatterns.com/patterns/dark_wall.png);
   background-repeat: repeat;
@@ -84,12 +77,12 @@ body {
   padding: 1px;
 }
 
-/* line 23, ../sass/screen.sass */
+/* line 17, ../sass/screen.sass */
 h1 {
   color: white;
 }
 
-/* line 26, ../sass/screen.sass */
+/* line 20, ../sass/screen.sass */
 #slideshow-wrap {
   display: block;
   width: 230px;
@@ -100,7 +93,7 @@ h1 {
   position: relative;
 }
 
-/* line 36, ../sass/screen.sass */
+/* line 30, ../sass/screen.sass */
 #slideshow-inner {
   width: 100%;
   height: 100%;
@@ -109,7 +102,7 @@ h1 {
   position: relative;
 }
 
-/* line 44, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 #slideshow-inner > ul {
   list-style: none;
   height: 100%;
@@ -120,7 +113,7 @@ h1 {
   transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-/* line 53, ../sass/screen.sass */
+/* line 47, ../sass/screen.sass */
 #slideshow-inner > ul > li {
   width: 20%;
   height: 320px;
@@ -128,13 +121,13 @@ h1 {
   position: relative;
 }
 
-/* line 60, ../sass/screen.sass */
+/* line 54, ../sass/screen.sass */
 #slideshow-inner > ul > li > img {
   margin: auto;
   height: 100%;
 }
 
-/* line 65, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 #slideshow-wrap input[type=radio] {
   position: absolute;
   left: 50%;
@@ -143,7 +136,7 @@ h1 {
   visibility: hidden;
 }
 
-/* line 72, ../sass/screen.sass */
+/* line 66, ../sass/screen.sass */
 #slideshow-wrap label:not(.arrows):not(.show-description-label) {
   position: absolute;
   left: 50%;
@@ -158,82 +151,82 @@ h1 {
   transition: background-color 0.2s;
 }
 
-/* line 85, ../sass/screen.sass */
+/* line 79, ../sass/screen.sass */
 #slideshow-wrap label:not(.arrows):active {
   bottom: -46px;
 }
 
-/* line 88, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-1:checked ~ label[for=button-1] {
   background-color: #646464;
 }
 
-/* line 91, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-2:checked ~ label[for=button-2] {
   background-color: #646464;
 }
 
-/* line 94, ../sass/screen.sass */
+/* line 88, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-3:checked ~ label[for=button-3] {
   background-color: #646464;
 }
 
-/* line 97, ../sass/screen.sass */
+/* line 91, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-4:checked ~ label[for=button-4] {
   background-color: #646464;
 }
 
-/* line 100, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-5:checked ~ label[for=button-5] {
   background-color: #646464;
 }
 
-/* line 104, ../sass/screen.sass */
+/* line 98, ../sass/screen.sass */
 #slideshow-wrap label[for=button-1] {
   margin-left: -36px;
 }
 
-/* line 107, ../sass/screen.sass */
+/* line 101, ../sass/screen.sass */
 #slideshow-wrap label[for=button-2] {
   margin-left: -18px;
 }
 
-/* line 110, ../sass/screen.sass */
+/* line 104, ../sass/screen.sass */
 #slideshow-wrap label[for=button-4] {
   margin-left: 18px;
 }
 
-/* line 113, ../sass/screen.sass */
+/* line 107, ../sass/screen.sass */
 #slideshow-wrap label[for=button-5] {
   margin-left: 36px;
 }
 
-/* line 116, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-1:checked ~ #slideshow-inner > ul {
   left: 0;
 }
 
-/* line 119, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-2:checked ~ #slideshow-inner > ul {
   left: -100%;
 }
 
-/* line 122, ../sass/screen.sass */
+/* line 116, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-3:checked ~ #slideshow-inner > ul {
   left: -200%;
 }
 
-/* line 125, ../sass/screen.sass */
+/* line 119, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-4:checked ~ #slideshow-inner > ul {
   left: -300%;
 }
 
-/* line 128, ../sass/screen.sass */
+/* line 122, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-5:checked ~ #slideshow-inner > ul {
   left: -400%;
 }
 
-/* line 131, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
 label.arrows {
   font-family: "WebSymbolsRegular";
   font-size: 25px;
@@ -250,40 +243,40 @@ label.arrows {
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
 }
 
-/* line 147, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 label.arrows:hover {
   opacity: 1;
 }
 
-/* line 150, ../sass/screen.sass */
+/* line 145, ../sass/screen.sass */
 label.arrows:active, input[type=radio]#button-1:checked ~ .arrows#arrow-2, input[type=radio]#button-2:checked ~ .arrows#arrow-3, input[type=radio]#button-3:checked ~ .arrows#arrow-4, input[type=radio]#button-4:checked ~ .arrows#arrow-5 {
   right: -55px;
   display: block;
 }
 
-/* line 156, ../sass/screen.sass */
+/* line 151, ../sass/screen.sass */
 input[type=radio]#button-2:checked ~ .arrows#arrow-1, input[type=radio]#button-3:checked ~ .arrows#arrow-2, input[type=radio]#button-4:checked ~ .arrows#arrow-3, input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   left: -55px;
   display: block;
   transform: scaleX(-1);
 }
 
-/* line 162, ../sass/screen.sass */
+/* line 157, ../sass/screen.sass */
 input[type=radio]#button-2:checked ~ .arrows#arrow-1 {
   left: -19px;
 }
 
-/* line 165, ../sass/screen.sass */
+/* line 160, ../sass/screen.sass */
 input[type=radio]#button-3:checked ~ .arrows#arrow-2 {
   left: -37px;
 }
 
-/* line 168, ../sass/screen.sass */
+/* line 163, ../sass/screen.sass */
 input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   left: -73px;
 }
 
-/* line 171, ../sass/screen.sass */
+/* line 166, ../sass/screen.sass */
 .description {
   position: absolute;
   top: 0;
@@ -293,12 +286,12 @@ input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   z-index: 1000;
 }
 
-/* line 180, ../sass/screen.sass */
+/* line 175, ../sass/screen.sass */
 .description input {
   visibility: hidden;
 }
 
-/* line 183, ../sass/screen.sass */
+/* line 178, ../sass/screen.sass */
 .description label {
   font-family: "WebSymbolsRegular";
   background-color: ivory;
@@ -321,17 +314,17 @@ input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   color: #141414;
 }
 
-/* line 205, ../sass/screen.sass */
+/* line 200, ../sass/screen.sass */
 #slideshow-inner > ul > li:hover .description label {
   opacity: 1;
 }
 
-/* line 208, ../sass/screen.sass */
+/* line 203, ../sass/screen.sass */
 .description input[type=checkbox]:checked ~ label {
   opacity: 1;
 }
 
-/* line 211, ../sass/screen.sass */
+/* line 206, ../sass/screen.sass */
 .description .description-text {
   background-color: rgba(255, 255, 230, 0.5);
   padding-left: 45px;
@@ -349,7 +342,7 @@ input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   color: #141414;
 }
 
-/* line 228, ../sass/screen.sass */
+/* line 223, ../sass/screen.sass */
 .description input[type=checkbox]:checked ~ .description-text {
   opacity: 1;
 }
