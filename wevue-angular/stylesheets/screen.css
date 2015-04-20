@@ -1043,42 +1043,43 @@ section#features-2 li {
   padding-top: 40px;
   padding-bottom: 50px;
   border-top: 1px solid #ef8b8b;
+  border-bottom: 1px solid #995858;
   height: 640px;
 }
 
 @media (max-width: 450px) {
-  /* line 14, ../sass/partials/_promote.sass */
+  /* line 15, ../sass/partials/_promote.sass */
   #features-2 {
     height: 925px;
   }
 }
 @media (max-width: 370px) {
-  /* line 17, ../sass/partials/_promote.sass */
+  /* line 18, ../sass/partials/_promote.sass */
   #features-2 {
     height: 1050px;
   }
 }
-/* line 20, ../sass/partials/_promote.sass */
+/* line 21, ../sass/partials/_promote.sass */
 .features-section-2 {
   background: #eb7260;
 }
 
-/* line 23, ../sass/partials/_promote.sass */
+/* line 24, ../sass/partials/_promote.sass */
 #phone-2 {
   border: 0px;
 }
 
-/* line 25, ../sass/partials/_promote.sass */
+/* line 26, ../sass/partials/_promote.sass */
 #phone-2:hover {
   border: 1px solid transparent;
 }
 
-/* line 28, ../sass/partials/_promote.sass */
+/* line 29, ../sass/partials/_promote.sass */
 h3.list-title2 {
   color: #6c747b;
 }
 
-/* line 31, ../sass/partials/_promote.sass */
+/* line 32, ../sass/partials/_promote.sass */
 .salmon {
   color: #3f474f;
   display: block;
@@ -1207,6 +1208,14 @@ header {
   }
 }
 /* line 29, ../sass/partials/_nav.sass */
+.nav-form {
+  background-color: #3f484f;
+  overflow: hidden;
+  width: 400px;
+  height: 58px;
+}
+
+/* line 35, ../sass/partials/_nav.sass */
 .nav-container {
   width: 100%;
   position: fixed;
@@ -1217,36 +1226,36 @@ header {
   border-bottom: 3px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 37, ../sass/partials/_nav.sass */
+/* line 43, ../sass/partials/_nav.sass */
 .open > .dropdown-menu {
   opacity: 0.95;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 40, ../sass/partials/_nav.sass */
+/* line 46, ../sass/partials/_nav.sass */
 .nav > li > a {
   padding: 22px 32px;
 }
 
 @media (max-width: 950px) {
-  /* line 43, ../sass/partials/_nav.sass */
+  /* line 49, ../sass/partials/_nav.sass */
   .nav > li > a {
     padding: 22px 20px;
   }
 }
 @media (max-width: 750px) {
-  /* line 46, ../sass/partials/_nav.sass */
+  /* line 52, ../sass/partials/_nav.sass */
   .nav > li > a {
     padding: 22px 9px;
   }
 }
 @media (max-width: 550px) {
-  /* line 49, ../sass/partials/_nav.sass */
+  /* line 55, ../sass/partials/_nav.sass */
   .nav > li > a {
     padding: 22px 5px;
   }
 }
-/* line 52, ../sass/partials/_nav.sass */
+/* line 58, ../sass/partials/_nav.sass */
 .navbar-custom {
   margin-bottom: 0;
   text-transform: uppercase;
@@ -1254,35 +1263,35 @@ header {
   font-weight: 300;
 }
 
-/* line 58, ../sass/partials/_nav.sass */
+/* line 64, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
 
-/* line 61, ../sass/partials/_nav.sass */
+/* line 67, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-/* line 64, ../sass/partials/_nav.sass */
+/* line 70, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
   color: gray;
 }
 
-/* line 69, ../sass/partials/_nav.sass */
+/* line 75, ../sass/partials/_nav.sass */
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-/* line 73, ../sass/partials/_nav.sass */
+/* line 79, ../sass/partials/_nav.sass */
 .navbar-custom a {
   color: #279dc1;
 }
 
-/* line 76, ../sass/partials/_nav.sass */
+/* line 82, ../sass/partials/_nav.sass */
 .dropdown-menu > li > a {
   font-weight: 200;
   line-height: 1.5;
@@ -1291,13 +1300,13 @@ header {
   font-size: 1.34em;
 }
 
-/* line 83, ../sass/partials/_nav.sass */
+/* line 89, ../sass/partials/_nav.sass */
 .navbar-custom .nav li.active {
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 87, ../sass/partials/_nav.sass */
+/* line 93, ../sass/partials/_nav.sass */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
@@ -1305,13 +1314,13 @@ header {
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 93, ../sass/partials/_nav.sass */
+/* line 99, ../sass/partials/_nav.sass */
 .nav > li > a:focus, .nav > li > a:hover {
   background-color: none;
 }
 
 @media(min-width: 767px) {
-  /* line 97, ../sass/partials/_nav.sass */
+  /* line 103, ../sass/partials/_nav.sass */
   .navbar {
     padding: 20px 0;
     border-bottom: 0;
@@ -1320,25 +1329,25 @@ header {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 
-  /* line 104, ../sass/partials/_nav.sass */
+  /* line 110, ../sass/partials/_nav.sass */
   .top-nav-collapse {
     padding: 0;
   }
 
-  /* line 108, ../sass/partials/_nav.sass */
+  /* line 114, ../sass/partials/_nav.sass */
   .navbar-custom.top-nav-collapse {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 @media (max-width: 750px) {
-  /* line 112, ../sass/partials/_nav.sass */
+  /* line 118, ../sass/partials/_nav.sass */
   .navbar-custom {
     font-size: 0.93em;
     width: 100%;
   }
 }
-/* line 121, ../sass/partials/_nav.sass */
+/* line 127, ../sass/partials/_nav.sass */
 .button-form {
   position: relative;
   top: -40px;
@@ -1347,7 +1356,7 @@ header {
   border-radius: 0;
 }
 
-/* line 128, ../sass/partials/_nav.sass */
+/* line 134, ../sass/partials/_nav.sass */
 .button-nav-form {
   -webkit-background-clip: border-box;
   -webkit-background-origin: padding-box;
@@ -1402,7 +1411,7 @@ header {
   opacity: 0.95;
 }
 
-/* line 180, ../sass/partials/_nav.sass */
+/* line 186, ../sass/partials/_nav.sass */
 .button-nav-form:hover {
   opacity: 1;
   transition: 0.5s;
@@ -1434,72 +1443,77 @@ header {
 }
 
 /* line 19, ../sass/partials/_form-social.sass */
+#mce-success-response {
+  color: #f49967;
+}
+
+/* line 22, ../sass/partials/_form-social.sass */
 input {
   border-radius: 5px;
   color: #219ab3;
 }
 
-/* line 23, ../sass/partials/_form-social.sass */
+/* line 26, ../sass/partials/_form-social.sass */
 input#Name.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 27, ../sass/partials/_form-social.sass */
+/* line 30, ../sass/partials/_form-social.sass */
 input#Email.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
 
-/* line 30, ../sass/partials/_form-social.sass */
+/* line 33, ../sass/partials/_form-social.sass */
 input#Email.ng-invalid.ng-dirty:focus {
   border: 1px solid #219ab3;
 }
 
-/* line 34, ../sass/partials/_form-social.sass */
+/* line 37, ../sass/partials/_form-social.sass */
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
   border-bottom: 1px solid gray;
 }
 
-/* line 39, ../sass/partials/_form-social.sass */
+/* line 42, ../sass/partials/_form-social.sass */
 form.ng-invalid > #submit {
   display: none;
 }
 
-/* line 42, ../sass/partials/_form-social.sass */
+/* line 45, ../sass/partials/_form-social.sass */
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset;
   -webkit-text-fill-color: #219ab3;
 }
 
-/* line 46, ../sass/partials/_form-social.sass */
+/* line 49, ../sass/partials/_form-social.sass */
 form {
   padding: 5%;
 }
 
-/* line 48, ../sass/partials/_form-social.sass */
+/* line 51, ../sass/partials/_form-social.sass */
 .center-text {
   text-align: center;
   color: #219aac;
 }
 
-/* line 52, ../sass/partials/_form-social.sass */
+/* line 55, ../sass/partials/_form-social.sass */
 div.form-area {
   width: 50%;
 }
 
 @media (max-width: 750px) {
-  /* line 55, ../sass/partials/_form-social.sass */
+  /* line 58, ../sass/partials/_form-social.sass */
   div.form-area {
     width: 100%;
   }
 }
-/* line 58, ../sass/partials/_form-social.sass */
+/* line 61, ../sass/partials/_form-social.sass */
 .form-control {
   color: #219ab3;
 }
 
-/* line 61, ../sass/partials/_form-social.sass */
+/* line 64, ../sass/partials/_form-social.sass */
 h2#fade-success {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -1509,7 +1523,7 @@ h2#fade-success {
   color: white;
 }
 
-/* line 69, ../sass/partials/_form-social.sass */
+/* line 72, ../sass/partials/_form-social.sass */
 p.contact {
   margin: 0 0 35px;
   text-transform: uppercase;
@@ -1523,7 +1537,7 @@ p.contact {
 }
 
 @media (max-width: 750px) {
-  /* line 80, ../sass/partials/_form-social.sass */
+  /* line 83, ../sass/partials/_form-social.sass */
   p.contact {
     font-weight: 100;
     padding: 6%;
@@ -1532,7 +1546,7 @@ p.contact {
     top: 22px;
   }
 }
-/* line 87, ../sass/partials/_form-social.sass */
+/* line 90, ../sass/partials/_form-social.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -1543,12 +1557,12 @@ p.contact {
   left: 20%;
 }
 
-/* line 96, ../sass/partials/_form-social.sass */
+/* line 99, ../sass/partials/_form-social.sass */
 .success-display {
   display: block;
 }
 
-/* line 99, ../sass/partials/_form-social.sass */
+/* line 102, ../sass/partials/_form-social.sass */
 #fade-success {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
@@ -1564,31 +1578,31 @@ p.contact {
   text-transform: uppercase;
 }
 
-/* line 113, ../sass/partials/_form-social.sass */
+/* line 116, ../sass/partials/_form-social.sass */
 .social {
   top: 15px;
   position: relative;
 }
 
-/* line 117, ../sass/partials/_form-social.sass */
+/* line 120, ../sass/partials/_form-social.sass */
 .inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 122, ../sass/partials/_form-social.sass */
+/* line 125, ../sass/partials/_form-social.sass */
 i.inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 126, ../sass/partials/_form-social.sass */
+/* line 129, ../sass/partials/_form-social.sass */
 i:hover {
   text-shadow: none;
   color: initial;
 }
 
-/* line 130, ../sass/partials/_form-social.sass */
+/* line 133, ../sass/partials/_form-social.sass */
 a.email {
   color: #219ab3;
   cursor: auto;
