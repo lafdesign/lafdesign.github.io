@@ -1568,11 +1568,11 @@ p.contact {
   letter-spacing: 0.8pt;
 }
 
-@media (max-width: 1050px) {
+@media (min-width: 1050px) {
   /* line 83, ../sass/partials/_form-social.sass */
   p.contact {
     position: relative;
-    left: 12%;
+    left: 17%;
     width: 66%;
   }
 }
