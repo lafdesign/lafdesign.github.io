@@ -587,7 +587,15 @@ body, html {
     top: 33px;
   }
 }
-/* line 88, ../sass/partials/_intro.sass */
+@media (max-width: 550px) {
+  /* line 89, ../sass/partials/_intro.sass */
+  .intro_logo {
+    width: 80%;
+    left: 10%;
+    top: 100px;
+  }
+}
+/* line 93, ../sass/partials/_intro.sass */
 .btn {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -597,14 +605,14 @@ body, html {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 96, ../sass/partials/_intro.sass */
+/* line 101, ../sass/partials/_intro.sass */
 .btn-default {
   border: 1px solid #219ab3;
   color: white;
   background-color: transparent;
 }
 
-/* line 101, ../sass/partials/_intro.sass */
+/* line 106, ../sass/partials/_intro.sass */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #219ab3;
@@ -1670,7 +1678,14 @@ a.email {
   min-height: 152px;
 }
 
-/* line 13, ../sass/partials/_whatwedo.sass */
+@media(max-width:750px) {
+  /* line 15, ../sass/partials/_whatwedo.sass */
+  .caption {
+    min-height: 100px;
+  }
+}
+
+/* line 17, ../sass/partials/_whatwedo.sass */
 .channel-text {
   font-family: Avenir-Light, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -1682,21 +1697,21 @@ a.email {
 }
 
 @media(max-width:750px) {
-  /* line 23, ../sass/partials/_whatwedo.sass */
+  /* line 27, ../sass/partials/_whatwedo.sass */
   .channel-text {
     font-size: 20px;
   }
 }
 
 @media(max-width:750px) {
-  /* line 27, ../sass/partials/_whatwedo.sass */
+  /* line 31, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 90%;
     left: 9%;
   }
 }
 
-/* line 31, ../sass/partials/_whatwedo.sass */
+/* line 35, ../sass/partials/_whatwedo.sass */
 h1.pitch {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -1712,14 +1727,14 @@ h1.pitch {
 }
 
 @media (max-width: 750px) {
-  /* line 44, ../sass/partials/_whatwedo.sass */
+  /* line 48, ../sass/partials/_whatwedo.sass */
   h1.pitch {
     width: 100%;
     left: 0%;
     font-size: 20px;
   }
 }
-/* line 49, ../sass/partials/_whatwedo.sass */
+/* line 53, ../sass/partials/_whatwedo.sass */
 h3.title {
   font-family: Avenir;
   font-size: 48px;
@@ -1730,18 +1745,18 @@ h3.title {
 }
 
 @media(max-width:750px) {
-  /* line 57, ../sass/partials/_whatwedo.sass */
+  /* line 61, ../sass/partials/_whatwedo.sass */
   h3.title {
     font-size: 40px;
   }
 }
 
-/* line 60, ../sass/partials/_whatwedo.sass */
+/* line 64, ../sass/partials/_whatwedo.sass */
 section#about {
   width: 100%;
 }
 
-/* line 63, ../sass/partials/_whatwedo.sass */
+/* line 67, ../sass/partials/_whatwedo.sass */
 div.thumbnail {
   margin-bottom: none;
   line-height: none;
@@ -1753,7 +1768,7 @@ div.thumbnail {
   background-color: #bd58c0;
 }
 
-/* line 73, ../sass/partials/_whatwedo.sass */
+/* line 77, ../sass/partials/_whatwedo.sass */
 .thumbnail-container {
   width: 33%;
   padding: 2%;
@@ -1765,7 +1780,7 @@ div.thumbnail {
 }
 
 @media(max-width:990px) {
-  /* line 84, ../sass/partials/_whatwedo.sass */
+  /* line 88, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     margin: 0;
     left: 0;
@@ -1773,7 +1788,7 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 88, ../sass/partials/_whatwedo.sass */
+  /* line 92, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 80%;
     left: 10%;
@@ -1783,7 +1798,7 @@ div.thumbnail {
 }
 
 @media(max-width:550px) {
-  /* line 94, ../sass/partials/_whatwedo.sass */
+  /* line 98, ../sass/partials/_whatwedo.sass */
   .thumbnail-container {
     width: 100%;
     left: 0;
@@ -1792,7 +1807,7 @@ div.thumbnail {
   }
 }
 
-/* line 100, ../sass/partials/_whatwedo.sass */
+/* line 104, ../sass/partials/_whatwedo.sass */
 .button-im-ready {
   opacity: 0.9;
   -webkit-background-clip: border-box;
@@ -1848,7 +1863,7 @@ div.thumbnail {
 }
 
 @media(max-width:750px) {
-  /* line 154, ../sass/partials/_whatwedo.sass */
+  /* line 158, ../sass/partials/_whatwedo.sass */
   .button-im-ready {
     font-size: 21px;
   }
