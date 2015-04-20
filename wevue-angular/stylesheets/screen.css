@@ -283,7 +283,7 @@ div.wevue_album_widget_image {
   font-size: 28px;
   color: white;
   line-height: 47px;
-  padding: 2% 13%;
+  padding: 3% 13% 2%;
   font-weight: 100;
   letter-spacing: 0.5pt;
 }
@@ -1552,8 +1552,16 @@ p.contact {
   letter-spacing: 0.8pt;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1050px) {
   /* line 83, ../sass/partials/_form-social.sass */
+  p.contact {
+    position: relative;
+    left: 12%;
+    width: 66%;
+  }
+}
+@media (max-width: 750px) {
+  /* line 88, ../sass/partials/_form-social.sass */
   p.contact {
     font-weight: 100;
     padding: 6%;
@@ -1562,7 +1570,7 @@ p.contact {
     top: 22px;
   }
 }
-/* line 90, ../sass/partials/_form-social.sass */
+/* line 95, ../sass/partials/_form-social.sass */
 .success-message {
   display: none;
   position: absolute;
@@ -1573,12 +1581,12 @@ p.contact {
   left: 20%;
 }
 
-/* line 99, ../sass/partials/_form-social.sass */
+/* line 104, ../sass/partials/_form-social.sass */
 .success-display {
   display: block;
 }
 
-/* line 102, ../sass/partials/_form-social.sass */
+/* line 107, ../sass/partials/_form-social.sass */
 #fade-success {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
@@ -1594,31 +1602,31 @@ p.contact {
   text-transform: uppercase;
 }
 
-/* line 116, ../sass/partials/_form-social.sass */
+/* line 121, ../sass/partials/_form-social.sass */
 .social {
   top: 15px;
   position: relative;
 }
 
-/* line 120, ../sass/partials/_form-social.sass */
+/* line 125, ../sass/partials/_form-social.sass */
 .inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 125, ../sass/partials/_form-social.sass */
+/* line 130, ../sass/partials/_form-social.sass */
 i.inset-shadow {
   color: transparent;
   text-shadow: 1px 1px 2px rgba(48, 78, 113, 0.6), 0 0 0 #222222;
 }
 
-/* line 129, ../sass/partials/_form-social.sass */
+/* line 134, ../sass/partials/_form-social.sass */
 i:hover {
   text-shadow: none;
   color: initial;
 }
 
-/* line 133, ../sass/partials/_form-social.sass */
+/* line 138, ../sass/partials/_form-social.sass */
 a.email {
   color: #219ab3;
   cursor: auto;
@@ -1651,7 +1659,7 @@ a.email {
 
 /* line 11, ../sass/partials/_whatwedo.sass */
 .caption {
-  min-height: 140px;
+  min-height: 152px;
 }
 
 /* line 13, ../sass/partials/_whatwedo.sass */
