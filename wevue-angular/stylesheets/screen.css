@@ -791,7 +791,7 @@ h2.feature-1-title {
 /* line 22, ../sass/partials/_enhance.sass */
 #features-1 {
   background-color: #36424d;
-  height: 740px;
+  height: 640px;
   padding-top: 40px;
 }
 
@@ -1043,7 +1043,7 @@ section#features-2 li {
   padding-top: 40px;
   padding-bottom: 50px;
   border-top: 1px solid #ef8b8b;
-  height: 740px;
+  height: 640px;
 }
 
 @media (max-width: 450px) {
@@ -1111,7 +1111,7 @@ section#features-3 li {
   background-color: #2ea28e;
   padding-top: 40px;
   padding-bottom: 45px;
-  height: 740px;
+  height: 640px;
 }
 
 @media (max-width: 450px) {
