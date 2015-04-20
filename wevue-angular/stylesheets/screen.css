@@ -830,7 +830,7 @@ h2.feature-1-title {
     height: 1050px;
   }
 }
-/* line 40, ../sass/partials/_enhance.sass */
+/* line 39, ../sass/partials/_enhance.sass */
 .container-android {
   overflow: hidden;
   position: absolute;
@@ -841,19 +841,19 @@ h2.feature-1-title {
 }
 
 @media (max-width: 750px) {
-  /* line 49, ../sass/partials/_enhance.sass */
+  /* line 48, ../sass/partials/_enhance.sass */
   .container-android {
     top: 320px;
   }
 }
-/* line 52, ../sass/partials/_enhance.sass */
+/* line 51, ../sass/partials/_enhance.sass */
 .phone-android {
   position: relative;
   width: 100%;
   z-index: 2;
 }
 
-/* line 57, ../sass/partials/_enhance.sass */
+/* line 56, ../sass/partials/_enhance.sass */
 .feed-android {
   position: relative;
   width: 100%;
@@ -863,17 +863,17 @@ h2.feature-1-title {
   -webkit-user-select: none;
 }
 
-/* line 65, ../sass/partials/_enhance.sass */
+/* line 64, ../sass/partials/_enhance.sass */
 #inner:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 68, ../sass/partials/_enhance.sass */
+/* line 67, ../sass/partials/_enhance.sass */
 li:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 71, ../sass/partials/_enhance.sass */
+/* line 70, ../sass/partials/_enhance.sass */
 .inner {
   position: absolute;
   overflow: hidden;
