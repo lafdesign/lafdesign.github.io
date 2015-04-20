@@ -1,0 +1,132 @@
+
+<!DOCTYPE html> 
+<html>
+<title>Baublebar slider</title>
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width = device-width;"> 
+<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+
+<script> 
+ function BlockMove(event) {
+  // Tell Safari not to move the window.
+  event.preventDefault() ;
+ };
+
+</script> 
+
+
+<body ontouchmove="BlockMove(event);"> 
+
+<!-- These divs are used for anchor-jumps with the pseudoclass :target -->
+
+<div id="a1">
+ <div id="a2">
+  <div id="a3">
+  <div id="a4">
+
+ <!-- Top Navigation -->
+
+   <table> 
+    <tr> 
+     <td><a href="#a1"  id="p1">1</a></td> 
+     <td><a href="#a2" id="p2">2</a></td> 
+     <td><a href="#a3" id="p3">3</a></td> 
+     <td><a href="#a4" id="p4">3</a></td> 
+    </tr> 
+   </table>
+
+
+ <!-- Fallback -->
+   <div id="i0" class="page">
+   </div>
+
+<!-- First Page #a1 -->
+
+  <div id="i1" class="page">
+
+    <a href="#a4" class="backbutton"></a>
+    <a href="#a2" class="nextbutton"></a>
+
+    <h1>Cairo Ear Jackets</h1>
+    <div class="wrapper">
+      <div class="description">
+          <input type="checkbox" id="show-description-1"/>
+          <label for="show-description-1" class="show-description-label">I</label>
+          <div class="description-text">
+              <h2>Splash!</h2>
+              <p>These spiked gold ear jackets evoke rays of sunlight, layered with extra sparkle thanks to tiny crystals.</p>
+            <img src="images/earring-1a.jpg"/>
+          </div>
+      </div>
+      <img class="slide-img" src="images/earring-1.jpg">
+    </div>
+  </div>
+
+<!-- Second Page #a2 -->
+  <div id="i2" class="page">
+
+    <a href="#a1" class="backbutton"></a>
+    <a href="#a3" class="nextbutton"></a>
+
+    <h1>Opal Malisandre Studs</h1>
+    <div class="wrapper">
+      <div class="description">
+        <input type="checkbox" id="show-description-2"/>
+        <label for="show-description-2" class="show-description-label">I</label>
+        <div class="description-text">
+            <h2>Splash!</h2>
+            <p>This pre-sale item is available to order today, and will ship by April 23, 2015. Your credit card will be charged upon placing your order. You will receive an order confirmation upon placing your order, and you will receive an additional confirmation once the pre-sale item ships. If you have multiple items in your order, you may receive multiple shipping emails.</p>
+          <img src="images/earring-2a.jpg"/>
+        </div>
+      </div>
+      <img class="slide-img"src="images/earring-2.jpg">
+    </div>
+   </div>
+
+<!-- Third Page #a3 -->
+   <div id="i3" class="page">
+
+    <a href="#a2" class="backbutton"></a>
+    <a href="#a4" class="nextbutton"></a>
+
+    <h1>Satellite Studs</h1>
+    <div class="wrapper">
+      <div class="description">
+          <input type="checkbox" id="show-description-3"/>
+          <label for="show-description-3" class="show-description-label">I</label>
+          <div class="description-text">
+              <h2>Splash!</h2>
+              <p>Try a pair of crystal-embellished statement studs to lend a glint of sparkle to your lobes. Also available in fluorescent hues for a pop of neon color. Post back.</p>
+            <img src="images/earring-3a.jpg"/>
+          </div>
+      </div>
+      <img class="slide-img"src="images/earring-3.jpg">
+    </div>
+   </div>
+
+<!-- Forth Page #a4 -->
+   <div id="i4" class="page">
+
+    <a href="#a3" class="backbutton"></a>
+    <a href="#a1" class="nextbutton"></a>
+
+    <h1>Juniper Ear Jackets</h1>
+      <div class="wrapper">
+        <div class="description">
+            <input type="checkbox" id="show-description-4"/>
+            <label for="show-description-4" class="show-description-label">I</label>
+            <div class="description-text">
+                <h2>Splash!</h2>
+                <p>These ultra delicate ear jackets are perfect for the holidays, lending an unexpected silhouette a wintry iridescent finish.</p>
+              <img src="images/earring-4a.jpg"/>
+            </div>
+        </div>
+        <img class="slide-img"src="images/earring-4.jpg">
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+</body>
+</html>
+

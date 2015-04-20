@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0;
 }
 
-/* line 10, ../sass/screen.sass */
+/* line 11, ../sass/screen.sass */
 body {
   background-image: url(http://subtlepatterns.com/patterns/dark_wall.png);
   background-repeat: repeat;
@@ -77,12 +77,12 @@ body {
   padding: 1px;
 }
 
-/* line 17, ../sass/screen.sass */
+/* line 18, ../sass/screen.sass */
 h1 {
   color: white;
 }
 
-/* line 20, ../sass/screen.sass */
+/* line 21, ../sass/screen.sass */
 #slideshow-wrap {
   display: block;
   width: 230px;
@@ -93,7 +93,7 @@ h1 {
   position: relative;
 }
 
-/* line 30, ../sass/screen.sass */
+/* line 31, ../sass/screen.sass */
 #slideshow-inner {
   width: 100%;
   height: 100%;
@@ -102,7 +102,7 @@ h1 {
   position: relative;
 }
 
-/* line 38, ../sass/screen.sass */
+/* line 39, ../sass/screen.sass */
 #slideshow-inner > ul {
   list-style: none;
   height: 100%;
@@ -113,7 +113,7 @@ h1 {
   transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-/* line 47, ../sass/screen.sass */
+/* line 48, ../sass/screen.sass */
 #slideshow-inner > ul > li {
   width: 20%;
   height: 320px;
@@ -121,13 +121,13 @@ h1 {
   position: relative;
 }
 
-/* line 54, ../sass/screen.sass */
+/* line 55, ../sass/screen.sass */
 #slideshow-inner > ul > li > img {
   margin: auto;
   height: 100%;
 }
 
-/* line 59, ../sass/screen.sass */
+/* line 60, ../sass/screen.sass */
 #slideshow-wrap input[type=radio] {
   position: absolute;
   left: 50%;
@@ -136,7 +136,7 @@ h1 {
   visibility: hidden;
 }
 
-/* line 66, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 #slideshow-wrap label:not(.arrows):not(.show-description-label) {
   position: absolute;
   left: 50%;
@@ -151,82 +151,82 @@ h1 {
   transition: background-color 0.2s;
 }
 
-/* line 79, ../sass/screen.sass */
+/* line 80, ../sass/screen.sass */
 #slideshow-wrap label:not(.arrows):active {
   bottom: -46px;
 }
 
-/* line 82, ../sass/screen.sass */
+/* line 83, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-1:checked ~ label[for=button-1] {
   background-color: #646464;
 }
 
-/* line 85, ../sass/screen.sass */
+/* line 86, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-2:checked ~ label[for=button-2] {
   background-color: #646464;
 }
 
-/* line 88, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-3:checked ~ label[for=button-3] {
   background-color: #646464;
 }
 
-/* line 91, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-4:checked ~ label[for=button-4] {
   background-color: #646464;
 }
 
-/* line 94, ../sass/screen.sass */
+/* line 95, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-5:checked ~ label[for=button-5] {
   background-color: #646464;
 }
 
-/* line 98, ../sass/screen.sass */
+/* line 99, ../sass/screen.sass */
 #slideshow-wrap label[for=button-1] {
   margin-left: -36px;
 }
 
-/* line 101, ../sass/screen.sass */
+/* line 102, ../sass/screen.sass */
 #slideshow-wrap label[for=button-2] {
   margin-left: -18px;
 }
 
-/* line 104, ../sass/screen.sass */
+/* line 105, ../sass/screen.sass */
 #slideshow-wrap label[for=button-4] {
   margin-left: 18px;
 }
 
-/* line 107, ../sass/screen.sass */
+/* line 108, ../sass/screen.sass */
 #slideshow-wrap label[for=button-5] {
   margin-left: 36px;
 }
 
-/* line 110, ../sass/screen.sass */
+/* line 111, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-1:checked ~ #slideshow-inner > ul {
   left: 0;
 }
 
-/* line 113, ../sass/screen.sass */
+/* line 114, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-2:checked ~ #slideshow-inner > ul {
   left: -100%;
 }
 
-/* line 116, ../sass/screen.sass */
+/* line 117, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-3:checked ~ #slideshow-inner > ul {
   left: -200%;
 }
 
-/* line 119, ../sass/screen.sass */
+/* line 120, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-4:checked ~ #slideshow-inner > ul {
   left: -300%;
 }
 
-/* line 122, ../sass/screen.sass */
+/* line 123, ../sass/screen.sass */
 #slideshow-wrap input[type=radio]#button-5:checked ~ #slideshow-inner > ul {
   left: -400%;
 }
 
-/* line 126, ../sass/screen.sass */
+/* line 127, ../sass/screen.sass */
 label.arrows {
   font-family: "WebSymbolsRegular";
   font-size: 25px;
@@ -243,55 +243,55 @@ label.arrows {
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
 }
 
-/* line 142, ../sass/screen.sass */
+/* line 143, ../sass/screen.sass */
 label.arrows:hover {
   opacity: 1;
 }
 
-/* line 145, ../sass/screen.sass */
+/* line 146, ../sass/screen.sass */
 label.arrows:active, input[type=radio]#button-1:checked ~ .arrows#arrow-2, input[type=radio]#button-2:checked ~ .arrows#arrow-3, input[type=radio]#button-3:checked ~ .arrows#arrow-4, input[type=radio]#button-4:checked ~ .arrows#arrow-5 {
   right: -55px;
   display: block;
 }
 
-/* line 151, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 input[type=radio]#button-2:checked ~ .arrows#arrow-1, input[type=radio]#button-3:checked ~ .arrows#arrow-2, input[type=radio]#button-4:checked ~ .arrows#arrow-3, input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   left: -55px;
   display: block;
   transform: scaleX(-1);
 }
 
-/* line 157, ../sass/screen.sass */
+/* line 158, ../sass/screen.sass */
 input[type=radio]#button-2:checked ~ .arrows#arrow-1 {
   left: -19px;
 }
 
-/* line 160, ../sass/screen.sass */
+/* line 161, ../sass/screen.sass */
 input[type=radio]#button-3:checked ~ .arrows#arrow-2 {
   left: -37px;
 }
 
-/* line 163, ../sass/screen.sass */
+/* line 164, ../sass/screen.sass */
 input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   left: -73px;
 }
 
-/* line 166, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 .description {
   position: absolute;
   top: 0;
   left: 0;
-  width: 260px;
+  width: 74%;
   font-family: "Yanone Kaffeesatz";
   z-index: 1000;
 }
 
-/* line 175, ../sass/screen.sass */
+/* line 176, ../sass/screen.sass */
 .description input {
   visibility: hidden;
 }
 
-/* line 178, ../sass/screen.sass */
+/* line 179, ../sass/screen.sass */
 .description label {
   font-family: "WebSymbolsRegular";
   background-color: ivory;
@@ -306,25 +306,22 @@ input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   border-bottom-right-radius: 15px;
   cursor: pointer;
   opacity: 0;
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
   z-index: 5;
   color: #141414;
 }
 
-/* line 200, ../sass/screen.sass */
+/* line 198, ../sass/screen.sass */
 #slideshow-inner > ul > li:hover .description label {
   opacity: 1;
 }
 
-/* line 203, ../sass/screen.sass */
+/* line 201, ../sass/screen.sass */
 .description input[type=checkbox]:checked ~ label {
   opacity: 1;
 }
 
-/* line 206, ../sass/screen.sass */
+/* line 204, ../sass/screen.sass */
 .description .description-text {
   background-color: rgba(255, 255, 230, 0.5);
   padding-left: 45px;
@@ -335,14 +332,11 @@ input[type=radio]#button-5:checked ~ .arrows#arrow-4 {
   top: -35px;
   z-index: 4;
   opacity: 0;
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
   color: #141414;
 }
 
-/* line 223, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 .description input[type=checkbox]:checked ~ .description-text {
   opacity: 1;
 }
