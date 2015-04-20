@@ -795,19 +795,37 @@ h2.feature-1-title {
   padding-top: 40px;
 }
 
-@media (max-width: 750px) {
-  /* line 27, ../sass/partials/_enhance.sass */
+@media (mix-width: 1070px) {
+  /* line 29, ../sass/partials/_enhance.sass */
   #features-1 {
-    height: 810px;
+    height: 640px;
   }
 }
-@media (max-width: 500px) {
-  /* line 30, ../sass/partials/_enhance.sass */
+@media (max-width: 720px) {
+  /* line 32, ../sass/partials/_enhance.sass */
   #features-1 {
-    height: 910px;
+    height: 940px;
   }
 }
-/* line 33, ../sass/partials/_enhance.sass */
+@media (max-width: 620px) {
+  /* line 35, ../sass/partials/_enhance.sass */
+  #features-1 {
+    height: 840px;
+  }
+}
+@media (max-width: 450px) {
+  /* line 38, ../sass/partials/_enhance.sass */
+  #features-1 {
+    height: 925px;
+  }
+}
+@media (max-width: 370px) {
+  /* line 41, ../sass/partials/_enhance.sass */
+  #features-1 {
+    height: 1050px;
+  }
+}
+/* line 44, ../sass/partials/_enhance.sass */
 .container-android {
   overflow: hidden;
   position: absolute;
@@ -818,19 +836,19 @@ h2.feature-1-title {
 }
 
 @media (max-width: 750px) {
-  /* line 42, ../sass/partials/_enhance.sass */
+  /* line 53, ../sass/partials/_enhance.sass */
   .container-android {
     top: 320px;
   }
 }
-/* line 45, ../sass/partials/_enhance.sass */
+/* line 56, ../sass/partials/_enhance.sass */
 .phone-android {
   position: relative;
   width: 100%;
   z-index: 2;
 }
 
-/* line 50, ../sass/partials/_enhance.sass */
+/* line 61, ../sass/partials/_enhance.sass */
 .feed-android {
   position: relative;
   width: 100%;
@@ -840,17 +858,17 @@ h2.feature-1-title {
   -webkit-user-select: none;
 }
 
-/* line 58, ../sass/partials/_enhance.sass */
+/* line 69, ../sass/partials/_enhance.sass */
 #inner:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 61, ../sass/partials/_enhance.sass */
+/* line 72, ../sass/partials/_enhance.sass */
 li:hover .move-up {
   transform: translate(0, -50%);
 }
 
-/* line 64, ../sass/partials/_enhance.sass */
+/* line 75, ../sass/partials/_enhance.sass */
 .inner {
   position: absolute;
   overflow: hidden;
