@@ -812,7 +812,7 @@ h2.feature-1-title {
   overflow: hidden;
   position: absolute;
   display: inline;
-  width: 35%;
+  width: 27%;
   left: -15px;
   top: 140px;
 }
@@ -905,7 +905,7 @@ ul.features-list > li:before {
 /* line 32, ../sass/partials/_features.sass */
 .iphone-container {
   position: relative;
-  width: 30%;
+  width: 23%;
   left: 60%;
 }
 
@@ -1179,7 +1179,7 @@ header {
 /* line 6, ../sass/partials/_nav.sass */
 .email {
   position: relative;
-  left: 67px;
+  left: 0px;
   height: 30px;
   width: 230px;
   position: relative;
