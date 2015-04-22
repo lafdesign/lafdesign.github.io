@@ -1868,3 +1868,19 @@ div.thumbnail {
     font-size: 21px;
   }
 }
+
+/* line 1, ../sass/partials/_animate.sass */
+.toBeAnimated {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+}
+
+/* line 6, ../sass/partials/_animate.sass */
+.os-animation {
+  opacity: 0;
+}
+
+/* line 10, ../sass/partials/_animate.sass */
+.os-animation.animated {
+  opacity: 1;
+}
