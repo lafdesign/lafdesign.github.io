@@ -65,6 +65,10 @@
   <script type="text/javascript">
 
 // activates animate.css classes on scroll 
+$( document ).ready(function() {
+  console.log( 'ready!' );
+});
+$(document).ready(function() { 
 onScrollInit( $('.os-animation') );
 
 
@@ -95,7 +99,7 @@ function onScrollInit( items, trigger ) {
 
  onScrollInit( $('.os-animation') );
  onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
-
+ });
 
 
   </script>
