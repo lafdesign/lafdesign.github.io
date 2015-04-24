@@ -1,0 +1,142 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.box-1{
+	position: absolute;
+	background-color: #CFFFCC;
+	width: 100%;
+	height: 300px;
+	z-index: 3;
+
+}
+
+.box-2{
+	position: absolute;
+	background-color: #CFFFCC;
+	width: 40%;
+	min-width: 174px;
+	max-width: 400px;
+	height: 800px;
+	z-index: 3;
+	
+}
+
+.box-3{
+	position: absolute;
+	background-color: #CFFFCC;
+	height: 800px;
+	width: 57%;
+	margin-left: 50%;
+
+	z-index: 3;
+}
+
+.box-4 {
+	position: absolute;
+	background-color: #CFFFCC;
+	width: 100%;
+	height: 500px;
+	top: 49%;
+	z-index: 3;
+		
+}
+
+.photo{
+	position: relative;
+	width: 50%;
+	min-width: 50%;
+	top: 16em;
+	left: 10.8em;
+	z-index: 2;
+
+}
+.photo:hover{
+	z-index: 4;
+	border-radius: 2px solid black;
+}
+
+
+
+
+
+
+
+
+.layer1{
+	position: absolute;
+	top: 20%;
+	left: 69%;
+	z-index: 3;
+	width: 20%;
+
+}
+.layer1:hover{
+	z-index: 10;
+}
+
+.layer2{
+	position: absolute;
+	top: 15%;
+	margin-left: 65%;
+	z-index: 3;
+	width: 20%;
+
+}
+
+.layer2:hover{
+	z-index: 10;
+}
+.layer3{
+	position: absolute;
+	top: 10%;
+	margin-left: 60%;
+	z-index: 4;
+	width: 20%;
+}
+.layer3:hover{
+	z-index: 10;
+}
+
+.layer4{
+	position: absolute;
+	top: 15%;
+	margin-left: 51%;
+	z-index: 4;
+	width: 20%;
+}
+.layer4:hover{
+	z-index: 10;
+}
+
+.layer6{
+	position: absolute;
+	top: 25%;
+	margin-left: 49%;
+	z-index: 6;
+	width: 20%
+
+}
+.layer6:hover{
+	z-index: 10;
+}
+.layer7{
+	position: absolute;
+	top: 38%;
+	margin-left: 53%;
+	z-index: 6;
+	width: 20%
+}
+.layer7:hover{
+	z-index: 10;
+}
+.layer8{
+	position: absolute;
+	top: 35%;
+	margin-left: 66%;
+	z-index: 7;
+	width: 20%
+}
+.layer8:hover{
+	z-index: 10;
+}

@@ -1,0 +1,47 @@
+
+address {
+	padding-top: 10%;
+	margin-right: 50%;
+	margin-left: 50%;
+}
+
+
+img {
+	width: 100%;
+	max-width: 1100px;
+	
+	
+}
+
+#layer2{
+	z-index: 1;
+}
+
+#layer3{
+	z-index: 20;
+}
+
+.example {
+	padding-left: 150px;
+	max-width: 50%;
+	padding-top: 10%
+
+}
+#inprogress{
+	margin-top: 8px;
+	margin-left: 8px;
+	
+}
+
+#umbrella {
+	max-width: 50;
+}
+
+.fish{
+	padding-left: 50px;
+	max-width: 300px;
+}
+
+#blackbg{
+	margin-right: 35px;
+}

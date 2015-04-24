@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://seemuse.com/apple.html -->
+<html><script>var gapi={plusone:{render:function(){},go:function(){}}};</script><script>function quantserve(){}</script><script>FB={api:function(){},ui:function(){},Event:{subscribe:function(){}},UIServer:{},XFBML:{parse:function(){}},init:function(){},__noSuchMethod__:function(){}};</script><script>var urchinTracker=function(){},_gaq={push:function(){try {if(arguments[0][0]=='_link')window.location.href=arguments[0][1]}catch(er){}}},_gat={_createTracker:function(){}, _getTracker:function(){return{__noSuchMethod__:function(){},_link:function(o){if(o)location.href=o;},_linkByPost:function(){return true;},_getLinkerUrl:function(o){return o;},_trackEvent:function(){}}}};</script><script type="text/javascript" async="" src="https://apis.google.com/js/platform.js"></script><script src="http://edge.quantserve.com/quant.js" async="" type="text/javascript"></script><script id="twitter-wjs" src="./apple_files/widgets.js"></script><script id="facebook-jssdk" src="http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"></script><script async="" src="http://www.google-analytics.com/analytics.js"></script><script>var addthis={init:function(){}, layers:function(){}, toolbox:function(){}, button:function(){}, counter:function(){}};</script><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" type="text/css" href="./apple_files/shift.css">
+    <link rel="stylesheet" type="text/css" href="./apple_files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./apple_files/main_style.css">
+    <link rel="stylesheet" type="text/css" href="./apple_files/rotator.css">
+    <title>Muse Art iOS App</title>
+
+    <!-- Detect Mobile -->
+    <script type="text/javascript">
+        <!--
+          if (screen.width <= 899) {
+            document.location = "http://mobile.seemuse.com";
+          }
+        //-->
+    </script><style type="text/css"></style>
+
+    <!-- Image Rotator -->
+    <script type="text/javascript" src="./apple_files/jquery.min.js"></script>
+
+      <script type="text/javascript">
+          function theRotator() {
+            //Set the opacity of all images to 0
+            $('div.rotator ul li').css({opacity: 0.0});
+            
+            //Get the first image and display it (gets set to full opacity)
+            $('div.rotator ul li:first').css({opacity: 1.0});
+              
+            //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
+            
+              if ($('div.rotator ul li').length > 1) {
+              setTimeout('rotate()', 2500);
+             }
+          }
+
+          function rotate() { 
+            //Get the first image
+            var current = ($('div.rotator ul li.show')? $('div.rotator ul li.show') : $('div.rotator ul li:first'));
+
+              if ( current.length == 0 ) current = $('div.rotator ul li:first');
+
+            //Get next image, when it reaches the end, rotate it back to the first image
+            var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.rotator ul li:first') :current.next()) : $('div.rotator ul li:first'));
+            
+            //Un-comment the 3 lines below to get the images in random order
+            
+            //var sibs = current.siblings();
+              //var rndNum = Math.floor(Math.random() * sibs.length );
+              //var next = $( sibs[ rndNum ] );
+                
+
+            //Set the fade in effect for the next image, the show class has higher z-index
+            next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 200);
+
+            //Hide the current image
+            current.animate({opacity: 0.0}, 1000, function(){setTimeout('rotate()', 2000);}) .removeClass('show');
+            
+          };
+
+          $(document).ready(function() {    
+            //Load the slideshow
+            theRotator();
+            $('div.rotator').fadeIn(200);
+              $('div.rotator ul li').fadeIn(200); // tweek for IE
+          });
+          </script>
+        <!-- End of Script -->
+
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-52257015-1', 'seemuse.com');
+      ga('send', 'pageview');
+    </script>
+    <!-- End of Google Analytics -->
+
+    <!-- Facebook MetaTags -->
+    <meta property="og:url" content="http://seemuse.com/artists">
+    <meta property="og:title" content="Muse: Art on Your Lock Screen">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://seemuse.com/images/pic4.png">
+    <meta property="og:description" content="See a Different Work of Art Every Time You Access Your Phone.">
+    <!-- End of Facebook MetaTags -->
+
+    <!-- Twitter MetaTags -->
+    <meta name="twitter:card" content="app">
+    <meta name="twitter:app:id:iphone" content="">
+    <meta name="twitter:app:id:ipad" content="">
+    <meta name="twitter:app:id:googleplay" content="com.blinpick.muse">
+    <meta name="twitter:app:country" content="">
+    <!-- End of Twitter MetaTags -->
+
+  <style>@-webkit-keyframes poptczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr {50% {-webkit-transform:scale(1.2);}100% {-webkit-transform:scale(1);}}@keyframes poptczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr {50% {-webkit-transform:scale(1.2);transform:scale(1.2);}100% {-webkit-transform:scale(1);transform:scale(1);}}#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;border:solid 2px #fff !important;box-sizing:content-box !important;color:#fff !important;display:block !important;height:auto !important;margin:0 !important;opacity:0.9 !important;padding:7px 10px !important;position:fixed !important;visibility:visible !important;width:auto !important;z-index:2147483647 !important;-webkit-border-radius:5px !important;-webkit-box-shadow:0px 0px 20px #000 !important;-webkit-box-sizing:content-box !important;}.tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr-blocked{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;color:#AAA !important;display:inline !important;text-decoration:line-through !important;}#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr br{display:block !important;padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;}#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr span{background:transparent !important;padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;}#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr div{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;border:0 !important;margin:0 !important;padding:0 !important;width:auto !important;letter-spacing:normal !important;font:13px Arial,Helvetica !important;text-align:left !important;text-shadow:none !important;text-transform:none !important;word-spacing:normal !important;}#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr a{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;font-weight:normal !important;background:none !important;text-decoration:underline !important;color:#fff !important;}a#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr-gear{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;text-decoration:none !important;position:absolute !important;display:none !important;font-size:20px !important;width:20px !important;height:20px !important;line-height:20px !important;text-align:center !important;background-color:rgba(255,255,255,.8) !important;background-image:url(chrome-extension://mlomiejdfkolichcflejclcbmpeaniij/data/images/gear.svg) !important;background-size:16px 16px !important;background-position:center center !important;background-repeat:no-repeat !important;text-decoration:none !important;}a#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr-gear:hover{-webkit-animation-name:poptczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr !important;animation-name:poptczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr !important;-webkit-animation-duration:0.3s !important;animation-duration:0.3s !important;}#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr:hover #tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr-gear{text-decoration:none !important;display:inline-block !important;}@media print{#tczqqxnjliyhktyhiqpjqqhehfrtzbsgpurmmquxr{display:none !important;}}</style></head>
+  
+  <body data-twttr-rendered="true">
+    <!-- JavaScript Facebook SDK //-->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+    <!-- End of JavaScript Facebook SDK //-->
+
+    <!-- JavaScript SDK Twitter //-->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!-- End of JavaScript SDK Twitter //-->
+
+    <!-- Top Header Nav (logo and nav) //-->
+    <div class="nav">
+      <div class="container">
+        <span class="pull-left">
+          <a href="http://seemuse.com/home.html">
+              <img src="./apple_files/muse-logo200.png" width="75">
+          </a>
+        </span>
+        <ul class="pull-right">
+          <li><a href="http://seemuse.com/home.html">Get Muse</a></li>
+          <li><a class="active" href="./apple_files/apple.html">iOS</a></li>
+          <li><a href="http://seemuse.com/publish.html">Publish</a></li>
+          <li><a href="http://blog.seemuse.com/" target="blank">Blog</a></li>
+          <li><a href="http://seemuse.com/feed.html">About Us</a></li>
+          <li><a href="http://seemuse.pr.co/" target="blank">Media Kit</a></li>
+        </ul>
+      </div>
+    </div>
+
+  <!-- iOS App -->
+   <div class="vision">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-6">
+        <br>
+        <br>
+          <h1 class="bold">The Muse iOS App</h1>
+          <p>The Muse iOS App is a new way to enjoy art on your phone.</p>
+          <p>Browse beautiful paintings in a uniquely visual way. Save your favorite paintings, learn and discover new artists.</p>
+          <p>Access a growing database of over 100,000 paintings by the best contemporary artists and the old master, updated daily. Join a uniquely visual community of art and art lovers.</p>
+          <p>2,000 friends asked Muse to access our content on iOS.</p>
+          <p>We built a very visual app, while enabling the user to dig into our database of contemporary, modern and classic art.</p>
+          <p>For iPhone and iPad</p>
+          <br>
+          <!-- Apple Store Badge -->
+              <a href="http://ad.apps.fm/995-TBCyOC2USHGONNr0cPE7og6fuV2oOMeOQdRqrE3Qa35RCqXyZIeZSSfNejOf-vE62I7rY5uyJUiCLiUuRsdA96P-6Hs3kW2yj6RXFC38guByf4CmP-7egxtCtNB9">
+                  <img alt="Get it on the Apple Store" src="./apple_files/apple_store_badge.png" width="200">
+              </a>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="col-md-5">
+            <div class="container2">
+              <div class="rotator" style="">
+                  <ul>
+                    <li class="show" style="opacity: 1;">
+                      <img src="./apple_files/iphone1s.png" width="373">
+                    </li>
+                    <li class="" style="opacity: 0;">
+                      <img src="./apple_files/iphone2s.png" width="373">
+                    </li>
+                    <li class="" style="opacity: 0.719969584927958;">
+                      <img src="./apple_files/iphone3s.png" width="373">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   
+    <!-- Footer //-->
+    <div class="footer">
+      <br>
+      <hr>
+
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="addthis_native_toolbox"></div>
+
+    <!-- Social buttons
+    <div class="social-buttons">
+        <!-- Google Plus Button 
+          <span class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/104537833745327778630" data-rel="publisher"></span>
+        <!-- End of Google Plus Button 
+        <!-- Twitter Button //--
+          <span class="twitter">
+            <a href="https://twitter.com/muse_app" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @muse_app</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </span>
+          <!-- End of Twitter Button //
+          </div>
+        -->
+        
+      <br>
+      <p>Amused Inc.,© 2014</p>
+    </div>
+
+      <!-- Quantcast Tag -->
+        <script type="text/javascript">
+          var _qevents = _qevents || [];
+
+          (function() {
+          var elem = document.createElement('script');
+          elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+          elem.async = true;
+          elem.type = "text/javascript";
+          var scpt = document.getElementsByTagName('script')[0];
+          scpt.parentNode.insertBefore(elem, scpt);
+          })();
+
+          _qevents.push({
+          qacct:"p-b6GH-pa2duLeJ"
+          });
+        </script>
+
+        <noscript>
+          &lt;div style="display:none;"&gt;
+            &lt;img src="//pixel.quantserve.com/pixel/p-b6GH-pa2duLeJ.gif" border="0" height="1" width="1" alt="Quantcast"/&gt;
+          &lt;/div&gt;
+        </noscript>
+      <!-- End Quantcast tag -->
+
+      <!-- Google Plus Tag -->
+      <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/platform.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>
+      <!-- End of Google Plus Tag -->
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-545255bd6d24ced1" async="async"></script>
+
+  
+</body></html>

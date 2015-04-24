@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>muse test</title>
+	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/animate.css">
+	<style type="text/css">
+
+	body, html{
+		position: absolute;
+		height: 100vh;
+		width: 300vw;
+		overflow-y: hidden; 
+		padding: 0;
+		margin: 0;
+		background: rgba(179,220,237,1);
+		background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+		background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+		background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+		background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+		background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=0 );
+			}
+
+		.art{
+			width: 6%;
+position: absolute;
+top: 7%;
+display: inline-block;
+
+		}
+	.ground{
+		position: absolute;
+		top:  58%;
+		z-index: 50;
+		width: 300vw;
+		height: 33vh;
+		background: rgba(138,100,43,1);
+		background: -moz-linear-gradient(top, rgba(138,100,43,1) 0%, rgba(122,89,40,1) 32%, rgba(48,34,11,1) 69%, rgba(48,34,11,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(138,100,43,1)), color-stop(32%, rgba(122,89,40,1)), color-stop(69%, rgba(48,34,11,1)), color-stop(100%, rgba(48,34,11,1)));
+		background: -webkit-linear-gradient(top, rgba(138,100,43,1) 0%, rgba(122,89,40,1) 32%, rgba(48,34,11,1) 69%, rgba(48,34,11,1) 100%);
+		background: -o-linear-gradient(top, rgba(138,100,43,1) 0%, rgba(122,89,40,1) 32%, rgba(48,34,11,1) 69%, rgba(48,34,11,1) 100%);
+		background: -ms-linear-gradient(top, rgba(138,100,43,1) 0%, rgba(122,89,40,1) 32%, rgba(48,34,11,1) 69%, rgba(48,34,11,1) 100%);
+		background: linear-gradient(to bottom, rgba(138,100,43,1) 0%, rgba(122,89,40,1) 32%, rgba(48,34,11,1) 69%, rgba(48,34,11,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a642b', endColorstr='#30220b', GradientType=0 );
+
+	}
+.sub-nav{
+	position: absolute;
+	z-index: 45;
+	width: 300vw;
+	height: 12vh;
+	top: 90%;
+	background-color: #848282;
+
+
+}
+
+.landmarks{
+	position: relative;
+	z-index: 100;
+	top: 25vh;
+	display: inline-block;
+
+}
+
+.nav-justify ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	text-align:justify;
+}
+
+
+.nav-justify ul li {
+	display: inline-block;
+
+
+}
+
+.nav-justify ul:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+
+}
+.nav-justify ul li a {
+	background-color: #ccc;
+
+
+}
+
+.bike{
+	font-size: 11em;
+z-index: 110;
+position: absolute;
+top: 50%;
+}
+
+<style>{
+	font-size: 7em;
+}</style>
+
+	</style>
+	 <script type="text/javascript">
+
+    function parallax(){
+
+       var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+      
+       var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
+   
+           var prlx_lyr_7 = document.getElementById('prlx_lyr_7');
+      
+      
+        prlx_lyr_1.style.left = (window.pageXOffset/.8)+'px';
+
+        prlx_lyr_3.style.left = (window.pageXOffset/.7)+'px';
+        
+        prlx_lyr_7.style.left = (window.pageXOffset/.8)+'px';
+        
+        
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.js"></script>
+             <script>
+ new WOW().init();
+</script>
+</head>
+
+<body id="doScroll">
+
+	<div class="ground">
+
+	
+	</div>
+
+	<nav class="nav-justify">
+				<ul>
+					<li><a href="">  <img class="landmarks sign1"src="gallery-sign.png"></a></li>
+					<li><a href=""> <img src="muse_files/en_generic_rgb_wo_60.png"></a></li>
+					<li><a href=""><img class="landmarks sign2"src="trail-sign.png"></a></li>
+					<li><a href=""><i class="fa fa-cogs"></i></a></li>
+					<li><a href=""><img class="landmarks"src="art3.jpg"></a></li>
+				</ul>
+	</nav>
+	<div class="sub-nav">
+		
+	</div>
+
+	<i id="prlx_lyr_1" class="bike fa fa-bicycle"></i>
+
+	<i class="fa fa-university"
+	style="
+		position: relative;
+		font-size: 7em;"
+		
+
+	></i>
+	<i class="fa wow fadeOutDown fa-building-o"
+	style="
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+		position: relative;
+font-size: 24em;
+top: -27vh;"
+	></i>
+
+
+	<i class="fa wow tada fa-comments-o"
+	style="
+		
+		position: absolute;
+font-size: 8em;
+left: 84%;
+top: 13%;
+}"></i>
+
+	<i id="prlx_lyr_2" class=" wow fadeIn fa fa-male"
+	style="
+	position: absolute;
+font-size: 10em;
+z-index: 53;
+left: 181vw;"></i>
+
+	<i id="prlx_lyr_4"class="fa fa-tree" style="
+position: absolute;
+top: ;
+z-index: 55;
+font-size: 7em;
+left: 19%;
+top: 49%;"></i>
+	<i id="prlx_lyr_5"class="fa fa-tree" style="
+	position: absolute;
+top: ;
+z-index: 55;
+font-size: 5em;
+left: 21%;
+top: 49%;"></i>
+	<i id="prlx_lyr_6"class="fa fa-tree" style="
+position: absolute;
+top: ;
+z-index: ;
+font-size: 3em;
+left: 22.3%;
+top: 52.2%;"></i>
+
+	<i id="prlx_lyr_7" class=" wow  zoomIn fa fa-mobile"
+	style="
+		position: absolute;
+font-size: 7em;
+top: 5%;
+margin-left: 15%;"></i>
+
+<i class="fa wow fadeInUp fa-university"
+	style="
+		position: absolute;
+font-size: 24em;
+top: 13%;
+z-index: 55;
+left: 68%;"
+		
+
+	></i>
+
+
+	<i class="fa fa-twitter-square" style="
+	position: absolute;
+color: wheat;
+font-size: 5em;
+left: 5%;
+top: 85%;
+z-index: 60;"></i>
+	<i class="fa fa-pinterest-square" style="
+	position: absolute;
+color: wheat;
+font-size: 5em;
+left: 3%;
+top: 85%;
+z-index: 60;"></i>
+
+<img id="prlx_lyr_3" src="muse_files/muse-logo200.png" style="position: absolute;">
+
+            <img style="
+left: 15%;
+top: 25%;
+
+            "class="art animated rotateOutUpLeft" src="img/image.jpg">
+            <img style="
+left; 11%;
+top:34%;
+            "class="art animated bounceOutUp" src="img/image-1.jpg">
+            <img style="
+left: 5%;
+            "
+            class="art animated hinge " src="img/image-2.jpg">
+            <img style="
+left: 9%;
+
+
+            "class="art animated zoomOutRight" src="img/image-3.jpg">
+</body>
+</html>

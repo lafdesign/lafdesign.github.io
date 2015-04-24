@@ -1,0 +1,34 @@
+.box{
+	position: relative;
+	background-color:#edeff0;
+	width: 180px;
+	height:180px;
+	padding: 10px;
+	border-radius: 5px;
+	border-bottom: 4px solid #ccc;
+	font-family: 'Open-Sans';
+	font-size: 1.3em;
+
+	padding-right:25px; 
+	margin: 20px; 
+
+}
+
+.dog-ear:before,
+.dog-ear:after {
+	content:'';
+	display: block;
+	right:0;
+	top:0;
+	position: absolute;
+}
+
+.dog-ear:after {
+	border-top: 20px solid transparent;
+	border-left: 20px solid rgba(0,0,0,.08);
+}
+
+.dog-ear:before{
+	border-bottom: 20px solid transparent;
+	border-right: 20px solid #fff;
+}

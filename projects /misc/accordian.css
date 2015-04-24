@@ -1,0 +1,47 @@
+body{
+	font-family: 1em 'Sorce Sans Pro', sans-serif;
+}
+
+.container-acc {
+	width: 100%;
+	max-width: 400px;
+}
+
+.accordian {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+}
+
+.accordian-header {
+	display: block;
+	padding: 15px 20px;
+	background-color: #bbb;
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px rgba(0,0,0,.1);
+	margin-bottom: 5px;
+
+}
+
+.accordian-content p {
+	margin:  20px ;
+}
+
+
+.accordian-content {
+	height: 0;
+	overflow: hidden;
+	-webkit-transition:height 400ms ease;
+	transition:height 400ms ease;
+}
+
+
+.accordian-content:target {
+	height: 150px;
+	overflow-y: scroll; 
+}

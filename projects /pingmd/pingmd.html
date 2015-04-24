@@ -1,0 +1,975 @@
+
+<!DOCTYPE>
+	<html>
+		<head>
+            <title>pingmd</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+            <link rel="icon" href="https://dblhg1hwefduo.cloudfront.net/static/common/images/favicon.ico" type="image/x-icon">
+			<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" type="text/css" href="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/css/main.css?v=4">
+			<link rel="stylesheet" type="text/css" href="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="https://dblhg1hwefduo.cloudfront.net/static/plugins/pickadate/themes/default.css">
+            <link rel="stylesheet" type="text/css" href="https://dblhg1hwefduo.cloudfront.net/static/plugins/pickadate/themes/default.date.css">
+            <link rel="stylesheet" type="text/css" href="css/animate.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.js"></script>
+             <script>
+ new WOW().init();
+</script>
+
+
+
+
+			<!--[if lt IE 10]>
+				<link rel="stylesheet" type="text/css" href="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/css/ie8.css?v=2" />
+			<![endif]-->
+			<!--[if lt IE 9]>
+				<style>
+					html {
+						font-size:8px;
+					}
+
+					#signUpModal {
+						font-size:18px;
+					}
+
+					#signUpModal input {
+						width:360px;
+					}
+				</style>
+			<![endif]-->
+		</head>
+		<body>
+
+<div class="modalOverlayS">
+		<div id="signUpModal">
+			<div id="signUpWrapper">
+				<h1>Sign up for PINGMD </h1>
+
+				<hr>	
+
+				<form id="signUpForm" name="signUpForm" method="post" action="/registration/register/">
+                <input type='hidden' name='csrfmiddlewaretoken' value='UFlDFr8hJSiW0f764LJ3amwW5CDDIJ8Y' />
+                
+                <input type="hidden" id="timezone" name="timezone" value="America/New_York" />
+				<h3>I am a...</h3>
+                
+				<div class="iama">
+					<div><input id ="physician" class="radio-role" type="radio" name="role" value="practitioner" ><label for="physician">Health Care Provider</label></div>
+                    <div><input id="patient" class="radio-role" type="radio" name="role" value="custodian" > <label for="patient">Patient</label></div>
+                </div>
+				<br>
+				<hr>
+				<br>
+                    
+					<input type="text" id="signup-first-name" name="first_name" placeholder="First Name" autocomplete="off" value=""><br>
+                    
+					<input type="text" id="signup-last-name" name="last_name" placeholder="Last Name" autocomplete="off" value=""><br>
+                    
+					<input type="text" id="signup-email" name="email" placeholder="Email" autocomplete="off" value=""><br>
+                    <select id="signup-country-code" name="country_code">
+                        <option data-countryCode="US"  value="1">USA or Canada (+1)</option>
+                        <option data-countryCode="MX"  value="52">Mexico (+52)</option>
+                        <option data-countryCode="DZ"  value="213">Algeria (+213)</option>
+                        <option data-countryCode="AD"  value="376">Andorra (+376)</option>
+                        <option data-countryCode="AO"  value="244">Angola (+244)</option>
+                        <option data-countryCode="AI"  value="1264">Anguilla (+1264)</option>
+                        <option data-countryCode="AG"  value="1268">Antigua &amp; Barbuda (+1268)</option>
+                        <option data-countryCode="AR"  value="54">Argentina (+54)</option>
+                        <option data-countryCode="AM"  value="374">Armenia (+374)</option>
+                        <option data-countryCode="AW"  value="297">Aruba (+297)</option>
+                        <option data-countryCode="AU"  value="61">Australia (+61)</option>
+                        <option data-countryCode="AT"  value="43">Austria (+43)</option>
+                        <option data-countryCode="AZ"  value="994">Azerbaijan (+994)</option>
+                        <option data-countryCode="BS"  value="1242">Bahamas (+1242)</option>
+                        <option data-countryCode="BH"  value="973">Bahrain (+973)</option>
+                        <option data-countryCode="BD"  value="880">Bangladesh (+880)</option>
+                        <option data-countryCode="BB"  value="1246">Barbados (+1246)</option>
+                        <option data-countryCode="BY"  value="375">Belarus (+375)</option>
+                        <option data-countryCode="BE"  value="32">Belgium (+32)</option>
+                        <option data-countryCode="BZ"  value="501">Belize (+501)</option>
+                        <option data-countryCode="BJ"  value="229">Benin (+229)</option>
+                        <option data-countryCode="BM"  value="1441">Bermuda (+1441)</option>
+                        <option data-countryCode="BT"  value="975">Bhutan (+975)</option>
+                        <option data-countryCode="BO"  value="591">Bolivia (+591)</option>
+                        <option data-countryCode="BA"  value="387">Bosnia Herzegovina (+387)</option>
+                        <option data-countryCode="BW"  value="267">Botswana (+267)</option>
+                        <option data-countryCode="BR"  value="55">Brazil (+55)</option>
+                        <option data-countryCode="BN"  value="673">Brunei (+673)</option>
+                        <option data-countryCode="BG"  value="359">Bulgaria (+359)</option>
+                        <option data-countryCode="BF"  value="226">Burkina Faso (+226)</option>
+                        <option data-countryCode="BI"  value="257">Burundi (+257)</option>
+                        <option data-countryCode="KH"  value="855">Cambodia (+855)</option>
+                        <option data-countryCode="CM"  value="237">Cameroon (+237)</option>
+                        <option data-countryCode="CV"  value="238">Cape Verde Islands (+238)</option>
+                        <option data-countryCode="KY"  value="1345">Cayman Islands (+1345)</option>
+                        <option data-countryCode="CF"  value="236">Central African Republic (+236)</option>
+                        <option data-countryCode="CL"  value="56">Chile (+56)</option>
+                        <option data-countryCode="CN"  value="86">China (+86)</option>
+                        <option data-countryCode="CO"  value="57">Colombia (+57)</option>
+                        <option data-countryCode="KM"  value="269">Comoros (+269)</option>
+                        <option data-countryCode="CG"  value="242">Congo (+242)</option>
+                        <option data-countryCode="CK"  value="682">Cook Islands (+682)</option>
+                        <option data-countryCode="CR"  value="506">Costa Rica (+506)</option>
+                        <option data-countryCode="HR"  value="385">Croatia (+385)</option>
+                        <option data-countryCode="CU"  value="53">Cuba (+53)</option>
+                        <option data-countryCode="CY"  value="90392">Cyprus North (+90392)</option>
+                        <option data-countryCode="CY"  value="357">Cyprus South (+357)</option>
+                        <option data-countryCode="CZ"  value="42">Czech Republic (+42)</option>
+                        <option data-countryCode="DK"  value="45">Denmark (+45)</option>
+                        <option data-countryCode="DJ"  value="253">Djibouti (+253)</option>
+                        <option data-countryCode="DM"  value="1809">Dominica (+1809)</option>
+                        <option data-countryCode="DO"  value="1809">Dominican Republic (+1809)</option>
+                        <option data-countryCode="EC"  value="593">Ecuador (+593)</option>
+                        <option data-countryCode="EG"  value="20">Egypt (+20)</option>
+                        <option data-countryCode="SV"  value="503">El Salvador (+503)</option>
+                        <option data-countryCode="GQ"  value="240">Equatorial Guinea (+240)</option>
+                        <option data-countryCode="ER"  value="291">Eritrea (+291)</option>
+                        <option data-countryCode="EE"  value="372">Estonia (+372)</option>
+                        <option data-countryCode="ET"  value="251">Ethiopia (+251)</option>
+                        <option data-countryCode="FK"  value="500">Falkland Islands (+500)</option>
+                        <option data-countryCode="FO"  value="298">Faroe Islands (+298)</option>
+                        <option data-countryCode="FJ"  value="679">Fiji (+679)</option>
+                        <option data-countryCode="FI"  value="358">Finland (+358)</option>
+                        <option data-countryCode="FR"  value="33">France (+33)</option>
+                        <option data-countryCode="GF"  value="594">French Guiana (+594)</option>
+                        <option data-countryCode="PF"  value="689">French Polynesia (+689)</option>
+                        <option data-countryCode="GA"  value="241">Gabon (+241)</option>
+                        <option data-countryCode="GM"  value="220">Gambia (+220)</option>
+                        <option data-countryCode="GE"  value="7880">Georgia (+7880)</option>
+                        <option data-countryCode="DE"  value="49">Germany (+49)</option>
+                        <option data-countryCode="GH"  value="233">Ghana (+233)</option>
+                        <option data-countryCode="GI"  value="350">Gibraltar (+350)</option>
+                        <option data-countryCode="GR"  value="30">Greece (+30)</option>
+                        <option data-countryCode="GL"  value="299">Greenland (+299)</option>
+                        <option data-countryCode="GD"  value="1473">Grenada (+1473)</option>
+                        <option data-countryCode="GP"  value="590">Guadeloupe (+590)</option>
+                        <option data-countryCode="GU"  value="671">Guam (+671)</option>
+                        <option data-countryCode="GT"  value="502">Guatemala (+502)</option>
+                        <option data-countryCode="GN"  value="224">Guinea (+224)</option>
+                        <option data-countryCode="GW"  value="245">Guinea - Bissau (+245)</option>
+                        <option data-countryCode="GY"  value="592">Guyana (+592)</option>
+                        <option data-countryCode="HT"  value="509">Haiti (+509)</option>
+                        <option data-countryCode="HN"  value="504">Honduras (+504)</option>
+                        <option data-countryCode="HK"  value="852">Hong Kong (+852)</option>
+                        <option data-countryCode="HU"  value="36">Hungary (+36)</option>
+                        <option data-countryCode="IS"  value="354">Iceland (+354)</option>
+                        <option data-countryCode="IN"  value="91">India (+91)</option>
+                        <option data-countryCode="ID"  value="62">Indonesia (+62)</option>
+                        <option data-countryCode="IR"  value="98">Iran (+98)</option>
+                        <option data-countryCode="IQ"  value="964">Iraq (+964)</option>
+                        <option data-countryCode="IE"  value="353">Ireland (+353)</option>
+                        <option data-countryCode="IL"  value="972">Israel (+972)</option>
+                        <option data-countryCode="IT"  value="39">Italy (+39)</option>
+                        <option data-countryCode="JM"  value="1876">Jamaica (+1876)</option>
+                        <option data-countryCode="JP"  value="81">Japan (+81)</option>
+                        <option data-countryCode="JO"  value="962">Jordan (+962)</option>
+                        <option data-countryCode="KZ"  value="7">Kazakhstan (+7)</option>
+                        <option data-countryCode="KE"  value="254">Kenya (+254)</option>
+                        <option data-countryCode="KI"  value="686">Kiribati (+686)</option>
+                        <option data-countryCode="KP"  value="850">Korea North (+850)</option>
+                        <option data-countryCode="KR"  value="82">Korea South (+82)</option>
+                        <option data-countryCode="KW"  value="965">Kuwait (+965)</option>
+                        <option data-countryCode="KG"  value="996">Kyrgyzstan (+996)</option>
+                        <option data-countryCode="LA"  value="856">Laos (+856)</option>
+                        <option data-countryCode="LV"  value="371">Latvia (+371)</option>
+                        <option data-countryCode="LB"  value="961">Lebanon (+961)</option>
+                        <option data-countryCode="LS"  value="266">Lesotho (+266)</option>
+                        <option data-countryCode="LR"  value="231">Liberia (+231)</option>
+                        <option data-countryCode="LY"  value="218">Libya (+218)</option>
+                        <option data-countryCode="LI"  value="417">Liechtenstein (+417)</option>
+                        <option data-countryCode="LT"  value="370">Lithuania (+370)</option>
+                        <option data-countryCode="LU"  value="352">Luxembourg (+352)</option>
+                        <option data-countryCode="MO"  value="853">Macao (+853)</option>
+                        <option data-countryCode="MK"  value="389">Macedonia (+389)</option>
+                        <option data-countryCode="MG"  value="261">Madagascar (+261)</option>
+                        <option data-countryCode="MW"  value="265">Malawi (+265)</option>
+                        <option data-countryCode="MY"  value="60">Malaysia (+60)</option>
+                        <option data-countryCode="MV"  value="960">Maldives (+960)</option>
+                        <option data-countryCode="ML"  value="223">Mali (+223)</option>
+                        <option data-countryCode="MT"  value="356">Malta (+356)</option>
+                        <option data-countryCode="MH"  value="692">Marshall Islands (+692)</option>
+                        <option data-countryCode="MQ"  value="596">Martinique (+596)</option>
+                        <option data-countryCode="MR"  value="222">Mauritania (+222)</option>
+                        <option data-countryCode="YT"  value="269">Mayotte (+269)</option>
+                        <option data-countryCode="FM"  value="691">Micronesia (+691)</option>
+                        <option data-countryCode="MD"  value="373">Moldova (+373)</option>
+                        <option data-countryCode="MC"  value="377">Monaco (+377)</option>
+                        <option data-countryCode="MN"  value="976">Mongolia (+976)</option>
+                        <option data-countryCode="MS"  value="1664">Montserrat (+1664)</option>
+                        <option data-countryCode="MA"  value="212">Morocco (+212)</option>
+                        <option data-countryCode="MZ"  value="258">Mozambique (+258)</option>
+                        <option data-countryCode="MN"  value="95">Myanmar (+95)</option>
+                        <option data-countryCode="NA"  value="264">Namibia (+264)</option>
+                        <option data-countryCode="NR"  value="674">Nauru (+674)</option>
+                        <option data-countryCode="NP"  value="977">Nepal (+977)</option>
+                        <option data-countryCode="NL"  value="31">Netherlands (+31)</option>
+                        <option data-countryCode="NC"  value="687">New Caledonia (+687)</option>
+                        <option data-countryCode="NZ"  value="64">New Zealand (+64)</option>
+                        <option data-countryCode="NI"  value="505">Nicaragua (+505)</option>
+                        <option data-countryCode="NE"  value="227">Niger (+227)</option>
+                        <option data-countryCode="NG"  value="234">Nigeria (+234)</option>
+                        <option data-countryCode="NU"  value="683">Niue (+683)</option>
+                        <option data-countryCode="NF"  value="672">Norfolk Islands (+672)</option>
+                        <option data-countryCode="NP"  value="670">Northern Marianas (+670)</option>
+                        <option data-countryCode="NO"  value="47">Norway (+47)</option>
+                        <option data-countryCode="OM"  value="968">Oman (+968)</option>
+                        <option data-countryCode="PW"  value="680">Palau (+680)</option>
+                        <option data-countryCode="PA"  value="507">Panama (+507)</option>
+                        <option data-countryCode="PG"  value="675">Papua New Guinea (+675)</option>
+                        <option data-countryCode="PY"  value="595">Paraguay (+595)</option>
+                        <option data-countryCode="PE"  value="51">Peru (+51)</option>
+                        <option data-countryCode="PH"  value="63">Philippines (+63)</option>
+                        <option data-countryCode="PL"  value="48">Poland (+48)</option>
+                        <option data-countryCode="PT"  value="351">Portugal (+351)</option>
+                        <option data-countryCode="PR"  value="1787">Puerto Rico (+1787)</option>
+                        <option data-countryCode="QA"  value="974">Qatar (+974)</option>
+                        <option data-countryCode="RE"  value="262">Reunion (+262)</option>
+                        <option data-countryCode="RO"  value="40">Romania (+40)</option>
+                        <option data-countryCode="RU"  value="7">Russia (+7)</option>
+                        <option data-countryCode="RW"  value="250">Rwanda (+250)</option>
+                        <option data-countryCode="SM"  value="378">San Marino (+378)</option>
+                        <option data-countryCode="ST"  value="239">Sao Tome &amp; Principe (+239)</option>
+                        <option data-countryCode="SA"  value="966">Saudi Arabia (+966)</option>
+                        <option data-countryCode="SN"  value="221">Senegal (+221)</option>
+                        <option data-countryCode="CS"  value="381">Serbia (+381)</option>
+                        <option data-countryCode="SC"  value="248">Seychelles (+248)</option>
+                        <option data-countryCode="SL"  value="232">Sierra Leone (+232)</option>
+                        <option data-countryCode="SG"  value="65">Singapore (+65)</option>
+                        <option data-countryCode="SK"  value="421">Slovak Republic (+421)</option>
+                        <option data-countryCode="SI"  value="386">Slovenia (+386)</option>
+                        <option data-countryCode="SB"  value="677">Solomon Islands (+677)</option>
+                        <option data-countryCode="SO"  value="252">Somalia (+252)</option>
+                        <option data-countryCode="ZA"  value="27">South Africa (+27)</option>
+                        <option data-countryCode="ES"  value="34">Spain (+34)</option>
+                        <option data-countryCode="LK"  value="94">Sri Lanka (+94)</option>
+                        <option data-countryCode="SH"  value="290">St. Helena (+290)</option>
+                        <option data-countryCode="KN"  value="1869">St. Kitts (+1869)</option>
+                        <option data-countryCode="SC"  value="1758">St. Lucia (+1758)</option>
+                        <option data-countryCode="SD"  value="249">Sudan (+249)</option>
+                        <option data-countryCode="SR"  value="597">Suriname (+597)</option>
+                        <option data-countryCode="SZ"  value="268">Swaziland (+268)</option>
+                        <option data-countryCode="SE"  value="46">Sweden (+46)</option>
+                        <option data-countryCode="CH"  value="41">Switzerland (+41)</option>
+                        <option data-countryCode="SI"  value="963">Syria (+963)</option>
+                        <option data-countryCode="TW"  value="886">Taiwan (+886)</option>
+                        <option data-countryCode="TJ"  value="7">Tajikstan (+7)</option>
+                        <option data-countryCode="TH"  value="66">Thailand (+66)</option>
+                        <option data-countryCode="TG"  value="228">Togo (+228)</option>
+                        <option data-countryCode="TO"  value="676">Tonga (+676)</option>
+                        <option data-countryCode="TT"  value="1868">Trinidad &amp; Tobago (+1868)</option>
+                        <option data-countryCode="TN"  value="216">Tunisia (+216)</option>
+                        <option data-countryCode="TR"  value="90">Turkey (+90)</option>
+                        <option data-countryCode="TM"  value="7">Turkmenistan (+7)</option>
+                        <option data-countryCode="TM"  value="993">Turkmenistan (+993)</option>
+                        <option data-countryCode="TC"  value="1649">Turks &amp; Caicos Islands (+1649)</option>
+                        <option data-countryCode="TV"  value="688">Tuvalu (+688)</option>
+                        <option data-countryCode="UG"  value="256">Uganda (+256)</option>
+                        <option data-countryCode="GB"  value="44">UK (+44)</option>
+                        <option data-countryCode="UA"  value="380">Ukraine (+380)</option>
+                        <option data-countryCode="AE"  value="971">United Arab Emirates (+971)</option>
+                        <option data-countryCode="UY"  value="598">Uruguay (+598)</option>
+                        <option data-countryCode="UZ"  value="7">Uzbekistan (+7)</option>
+                        <option data-countryCode="VU"  value="678">Vanuatu (+678)</option>
+                        <option data-countryCode="VA"  value="379">Vatican City (+379)</option>
+                        <option data-countryCode="VE"  value="58">Venezuela (+58)</option>
+                        <option data-countryCode="VN"  value="84">Vietnam (+84)</option>
+                        <option data-countryCode="VG"  value="84">Virgin Islands - British (+1284)</option>
+                        <option data-countryCode="VI"  value="84">Virgin Islands - US (+1340)</option>
+                        <option data-countryCode="WF"  value="681">Wallis &amp; Futuna (+681)</option>
+                        <option data-countryCode="YE"  value="969">Yemen (North)(+969)</option>
+                        <option data-countryCode="YE"  value="967">Yemen (South)(+967)</option>
+                        <option data-countryCode="ZM"  value="260">Zambia (+260)</option>
+                        <option data-countryCode="ZW"  value="263">Zimbabwe (+263)</option>
+                    </select>
+                    
+					<input type="text" id="signup-phone" name="phone" placeholder="Mobile Number" autocomplete="off" value=""><br>
+                    
+					<input type="text" id="signup-birthday" class="datepicker" name="birthday" placeholder="Birthdate" autocomplete="off" value=""><br>
+                    
+					<select id="signup-gender" name="gender">
+					    <option value="" disabled="disabled" selected="selected"> -Gender- </option>
+					    <option value="M" >Male</option>
+					    <option value="F" >Female</option>
+					</select>
+
+					<style type="text/css">
+						@-moz-document url-prefix() {
+						    #signUpModal .closeBtn {
+						        right: 15px;
+						    }
+
+						    #signUpModal .iama input[type=radio] {
+						    	border-radius: none;
+						    }
+						    
+						}
+					</style>
+
+                    <input type="text" id="emr" name="emr" placeholder="What EMR Do You Use? (Optional)" autocomplete="off" value=""><br>
+                    
+					<input type="password" id="signup-password" name="password" placeholder="Password (six characters min)"><br>
+                    
+                    <input type="password" id="signup-confirm" name="confirm_password" placeholder="Confirm Password"><br>
+					<hr>
+
+                    <input type="submit" id="submit-registration" value="Join PINGMD" name="join">
+
+					<h2> *By electing to provide your phone number here, you consent to receiving PINGMD alerts in the form of text-message or prerecorded-calls from your PINGMD network as a notification in response to a PINGMD query, or that may include information about the availability of health services or contain informational material.
+
+				</form>
+
+				<div class="closeBtn">&times;</div>
+			</div>
+		</div>
+			<div class="modalOverlay">
+
+			</div>
+</div>
+<div class="modalOverlayL">
+		<div id="loginModal" class="modal-tag">
+
+			<div id="loginWrapper">
+				<h1>Login </h1>
+
+				<form name="loginForm" method="post" action="/login/">
+                    <input type='hidden' name='csrfmiddlewaretoken' value='UFlDFr8hJSiW0f764LJ3amwW5CDDIJ8Y' />
+                    
+					<input type="text" name="username" placeholder="Username" autocomplete="off" value="" ><br>
+					<input type="password" name="password" placeholder="Password" ><br>
+					<input type="submit" value="Log In" name="Log In">
+
+				</form>
+
+				<span> Forgot your password? <a href="/user/password/reset/"> Click here </a></span><br>
+				<span> Not a member? <a href="/?signup"> Sign up! </a></span>
+
+				<div class="closeBtn">&times;</div>
+			</div>
+		</div>
+		<div class="modalOverlay">
+
+			</div>
+</div>
+		<div class="modal">
+			<div class="modal-top-bar">
+				<span class="menu-bar-modal"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/mobile_menu_icon.png"></span>
+				<h1><a href="/"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/pingmd_logo_blue.png"></a></h1>
+			</div>
+
+			<div class="mobile-menu">
+				<ul> 
+					<a href="#section1"><li class="scroll-1"><span>What is pingmd?</span></li></a>
+				    <a href="#section2"> <li class="scroll-2"><span>Features</span></li></a>
+				    <a href="#section3"><li class="scroll-3"><span>Benefits</span></li></a>
+				    <a href="#section4"><li class="scroll-4"><span>Press</span></li></a>
+				    <a href="#section5"><li class="scroll-5"><span>Videos & Blog</span></li></a>
+				    <a href="/about/"><li><span>About</span></li></a>
+				    <a href="/contact/"><li><span>Contact</span></li></a>
+				    <a href="/faq/"><li><span>FAQ</span></li></a>
+				    <a href="/hipaa/"><li><span>HIPAA <img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/check_small.png"/></span></li></a>
+                    <a href="/safeharbor/"><li><span>Safe Harbor <img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/check_small.png"/></span></li></a>
+				</ul> 
+			</div>
+		</div>
+
+
+
+			<div class="menu front">
+				<div class="menu-background"></div>
+				<span class="menu-bar"></span>
+				<h1><a href="/"></a></h1>
+
+				<div class=" nav front"> 
+					<ul class="aniamted fadeInRight"> 
+					<a href="#section1"><li class="scroll-menu scroll-menu-1">What is pingmd?</li></a>
+					<a href="#section2"><li class="scroll-menu scroll-menu-2">Features</li></a>
+					<a href="#section3"><li class="scroll-menu scroll-menu-3">Benefits</li></a>
+					<a href="#section4"><li class="scroll-menu scroll-menu-4">Press</li></a>
+					<a href="#section5"><li class="scroll-menu scroll-menu-5">Videos & Blog</li></a>
+					</ul> 
+				</div>
+			</div>
+
+			<!-- SECTION CONTENT -->
+			<section class="content-wrapper"> 
+
+				<!-- SECTION 1 -->
+				<div id="section1 " class="info-section section-1">
+					<div class="center">
+						<div class="splash-bg"/></div>
+
+						<div class="container-wrapper">
+							<h1 class="animated fadeInDown" style=" -webkit-animation-delay:1s;">Care Via Your Smartphone.</h1>
+							<h2 class="wow fadeIn">Your device, HIPAA secure.</h2>
+
+							<div class="login-wrapper">
+								<div class="animated fadeIN button signup">SIGN UP</div>
+								<span> OR </span>
+								<div class="animated fadeIn button login">LOGIN</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="download">
+						<div class="center">
+							<div class="wow fadeIn download-wrapper" style="-webkit-animation-delay:1.25s;">
+								<a target="_blank" href="https://itunes.apple.com/us/app/pingmd-**new**/id635187188?ls=1&mt=8"><img class="download-button" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/appstore.png"/></a>
+								<a target="_blank" href="https://play.google.com/store/apps/details?id=com.pingmd"><img class="download-button" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/playstore.png"/></a>
+							</div>
+							
+							<div class="app-container">
+								<img class=" animated bounce iphone" style=" -webkit-animation-delay:1s;" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- SECTION 2 -->
+				<div id="section2 prlx_lyr_2" class="info-section section-2">
+					<a name="scroll-1"/>
+					
+					<div class="center">
+						<h1 class=" wow  fadeInDown main-section-title" style=" -webkit-animation-delay:2.1s;">What is pingmd<sup style="font-size: .25em; vertical-align: top; line-height: 3;">&reg;</sup>?</h1>
+						<p class="wow fadeInUp">Download the app. Build your network and patient panel. Message securely. It's that easy.</p>
+						<p class="wow fadeInUp">With pingmd<sup style="font-size: .25em; vertical-align: top; line-height: 3;">&reg;</sup>, you can connect to colleagues, staff and engage with your patients--all from one, secure place. Send multimedia messages, organize your workflow, and communicate with ease.</p>
+					</div>
+
+						<!-- Secure Communication -->
+						<div class="image-container first">
+
+							<div class="center secure-communication-absolute">
+								<div class="secure-communication-wrapper">
+									<h2 class="wow flash secure" style=" -webkit-animation-delay:1s;">Secure <br> Communication</h2>
+									<img class="secure-dotted-image" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/dotted_lines_secure.png"/>
+									<ul>
+										<li class="wow zoomInLeft secure-li-1"><span class="secure-span-1">HIPAA & HITECH Compliant</span></li>
+										<li class="wow zoomInLeft secure-li-2"><span class="secure-span-2">Federal standard encryption "Safe Harbor" for breach reporting</span></li>
+										<li class="wow zoomInRight secure-li-3"><span class="secure-span-3">No images, videos, text stored on device</span></li>
+										<li class="wow zoomInRight secure-li-4"><span class="secure-span-4">Password protected</span></li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- <img class="center" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/secure_comm.png"/> -->
+							
+							<div class="mobile-view secure-communication">
+								<h2 class="  wow animated bounce secure">Secure Communication</h2>
+								<ul>
+									<li><span class="secure-span-1">HIPAA & HITECH Compliant</span></li>
+									<li><span class="secure-span-2">Federal standard encryption "Safe Harbor" for breach reporting</span></li>
+									<li><span class="secure-span-3">No images, videos, text stored on device.</span></li>
+									<li><span class="secure-span-4">Password Protected</span></li>
+								</ul>
+							</div>
+						</div>
+
+					<div class="center">
+						<!-- Build a Network -->
+						<div class="image-container build">
+							<img class="center wow flipOutX" style=" -webkit-animation-delay:2.2s;" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/build_unlimited_networks_graphic.svg"/>
+						</div>
+
+						<div class="center-list">
+							<h2 class="wow bounceInDown">Build Unlimited Networks</h2>
+						
+							<div class="list-wrapper">
+								<div class=" wow fadeInLeft wrapper child-1">
+									<h3>Connect With Colleagues</h3>
+									<ul>
+										<li>Consults, Referrals</li>
+										<li>Handoffs, Discharges</li>
+										<li>Care Coordination</li>
+										<li>Medication Reconciliation</li>
+									</ul>
+								</div>
+
+								<div class="wow fadeInRight wrapper child-2">
+									<h3>Connect With Patients</h3>
+									<ul>
+										<li>Symptom Progression</li>
+										<li>Follow-Up Questions</li>
+										<li>Disease Management</li>
+										<li>Post-Procedural Follow-up</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- SECTION 3 -->
+				<div id="section3 prlx_lyr_3" class="info-section section-3">
+					<a name="scroll-2"/>
+						
+					<div class="center">
+						<h1 class=" wow rotateInUpRight main-section-title">Features</h1>
+
+						<h2 class="wow rotateInUpLeft">One place for all of your professional communication</h2>
+
+						<div class="carousel-wrapper">
+							<div class="carousel">
+								<div class=" image-carousel">
+									<!-- <div><img class="iphone-background" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone_background.png"/></div> -->
+									<img class="image-1 current-image" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone.png"/>
+									<img class="image-2" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone_2.png"/>
+									<img class="image-3" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone_3.png"/>
+									<img class="image-4" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone_4.png"/>
+									<img class="image-5" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone_5.png"/>
+									<img class="image-6" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/iphone_6.png"/>
+								</div>
+							</div>
+
+							<ul class="note">
+								<li class=" wow pulse note-li li-1 current-li">
+									<p class="first">Organized Clipboard</p>
+									<p class="current-li">Your entire network in one place with real-time message updates.</p>
+								</li>
+								<li class="wow pulse note-li li-2">
+									<p class="first">All-inclusive Groups</p>
+									<p>Your network is vital to your practice. Connect freely and securely.</p>
+								</li>
+								<li class="wow pulse note-li li-3">
+									<p class="first">Patient Wizard (Manager)</p>
+									<p>Expedite care by receiving structured patient queries that integrate with your EMR.</p>
+								</li>
+								<li class="wow pulse note-li li-4">
+									<p class="first">Multimedia Messaging</p>
+									<p>Share pictures and video for faster, easier consults.</p>
+								</li>
+								<li class="wow pulse note-li li-5">
+									<p class="first">eVisits & Tele-Consults</p>
+									<p>Care transitions, patient queries and colleague consults on your time.</p>
+								</li>
+								<li class="wow pulse note-li li-6">
+									<p class="first">Message Patient</p>
+									<p>Send patients follow-up instructions, appointment reminders, pre-visit requests, educational materials and more.</p>
+								</li>
+							</ul>
+
+							<div class="buttons">
+								<ul>
+									<li class="carousel-buttons carousel-1 current-carousel-button">●</li>
+									<li class="carousel-buttons carousel-2">●</li>
+									<li class="carousel-buttons carousel-3">●</li>
+									<li class="carousel-buttons carousel-4">●</li>
+									<li class="carousel-buttons carousel-5">●</li>
+									<li class="carousel-buttons carousel-6">●</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="list-wrapper end">
+							<ul>
+								<li>
+									<div class="wow bounceInUp image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/cross_platform.png"/>
+									</div>
+									<p class="wow fadeInDown">Available across multiple platforms.</p>
+								</li>
+								<li>
+									<div class="wow bounceInUp image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/cell_wifi.png"/>
+									</div>
+									<p class="wow fadeInDown">We work across both cellular and wifi.</p>
+								</li>
+								<li>
+									<div class=" wow bounceInUp image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/manage_networks.png"/>
+									</div>
+									<p class="wow fadeInDown">We integrate directories for larger groups and institutions to manage networks easily.</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="full-width">
+						<div class="center">
+							<h2 class="wow  fadeInUp nd">You've got great data. Let us help you analyze it.</h2>
+							<h4>For Care Networks & Enterprises.</h4>
+
+							<div class="list-wrapper checks">
+								<ul>
+									<li>
+										<div class="image-wrapper">
+											<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/check_large.png"/>
+										</div>
+										<p class="wow tada">Population Health Management</p>
+									</li>
+									<li>
+										<div class="image-wrapper">
+											<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/check_large.png"/>
+										</div>
+										<p class="wow tada">Organizational Efficiency</p>
+									</li>
+									<li>
+										<div class="image-wrapper">
+											<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/check_large.png"/>
+										</div>
+										<p class="wow tada">Resource <br> Allocation</p>
+									</li>
+								</ul>
+							</div>
+
+							<!-- Macbook Stats -->
+							<div class="image-container">
+								<img class="wow zoomIn center laptop" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/macbook.png"/>
+							</div>
+
+							<div class="container-wrapper contact-button">
+								<a class="wow pulse learn-more"href="/contact/">CONTACT US TO LEARN MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- SECTION 4 -->
+				<div id="section4 prlx_lyr_4" class="info-section section-4">
+					<a name="scroll-3"/>
+
+					<div class="center">
+						<h1>Benefits</h1>
+
+						<div class="container-wrapper">
+							<ul>
+								<li class=" wow  bounceInLeft benefit-li-1 current-benefit">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/benefits_1.png"/>
+									</div>
+									<b>Loyal Patients</b>
+									<p>Engaged & highliy satisfied patients.</p>
+								</li>
+								<li class=" wow zoomIn benefit-li-2">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/benefits_2.png"/>
+									</div>
+									<b>Convenience</b>
+									<p>One account. Any device. Anywhere.</p>
+								</li>
+								<li class="benefit-li-3  wow  bounceInRight">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/benefits_3.png"/>
+									</div>
+									<b>Differentiation</b>
+									<p>A competitive edge.<br>A smart way to practice.</p>
+								</li>
+								<li class=" wow  bounceInLeft benefit-li-4">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/benefits_4.png"/>
+									</div>
+									<b>Better Outcomes</b>
+									<p>Easily intervene & track patients.</p>
+								</li>
+								<li class=" wow zoomIn benefit-li-5">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/benefits_5.png"/>
+									</div>
+									<b>Immediate Access</b>
+									<p>Create an account and connect in minutes.</p>
+								</li>
+								<li class=" wow  bounceInRight benefit-li-6">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/benefits_6.png"/>
+									</div>
+									<b>Organization</b>
+									<p>One place for your entire network.</p>
+								</li>
+							</ul>
+
+							<div class="buttons">
+								<ul>
+									<li class="benefit-buttons current-benefit-button">●</li>
+									<li class="benefit-buttons">●</li>
+									<li class="benefit-buttons">●</li>
+									<li class="benefit-buttons">●</li>
+									<li class="benefit-buttons">●</li>
+									<li class="benefit-buttons">●</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- SECTION 5 -->
+				<div id="section5" class="info-section section-5">
+					<a name="scroll-4"/>
+
+					<div class="center press">
+						<h1 class="wow flipInX" style="-webkit-animation-delay: .1s;">Press</h1>
+
+						<div class="container-wrapper">
+							<ul>
+								<li class=" wow zoomInRight press-text-li-1 current-press-text" style="-webkit-animation-delay:.3s;">
+									<p>"The app eliminates much of the time- consuming hassle between doctors and their patients - especially those frustrating games of telephone tag."</p>
+								</li>
+								<li class="wow zoomInRight press-text-li-2" style="-webkit-animation-delay:.6s;">
+									<p>"This instant link between patients and their own doctors will drastically decrease the amount of time and money ... wasted within the health world."</p>
+								</li>
+								<li class="wow zoomInRight press-text-li-3" style="-webkit-animation-delay:.9s;">
+									<p>"Pingmd is designed to let pediatricians and other doctors quickly ask "targeted questions" about patients health, with them quickly contributing photos & video"</p>
+								</li>
+							</ul>
+						</div>
+
+						<div class="container-wrapper">
+							<ul>
+								<li class="press-image-li-1 current-press-image">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/nyp.png"/>
+									</div>
+								</li>
+								<li class="press-image-li-2">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/hp.png"/>
+									</div>
+								</li>
+								<li class="press-image-li-3">
+									<div class="image-wrapper">
+										<img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/fc.png"/>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="buttons">
+							<ul>
+								<li class="current-press-button press-buttons">●</li>
+								<li class="press-buttons">●</li>
+								<li class="press-buttons">●</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="container-wrapper join wow zoomIn">
+						<div class="center">
+							<h2 class="wow bounceOutUp" style="-webkit-animation-delay:2s;">Join the thousands of networks benefiting from pingmd</h2>
+							<span class="container-wrapper">
+								<h4 class=" wow pulse signup" style="-webkit-animation-delay:1s;">SIGN UP IN SECONDS</h4>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- SECTION 6 -->
+				<div id="section6" class="info-section section-6">
+					<a name="scroll-5"/>
+					<div class="center">
+						<div class="section-featured">
+
+							<h4 class="wow fadeIn">Featured Videos</h4>
+							<div class="list-wrapper">
+								<ul>
+									<li class="wow pulse" style="-webkit-animation-delay:.2s;">
+										<a class="play-icon" href="https://www.youtube.com/watch?v=c_RNQ11Qybo&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/video_play.png"></a>
+										<a class="video-thumb video-1" href="https://www.youtube.com/watch?v=c_RNQ11Qybo&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/thumb_1.png"></a>
+										<p><a href="https://www.youtube.com/watch?v=c_RNQ11Qybo&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank">pingmd Chats: Making Care Relevant</a></p>
+									</li>
+									<li class="wow pulse" style="-webkit-animation-delay:.3s;"> >
+										<a class="play-icon" href="https://www.youtube.com/watch?v=_ivqdm_VzYQ&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/video_play.png"></a>
+										<a class="video-thumb video-2" href="https://www.youtube.com/watch?v=_ivqdm_VzYQ&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/thumb_2.png"></a>
+										<p><a href="https://www.youtube.com/watch?v=_ivqdm_VzYQ&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank">pingmd For Providers</a></p>
+									</li>
+									<li class="wow pulse" style="-webkit-animation-delay:.4s;">
+										<a class="play-icon" href="https://www.youtube.com/watch?v=LIODlwpkLhY&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/video_play.png"></a>
+										<a class="video-thumb video-3" href="https://www.youtube.com/watch?v=LIODlwpkLhY&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/thumb_3.png"></a>
+										<p><a href="https://www.youtube.com/watch?v=LIODlwpkLhY&list=UUbTv3cjhDEPYRGrNYFH52hg" target="_blank">pingmd Demo: Complex Network Communication</a></p>
+									</li>
+								</ul>
+								<a target="_blank" href="https://www.youtube.com/user/pingmd" target="_blank"><span class="wow tada" style="-webkit-animation-delay:1.3s;">WATCH ALL VIDEOS</span></a>
+							</div>
+						</div>
+						<a name="scroll-6"/>
+						<div class="section-post">
+							<h4 class="wow fadeIn">Latest Blog Post</h4>
+							<div class="container-wrapper">
+								<h4>Introducing Groups:  A Better Way for #Healthcare Teams to Communicate</h4>
+								<p>Effective care delivery requires team effort.  Whether on the receiver or provider end of services, it’s nearly impossible to recall a time when only one person was involved in c...</p>
+							</div>
+							<a href="http://blog.pingmd.com/2013/12/02/introducing-groups-a-better-way-for-healthcare-teams-to-communicate/"><span class="wow tada" style="-webkit-animation-delay:2s;">READ THE FULL POST</span></a>
+							<a href="http://blog.pingmd.com/"><span class="blog-home wow tada" style="-webkit-animation-delay:2.7s;">BLOG HOME</span></a>
+						</div>
+					</div>
+				</div>
+
+				<!-- FOOTER -->
+				<div class="footer">
+					<div class="center">
+						<div class="list-wrapper nav-links">
+							<ul class="wow fadeInLeft">
+                                <li>&copy; <span id="copyright-year">2014</span> pingmd, Inc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+								<li><a href="/about/">About</a></li>
+								<li><a href="/contact/">Contact</a></li>
+								<li><a href="/faq/">FAQ</a></li>
+								<li><a href="/hipaa/">HIPAA</a><img class="hipaa-check" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/check_small.png"/></li>
+                                <li><a href="/safeharbor/">Safe Harbor</a><img class="safe-harbor-check" src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/check_small.png"/></li>
+							</ul>
+						</div>
+
+						<div class="list-wrapper social">
+							<ul>
+								<li class="wow bounceInRight" style="-webkit-animation-delay:2.5s;">
+									<a target="_blank" href="https://www.facebook.com/pingmd"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/facebook.png"/></a>
+								</li>
+								<li class="wow bounceInRight" style="-webkit-animation-delay:2.9s;">
+									<a target="_blank" href="https://twitter.com/pingmd"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/twitter.png"/></a>
+								</li>
+								<li class="wow bounceInRight" style="-webkit-animation-delay:3.3s;">
+								<a target="_blank" href="https://www.youtube.com/user/pingmd"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/youtube.png"/></a>
+								</li>
+								<li class="wow bounceInRight" style="-webkit-animation-delay:3.7s;">
+									<a target="_blank" href="https://www.linkedin.com/company/2448900"><img src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/linkedin.png"/></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- JAVASCRIPT -->
+            <script src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/js/libs/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
+            <script type="text/javascript" src="https://dblhg1hwefduo.cloudfront.net/static/plugins/pickadate/picker.js"></script>
+            <script type="text/javascript" src="https://dblhg1hwefduo.cloudfront.net/static/plugins/pickadate/picker.date.js"></script>
+            <script type="text/javascript" src="https://dblhg1hwefduo.cloudfront.net/static/plugins/pickadate/legacy.js"></script>
+			<script src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/js/main.js"></script>
+			<script src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/js/mobile-menu.js"></script>
+
+            <script src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/js/analytics.js"></script>
+
+            
+            <!-- Google Analytics-->
+            <script type="text/javascript">
+
+              var _gaq = _gaq || [];
+              _gaq.push(['_setAccount', 'UA-33324126-5']);
+              _gaq.push(['_trackPageview']);
+
+              (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+
+            </script>
+            
+
+            <script src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/js/index.js?v=2"></script>
+
+
+			<!--[if lt IE 10]>
+				<script src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/js/libs/placeholder.js"></script>
+				<script src="https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/js/libs/selectivizr.js"></script>
+
+				<script>
+				
+
+				$(document).ready(function(){
+					$('input, textarea').placeholder();
+					$('.image-container.build img').attr('src','https://dblhg1hwefduo.cloudfront.net/static/pingmd_website/images/network.png');
+					$('input:radio, input:checkbox').click(function() {  
+				      this.blur();  
+				      this.focus();  
+				    });
+
+					
+				});
+
+			</script>
+			<![endif]-->
+			<script>
+			    var ie8 = false;
+			    $(document).ready(function(){
+				    var vpw = $(window).width();
+				    var vph = $('.content-wrapper').height();
+
+			    	$('.modalOverlay').css({'position':'absolute','top':'0','left':'0','width': vpw + 'px','height': vph + 'px','z-index':'99','background':'rgba(0,0,0,.1'});
+			    });
+			</script>
+
+			<!--[if IE 8]>
+			    <script>
+			        ie8 = true;
+			    </script>
+			<![endif]-->
+
+			<script>
+			    if (ie8 == false) {
+			        // any code here will not be executed by IE 8
+			        		$('.modalOverlay').click(function(e){
+			        			$(this).parent('.modalOverlayS,.modalOverlayL').css({'display': 'none'});
+			        			$('body').css({'max-height':'none','overflow':'auto'});
+
+								 //    if( $(e.target).closest("#loginModal").length > 0 ) {
+								 //   	   return false;
+								 //    }
+								 //    if( $(e.target).closest("#signUpModal").length > 0 ) {
+								 //        return false;
+								 //    }
+									// $(this).css({'display': 'none'});
+
+								    // Otherwise
+								    // trigger your click function
+							});
+			    }
+			</script>
+
+			<script>
+
+				$(document).ready(function(){
+
+                    
+                    $("#copyright-year").html((new Date()).getFullYear());
+
+                    $(".iama input[type='radio']").click(function(){
+						$(".iama input[type='radio']").not(this).attr('checked', false); 
+					});
+
+					$(".iama label").click(function(){
+						$(this).closest('input[type="radio"]').attr('checked', true); 
+					});
+
+                    
+
+                    
+
+                    
+
+				});
+
+                  
+
+			</script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
+       
+            
+            
+            
+                  <!-- paralax-->
+      <script>
+
+        function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+        var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+        var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
+        var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
+    
+
+        
+      
+        prlx_lyr_1.style.top = (window.pageYOffset/1.5)+'px';
+        prlx_lyr_2.style.top= -(window.pageYOffset/.6)+'px';
+        prlx_lyr_3.style.top = -(window.pageYOffset/.6)+'px';
+  
+
+           
+
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
+                  
+		</body>
+	</html>

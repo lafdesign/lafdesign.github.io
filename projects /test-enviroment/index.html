@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- sass generated style 'framework' -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!-- user override styles-->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+
+          <script type="text/javascript">
+
+    function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+     
+      
+        prlx_lyr_1.style.left = (window.pageXOffset/.8)+'px'
+   
+
+        
+        
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
+
+    </head>
+    <body id="doScroll">
+        <!--[if lt IE 7]>
+            <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add content here -->
+       
+            <div class="air">
+                <!-- Scroll button-->
+                <div id="arrow-button"> 
+                    <a class= "arrow-button">
+                      <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+                            
+                <i class="fa cloud cloud-1 fa-cloud"></i>
+                <i class="fa cloud cloud-2 fa-cloud"></i>
+                <i class="fa cloud cloud-3 fa-cloud"></i>
+                <i class="fa cloud cloud-4 fa-cloud"></i>
+                <i class="fa cloud cloud-5 fa-cloud"></i>
+                <i class="tree tree-1 fa fa-tree"></i>
+            </div>
+
+            <div class="surface">
+                <i id="prlx_lyr_1" class="bike fa fa-bicycle"></i>
+                <i  class="tree tree-2 fa fa-tree"></i>
+                <i  class="tree tree-3 fa fa-tree"></i>
+               
+            </div>
+
+            <div class="earth">
+                <a>
+                <i class="social fa fa-github"></i>
+                </a>
+                <a>
+                <i class="social fa fa-twitter"></i>
+                </a>
+                <a>
+                <i class="social fa fa-linkedin"></i>
+                </a>
+                <a>
+                <i class="social fa fa-pinterest"></i>
+                </a>
+            </div>
+     
+                
+
+        <!-- No content below here -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Scroll button -->
+        <script>
+            $( document ).ready(function() {
+          var bodyWidth = $( "body" ).width(), // whole width of the body
+              wWidth = $( window ).width(),// width of the viewport
+              arrowButton = $( "#arrow-button" ),
+              pos = 0;// start position
+
+          arrowButton.click(function() {
+            if ( pos <= bodyWidth-wWidth ) {
+              pos += wWidth+500;// after click add to start position width of the viewport
+            } else {
+              pos = 0; 
+            }
+
+            $('body').animate( { scrollLeft: pos }, 1500);
+          });
+
+           });//end ready
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

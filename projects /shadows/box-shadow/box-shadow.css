@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	background-color: #ccc;
+
+}
+
+div{
+	background-color: #fff;
+	width:400px;
+	height:200px;
+	padding: 15px;
+	margin:15px;
+	float: left;
+}
+
+.shadow2{
+	position: relative;
+	top: ;
+	box-shadow: 0 20px 10px -10px rgba(150, 150, 150, 0.8);
+
+}

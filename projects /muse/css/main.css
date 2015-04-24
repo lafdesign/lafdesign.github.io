@@ -1,0 +1,76 @@
+
+
+/*This ensures that all elements are always sized in this more intuitive way--!>*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html{
+	max-height: 100vh;
+	overflow: hidden; 
+}
+
+/*clarfix for floats--!>*/
+.clearfix {
+  overflow: auto;
+  /* zoom: 1; add for IE 6*/
+}
+
+.vertical-container {
+  display: -webkit-flex;
+  display: flex;
+  height: 100vh;
+  
+}
+
+
+.main{
+	position: relative;
+	display: inline-block;
+	margin: auto;
+
+}
+
+
+a.animated{
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	animation-delay: 2.4s;
+	-webkit-animation-delay:2.4s;
+	-moz-animation-delay:2.4s;
+}
+
+
+.icon{
+	font-size: 4em;
+}
+
+.art{
+	position: relative;
+	top:-100vh;
+	z-index: 2;
+	display: inline-block;
+	width: 25%;
+	animation-delay: .5s;
+	-webkit-animation-delay:.5s;
+	-moz-animation-delay:.5s;
+}
+
+.muse-logo{
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	width: 10%;
+	animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay:3s;
+
+}
+
+a img.muse-logo:hover{
+	-webkit-filter: drop-shadow(0 0 50px #CA47B9);
+}

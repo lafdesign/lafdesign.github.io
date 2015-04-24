@@ -1,0 +1,115 @@
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+
+.caption{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	text-align: right;
+	color:#fff;
+}
+
+p, h1{
+	margin: 0;
+}
+h1 {
+	margin-bottom: 0.2em;
+}
+p{
+	line-height: 1.333em;
+}
+#slide-3 .caption{
+	left: 5%;
+	right: auto;
+	color: #47373f;
+	text-align: left;
+}
+
+#slide-4 .caption{
+	left: 5%;
+	right: auto;
+	top:5%;
+	bottom: auto;
+	color: #47373f;
+	text-align: left;
+}
+#slides-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#slides{
+	width: 200%;
+	height: 200%;
+	position: fixed;
+	top:0;
+	left:0;
+
+}
+
+.slide{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 50%;
+	height: 50%;
+
+}
+
+#slide-1{
+	background: url('../img/portfolio-2.jpg') no-repeat center center;
+	background-size: cover;
+}
+#slide-2{
+	background: url('../img/download.jpg') no-repeat center center;
+	background-size: cover;
+	-ms-transform: translate(0,100%); /* IE 9 */
+    -webkit-transform: translate(0,100%); /* Chrome, Safari, Opera */
+    transform: translate(0,100%);
+}
+#slide-3{
+	background: url('../img/intro-bg.jpg') no-repeat center center;
+	background-size: cover;
+	-ms-transform: translate(100%,100%); /* IE 9 */
+    -webkit-transform: translate(100%,100%); /* Chrome, Safari, Opera */
+    transform: translate(100%,100%);
+}
+#slide-4{
+	background: url('../img/portfolio-3.jpg') no-repeat center center;
+	background-size: cover;
+	-ms-transform: translate(100%,0); /* IE 9 */
+    -webkit-transform: translate(100%,0); /* Chrome, Safari, Opera */
+    transform: translate(100%,0);
+}
+
+#helper{
+	position: absolute;
+	left: 0;
+	top:0;
+	height: 650%;
+	width: 25px
+	;
+}
+.marker{
+	height:25%;
+	width:100%;
+}
+
+.red {
+	background-color: red;
+}
+.green {
+	background-color: green;
+}
+.blue {
+	background-color: blue;
+}
+.yellow {
+	background-color: yellow;
+}
+
