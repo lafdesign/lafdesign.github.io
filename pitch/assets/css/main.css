@@ -1,0 +1,381 @@
+/* 
+=========================
+  Reset
+=========================
+*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+.clear{ clear: both; margin: 0px; padding: 0px; }
+.clearfix:before, .clearfix:after, .cf:before, .cf:after { content:""; display:table; }
+.clearfix:after, .cf:after { clear:both; }
+.clearfix, .cf { zoom:1; }
+.notext, .nt{ display: block; text-indent: -9999px; overflow:hidden; line-height:0px; font-size:0px; }
+.nom{ margin-right: 0px !important; }
+.show{ display: block; }
+.hidden{ display: none; }
+.mobile{ display: none; }
+
+
+
+/* 
+=========================
+  Fonts
+=========================
+*/
+
+
+@font-face {
+  font-family: 'Code-Pro';
+  src:  url('../fonts/2A0D0D_6_0.eot');
+  src:  url('../fonts/2A0D0D_6_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/2A0D0D_6_0.woff') format('woff'),
+        url('../fonts/2A0D0D_6_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Code-Pro-Bold';
+  src:  url('../fonts/2A0D0D_3_0.eot');
+  src:  url('../fonts/2A0D0D_3_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/2A0D0D_3_0.woff') format('woff'),
+        url('../fonts/2A0D0D_3_0.ttf') format('truetype');
+}
+
+
+
+
+/* 
+=========================
+  Global
+=========================
+*/
+
+
+body{
+  font: 14px/14px 'Code-Pro', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+
+.grid{
+  width: 1024px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 
+=========================
+  Header
+=========================
+*/
+
+header{
+  margin: 20px
+}
+
+#logo{
+  float: left;
+}
+
+.btn-download{
+  color: #e99d63;
+  line-height: 30px;
+  float: right;
+  padding-right: 35px;
+  background: url('/assets/img/download.png') top right no-repeat;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.header-nav{
+  border-top:   1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 10px;
+}
+
+.header-nav a{
+  float: left;
+  text-transform: uppercase;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  text-align: center;
+  width: 20%;
+  color: #808080;
+  display: block;
+  padding: 9px 0 7px;
+  font-size: 16px;
+}
+
+.header-nav a.active{
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  color: #000;
+}
+
+
+/* 
+=========================
+  Slides
+=========================
+*/
+
+.slide{
+  padding-bottom: 40px;
+}
+
+.image-caption{
+  width: 100%;
+  height: 436px;
+  position: relative;
+}
+
+
+.image-caption span{
+  text-align: center;
+  z-index: 200;
+  font-size: 42px;
+  color: #6c6c6c;
+  font-family: 'Code-Pro-Bold', Arial, Helvetica, sans-serif;
+  width: 100%;
+  display: block;
+  margin-top: -228px;
+}
+
+.copy{
+  margin-top: 25px;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0 30px;
+  color: #333;
+}
+
+.copy strong{
+  color: #000;
+}
+
+
+h2{
+  display: block;
+  text-align: center;
+  font-family: 'Code-Pro-Bold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #6C6C6C;
+  font-size: 42px;
+  padding: 30px 0 40px;
+}
+
+/* 
+=========================
+  Team
+=========================
+*/
+
+#team{
+  padding: 0 36px;
+}
+
+.bio{
+  width: 50%;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.bio img{
+  float: left;
+  margin-left: 28px;
+  border: 1px solid #999;
+}
+
+.info-area{
+  float: left;
+  margin: 0 30px 0 15px;
+  width: 270px;
+}
+
+.info-area a{
+  color: #E99D63;
+}
+
+.info-area h4{
+  font-size: 18px;
+  font-family: 'Code-Pro-Bold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  padding-top: 3px;
+}
+
+.info-area h5{
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  border-bottom: 1px solid #000;
+  margin: 5px 0 5px;
+  padding-bottom: 2px;
+}
+
+
+/* 
+=========================
+  Case Studies
+=========================
+*/
+
+.work{
+  float: left;
+  width: 50%;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.work img{
+  float: left;
+  width: 130px;
+  margin-right: 15px;
+}
+
+.work span{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Code-Pro-Bold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  padding-top: 3px;
+  display: block;
+}
+
+.work:hover{
+  color: #E99D63;
+}
+
+.date-section h3{
+  font-size: 26px;
+  font-family: 'Code-Pro-Bold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+/* 
+=========================
+  Contact
+=========================
+*/
+
+#contact{
+  padding: 0 30px;
+  padding-top: 10px;
+}
+
+.person{
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.person .name, 
+.person .title, 
+.email{
+  font-family: 'Code-Pro-Bold', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 5px;
+  display: block;
+}
+
+.person .title{
+  font-size: 18px;
+}
+
+.email{
+  font-size: 18px;
+  color: #E99D63;
+  margin-bottom: 15px;
+  margin-top: 2px;
+}
+
+
+
+/* 
+=========================
+  Slider
+=========================
+*/
+
+#slides{
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#slide-wrapper{
+  width: 5120px;
+}
+
+.slide{
+  float: left;
+  width: 1024px;  
+  padding-bottom: 40px;
+}
+
+
+/*
+.slide1, .slide2, .slide3, .slide4{
+  display: none;
+}
+*/
+
+
+
+/* 
+=========================
+  Footer nav
+=========================
+*/
+
+.footer-nav{
+  text-align: center;
+  border-top: 1px solid #BBB;
+  padding: 20px 0;
+}
+
+.footer-nav a{
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+  color: #808080;
+  font-size: 12px;
+}
+
+.footer-nav a.active{
+  color: #000;
+}
+
+
+
+.img-right{
+  float: right;
+  margin-right: 220px;
+}
+
+.contact-right{
+  margin: 400px 0 0 60px;
+}
+
