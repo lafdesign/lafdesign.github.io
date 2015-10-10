@@ -434,6 +434,8 @@ h2 {
     display: inline-block;
     width: 100px;
     padding-left: 20px;
+    position: relative;
+    top: -105px;
 }
 
 .gate{
@@ -450,6 +452,10 @@ h2 {
     
         margin-top: 8px;
 
+}
+
+.pad {
+    padding-bottom: 30px;
 }
 
 
