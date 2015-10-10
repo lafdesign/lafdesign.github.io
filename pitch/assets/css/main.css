@@ -430,3 +430,8 @@ h2 {
     width: 154px;
     padding-right: 15px;
 }
+
+header {
+        padding-top: 15px;
+    padding-bottom: 15px;
+}
