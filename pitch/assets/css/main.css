@@ -87,6 +87,7 @@ header{
 
 #logo{
   float: left;
+  width: 100px;
 }
 
 .btn-download{
