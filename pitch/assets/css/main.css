@@ -430,7 +430,16 @@ h2 {
     width: 154px;
     padding-right: 15px;
 }
+.hero-img {
+    display: inline-block;
+    width: 100px;
+    padding-left: 20px;
+}
 
+.gate{
+        width: 59%;
+        padding-left: 0;
+}
 /*.hero {
         position: absolute;
     z-index: 1;
@@ -445,6 +454,10 @@ h2 {
 
 
 
-
+.star {
+        width: 230px;
+    position: absolute;
+    border: none !important;
+}
 
 
