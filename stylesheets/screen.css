@@ -1,4 +1,8 @@
-/* line 17, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,242 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
-}
-
-/* line 5, ../sass/screen.sass */
-body html {
-  background-color: #fbfbf7;
-}
-
-/* line 26, ../sass/screen.sass */
-.container {
-  width: 100%;
-  padding: 0;
-}
-
-/* line 30, ../sass/screen.sass */
-p {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-/* line 33, ../sass/screen.sass */
-h1 {
-  font-family: "Nothing You Could Do", cursive;
-  font-size: 2em;
-}
-
-/* line 37, ../sass/screen.sass */
-a {
-  font-family: "Syncopate", sans-serif;
-}
-
-/* line 40, ../sass/screen.sass */
-li a {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5em;
-}
-
-/* line 44, ../sass/screen.sass */
-a.nav:hover {
-  font-size: 2em;
-  color: black;
-}
-
-/* line 48, ../sass/screen.sass */
-.center-block {
-  float: none;
-  margin: 0 auto;
-}
-
-/* line 52, ../sass/screen.sass */
-ul {
-  list-style: none;
-}
-
-/* line 55, ../sass/screen.sass */
-ul.catalogue {
-  font-size: 0.6em;
-}
-
-/* line 58, ../sass/screen.sass */
-img.tree-svg {
-  position: relative;
-  left: 3%;
-}
-
-/* line 62, ../sass/screen.sass */
-img.plastic_bag {
-  position: relative;
-  display: block;
-  width: 50%;
-  left: 25%;
-  z-index: -5;
-}
-
-/* line 69, ../sass/screen.sass */
-img.github_logo {
-  width: 10%;
-  position: relative;
-  left: 20%;
-}
-
-/* line 74, ../sass/screen.sass */
-img.tilapia {
-  width: 40%;
-  left: 30%;
-  position: relative;
-}
-
-/* line 79, ../sass/screen.sass */
-img.train {
-  position: relative;
-  left: -530px;
-  top: 400px;
-  z-index: -4;
-}
-
-/* line 85, ../sass/screen.sass */
-ul.contact_list {
-  list-style: none;
-  display: inline-block;
-  font-size: 3em;
-  width: 100%;
-  text-align: center;
-}
-
-/* line 92, ../sass/screen.sass */
-img.train-bridge {
-  position: absolute;
-  top: 500px;
-  left: 0;
-}
-
-/* line 97, ../sass/screen.sass */
-div.contact_info {
-  width: 56%;
-  text-align: right;
-  position: relative;
-}
-
-/* line 102, ../sass/screen.sass */
-img.waves {
-  width: 100%;
-  position: relative;
-}
-
-/* line 106, ../sass/screen.sass */
-div.wave-box {
-  width: 25%;
-  left: 35%;
-  position: relative;
-}
-
-/* line 111, ../sass/screen.sass */
-.flip3d {
-  width: 240px;
-  height: 240px;
-  margin: 10px;
-  float: left;
-}
-
-/* line 117, ../sass/screen.sass */
-.flip3d > .front {
-  position: absolute;
-  transform: perspective(600px) rotateY(0deg);
-  -webkit-transform: perspective(600px) rotateY(0deg);
-  background-color: #ad3737;
-  width: 13%;
-  height: 10%;
-  backface-visibility: hidden;
-  -webkit-backface-visability: hidden;
-  border-radius: 7px;
-  transition: transform 0.5s linear 0s;
-  webkit-transition: transform 0.5s linear 0s;
-}
-
-/* line 130, ../sass/screen.sass */
-.flip3d > .back {
-  position: absolute;
-  transform: perspective(600px) rotateY(180deg);
-  -webkit-transform: perspective(600px) rotateY(-180deg);
-  background-color: #80bfff;
-  width: 13%;
-  height: 10%;
-  backface-visibility: hidden;
-  -webkit-backface-visability: hidden;
-  border-radius: 7px;
-  transition: transform 0.5s linear 0s;
-  -webkit-transition: transform 0.5s linear 0s;
-}
-
-/* line 143, ../sass/screen.sass */
-.flip3d:hover > .front {
-  transform: perspective(600px) rotateY(-180deg);
-  -webkit-transform: perspective(600px) rotateY(-180deg);
-}
-
-/* line 147, ../sass/screen.sass */
-.flip3d:hover > .back {
-  transform: perspective(600px) rotateY(0deg);
-  -webkit-transform: perspective(600px) rotateY(0deg);
-}
-
-/* line 151, ../sass/screen.sass */
-ul.contact {
-  position: relative;
-  top: -45px;
-  left: -50px;
-}
-
-/* line 156, ../sass/screen.sass */
-.workText {
-  padding: 0;
-}
-
-/* line 159, ../sass/screen.sass */
-h3.hobbies-title {
-  position: relative;
-  left: 64%;
-  top: -20.5em;
 }
