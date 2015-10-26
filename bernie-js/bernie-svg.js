@@ -24,7 +24,7 @@ window.onload = function () {
         'quint-in': 'Quint In', 'quint-out': 'Quint Out', 'quint-in-out': 'Quint In/Out',
         'sine-in': 'Sine In','sine-out': 'Sine Out','sine-in-out': 'Sine In/Out'
       },
-      durations=[250, 500, 750, 1000, 5000],
+      durations=[750, 1000, 2500, 5000],
       rotations={
         'clock': 'Clockwise',
         'counterclock': 'Counterclockwise',
