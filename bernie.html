@@ -29,17 +29,16 @@
   <link rel="stylesheet" href="bernie-js/bernie-svg.css"/>
   <script type="text/javascript" src="bernie-js/svg-morpheus.js"></script>
   <script type="text/javascript" src="bernie-js/bernie-svg.js"></script>
+
 </head>
 <body>
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KXK6BT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KXK6BT');</script>
-<!-- End Google Tag Manager -->
 
+<!-- End Google Tag Manager -->
+  <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+        <img class="bernie-gif" src="bernie.gif">
+    </div>
     <style type="text/css">
   .st0{fill:#FFFFFF;}
   .st1{fill:none;}
@@ -776,4 +775,15 @@
     <h2>Thanks to <a href="https://github.com/alexk111/SVG-Morpheus">SVG-Morpheus </a></h2>
 
 </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Preloader -->
+  <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(1500).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(1000).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
 </html>
