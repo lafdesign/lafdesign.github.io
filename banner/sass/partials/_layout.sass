@@ -1,0 +1,33 @@
+.img                           
+	width: 100%           /* set image from sprite to fill its container*/
+	height: 100%
+	background-size: contain 
+
+
+.banner-container 
+	width: $banner-width          /*  set in _variable.sass*/
+	height: $banner-height
+
+	position: relative
+	margin: auto
+
+	border-style: solid           /*container properties- keeps border visable*/
+	border-width: 1px
+	border-color: #666
+	overflow: hidden
+	box-sizing: border-box
+	background-color: white
+
+	@include vertical-align()                      /* centers horzontally*/
+	
+
+body 												
+	font-family: arial, helvetica, sans-serif     /* main body attributes */
+	margin: 0
+	@include transform-style(preserve-3d)
+	
+//div 									
+//	position: absolute                  /*keeps everything in place*/
+
+#caution-relative-positioned-childs-below div
+	position: relative

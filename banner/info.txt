@@ -1,0 +1,12 @@
+http://jsfiddle.net/J9r7G/
+
+http://stackoverflow.com/questions/26598946/css-keyframe-start-from-dynamic-height
+
+awesome css to sass /scss tool with compass helpers
+http://sebastianpontow.de/css2compass/
+
+http://jsfiddle.net/eJX8z/
+
+https://css-tricks.com/snippets/sass/centering-mixin/
+
+http://jsfiddle.net/NCwvj/

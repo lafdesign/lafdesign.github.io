@@ -1,0 +1,359 @@
+.isi-wrapper 
+
+	width: $isi-width
+	bottom: 0
+	background-color: $isi-bk-color
+	height: $header-isi-height
+	position: absolute
+	margin-bottom: -27px
+	padding-bottom: 24px
+
+	
+
+
+
+.isi-title
+	width: $isi-width
+	text-align: center
+	padding-top: $isi-title-pading-top
+	padding-bottom: $isi-title-pading-bottom
+	padding-left: 0
+	padding-right: 0
+	color: white
+	background-color: $brand
+	position: fixed
+	z-index: 4
+	left: 0
+	margin-top: -27px
+
+
+
+
+
+
+
+
+		
+
+
+
+button
+	height: 0
+	font-weight: normal
+	color: black
+	overflow: hidden 
+	text-align: top
+	width: $banner-width
+	@include animation-name(move-down)
+	@include animation-duration(0.5s)
+	@include animation-iteration-count(inherit)
+	@include animation-fill-mode(inherit)
+	@include animation-timing-function(linear)
+
+
+	
+
+
+@include keyframes(move-down) 
+	0% 
+		height: $full-expanded-isi-height
+	100% 
+		height: $header-isi-height
+
+button:focus 
+
+	overflow: scroll 
+
+	@include animation-name(move-up)
+	@include animation-duration(1s)
+	@include animation-iteration-count(initial)
+	@include animation-fill-mode(both)
+	@include animation-timing-function(linear)
+
+
+
+::-webkit-scrollbar
+	width: 10px
+
+//	height: $full-expanded-isi-height
+//	margin-bottom: 40px
+
+
+::-webkit-scrollbar-track
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3)
+	border: 1px solid black
+	background: rgb(41,41,41)
+	border-radius: 10px
+
+
+::-webkit-scrollbar-thumb
+	border-radius: 10px
+	height: 30px
+	width: 8px
+	border: 1px solid black
+	background: rgb(111,111,111)
+	-webkit-box-shadow: 0 1px 1px rgb(0,0,0)
+	background: -webkit-linear-gradient(rgb(200,200,200), rgb(150,150,150))
+
+
+::-webkit-scrollbar-track-piece 
+	height: 300px
+	width: 30px
+
+
+
+	
+@include keyframes(move-up) 
+	0% 
+		height: $header-isi-height
+	100% 
+		height: $full-expanded-isi-height
+button:active 
+
+	overflow-y: scroll 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon 
+	display: inline-block
+	vertical-align: middle
+
+
+.icon--plus 
+	background-color: none
+
+
+.icon--plus > path 
+	fill: white
+	stroke: gold
+	stroke-width: 0.1
+	stroke-linejoin: round
+
+.btn-expand
+	right: 0
+	z-index: 10
+	width: 30px
+	 
+	padding-right: 10px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// start type 1
+
+//colors
+$white: #fff
+$color_storm_dust_approx: #666
+$black: #000
+$color_foggy_gray_approx: #cccbbb
+$color_gallery_approx: #eee
+$color_log_cabin_approx: #222
+
+//@extend-elements
+//original selectors
+//.hide, .show
+.extend_1 
+	width: 30px
+	height: 30px
+	//If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+	border-radius: 30px
+	font-size: 20px
+	color: $white
+	//If you use compass, instead of the line below you could use + text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: 0 1px 0 $color_storm_dust_approx
+	text-align: center
+	text-decoration: none
+	//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 1px 1px 2px $black
+	background: $color_foggy_gray_approx
+	opacity: .95
+	margin-right: 0
+	float: left
+	margin-bottom: 25px
+
+
+//original selectors
+//.hide:hover, .show:hover
+.extend_2 
+	color: $color_gallery_approx
+	//If you use compass, instead of the line below you could use + text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: 0 0 1px $color_storm_dust_approx
+	text-decoration: none
+	//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 4px $color_log_cabin_approx inset
+	opacity: 1
+	margin-bottom: 25px
+
+
+
+.FAQ 
+	display: block
+	margin: 0 0 0 70px
+	vertical-align: top
+	height: auto !important
+
+.list 
+	display: none
+	height: auto
+	margin: 0
+	float: left
+	p 
+		height: auto
+		margin: 0
+
+
+.show 
+	display: none
+	@extend .extend_1
+	&:hover 
+		@extend .extend_2
+
+
+.hide 
+	@extend .extend_1
+	&:target 
+		display: none
+		+ .show 
+			display: inline
+
+		~ .list 
+			display: inline
+
+
+	&:hover 
+		@extend .extend_2
+
+
+.question 
+	float: left
+	height: auto
+	width: 90%
+	line-height: 20px
+	padding-left: 20px
+	margin-bottom: 25px
+	font-style: italic
+
+
+
+
+
+//end type 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//start type 2
+
+
+summary::-webkit-details-marker 
+	color: #00ACF3
+	font-size: 125%
+	margin-right: 2px
+
+summary:focus 
+	outline-style: none
+
+article > details > summary 
+	font-size: 28px
+	margin-top: 16px
+
+details > p 
+	margin-left: 24px
+
+details details 
+	margin-left: 36px
+
+details details summary 
+	font-size: 16px
+
+
+// end type 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //autoscroll
+
+// #container 
+// 	height: 200px
+// 	width: 800px
+// 	border: 1px solid #333
+// 	overflow: hidden
+// 	margin: 25px auto
+	
+
+
+// #box 
+// 	background: orange
+// 	height: 180px
+// 	width: 400px
+// 	margin: 10px  
+// 	-webkit-animation-name: move
+// 	-webkit-animation-duration: 4s
+// 	-webkit-animation-iteration-count: infinite
+	
+// 	-webkit-animation-timing-function: linear
+	
+// @include keyframes(move) 
+// 	0% 
+// 		margin-top: 0px
+// 	100% 
+// 		margin-top: 800px
+		
+
+
+
+// #box:hover 
+// 	-webkit-animation-play-state: paused
+// //end auto scroll
+
