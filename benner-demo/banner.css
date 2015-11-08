@@ -1,0 +1,26 @@
+
+.intro {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 600px;
+    height: 20px;
+    font-size : 12px;
+}
+
+.demo {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: #cccccc;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.demo #content {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    font-weight: 600;
+    border: 1px solid #999999;
+    border-top: none;
+}

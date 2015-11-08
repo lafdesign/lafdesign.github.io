@@ -1,0 +1,170 @@
+
+<main>
+  <section class="controls">
+    
+<!-- BORDER -->
+    <div id="border" class="control-set">
+      <fieldset>
+        <legend>border</legend>
+        <div class="sliders">
+          <label>border-top</label>
+          <slider floor="0" ceiling="10" step="1" precision="1" ng-model="border.top" highlight="left"></slider>
+          <div class="value">{{border.top}}px</div>
+          <label>border-right</label>
+          <slider floor="0" ceiling="10" step="1" precision="1" ng-model="border.right" highlight="left"></slider>
+          <div class="value">{{border.right}}px</div>
+          <label>border-bottom</label>
+          <slider floor="0" ceiling="10" step="1" precision="1" ng-model="border.bottom" highlight="left"></slider>
+          <div class="value">{{border.bottom}}px</div>
+          <label>border-left</label>
+          <slider floor="0" ceiling="10" step="1" precision="1" ng-model="border.left" highlight="left"></slider>
+          <div class="value">{{border.left}}px</div>
+        </div>
+      </fieldset>
+    </div>
+
+<!-- BOX SIZING -->
+    <div id="box-sizing" class="control-set">
+      <fieldset>
+        <legend id="bs">box-sizing</legend>
+        <label>
+          <input type="radio" ng-model="box.sizing" value="border-box" class="radio"/>border-box
+        </label>
+        <label>
+          <input type="radio" ng-model="box.sizing" value="content-box" class="radio"/>content-box
+        </label>
+      </fieldset>
+    </div>
+
+<!-- PADDING CONTROL -->
+    <div id="padding" class="control-set">
+      <fieldset>
+        <legend>padding</legend>
+        <div class="sliders">
+          <label>padding-top</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="padding.top" highlight="left"></slider>
+          <div class="value">{{padding.top}}px</div>
+          <label>padding-right</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="padding.right" highlight="left"></slider>
+          <div class="value">{{padding.right}}px</div>
+          <label>padding-bottom</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="padding.bottom" highlight="left"></slider>
+          <div class="value">{{padding.bottom}}px</div>
+          <label>padding-left</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="padding.left" highlight="left"></slider>
+          <div class="value">{{padding.left}}px</div>
+        </div>
+      </fieldset>
+    </div>
+
+<!-- MARGIN CONTROL -->
+    <div id="margin" class="control-set">
+      <fieldset>
+        <legend>margin</legend>
+        <div class="sliders">
+          <label>margin-top</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="margin.top" highlight="left"></slider>
+          <div class="value">{{margin.top}}px</div>
+          <label>margin-right</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="margin.right" highlight="left"></slider>
+          <div class="value">{{margin.right}}px</div>
+          <label>margin-bottom</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="margin.bottom" highlight="left"></slider>
+          <div class="value">{{margin.bottom}}px</div>
+          <label>margin-left</label>
+          <slider floor="0" ceiling="120" step="5" precision="1" ng-model="margin.left" highlight="left"></slider>
+          <div class="value">{{margin.left}}px</div>
+        </div>
+      </fieldset>
+    </div>
+
+<!--   END CONTROLLERS SECTION -->
+  </section>
+
+<!-- MODEL -->
+  <section class="box-model">
+
+<!-- DIMENSIONS CONTROL -->
+    <div id="content" class="control-set">
+      <fieldset>
+        <legend>Dimensions</legend>
+        <label>width</label>
+        <slider floor="0" ceiling="400" step="10" precision="1" ng-model="dimensions.width" highlight="left"></slider>
+        <div class="value">{{dimensions.width}}px</div>
+        <label>height</label>
+        <slider floor="0" ceiling="400" step="10" precision="1" ng-model="dimensions.height" highlight="left"></slider>
+        <div class="value">{{dimensions.height}}px</div>
+      </fieldset>
+    </div>
+
+<!-- GENENERATED DIMENSIONS -->
+    <div id="generated-size" class="control-set">
+      <fieldset>
+        <legend>Generated Size</legend>
+        <input id="toggle-include-margin" type="checkbox" checked="" ng-model="generatedIncludeMargin" ng-change="checkIncludeMargin()" class="toggle"/>
+        <label for="toggle-include-margin" class="toggle-control"></label><span class="toggle-text">include margin</span>
+        <div class="generated-width"><span class="generated-direction">horizontal:</span> <span class="changes value-{{generatedBoxDimensions.width}}">{{generatedBoxDimensions.width}}px</span></div>
+        <div class="generated-height"><span class="generated-direction">vertical:</span> <span class="changes value-{{generatedBoxDimensions.height}}">{{generatedBoxDimensions.height}}px</span></div>
+      </fieldset>
+    </div>
+
+<!-- DIAGRAM -->
+    <div id="diagram">
+<!-- MAIN MODEL CONTAINTER -->
+      <div ng-style="{'top': boxPosition.top+'px', 'left': boxPosition.left+'px', 'width': dimensions.width+'px', 'height': dimensions.height+'px'}" class="box">
+<!-- MARGIN PROPERTY -->
+        <div ng-style="{'width': styleMargin.width+'px', 'height': styleMargin.height+'px', 'top': styleMargin.top+'px', 'left': styleMargin.left+'px'}" class="box-margin box-property">
+
+          <span id="property-label-margin" class="property-label">margin
+          </span>
+
+          <span id="margin-v" data-id="margin-v" data-top="{{margin.top}}" data-bottom="{{margin.bottom}}" label-position-top="{{margin.top}}" label-position-bottom="{{margin.bottom}}" label-position-v="" class="box-property-vertical">
+          </span>
+          <span id="margin-h" data-id="margin-h" data-left="{{margin.left}}" data-right="{{margin.right}}" label-position-right="{{margin.right}}" label-position-left="{{margin.left}}" label-position-h="" class="box-property-horizontal">
+          </span>
+
+        </div>
+
+<!-- BORDER PROPERTY -->
+        <div ng-style="{'width': styleBorder.width+'px', 'height': styleBorder.height+'px', 'top': styleBorder.top+'px', 'left': styleBorder.left+'px'}" class="box-border box-property">
+
+            <span id="property-label-border" class="property-label">
+              border
+            </span>
+
+            <span id="border-v" data-id="border-v" data-top="{{border.top}}" data-bottom="{{border.bottom}}" label-position-top="{{border.top}}" label-position-bottom="{{border.bottom}}" label-position-v="" class="box-property-vertical">
+            </span>
+
+            <span id="border-h" data-id="border-h" data-left="{{border.left}}" data-right="{{border.right}}" label-position-right="{{border.right}}" label-position-left="{{border.left}}" label-position-h="" class="box-property-horizontal">
+            </span>
+
+        </div>
+
+<!-- PADDING PROPERTY -->
+        <div ng-style="{'width': stylePadding.width+'px', 'height': stylePadding.height+'px', 'top': stylePadding.top+'px', 'left': stylePadding.left+'px'}" class="box-padding box-property">
+
+            <span id="property-label-padding" class="property-label">
+              padding
+            </span>
+
+            <span id="padding-v" data-id="padding-v" data-top="{{padding.top}}" data-bottom="{{padding.bottom}}" label-position-top="{{padding.top}}" label-position-bottom="{{padding.bottom}}" label-position-v="" class="box-property-vertical">
+            </span>
+
+            <span id="padding-h" data-id="padding-h" data-left="{{padding.left}}" data-right="{{padding.right}}" label-position-right="{{padding.right}}" label-position-left="{{padding.left}}" label-position-h="" class="box-property-horizontal">
+            </span>
+
+        </div>
+<!-- CONTENT CONTAINER -->
+        <div ng-style="{'width': innerContent.width+'px', 'height': innerContent.height+'px'}" data-height="{{innerContent.height}}" data-width="{{innerContent.width}}" class="box-inner box-property">
+
+            <span id="property-label-content" class="property-label">
+              content
+            </span>
+
+        </div>
+      </div>
+<!-- END DIAGRAM -->
+    </div>
+<!-- END MODEL SECTION-->
+  </section>
+</main>

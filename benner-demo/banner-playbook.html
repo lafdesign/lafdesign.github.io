@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="banner.css">
+  <link rel="stylesheet" type="text/css" href="http://rawgit.com/angular/bower-material/master/angular-material.css">
+</head>
+<body>
+  <div class="intro">
+  FCB BANNER DEMO:
+  <div>
+    
+  <div ng-app="dsntApp" 
+       ng-controller="tabCtrl"
+       layout="column" class="demo" >
+
+    <script type="text/ng-template" id="partials/view1.html">  160x600 </script>
+    <script type="text/ng-template" id="partials/view2.html">  300x250 </script>
+    <script type="text/ng-template" id="partials/view3.html">  300x600 </script>
+    <script type="text/ng-template" id="partials/view4.html">  728x90 </script>
+    <md-toolbar>
+      <h2 class="md-toolbar-tools">
+        <span>Standard Banners</span>
+      </h2>
+    </md-toolbar>
+    <md-tabs md-stretch-tabs 
+             md-selected="selectedIndex">
+       <md-tab label="160 x 600"></md-tab> 
+       <md-tab label="300 x 250"></md-tab>
+       <md-tab label="300 x 600"></md-tab>  
+       <md-tab label="728 x 90"></md-tab> 
+    </md-tabs>
+
+    <div id="content" ui-view flex> </div>
+
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js" ></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-animate.js" ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-aria.js" ></script>
+     <script src="http://rawgit.com/angular/bower-material/master/angular-material.js" ></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js" ></script>
+       <script src="app.js" ></script>
+</body>
+</html>
+
+
