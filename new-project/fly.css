@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.box {
+  max-width: 70vw;
+  padding: 30px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  font-size: 30px;
+  line-height: 1.5;
+  transform: translateY(-50%);
+  perspective: 400px;
+}
+
+.source {
+  color: skyblue;
+  margin: 0 auto;
+}
