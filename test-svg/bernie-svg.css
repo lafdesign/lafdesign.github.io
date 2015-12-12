@@ -1,0 +1,111 @@
+body {
+
+    background: #3D95EC;
+  padding:0;
+  margin:0;
+  text-align:center;
+  color: #FFF;
+  font-family: Arial;
+}
+
+/*  Preloader */
+
+
+
+.bernie-gif {
+  padding-top: 10%;
+}
+
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(""); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    z-index: 99;
+}
+
+
+
+#heading {
+  padding: 20px 20px 40px;
+  background: #024;
+}
+a {
+  color: #fff;
+}
+h1 {
+  font-size:38px;
+  font-weight: 700;
+}
+
+
+h1.title {
+  color: #3D95EC;
+}
+h2 {
+
+  font-size:20px;
+  font-weight: normal;
+   position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+
+}
+
+#icon {
+  display: block;
+  box-sizing: border-box;
+
+  width:400px;
+  height:400px;
+
+
+  margin:auto;
+
+}
+
+#options {
+  margin-top:50px;
+  margin-bottom: 75px;
+  text-align:center;
+}
+
+.option {
+  width:400px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  text-align: left;
+}
+label {
+  text-align: right;
+  display: inline-block;
+  font-size:20px;
+  width:100px;
+}
+select {
+  font-family: Arial;
+  font-size:20px;
+  font-weight: normal;
+  padding:10px;
+  color: #333;
+  display: inline-block;
+  margin:10px;
+}
