@@ -1,0 +1,147 @@
+<html>
+<head>
+	<title>http://codepen.io/scrimothy/pen/wEIoH</title>
+<style type="text/css">
+
+html {
+    height: 100%;
+}
+body {
+	background: radial-gradient(ellipse at center,  rgba(253,255,255,1) 12%,rgba(230,248,253,1) 68%,rgba(200,238,251,1) 100%);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 400px;
+}
+
+h1 {
+	color: #f68395;
+	font: 700 28px/36px 'Corben' sans-serif;
+	margin: 10px 0 0;
+}
+
+p {
+	color: #a04343;
+	font: 400 16px/20px 'Corben' sans-serif;
+}
+
+.ball {
+	backface-visibility: visible;
+}
+
+.ball,
+.string,
+.paddle {
+	transition: all .3s;
+}
+.paddle {
+	background: #ffe4b5;
+	background: -moz-linear-gradient(left,  #ffe4b5 10%, #deb887 30%, #ffe4b5 58%, #ffe4b5 84%, #deb887 95%, #bf9d74 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(10%,#ffe4b5), color-stop(30%,#deb887), color-stop(58%,#ffe4b5), color-stop(84%,#ffe4b5), color-stop(95%,#deb887), color-stop(100%,#bf9d74));
+	background: -webkit-linear-gradient(left,  #ffe4b5 10%,#deb887 30%,#ffe4b5 58%,#ffe4b5 84%,#deb887 95%,#bf9d74 100%);
+	background: -o-linear-gradient(left,  #ffe4b5 10%,#deb887 30%,#ffe4b5 58%,#ffe4b5 84%,#deb887 95%,#bf9d74 100%);
+	background: -ms-linear-gradient(left,  #ffe4b5 10%,#deb887 30%,#ffe4b5 58%,#ffe4b5 84%,#deb887 95%,#bf9d74 100%);
+	background: linear-gradient(to right,  #ffe4b5 10%,#deb887 30%,#ffe4b5 58%,#ffe4b5 84%,#deb887 95%,#bf9d74 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe4b5', endColorstr='#bf9d74',GradientType=1 );
+
+	border-radius: 2% / 50%;
+	bottom: 10px;
+	box-shadow: -1px -1px 6px rgba(0,0,0,.6) inset;
+	height: 10px;
+	left: 50%;
+	margin-left: -270px;
+	position: absolute;
+	transform: rotate(-10deg);
+	transform-origin: left center;
+	width: 540px;
+}
+
+/* grips */
+.paddle::before,
+.paddle::after {
+	background: royalblue;
+	border-radius: 10% 50% 0 0 / 90% 90% 0 0;
+	box-shadow: -1px -1px 4px rgba(0,0,0,.6) inset;
+	content: '';
+	display: block;
+	height: 8px;
+	left: 1%;
+	position: absolute;
+	top: -8px;
+	width: 40%;
+}
+
+.paddle::after {
+	border-radius: 0 0 80% 20% / 0 0 100% 100%;
+	height: 4px;
+	top: 10px;
+}
+
+/* string extended */
+.string {
+	border-radius: 50%;
+	border-left: 2px solid #f7a8b5;
+	bottom: 86px;
+	box-sizing: content-box;
+	left: 50%;
+	margin-left: 130px;
+	position: absolute;
+	top: 20%;
+	width: 1px;
+}
+
+/* ball */
+.ball {
+	background: #f68395;
+	background: -moz-radial-gradient(center, ellipse cover,  #f68395 0%, #a04343 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f68395), color-stop(100%,#a04343));
+	background: -webkit-radial-gradient(center, ellipse cover,  #f68395 0%,#a04343 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #f68395 0%,#a04343 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #f68395 0%,#a04343 100%);
+	background: radial-gradient(ellipse at center,  #f68395 0%,#a04343 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f68395', endColorstr='#a04343',GradientType=1 );
+	border-radius: 50% / 40% 40% 60% 60%;
+	bottom: 80%;
+	height: 2.4em;
+	left: 50%;
+	margin: -1em 0 0 115px;
+	position: absolute;
+	width: 2em;
+}
+
+@media screen and (min-height: 430px) {
+	.ball {
+		border-radius: 50% 50% 30% 30% / 60% 60% 40% 40%;
+		bottom: 20px;
+		height: 2em;
+		width: 2.4em;
+	}
+
+	.string {
+		bottom: 20px;
+		left: 30%;
+		top: 98%;
+		width: 40%;
+	}
+
+	.paddle {
+		transform: none;
+	}
+}
+</style>
+</body>
+</html><h1>Responsive Pure CSS Paddle Ball Game</h1>
+<p>View in full screen or vertically, <br>then resize browser height up and down</p>
+<div class="paddle"></div>
+<div class="string"></div>
+<div class="ball"></div>
+
+</head>
+<body>

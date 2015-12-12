@@ -1,0 +1,438 @@
+<html>
+<head>
+	<title>http://codepen.io/willpracht/pen/kwgcq</title>
+</head>
+
+<style type="text/css">
+body{
+font-family: Arial, Helvetica, sans-serif; 
+margin: 100px auto;
+padding: 0;
+}
+
+/**
+* Mega Menu
+*/
+
+/* Generic */
+.megaMenu{
+	background: #427731;
+	border-top: 2px solid #6D4D24;
+	color: white;
+	font-size: 12px;
+	height: 40px;	
+}
+.megaMenu a{
+	cursor: pointer;
+	display: block;
+	outline: none;
+	text-decoration: none;
+}
+.megaMenu li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+.megaMenu ul{
+	margin: 0;
+	padding: 0;
+}
+.megaMenu > ul{
+	margin: auto;
+	position: relative;
+	width: 960px;
+}
+.megaMenu > ul > li{
+	border-left: 2px solid #4A8738;
+	display: inline-block;
+	float: left;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	zoom: 1;
+	*display: inline;
+}
+.megaMenu > ul > li:first-child{
+	border-left: 2px solid transparent;
+}
+
+.megaMenu > ul > li:hover{		
+	background: #F5F2E7;
+}
+
+.megaMenu > ul > li:hover,
+.megaMenu > ul > li:hover + li{
+	border-left: 2px solid #6D4D24;
+}
+
+.megaMenu > ul > li:hover > a{
+	color: #427731;
+}
+
+.megaMenu > ul > li:hover > div{
+	display: block;
+	top: auto;
+	white-space: nowrap;
+}
+
+.megaMenu > ul > li > a{
+	color: white;
+	height: 100%;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+.megaMenu > ul > li > a > ins,
+.megaMenu > ul > li > a > span{
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	*display: inline;
+}
+
+.megaMenu > ul > li > a > ins{
+	height: 100%;
+}
+
+.megaMenu > ul > li > div{
+	background: #F5F2E7;
+	border: 2px solid #6D4D24;
+	border-top: 0;
+	display: none;
+	left: -2px;
+	padding: 0;
+	position: absolute;
+	top: auto;
+}
+
+.megaMenu > ul > li > div.left{
+	left: auto;
+	right: -2px;
+}
+
+.megaMenu > ul > li > div > ul{
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+	zoom: 1;
+	*display: inline;
+}
+
+.megaMenu > ul > li > div > ul > li{
+	margin: 4px 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+.megaMenu > ul > li > div > ul > li.parent{
+	border-top: 1px dashed #908e8e;
+	margin: 4px 0 0;
+	padding: 4px 0 0;
+}
+
+.megaMenu > ul > li > div > ul > li:first-child{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.megaMenu > ul > li > div > ul > li > a{
+	background: url('bullet_arrowlist-green.gif') no-repeat 0 3px;
+	color: #B25C11;
+	font-size: 11px;
+	height: auto;
+	padding-left: 8px;
+}
+.megaMenu > ul > li > div > ul > li > a:hover{
+	color: #006983 !important;
+}
+
+.megaMenu > ul > li > div > ul > li.parent a{
+	background: none;
+	color: #427731;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+}
+.megaMenu > ul > li > div > ul > li.parent:first-child a{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.megaMenu > ul > li.fold{
+	background: url('fold.gif') no-repeat;
+	font-size: 0; 
+	display: block;
+	height: 10px;
+	right: 219px;
+	position: absolute;
+	top: -12px;
+	width: 10px;
+}
+
+.megaMenu > ul > li.fold,
+.megaMenu > ul > li.foldOut{ border-left: none !important; }
+
+.megaMenu > ul > li.foldOut > ul{
+	background: #58a618;
+	height: 57px;
+	position: absolute;
+	top: -12px;
+}
+
+.megaMenu > ul > li.foldOut	> ul:hover *{ border-color: transparent !important; }
+
+.megaMenu > ul > li.foldOut > ul > li{
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	line-height: 14px;
+	padding: 0 10px;
+	vertical-align: middle;
+	width: 148px;
+	zoom: 1;
+	*display: inline;
+}
+
+.megaMenu > ul > li.foldOut > ul > li:hover{
+	background: #F5F2E7;
+}
+
+.megaMenu > ul > li.foldOut > ul > li:hover a{
+	color: #427731;
+}	
+
+.megaMenu > ul > li.foldOut > ul > li > a{
+	border-top: 1px solid #ccc;
+	color: white;
+	font-weight: bold;
+	padding: 7px 0;
+}
+
+.megaMenu > ul > li.foldOut > ul > li > a > span{ float: right; }
+.megaMenu > ul > li.foldOut > ul > li:first-child > a{ border: 0; }
+
+
+
+
+
+</style>
+<body>
+
+	<div class="megaMenu">
+
+		<ul>
+
+			<li>
+
+				<a href="#"><ins></ins><span>Products</span></a>
+
+				<div>
+
+					<ul>
+						<li class="parent"><a href="#">Complete Product Catalog</a></li>
+						<li class="parent"><a href="#">Corn</a></li>
+						<li class="parent"><a href="#">Soybeans</a></li>
+						<li class="parent"><a href="#">Corn Silage</a></li>
+						<li class="parent"><a href="#">Alfalfa</a></li>
+						<li class="parent"><a href="#">Sorghum</a></li>
+						<li class="parent"><a href="#">Sunflowers</a></li>
+						<li class="parent"><a href="#">Wheat</a></li>
+						<li class="parent"><a href="#">Innoculants</a></li>
+						<li class="parent"><a href="#">Seed Delivery</a></li>
+						<li class="parent"><a href="#">Request Seed Information</a></li>
+					</ul>   
+						
+					<ul>
+						<li class="parent"><a href="#">Performance</a></li>
+						<li><a href="#">Yield Demo</a></li>	
+						<li class="parent"><a href="#">Product Naming System</a></li>
+						<li class="parent"><a href="#">Biofuels</a></li>
+						<li><a href="#">Product Information</a></li>
+						<li><a href="#">Industry and Grower Brochures</a></li>
+						<li><a href="#">Fact Sheets</a></li>
+						<li><a href="#">Pioneer Qualitrak&Acirc;&reg; System</a></li>
+						<li><a href="#">Tour an Ethanol Plant</a></li>
+					</ul>         
+						
+					<ul>
+						<li class="parent"><a href="#">Stewardship</a></li>
+						<li><a href="#">Export Approvals</a></li>
+						<li><a href="#">Herbicide Management</a></li>
+						<li><a href="#">Product Use Guides</a></li>
+						<li><a href="#">Material Safety Data Sheets</a></li>
+						<li><a href="#">Insect Resistance Management</a></li>
+						<li><a href="#">Weed Management</a></li>
+						<li><a href="#">Grain Marketing</a></li>
+						<li><a href="#">Pioneer Patents</a></li>
+						<li class="parent"><a href="#">Field Technology Tips</a></li>
+						<li><a href="#">VRS Basics</a></li>
+						<li><a href="#">Working with Yield Monitors</a></li>
+					</ul>  
+
+				</div>
+
+			</li>
+
+			<li>
+
+				<a href="#"><ins></ins><span>Agronomy</span></a>
+
+				<div>
+
+					<ul>
+						<li class="parent"><a href="/home/site/us/agronomy/seasonal-insights/">Seasonal Insights</a></li>
+						<li><a href="/home/site/us/agronomy/seasonal-insights/timely-tips/">Timely Tips</a></li>
+						<li><a href="/home/site/us/agronomy/seasonal-insights/regional-agronomy-tips/">Regional Agronomy Tips</a></li>
+						<li><a href="/home/site/us/agronomy/seasonal-insights/drought-guides/">Drought Guides</a></li>
+						<li><a href="/home/site/us/agronomy/seasonal-insights/corn-growth-stages/">2012 Estimated Corn Growth Stages</a></li>
+						<li><a href="/home/site/us/agronomy/seasonal-insights/crop-mgmt-tips/">Crop Management Tips</a></li>
+						<li class="parent"><a href="/home/site/us/agronomy/research/">Agronomy Research</a></li>
+						<li><a href="/home/site/us/agronomy/research-summaries/">Research Summaries - 2011</a></li>
+						<li><a href="/home/site/us/agronomy/research-trials/">Research Trials - 2011</a></li>
+						<li class="parent"><a href="/home/site/us/agronomy/library/">Agronomy Library</a></li>
+					</ul>   
+						
+					<ul>
+						<li class="parent"><a href="/home/site/us/agronomy/crop-management/">Crop Management Guides</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/harvest-management/">Harvest Management and Fall Tillage</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/grain-quality-management/">Grain Quality Management</a></li>
+						<li><a href="#">Adverse Weather &amp; Pest Guides</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/videos/">Crop Production Videos</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/crop-growth-stages/">Crop Growth Stages</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/scouting/">Scouting Guides</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/pioneer-goof-demo/">Crop Management Goof Demos</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/high-yield-management/">High-Yield Management</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/corn-after-corn/">Corn-After-Corn Production</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/soybean-rust-center/">Soybean Rust Center</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/corn-insect-disease-main/">Corn Insect &amp; Disease Guide</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/soybean-insect-disease/">Soybean Insect &amp; Disease Guide</a></li>
+						<li><a href="/home/site/us/agronomy/crop-management/sunflower-insect-disease-main/">Sunflower Insect &amp; Disease Guide</a></li>
+					</ul>         
+						
+					<ul>
+						<li class="parent"><a href="/home/site/us/agronomy/tools/">Tools</a></li>
+						<li><a href="/home/site/us/agronomy/tools/gdu/">GDU Calculator</a></li>
+						<li><a href="/home/site/us/agronomy/tools/PrecipEstimator/">PrecipEstimator</a></li>
+						<li><a href="/home/site/us/agronomy/tools/growth-stage-estimator/">Growth Stage Estimator</a></li>
+						<li><a href="/home/site/us/agronomy/tools/corn-yield-estimator/">Corn Yield Estimator</a></li>
+						<li><a href="/home/site/us/agronomy/tools/planting-rate-estimator/">Planting Rate Estimator</a></li>
+						<li><a href="/home/site/us/agronomy/tools/plantability/">Plantability</a></li>
+						<li><a href="/home/site/us/agronomy/tools/production-cost-calculator/">Cost of Production Calculator</a></li>
+						<li class="parent"><a href="/home/site/us/agronomy/newsletters/">Newsletter</a></li>
+						<li class="parent"><a href="/home/site/us/agronomy/about-us/">About Us</a></li>
+					</ul>  
+
+				</div>
+
+			</li>
+
+			<li>
+				<a href="#"><ins></ins><span>Dairy, Livestock<br />&amp; Nutrition</span></a>
+				<div>
+					<ul>
+						<li class="parent"><a href="#">Livestock Feed &amp; Nutrition Newsletters</a></li>
+						<li><a href="/home/site/us/livestock-feed-nutrition/newsletters/bottom-line/">Feedstuffs Column</a></li>
+						<li><a href="/home/site/us/livestock-feed-nutrition/newsletters/field-to-feedbunk/">Hoard's Dairyman Column</a></li>
+						<li><a href="#">Progressive Dairyman Column</a></li>
+						<li class="parent"><a href="/home/site/us/livestock-feed-nutrition/forage-forum/">Forage Forum</a></li>
+						<li><a href="/home/site/us/livestock-feed-nutrition/forage-forum/corn-silage-forum/">Corn Silage Forum</a></li>
+						<li><a href="/home/site/us/livestock-feed-nutrition/forage-forum/alfalfa-forum/">Alfalfa Forum</a></li>
+						<li><a href="/home/site/us/livestock-feed-nutrition/forage-forum/inoculants-forum/">Inoculants Forum</a></li>
+						<li class="parent"><a href="/home/site/us/livestock-feed-nutrition/library/">Nutritional Sciences Library</a></li>
+						<li class="parent"><a href="/home/site/us/livestock-feed-nutrition/latest-from-our-team/">Latest from Our Team</a></li>
+						<li class="parent"><a href="/home/site/us/livestock-feed-nutrition/nutrition-team-directory/">Nutrition Team Directory</a></li>
+						<li class="parent"><a href="/home/site/us/menuitem.a67f7719b30dd93c03870387cdef63aa/">Tools</a></li>
+						<li><a href="/home/site/us/menuitem.8d594141f3ede93c03870387cdef63aa/">Inoculant Value Calculator</a></li>
+						<li><a href="/home/site/us/livestock-feed-nutrition/tools/silage-bunker-calculator/">Silage Bunker Calculator</a></li>
+					</ul>  
+				</div>
+			</li>
+			<li>
+				<a href="#"><ins></ins><span>Programs<br />&amp; Services</span></a>
+
+				<div class="left">
+					<ul>
+						<li class="parent"><a href="/home/site/us/programs-services/mobile/">Pioneer Mobile Website</a></li>
+						<li class="parent"><a href="/home/site/us/programs-services/fit-mapping/">Pioneer FIT® Services</a></li>
+						<li><a href="/home/site/us/programs-services/fit-mapping/request/">FIT® Mapping Request Form</a></li>
+						<li class="parent"><a href="#">Pioneer Premium Seed Treatment</a></li>
+						<li class="parent"><a href="/home/site/us/programs-services/phi-financial/">PHI Financial Services Inc.</a></li>
+						<li class="parent"><a href="/home/site/us/programs-services/payment-options/">Payment Options</a></li>
+						<li><a href="/home/site/us/programs-services/payment-options/how-to-make-payments/">How to Make Payments</a></li>
+						<li class="parent"><a href="/home/site/us/programs-services/pioneer-insurance/">PHI Insurance Services Inc.</a></li>
+						<li><a href="/home/site/us/menuitem.4edc90eece67200ff7e6f7e6cdef63aa/">Calculator</a></li>
+						<li><a href="/home/site/us/programs-services/pioneer-insurance/MPCI/">MPCI Price Discovery Periods</a></li>
+						<li><a href="#">MPCI Projected &amp; Harvest Prices by Commodity &amp; State</a></li>
+						<li><a href="/home/site/us/programs-services/pioneer-insurance/timely_tips/">Timely Tips &amp; Tools</a></li>
+						<li class="parent"><a href="#">Online Record Keeping System</a></li>
+						<li><a href="/home/site/us/programs-services/online-record-keeping-tips/">Time-Saving Tips</a></li>
+					</ul>  
+				</div>
+			</li>
+			<li>
+				
+				<a href="#"><ins></ins><span>Markets<br />&amp; Analysis</span></a>
+				
+				<div class="left">
+					<ul>
+						<li class="parent"><a href="#">Commodity Futures &amp; Cash</a></li>
+						<li><a href="/home/site/us/markets-analysis/commodity-futures-cash/commodity-futures/">Commodity Futures</a></li>
+						<li><a href="/home/site/us/markets-analysis/commodity-futures-cash/commodity-options/">Commodity Options</a></li>
+						<li><a href="/home/site/us/markets-analysis/commodity-futures-cash/local-cash-markets/">Local Cash Markets</a></li>
+						<li class="parent"><a href="/home/site/us/markets-analysis/market-point-resource/">DPP(SM) grain desk</a></li>
+						<li class="parent"><a href="/home/site/us/markets-analysis/market-commentary/">Market Commentary</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-commentary/daily-news-analysis/">Daily News and Analysis</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-commentary/morning-call-grains/">Morning Market Review</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-commentary/afternoon-recap-grains/">Afternoon Recap Grains</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-commentary/weekly-market-recap/">Weekly Market Recap</a></li>
+					</ul>                              
+
+					<ul>
+						<li class="parent"><a href="/home/site/us/markets-analysis/market-news/">Market News</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-news/latest-markets-news/">Latest Markets News</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-news/grain-news/">Grain News</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-news/feedstuff-hay/">Feedstuff and Hay</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-news/usda-reports/">USDA Reports</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-news/livestock-news/">Livestock News</a></li>
+						<li class="parent"><a href="/home/site/us/markets-analysis/market-analysis/">Market Analysis</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-analysis/cash-trends/">Cash Trends Analysis</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-analysis/grain-futures/">Weekly Marketing Highlights</a></li>
+						<li><a href="/home/site/us/markets-analysis/market-analysis/selling-your-yields/">Selling Your Yields® Newsletter</a></li>
+					</ul>
+				</div> 
+			</li>
+			<li>
+				
+				<a href="#"><ins></ins><span>News<br />&amp; Commentary</span></a>
+				
+				<div class="left">
+					<ul>
+						<li class="parent"><a href="/home/site/us/news-commentary/agricultural-news/">Agricultural News</a></li>
+						<li><a href="/home/site/us/news-commentary/agricultural-news/pro-farmer-commentary/">Pro Farmer Commentary</a></li>
+						<li class="parent"><a href="/home/site/us/news-commentary/grower-commentary/">Grower Commentary</a></li>
+						<li class="parent"><a href="/home/site/us/news-commentary/guest-commentary/">Guest Commentary</a></li>
+						<li><a href="/home/site/us/news-commentary/guest-commentary/volatile-years-ahead/">Volatile Years Ahead</a></li>
+						<li><a href="/home/site/us/news-commentary/guest-commentary/futurists/">Changes in Food Production</a></li>
+						<li class="parent"><a href="/home/site/us/news-commentary/management-advice/">Management Advice</a></li>
+						<li class="parent"><a href="/home/site/us/news-commentary/farm-safety/">Farm Safety</a></li>
+						<li class="parent"><a href="/home/site/us/news-commentary/news-releases/">Pioneer News Releases</a></li>
+						<li class="parent"><a href="/home/site/us/news-commentary/growing-point-magazine/">Pioneer GrowingPoint® Magazine</a></li>
+					</ul>
+				</div> 
+			</li>
+			<li class="fold"></li>
+			<li class="foldOut">
+				<ul>
+					<li><a href="#">My Farm &amp; Accounts<span>&gt;</span></a></li>
+					<li><a href="#">My Local Pioneer Team<span>&gt;</span></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
