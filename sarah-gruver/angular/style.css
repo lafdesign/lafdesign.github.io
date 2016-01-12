@@ -1,0 +1,30 @@
+html {
+	font-family: font-family: 'Quicksand', sans-serif;
+	width: 100%;
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a0d8ef+0,feffff+59,feffff+59 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+60,a0d8ef+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+60,e0fffc+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+60,f2fffd+100 */
+background: rgb(254,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(254,255,255,1) 60%, rgba(242,255,253,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(254,255,255,1) 60%,rgba(242,255,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(254,255,255,1) 60%,rgba(242,255,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#f2fffd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+font-size: 14px;
+
+}
+
+
+h1 {
+		font-family:  'Syncopate', sans-serif;
+		font-weight: 400;
+		font-size: 2rem; 
+	
+}
+/*
+h1:hover {
+font-family:  'Artifika', serif;
+}*/
