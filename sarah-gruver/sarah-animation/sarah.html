@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sarah Gruver</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.1/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.0/utils/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/ScrollToPlugin.min.js"></script>
+
+
+    <style type="text/css">
+#container_dc {
+    display:none;
+    z-index:20;
+
+}
+
+body {
+    vertical-align:baseline;
+    border:0;
+    outline:0;
+    padding:0;
+    margin:0;
+    font-size:9px;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    font-family:Arial,sans-serif;
+    overflow:hidden
+/* scrdoller req - important to prevent whole page bouncing */
+}
+
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+html {
+    -ms-touch-action:none
+}
+
+sup {
+    font-size:7pt;
+    line-height:0;
+    vertical-align:top;
+    position:relative;
+    top:2px
+}
+
+/* Div layer for the entire banner. */
+#container_dc {
+    position:relative;
+    width:300px;
+    height:600px;
+    top:0;
+    left:0;
+
+    visibility:hidden;
+
+}
+
+/* Invisible button for background clickthrough. */
+
+
+#btn_isi {
+/*    cursor:pointer*/
+/* cursor: hand; */
+}
+
+:focus {
+    outline:none
+}
+
+::-moz-focus-inner {
+    border:0
+}
+
+#wrapperContainer {
+    position:absolute;
+    overflow:hidden;
+    width:100%;
+    left:1px;
+    height:190px;
+/*cursor: hand; cursor: pointer;*/
+    border-bottom:2px solid #cfd8dc;
+    top:29px;
+    background-color:#fff
+/* padding: 4px 9px; */
+}
+
+#wrapper {
+    position:absolute;
+/* background-color: red; */
+    z-index:1;
+    width:300px;
+    left:-1px;
+    height:198px;
+/*cursor: hand; cursor: pointer;*/
+    border-bottom:1px solid #cfd8dc;
+    top:0;
+    padding:7px;
+    background-color:#ecebeb
+}
+
+
+
+#isiLinks {
+    position:absolute;
+    top:220px;
+    width:160px;
+    text-align:left
+}
+
+#slider {
+    width:280px;
+    margin-top:80px;
+    margin-left:10px
+}
+
+.ui-slider .ui-slider-handle {
+    width:40px!important;
+    margin-left:-20px!important;
+    height:40px!important;
+    margin-top:-10px!important
+}
+
+
+.sarah{
+
+    position: absolute;
+    opacity: 0
+}
+        
+    
+    </style>
+    <script type="text/javascript">
+    var myScroll;
+    var auto_scroll_timer = null;
+    var bannerState = "initial";
+    var timeline;
+    var $slider;
+    var isiState = "collapsed";
+    var fast = 0.03;
+    var speed = 0.2;
+    var speedlong = 1;
+
+    init = function() {
+        $slider = $("#slider");
+        addListeners();
+        initSlider();
+        createMasterTimeline();
+        document.getElementById('container_dc').style.display = "block";
+        document.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+        }, false);
+    };
+
+    function frame1_initCSS() {
+        var tl = new TimelineMax();
+
+     tl.set(img1, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+        tl.set(img2, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+           tl.set(img3, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+              tl.set(img4, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                 tl.set(img5, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                    tl.set(img6, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                       tl.set(img7, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                          tl.set(img8, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                             tl.set(img9, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                                tl.set(img10, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                                   tl.set(img12, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                                      tl.set(img13, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                                         tl.set(img14, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                                            tl.set(img15, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+                                               tl.set(img16, {
+            opacity: 0,
+            left: 0,
+            top: 0,
+        });
+
+        return tl;
+    }
+
+    function frame2_a() {
+        var tl = new TimelineMax();
+
+ 
+
+
+
+            tl.add(TweenMax.to(img1, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img2, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img3, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img4, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img5, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img6, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img7, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img8, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img9, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img10, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img11, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img12, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img13, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img14, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img15, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+            tl.add(TweenMax.to(img16, speed, {
+                opacity: 1,
+                ease: Sine.easeLinear
+            }));
+
+
+       
+        return tl;
+    }
+
+
+        function createMasterTimeline() {
+            timeline = new TimelineMax({
+       
+                onUpdate: updateSlider
+            });
+
+            timeline.set(container_dc, {
+                autoAlpha: 1
+            })
+
+            .add(frame1_initCSS, 0)
+
+            .add("frame2", 1)
+                .add(frame2_a(), "frame2") //add the first animation at a time of 0.3 seconds
+
+        }
+
+        playPauseISI = function() {
+            timeline.paused(!timeline.paused());
+            document.getElementById('pause').innerHTML = timeline.paused() ? "play" : "pause";
+        };
+
+        addListeners = function() {
+       
+            document.getElementById('pause').addEventListener('click', playPauseISI, false);
+// add enabler
+        
+
+        };
+
+
+        function initSlider() {
+
+            $slider.slider({
+                range: false,
+                min: 0,
+                max: 100,
+                step: 0.1,
+                slide: function(event, ui) {
+                    timeline.pause();
+
+                    //adjust the timeline's progress() based on slider value
+                    timeline.progress(ui.value / 100);
+                }
+            });
+        }
+        //this function is called by timeline's onUpdate callback
+        function updateSlider() {
+            $slider.slider("value", timeline.progress() * 100);
+            TweenMax.to($slider, 0.5, {
+                autoAlpha: 1
+            });
+        }
+
+     window.onload = function(){
+
+        init();
+     }
+    </script>
+</head>
+
+
+<body>
+    <div id="container_dc">
+        <div class="animationContent">
+
+<img id="img1" class="sarah" src="sarah20.svg">
+<img id="img2" class="sarah" src="sarah40.svg">
+<img id="img3" class="sarah" src="sarah60.svg">
+<img id="img4" class="sarah" src="sarah100.svg">
+<img id="img5" class="sarah" src="sarah120.svg">
+<img id="img6" class="sarah" src="sarah126.svg">
+<img id="img7" class="sarah" src="sarah135.svg">
+<img id="img8" class="sarah" src="sarah146.svg">
+<img id="img9" class="sarah" src="sarah165.svg">
+<img id="img10" class="sarah" src="sarah175.svg">
+<img id="img11" class="sarah" src="sarah185.svg">
+<img id="img12" class="sarah" src="sarah195.svg">
+<img id="img13" class="sarah" src="sarah205.svg">
+<img id="img14" class="sarah" src="sarah217.svg">
+<img id="img15" class="sarah" src="sarah220.svg">
+<img id="img16" class="sarah" src="sarah250.svg">
+
+</div>
+</div>
+
+    <div id="slider"></div><br>
+    <br>
+    <br>
+    <button id="pause">pause</button>
+</body>
+
+</html>
