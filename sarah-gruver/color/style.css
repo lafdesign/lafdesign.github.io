@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+body {background: #007ac8; font-family: 'Open Sans'; height: 100%; width: 100%;}
+*{
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.text {padding: 20px;}
+.text,
+.picker {background: white; width: 90%; margin: 10px auto; border-radius: 4px;}
+.picker {padding: 20px;}
+.text p {font-size: 16px; font-weight: 300; color: rgb(128,128,128); display: block; width: 100%;}
+.text p span {color: rgb(128,128,128);}
+.color-box {display: block; margin-top: 10px; width: 100%; background: rgb(128,128,128); height: 80px; border-radius: 4px;}
+label {display: block; padding: 15px; background: rgba(0,0,0,0.05); margin-bottom: 15px; border-radius: 4px;}
+
+.input-row {display: inline-block; margin-right: -4px; width: 33.333%; vertical-align: top; padding: 1%;}
+input[type='range'] {width: 100%;}
+:focus {outline: 0;}
+
+button {display: block; padding: 20px 0; font-size: 1em; width: 100%; font-family: 'Open Sans'; font-weight: 300; border-radius: 4px; box-shadow: 0; border: 0; color: white; background: #007ac8; margin: 25px auto 0;}
+button:hover {background: #005aa8;}
+
+.text p {width: 100%; display: block; font-size: 16px; letter-spacing: -0.2px;}
+.input-row {display: block; width: 100%; margin-bottom: 10px;}

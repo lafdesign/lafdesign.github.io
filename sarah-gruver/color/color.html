@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+  <title></title>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
+
+  <script type="text/javascript" src="color.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css"></link>
+
+</head>
+
+<body>
+  <div class="text">
+    <p>Current Colour: <span>rgb(128,128,128)</span></p>
+    <div class="color-box">&nbsp;</div>
+  </div>
+  <div class="picker">
+    <label for="#colour">Colour <span></span></label>
+    <div class="input-row">
+      <input type="range" id="red" min="0" max="255" oninput="showVal(this.value)" onchange="showVal(this.value)" />
+    </div>
+    <div class="input-row">
+      <input type="range" id="green" min="0" max="255" oninput="showVal(this.value)" onchange="showVal(this.value)" />
+    </div>
+    <div class="input-row">
+      <input type="range" id="blue" min="0" max="255" oninput="showVal(this.value)" onchange="showVal(this.value)" />
+    </div>
+    <button id="body-bg">Assign Colour to Background</button>
+  </div>  
+
+
+</body>
+</html>
