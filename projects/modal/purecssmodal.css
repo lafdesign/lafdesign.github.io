@@ -1,8 +1,8 @@
-
+/*
 p{
 	margin-top: 0;
 }
-
+*/
 .modal-container{
 	position: fixed;
 	background-color: #fff;
@@ -44,5 +44,5 @@ p{
 	-ms-transform: translate(-50%, 0);
 	transform: translate(-50%, 0);
 }
-
-#modal-close {}
+/*
+#modal-close {}*/
