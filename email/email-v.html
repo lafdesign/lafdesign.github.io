@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no"/>
+
+<title>VIDEO EMAIL?</title>
+
+<style type="text/css">
+
+/****** BUG FIXES DO NOT TOUCH  ********/
+
+    /* Forces Hotmail to display emails at full width */
+    .ExternalClass       { width:100%; } 
+
+    /* Forces Hotmail to display normal line spacing*/
+    .ExternalClass, 
+    .ExternalClass p, 
+    .ExternalClass span,
+    .ExternalClass font, 
+    .ExternalClass td, 
+    .ExternalClass div      { line-height: 100%; }
+
+    /* Prevents Webkit and Windows Mobile platforms from changing default font sizes. */    
+    body                    { 
+                            -webkit-text-size-adjust:none; 
+                            -ms-text-size-adjust:none; 
+                            } 
+
+    /* Resets all body margins and padding to 0 */         
+    body                    { margin:0; padding:0; } 
+
+
+    /*Resolves Outlook 07/10 and Gmail td padding*/
+    table td                { border-collapse:collapse; } 
+
+/****** END BUG FIXES ********/
+
+/****** RESETTING DEFAULTS********/
+
+    /* This sets a clean slate for all clients EXCEPT Gmail. But avoid using P tags*/
+    p                       { 
+                            margin:0; 
+                            padding:0; 
+                            margin-bottom:0; 
+                            }
+
+    /* Overwrites Hotmails default css*/           
+    h1, h2, h3, h4, h5, h6  {
+                            color: black; 
+                            line-height: 100%; 
+                            }
+
+     /* 
+        Embedded CSS link color for Gmail.  Overwrites Hotmail and Yahoo Beta's embedded link colors.
+        Dev NEEDS TO UPDATE THIS COLOR PER PROJECT!! 
+    */
+    a, a:link               {
+                            color:#333333;    
+                            text-decoration: none;
+                            }
+                             /*Fixes Outlook blue lines */
+    href>a {text-decoration: none; }
+     
+    h1 { margin:0;}
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+/****** END RESETTING DEFAULTS ********/
+
+/****** EDITABLE STYLES  ********/
+
+    body, #body_style       {
+                            margin: 0 auto;
+                            background:#000;
+                            color:#3e3f3f;
+                            font-family:Helvetica, sans-serif;
+                            font-size:14px;
+                            line-height: 1.25;
+                            } 
+
+    /*Destroys Yahoo shortcuts */
+    span.yshortcuts         { 
+                            color:#000; 
+                            background-color:none; 
+                            border:none;
+                            }
+
+    span.yshortcuts:hover,
+    span.yshortcuts:active,
+    span.yshortcuts:focus   {
+                            color:#000; 
+                            background-color:none; 
+                            border:none;
+                            }
+    /*Put default link color here*/
+	/*a[class="bodyLink"]	{
+		color:#5b5b5b;
+		text-decoration:none;
+	}*/    /*If unable to "fix" gmail or other email clients from wrapping phone numbers, unlinked websites, email addresses, add this class to the anchor tags and customize color and other styles accordingly */
+
+
+
+
+.mobile-show {
+    display: none ;
+}
+    /*Optimizing for mobile devices */
+
+    @media only screen and (max-width: 599px) {
+    /* Add this class to any table/td where you have set a defined width larger than "300"/"320"--the width of the device.  */    
+
+        table[class="table"], 
+        td[class="cell"] { 
+            width: 100% !important; }
+
+
+        table[class="dotted"], 
+        td[class="dotted"] { 
+            width: 95% !important;
+            font-size:14px !important; }
+
+        
+        table[class="cta"] {
+            width: 75%;
+
+        }
+
+        td[class="top"]{
+            height: 40px;
+        }
+
+         /*Online version style*/
+        td[class="online"] {   
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right:5px;
+            padding-left:5px;
+            font-size:12px !important;
+        }
+
+        td[class="half_tables"] {
+            width: 50% !important;
+        }
+
+
+        /* Image resize */
+        table[class="Fluid_image"],
+        img[class="Fluid_image"] {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        img[class="small_image"] {
+            max-width:337px;
+            width:80%;
+            height:auto;
+       
+        }
+
+        table[class="first_half_table"] {
+            width: 100% !important;
+            border-right: 0 !important;
+        }
+
+        table[class="second_half_table"] {
+            width: 0 !important;
+            overflow: visible !important;
+            float: none !important;
+            display:none !important;
+            width: auto !important;
+            height: auto !important;
+        }
+
+        table[class="flag"] {
+            width:60% !important;
+        }
+
+        td[class="chart"] {
+            text-align:left;
+        }
+
+        td[class="flag"] {
+            width:45% !important;
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+        }
+
+        td[class="body"] {
+            font-size:12px !important;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+
+        td[class="resize_text"] {
+            font-size: 14px !important;
+        }
+        td[class="bullet"] {
+            font-size: 14px !important;
+            padding-left:15px !important;
+        }
+
+        td[class="footer"] {
+            padding-left:10px !important;
+            padding-right:10px !important;
+        }
+
+        img[class="hide"],
+        br[class="hide"],
+        table[class="hide"],
+        td[class="hide"]{
+            display:none !important;}
+
+        td[class="gutter"] {
+            width:10px !important;
+        }
+        a[class="link"] {
+            font-size: 11px !important;
+            padding: 5px 10px !important;
+        }
+        a[class="link-second"] {
+            border-right: 0 !important;
+            font-size: 11px !important;
+        }
+        a[class="link-last"] {
+            border-right: 0 !important;
+            display: block !important;
+            font-size: 11px !important;
+            padding: 5px 10px !important;
+            text-align: left !important;
+        }
+
+        td[class="swap"] {
+          
+            background-size:111px 66px !important;
+            background-repeat: no-repeat !important;
+            width:111px !important;
+            height:66px !important;
+            display:block !important;
+        } 
+        td[class="swap"] img {
+            display:none !important;}
+
+        h1[class="swap-1"] {
+          
+            background-size:140px 40px !important;
+            background-repeat: no-repeat !important;
+            width:140px !important;
+            height:40px !important;
+            display:block !important;
+        } 
+        h1[class="swap-1"] img {
+            display:none !important;}
+
+        .float {
+            float:left !important;
+        }
+
+        .float-none {
+            float: none !important;
+        }
+        .no-pad {
+            padding: 10px 0 0 0 !important;
+        }
+        td[class="mobile-only"],
+        br[class="mobile-only"] {
+            display:block !important;
+        }
+        td[class="vertical-align"] {
+            vertical-align:top !important;
+        }
+        td[class="vertical-bottom"] {
+            vertical-align:bottom !important;
+        }
+
+        td[class="center"] {
+            padding: 0 10% !important;
+        }
+
+        table[class="no-border"] {
+            border-right: 0 !important;
+        }
+
+        td[class="reference"] {
+            font-size: 11px !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+       
+        table[class="mobile_table"], 
+        td[class="mobile_cell"] { 
+            overflow: visible !important;
+            float: none !important;
+            display:block !important;
+            width: auto !important;
+            line-height: 16px !important;
+            height: auto !important;
+            max-height: inherit !important;
+            font-family:helvetica,sans-serif;
+            font-size:12px !important;
+            padding-top:10px;
+        }
+
+        table[class="mobile_table_1"] { 
+            overflow: visible !important;
+            float: none !important;
+            display:block !important;
+            width: auto !important;
+            line-height: 16px !important;
+            height: auto !important;
+            max-height: inherit !important;
+            font-family:helvetica,sans-serif;
+            font-size:12px !important;
+            padding-top:10px;
+        }
+
+        td[class="mobile_image"],
+        td[class="mobile_hide"] {
+            width: 0 !important;
+            max-height: 0 !important;
+            font-size: 0 !important;
+            line-height:0 !important;
+            mso-hide:all !important;
+            display:none !important;
+            overflow:hidden !important;
+            float:left !important
+        }
+        td[class="5"] {
+            height: 5px !important;
+        }
+        td[class="10"] {
+            height: 10px !important;
+        }
+        td[class="15"] {
+            height: 15px !important;
+        }
+        td[class="mobile_bullet"] {
+            font-size:14px;
+            color:#000000;
+            height: auto !important;
+        }
+        td[class="mobile_text"] {
+            color: #323232;
+            height: auto !important;
+        }
+        td[class="mobile_text_bold"] {
+            color: #323232;
+            font-weight: bold;
+            height: auto !important;
+        }
+        td[class="w3"] {
+            width: 3px !important;
+        }
+        td[class="w20"] {
+            width: 20px !important;
+        }
+        td[class="3"] {
+            height: 3px !important;
+        }
+        td[class="25"] {
+            height:25px !important;
+        }
+        td[class="show_mobile_image1"] img,
+        td[class="show_mobile_image2"] img {
+            width: 0 !important;
+            max-height: 0 !important;
+            font-size: 0 !important;
+            line-height:0 !important;
+            mso-hide:all !important;
+            display:none !important;
+            overflow:hidden !important;
+        }
+        td[class="show_mobile_image1"] {
+            overflow: visible !important;
+            float: none !important;
+            display:block !important;
+            max-height: inherit !important;
+
+            background-size:259px 152px !important;
+            background-repeat: no-repeat !important;
+            width:259px !important;
+            height:152px !important;
+        }
+
+        td[class="show_mobile_image2"] {
+            overflow: visible !important;
+            float: none !important;
+            display:block !important;
+            max-height: inherit !important;
+    
+    
+            background-size:259px 152px !important;
+            background-repeat: no-repeat !important;
+            width:259px !important;
+            height:152px !important;
+        }
+        td[class="bold"] {
+            font-weight: bold;
+            height: auto !important;
+        }
+        .mobile-headline {
+            overflow: visible !important;
+            float: none !important;
+            display:block !important;
+            width: auto !important;
+            line-height: 1 !important;
+            max-height: inherit !important;
+            height: auto !important;
+            font-family:helvetica,sans-serif;
+            font-size:14px !important;
+            color: #00a6dd !important;
+        }
+        .headline {
+            font-size: 14px !important;
+        }
+        .small-space {
+            font-size: 2px !important;
+        }
+        .small-height {
+            height:20px !important;
+        }
+        .pad20 {
+            padding-left:0 !important;
+        }
+
+        .mobile-show {
+            display: inline-block !important;
+
+        }
+
+        .mobile-hide {
+            display: none;
+        }
+
+        .restrictions {    left: -30%;
+   
+    position: relative;
+}
+
+ *[class="show"] {
+        overflow: visible !important;
+        float: none !important;
+        display: block !important;
+        line-height:100% !important;
+    }
+
+
+     }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+ div[class="video-wrap"]{
+ height: 750px;
+ position: relative;
+ overflow: hidden;
+ padding:0;
+ margin:0;}
+ }
+
+ @media screen and (-webkit-min-device-pixel-ratio: 0) {
+video[class="video"]{
+min-height: 100%;
+min-width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+display:inline-block !important;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+div[class="overlay"]{
+height: 100%;
+min-height: 100%;
+position: relative;
+margin: 0 auto;
+padding: 0 20px;
+z-index:3;}
+}
+/*** END EDITABLE STYLES ***/
+/* iPAD MEDIA QUERY */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+video[class="video"]{display: none !important;z-index:-1;}
+}
+
+/* iPAD 1 & 2, iPAD MINI MEDIA QUERY */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+video[class="video"]{display: none !important;z-index:-1;}
+}
+
+/* RETINA iPAD MEDIA QUERY */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+video[class="video"]{display: none !important;z-index:-1;}
+}
+
+/* iPHONE 5 MEDIA QUERY */
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 1){
+video[class="video"]{display: none !important;z-index:-1;}
+}
+
+/* iPHONE 5S MEDIA QUERY */
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){
+video[class="video"]{display: none !important;z-index:-1;}
+}
+
+/* iPHONE 2G/3G/3GS MEDIA QUERY */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1){
+video[class="video"]{display: none !important;z-index:-1;}
+}
+
+/* iPHONE 4/4S MEDIA QUERY */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+video[class="video"]{display: none !important;z-index:-1;}
+}
+/* WEBKIT, CHROME, SAFARI MEDIA QUERY @ 600px */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 600px) {
+div[class="video-wrap"]{
+height: 570px !important;}
+}
+
+/* WEBKIT, CHROME, SAFARI MEDIA QUERY @ 480px*/
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 480px) {
+div[class="video-wrap"]{
+height: 440px !important;}
+video[class="video"]{
+top:-75px;
+left:-200px;}
+}
+</style><!--end style-->
+
+
+</head>
+
+<body style=
+"padding:0; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%; background-color:#000; min-height:1000px;">
+<style type="text/css">
+    div.preheader 
+        { display: none !important; } 
+    </style>
+
+
+
+    <div id="body_style" style="padding:0px">
+        <table cellpadding="0" cellspacing="0" style=
+        "background-color: #000" width="100%">
+            <tr>
+                <td align="center" valign="top">
+                    <!--Header-->
+
+
+
+
+
+                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#f2ae44" width="100%">
+                    <td align="center" bgcolor="#f2ae44" style="padding: 0 0 50px 0; background-color: #f2ae44; background: url(http://pages.litmus.com/l/31032/2014-04-17/2hs7p/31032/17346/video_bg.jpg) top center no-repeat;background-size: cover;" width="100%">
+                        <div class="video-wrap">
+                            <video autoplay="autoplay"loop="loop" class="video" style="display: none;"><div class="overlay">
+                <table border="0" cellpadding="0" cellspacing="0" width="600">
+                   EMAIL WITH VIDEO AND A DEFAULT FALLBACK  WTF MORGAN!
+                </table></div>
+                            <source src="https://litmus.com/videos/TEDC-short-clips-tinted-compressed.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        </td>
+                </table>
+
+
+                      
+
+                
+
+                </td>
+            </tr>
+
+            <tr>
+                <td height="30"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
