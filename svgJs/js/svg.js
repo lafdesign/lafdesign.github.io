@@ -4,12 +4,12 @@ var widthWindow  = window.innerWidth ;   // Create global widow dimension variab
 var heightWindow = window.innerHeight; 
 
 var rangeX  =   '100';                  // Base value of x and y coordinates 
-var scopeX  =   widthWindow/rangeX;
+var scopeX  =   widthWindow/rangeX;    //  Always is = 1
 
-var rangeY  =   rangeX;     
-var scopeY  =   heightWindow/rangeY;
+var rangeY  =   rangeX;     			// Fix Y to X at 1:1 
+var scopeY  =   heightWindow/rangeY;   // Gives page height in terms of rangeX (n)
    
-var point   =   rangeX + " " + rangeY;                      // Create dynamic single point node (testing variabel)
+var point   =   rangeX + " " + rangeY;                      // Create dynamic single point node (testing variable)
 
 var viewBox =   0 + " " + 0 + " " + rangeX + " " + rangeY; // Fill viewport 
 
@@ -19,10 +19,10 @@ var body = document.getElementsByTagName('body')[0];
 body.style.margin  = "0"; 
 body.style.padding = "0"; 
 
-var svg = document.createElementNS("http://www.w3.org/2000/svg", 'svg');   //Create svg element
+var svg = document.createElementNS("http://www.w3.org/2000/svg", 'svg');    //Create svg element
 body.appendChild(svg);  
 
-var svg = document.getElementsByTagName('svg')[0]; //Get svg element
+var svg = document.getElementsByTagName('svg')[0];                          //Get svg element
 svg.setAttribute("id",    "container" ); 
 svg.setAttribute("class", "container" ); 
 svg.setAttribute("viewBox",  viewBox  ); 
@@ -31,7 +31,7 @@ var square = document.createElementNS("http://www.w3.org/2000/svg", 'rect');  //
 square.setAttribute("id"     , "square" );  
 square.setAttribute("class"  , "square" ); 
 square.setAttribute("width"  , rangeX   ); 
-square.setAttribute("height" , rangeX   );
+square.setAttribute("height" , rangeY   );
 square.setAttribute("stroke" , "#000"   );  
 square.setAttribute("strokeWidth" , "3" );
 
@@ -40,8 +40,8 @@ var circle = document.createElementNS("http://www.w3.org/2000/svg", 'circle'); /
 circle.setAttribute("id"   ,"circle" );  
 circle.setAttribute("class","circle" ); 
 circle.setAttribute("cx"   ,rangeX/2 ); 
-circle.setAttribute("cy"   ,rangeX/2 );
-circle.setAttribute("r"    ,rangeX/2 );
+circle.setAttribute("cy"   ,rangeY/2 );
+circle.setAttribute("r"    ,rangeY/2 );
 circle.style.stroke = "#000"; 
 circle.style.strokeWidth = "3"; 
 circle.style.fill = "#565656"; 
