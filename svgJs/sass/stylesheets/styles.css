@@ -105,3 +105,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-size: 1.4em;
   }
 }
+
+/* line 1, ../sass/partials/_global.sass */
+#viewPortWindow {
+  color: #676767;
+  font-size: 1em;
+  font-family: arial, sans-sarif;
+}
