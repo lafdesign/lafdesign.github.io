@@ -25,9 +25,6 @@ radians = Math.atan2(offY, offX);  //radians = degrees / 180 * pi
 degrees = radians / pi * 180;
 
 
-
-
-
 // var a = 'a1, a2, a3';         //vector representaion
 // var b = 'b1, b2, b3';
 
@@ -40,6 +37,49 @@ PVector.prototype.mag = function() {                //https://www.khanacademy.or
 
 
 a . b = abs(a) abs(b) Math.cos(theta)              // theta is degree and is angle between A and B.  https://en.wikipedia.org/wiki/Dot_product#Geometric_interpretation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// !! Dot Product & Angle Between Vectors !!   https://youtu.be/p8BZTFNSKIw
+
+q v = v q                  		//porperty 1
+q (v + w ) = q v + v w            											 //porperty 2
+o v = o                           											//porperty 3
+v v = Math.sqrt(v) // = Math.pow(a, 2) + Math.pow(b, 2);    // a^2 + b^2   //porperty 4
+(c q) v = c (q v) // = q (c v)											 //porperty 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
