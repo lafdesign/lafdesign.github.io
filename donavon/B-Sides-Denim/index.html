@@ -68,7 +68,7 @@ body {
     .preload {
     	position: absolute;
     	bottom:0;
-    	left: 37.5%;
+    	left: 17.5%;
     	width: 25%
     } 
 
@@ -105,6 +105,7 @@ bottom: 2%}
 
     font-size: 2vw;
     text-decoration: none;
+    padding-bottom: 2%;
 }
 .mail:hover {color: #415D9F;
 transition-duration: .7s;    
@@ -119,13 +120,20 @@ transition-duration: .7s;
 .preload {
 
   animation-name: stylie-transform-keyframes;
-  animation-duration: 5000ms;
+  animation-duration: 3000ms;
   animation-delay: 0ms;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   transform-origin: 0 0;
 }
+#preloader {background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* ie6-9 */}
 @keyframes stylie-transform-keyframes {
   0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
   20% {transform:translate(285px, 48px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
@@ -135,6 +143,19 @@ transition-duration: .7s;
   100% {transform:translate(1027px, 73px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
 }html::after { content: url(https://ga-beacon.appspot.com/UA-42910121-1/stylie?pixel); position: absolute; left: -999em; }
 
+.img-hat {    width: 26%;
+    top: 0;
+    position: absolute;
+    z-index: -2;
+    border-radius: 50%;
+    top: 15%;
+    left: 2%;}
+.copy{    position: absolute;
+    bottom: 0;
+        margin: 0;
+
+    right: 0.5%;
+font-size: 9.5px;}
 		</style>
 	</head>
 <body>
@@ -207,7 +228,9 @@ transition-duration: .7s;
 
 				<a class="number" href="7183090455" target="_blank">718-309-0455</a>
 
+<img class=" img-hat"src="img/hat-full-of-hollow.jpg" alt="">
 
+<p class="copy">&copy; B-Sides-Denim 2016</p>
 </div>
 
 
@@ -216,8 +239,8 @@ transition-duration: .7s;
       //<![CDATA[
           $(window).load(function() { // makes sure the whole site is loaded
           $('#status').fadeOut(); // will first fade out the loading animation
-          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-          $('body').delay(2300).css({'overflow':'visible'});
+          $('#preloader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(2200).css({'overflow':'visible'});
         })
       //]]>
     </script>
