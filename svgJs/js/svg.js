@@ -9,22 +9,42 @@ var scopeX  =   widthWindow/rangeX;    //  Always is = 1
 var rangeY  =   rangeX;     			// Fix Y to X at 1:1 
 var scopeY  =   heightWindow/rangeY;   // Define page height in terms of rangeX (n)
    
-var point   =   rangeX + " " + rangeY;                      // Create dynamic single point node (testing variable)
+var point   =   rangeX + " " + rangeY;                      // Create dynamic single point node (testing variable)  p=v (Euclidean vector)
 
 var viewBox =   0 + " " + 0 + " " + rangeX + " " + rangeY; // Fill viewport base 100                       http://www.w3schools.com/js/js_operators.asp
 														   // viewBox = <min-x> <min-y> <width> <height>   https://sarasoueidan.com/blog/svg-coordinate-systems/
 
 
-direction = Math.atan2(offY,  offX) / Math.PI * 180   // Define deg angle of p = (point) in x and y    //  http://stackoverflow.com/questions/3967238/javascript-formula-to-get-direction-from-x-y-coordinates
+direction = Math.atan2(offY,  offX) / Math.PI * 180;   // Define deg angle of p = (point) in x and y    //  http://stackoverflow.com/questions/3967238/javascript-formula-to-get-direction-from-x-y-coordinates
 
-var offX = Math.cos(direction)      //  offX is position x
-var offY = Math.sin(direction)		//  offY is position y
+var offX = Math.cos(direction) ;     //  offX is position x
+var offY = Math.sin(direction);		//  offY is position y
 
-pi = Math.PI
-radians = Math.atan2(offY, offX)  //radians = degrees / 180 * pi  
-degrees = radians / pi * 180
+pi = Math.PI;
+radians = Math.atan2(offY, offX);  //radians = degrees / 180 * pi  
+degrees = radians / pi * 180;
 
 
+
+
+
+// var a = 'a1, a2, a3';         //vector representaion
+// var b = 'b1, b2, b3';
+
+// var c = a - b               // c = 
+
+
+PVector.prototype.mag = function() {                //https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-vectors/a/vector-magnitude-normalization
+    return sqrt(this.x*this.x + this.y*this.y);
+};
+
+
+a . b = abs(a) abs(b) Math.cos(theta)              // theta is degree and is angle between A and B.  https://en.wikipedia.org/wiki/Dot_product#Geometric_interpretation
+
+
+
+
+//x = [(x1^(n+1) - x0^(n+1))*y + x0^(n+1)]^(1/(n+1))     // http://stackoverflow.com/questions/918736/random-number-generator-that-produces-a-power-law-distribution
 
 var body = document.getElementsByTagName('body')[0];
 body.style.margin  = "0"; 

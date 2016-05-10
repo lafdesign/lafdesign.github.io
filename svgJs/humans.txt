@@ -1,0 +1,41 @@
+Info:
+----------------------------------------------------------------------------------
+
+http://users.math.yale.edu/~bbm3/web_pdfs/encyclopediaBritannica.pdf
+
+I found this simmilar type of code structure:
+three.js :http://threejs.org/docs/#Manual/Introduction/Creating_a_scene
+
+And this possibly useful api:
+Bezier.js, for doing Bezier curve things     https://pomax.github.io/bezierjs/
+
+
+Vector.js   http://evanw.github.io/lightgl.js/docs/vector.html
+
+Victor.js           http://victorjs.org/
+
+chapter the nature of code:  http://natureofcode.com/book/chapter-1-vectors/
+
+
+glmatrix:  http://glmatrix.net/
+
+
+Processing.js  PVector:     http://processingjs.org/reference/PVector/
+
+
+Paper.js     http://paperjs.org/tutorials/geometry/vector-geometry/
+
+
+math.js          http://mathjs.org/docs/reference/functions/norm.html
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+http://svg.codes   host of offSet.js    http://svg.codes/offSet.js 
+
+offset.code@gmail.com 
+offSet-code.github.io
+
+
+https://github.com/svgOffSets
+svg.codes@gmail.com
