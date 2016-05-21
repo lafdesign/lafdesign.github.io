@@ -1,9 +1,11 @@
 <html>
 	<head>	
 		<title>B-Sides Denim</title>
+		<meta name="viewport" content="initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
 		<link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet' type='text/css'>
-		
+		  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 		<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 		<style>
 
@@ -33,14 +35,14 @@
 
 
 
-
+/*
 html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
-}
+}*/
 
-body {
+/*body {
   background-color: transparent;
   -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
@@ -51,26 +53,27 @@ body {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-}
+}*/
 
 
 
 		body {font-family: 'Artifika', serif;}
-		h1 {text-align: center; font-size: 3em; padding:2%;}
+		h1 {text-align: right; font-size: 3vw; padding:2%;}
 		.facebook-icon {    width: 10%;
-    left: 45%;
-	 position: absolute;
+/*    left: 45%;
+	 position: absolute;*/
 	bottom:0;
-	padding:0 0 2% 0;}
+	padding:0 0 2% 0;
+    text-align: right;}
 .facebook-icon:hover {fill: #6F54D2; transition-all:2s;    -webkit-transition: width 2s; /* Safari */
     transition: width 2s;}
-
+/*
     .preload {
     	position: absolute;
     	bottom:0;
     	left: 17.5%;
     	width: 25%
-    } 
+    } */
 
 .number, .mail {
 
@@ -79,12 +82,12 @@ body {
 }
 
 
-.number {position: absolute;
+/*.number {position: absolute;
 left: 15%;
 bottom: 2%}
 .mail{position: absolute;
 right: 15%;
-bottom: 2%}
+bottom: 2%}*/
 
 
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#3A569B;}
@@ -165,19 +168,55 @@ font-size: 9.5px;}
     position: relative;
     top: 170px;
     padding-top: 4px; }
-		</style>
+
+    img {    border: 0;
+    width: 24%;
+    border-radius: 50%;
+  }
+  img:hover {
+  	border-radius: 0;
+  	transition: all 1s;
+
+
+  	 }
+
+  	 .wrapper {
+    max-width: 91%;
+    overflow: hidden;
+    text-align: center
+  	 }
+		
+ .nav {    position: absolute;
+    top: 0;
+
+
+    text-align: center;
+    width: 100%;}
+
+
+
+
+
+
+
+
+</style>
+
 	</head>
 <body>
+
+
+
 <!-- gallery http://codepen.io/jeffpannone/pen/GpKOed -->
   <!-- Preloader -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div id="status"></div>
       <img class="preload" src="img/donivon2.png" alt="">
-    </div>
+    </div> -->
 <div id="wrapper" class="wrapper">
 	<h1>B-Sides Denim</h1>
 
-<a class="img-link" href="img/adamant.JPG">				adamant.JPG</a>
+<!-- <a class="img-link" href="img/adamant.JPG">				adamant.JPG</a>
 <a class="img-link" href="img/aliyah.JPG">				aliyah.JPG</a>
 <a class="img-link" href="img/hat-full-of-hollow.jpg">		hat-full-of-hollow.jpg</a>
 <a class="img-link" href="img/joanjett.JPG">			joanjett.JPG</a>
@@ -187,12 +226,27 @@ font-size: 9.5px;}
 <a class="img-link" href="img/thecure.JPG">				thecure.JPG</a>
 <a class="img-link" href="img/thesmiths.JPG">			thesmiths.JPG</a>
 <a class="img-link" href="img/whokilledmm.jpg">				whokilledmm.jpg</a>
+ -->
+
+<a href="img/hat-full-of-hollow.jpg" target="_blank"> <img src="img/hat-full-of-hollow.jpg" alt="hat-full-of-hollow" title="hat-full-of-hollow"></a>
+<a href="img/joanjett.jpg" target="_blank"> <img src="img/joanjett.jpg" alt="joanjett" title="joanjett"></a>
+<a href="img/sidvicious.JPG" target="_blank"> <img src="img/sidvicious.JPG" alt="sidvicious" title="sidvicious"></a>
+<a href="img/the-smiths.jpg" target="_blank"> <img src="img/the-smiths.jpg" alt="the-smiths" title="the-smiths"></a>
+<a href="img/thecure.jpg" target="_blank"> <img src="img/thecure.jpg" alt="thecure" title="thecure"></a>
+<a href="img/whokilledmm.jpg" target="_blank"> <img src="img/whokilledmm.jpg" alt="whokilledmm" title="whokilledmm"></a>
+
+<a href="img/lady-gaga-2.jpg" target="_blank"> <img src="img/lady-gaga-2.jpg" alt="lady-gaga" title="lady-gaga"></a>
+<!-- <img src="img/lady-gaga-2.JPG" alt=""> -->
+<a href="img/morrrissey.jpg" target="_blank"> <img src="img/morrrissey.jpg" alt="morrrissey" title="morrrissey"></a>
+<a href="img/adamant-red.jpg" target="_blank"> <img src="img/adamant-red.jpg" alt="adamant-red" title="adamant-red"></a>
+<!-- <img src="img/smiths.jpg" alt=""> -->
+<a href="img/black-flag.jpg" target="_blank"> <img src="img/black-flag.jpg" alt="black-flag" title="black-flag"></a>
+<a href="img/scissor-sisters.jpg" target="_blank"> <img src="img/scissor-sisters.jpg" alt="scissor-sisters" title="scissor-sisters"></a>
 
 
-
-
+<div class="nav">
 				<a class="mail" href="mailto:nekopaco@gmail.com" target="_blank">nekopaco@gmail.com</a>
-				<p>
+			
 					<a href="https://www.facebook.com/bsidesdenim/" target="_blank">
 						<svg  class="facebook-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							 viewBox="0 0 300 300">
@@ -249,13 +303,15 @@ font-size: 9.5px;}
 						</svg>
 
 					</a>
-				</p>
+			
 
 				<a class="number" href="7183090455" target="_blank">718-309-0455</a>
 
-<img class=" img-hat"src="img/hat-full-of-hollow.jpg" alt="">
 
+</div>
 <p class="copy">&copy; B-Sides-Denim 2016</p>
+
+
 </div>
 
 
@@ -269,5 +325,8 @@ font-size: 9.5px;}
         })
       //]]>
     </script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
