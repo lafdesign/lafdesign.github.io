@@ -9,42 +9,42 @@ angular
   .config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider) {
          
     $locationProvider.html5Mode(true);// use the HTML5 History API -- removes the #
-    $urlRouterProvider.otherwise('/work');
+    $urlRouterProvider.otherwise('fcb-copy/work');
     $stateProvider
       .state('work', {
-        url: '/work',
+        url: 'fcb-copy/work',
         templateUrl: 'http://laf.land/fcb-copy/app/templates/work.html',
         controller: 'workCtrl'
       })
       .state('about', {
-        url: '/about',
+        url: 'fcb-copy/about',
         templateUrl: 'http://laf.land/fcb-copy/app/templates/about.html',
         controller: 'aboutCtrl'
       })
       .state('news', {
-        url: '/news',
+        url: 'fcb-copy/news',
         templateUrl: 'http://laf.land/fcb-copy/app/templates/news.html',
         controller: 'newsCtrl'
       })
       .state('contact', {
-        url: '/contact',
+        url: 'fcb-copy/contact',
         templateUrl: 'http://laf.land/fcb-copy/app/templates/contact.html',
         controller: 'contactCtrl'
       })
 
       // people pages off about page 
       .state('ari-halper', {
-        url: '/ari-halper',
+        url: 'fcb-copy/ari-halper',
         templateUrl: 'http://laf.land/fcb-copy/app/templates/people/ari-halper.html',
         controller: 'ariHalperCtrl'
       })
       .state('deb-freeman', {
-        url: '/deb-freeman',
+        url: 'fcb-copy/deb-freeman',
         templateUrl: 'http://laf.land/fcb-copy/app/templates/people/deb-freeman.html',
         controller: 'debFreemanCtrl'
       })
       .state('karyn-rockwell', {
-        url: '/karyn-rockwell',
+        url: 'fcb-copy/karyn-rockwell',
         templateUrl: 'http://laf.land/fcb-copy/app/templates/people/karyn-rockwell.html',
         controller: 'karynRockwellCtrl'
       })
