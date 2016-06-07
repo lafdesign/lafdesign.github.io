@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!-- meta tags -->
+
+<!--     <meta name="Work | FCB New York" content="Work | FCB New York" />
+    <title>Work | FCB New York</title> -->
+
+<!-- Google+ publisher  -->
+    <link rel="publisher" href="http://plus.google.com/(4)xxxxxxxxxxxxxxxxxxxxx" />
+
+<!--  FB Open Graph meta tags -->
+    <meta property="og:title"(5) content=" " />
+    <meta property="og:description"(6) content="FCB New York is a full-service advertising agency based in New York City that offers creative and strategic services across multiple disciplines. " /> <!-- 88 characters -->  <!--   is 146 characters -->
+    <meta property="og:(7)type" content="product" />
+    <meta property="og:image" content="http://www.PROJECT-X/PROJECTX-facebook-card.jpeg" />
+    <meta property="og:url" content="http://www.PROJECT-X.com" />
+    <meta property="og:site_name"(8) content="PROJECT-X: " />
+    <meta property="fb:app_id" content="(9)xx1037656598190" />
+<!-- Twitter card meta tags -->
+    <meta property="twitter:card" content="summary" />
+    <meta name="twitter:url" content="http://www.PROJECT-X.com" />
+    <meta property="twitter:title"(10) content=" a few caption " />
+    <meta name="twitter:description"(11) content="FCB New York is a full-service advertising agency based in New York City that offers creative and strategic services across multiple disciplines. "  /> <!-- max 140 -->
+    <meta name="twitter:image" content="./app/images/FCBNewYork_Share.png" />
+
+<!--Open Graph --> 
+    <meta name='keywords'(12) content=" Words, Words, Words " />
+    <meta property='og:site_name'(13) content='PROJECT-X' />
+    <meta property='og:title'(14) content=" lots of words" />
+    <meta property='og:description'(15) content=" lots of words" /> <!-- min -100 character -->
+
+<!-- /meta tags -->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    <script data-require="angular.js@1.2.10" data-semver="1.2.10" src="http://code.angularjs.org/1.2.10/angular.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.js"></script>
+    <script src="http://passy.github.io/angular-masonry/angular-masonry.js"></script>
+
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="app/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app/scripts/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="app/scripts/slick-theme.css"/>
+
+    <link rel="stylesheet" href="app/app.css" />
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnnP4xKvVakh5CkMZhBpsDf9IXBwvQ0M8"></script>
+
+    <link rel="stylesheet" href="app/templates/portfolio/screen.css">
+  </head>
+  <body>    
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PDVDJ3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PDVDJ3');</script>
+    <!-- End Google Tag Manager -->
+      <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+<!-- preloader -->
+
+<!--     <div id="preloader" class="preloader fade-in">
+      <div id="status"></div>
+      <img class="preload" src="app/images/combined.svg" alt="">
+    </div>
+ -->
+
+<!-- MAIN VIEW -->
+
+    <div class="container" ng-app="app">
+      <header ng-include="'app/templates/nav.html'"></header>
+      <div ui-view></div>
+      <footer ng-include="'app/templates/footer.html'" ></footer>
+    </div>
+
+<!-- angular app -->
+  <script src="app/app.js"></script>
+<!-- page(s) Ctrl  -->
+  <script src="app/controllers/workCtrl.js"></script>
+  <script src="app/controllers/aboutCtrl.js"></script>
+  <script src="app/controllers/newsCtrl.js"></script>
+  <script src="app/controllers/contactCtrl.js"></script>
+<!-- people Ctrl -->
+  <script src="app/controllers/_people/ariHalperCtrl.js"></script>
+  <script src="app/controllers/_people/debFreemanCtrl.js"></script>
+  <script src="app/controllers/_people/karynRockwellCtrl.js"></script>
+<!-- work Ctrl -->
+
+
+<script src="app/controllers/portfolio/ContractCtrl.js"></script>
+ <script src="app/controllers/portfolio/CreaturesCtrl.js"></script>
+  <script src="app/controllers/portfolio/SmokeCtrl.js"></script>
+   <script src="app/controllers/portfolio/TumblrCtrl.js"></script>
+    <script src="app/controllers/portfolio/buschGardenCtrl.js "></script>
+    <script src="app/controllers/portfolio/figCtrl.js"></script>
+     <script src="app/controllers/portfolio/jamaicaCtrl.js"></script>
+      <script src="app/controllers/portfolio/LincolnCtrl.js"></script>
+       <script src="app/controllers/portfolio/mPowerCtrl.js"></script>
+        <script src="app/controllers/portfolio/oreoCtrl.js"></script>
+         <script src="app/controllers/portfolio/SeaWorldCtrl.js "></script>
+
+<!-- other libs -->
+<!--   <script type="text/javascript" src="app/scripts/detectmobilebrowser.js"></script> -->
+<!--  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+<script type="text/javascript" src="app/scripts/bootstrap.min.js"></script>
+  <script src="app/scripts/slick.min.js"></script>
+<!--       <script src="app/scripts/threeSlidesScript.js">
+    </script>
+    <script src="app/scripts/zoom.js">
+    </script> -->
+<!-- preloader -->
+<!--   <script type="text/javascript">
+      //<![CDATA[
+          // $(window).load(function() { // makes sure the whole site is loaded
+          // $('#status').fadeOut(); // will first fade out the loading animation
+          // $('#preloader').delay(400).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        //   $('body').delay(2200).css({'overflow':'visible'});
+        // })
+      //]]>
+    </script> -->
+  </body>
+</html>

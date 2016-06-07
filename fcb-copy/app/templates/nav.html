@@ -1,0 +1,38 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="mobileNavBtn">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <a class="navbar-brand anim-tile" ui-sref="work" title="Our Work" id="TopLogoToWork" onclick="scroll(0,0)" style="cursor:pointer"style="cursor:default">
+        <div id="bg">
+          <img class="anim-tile" src="app/images/logo-anim-b.png" width="205" />
+        </div>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" ng-controller="HeaderController">
+      <ul class="nav navbar-nav">
+        <li ng-class="{ active: isActive('/work')}" title="Our Work"><a ui-sref="work" id="topNavToWork" onclick="scroll(0,0)" style="cursor:pointer">Work</a></li>
+        <li ng-class="{ active: isActive('/about')}" title="About FCB NY"><a ui-sref="about" id="topNavToAbout" onclick="scroll(0,0)" style="cursor:pointer">About</a></li>
+        <li ng-class="{ active: isActive('/news')}"   title="News"><a ui-sref="news" id="topNavToNews" onclick="scroll(0,0)" style="cursor:pointer">News</a></li>
+        <li ng-class="{ active: isActive('/contact')}" title="Contact FCB NY"><a ui-sref="contact" id="topNavToContact" onclick="scroll(0,0)" style="cursor:pointer">Contact</a></li>
+        <div class="nav-social-icons">
+          <div class="nav-social-icons">
+            <li title="Twitter">
+              <a href="https://twitter.com/FCBNewYork" target="_blank" style="cursor:pointer"><svg id="twitterSvg" version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" viewBox="-13.9 373.3 553.3 490.7" ><path id="twitterIcon" d="M516,481.6c-19,8.4-39.4,14.1-60.8,16.7c21.9-13.1,38.6-33.8,46.5-58.6c-20.5,12.1-43.1,20.9-67.2,25.7c-19.3-20.6-46.8-33.4-77.3-33.4c-58.5,0-105.9,47.4-105.9,105.9c0,8.3,0.9,16.4,2.7,24.1c-88-4.4-166-46.6-218.2-110.6c-9.1,15.6-14.3,33.8-14.3,53.2c0,36.7,18.7,69.1,47.1,88.1c-17.4-0.5-33.7-5.3-47.9-13.2c0,0.4,0,0.9,0,1.3c0,51.3,36.5,94.1,84.9,103.8c-8.9,2.4-18.2,3.7-27.9,3.7c-6.8,0-13.5-0.7-19.9-1.9c13.5,42.1,52.6,72.7,98.9,73.5c-36.2,28.4-81.9,45.3-131.5,45.3c-8.5,0-17-0.5-25.3-1.5c46.8,30,102.5,47.6,162.3,47.6c194.7,0,301.2-161.3,301.2-301.2c0-4.6-0.1-9.2-0.3-13.7C483.9,521.5,501.8,502.9,516,481.6"/></svg></a>
+            </li>
+            <li title="LinkedIn">
+              <a href="#" target="_blank" style="cursor:pointer"><svg version="1.1" id="linkedInSvg" class="linkedInSvg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 430.117 430.117"><path id="LinkedIn-icon" class="LinkedIn-icon" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"/></svg></a>
+            </li>
+            <li title="Instagram">
+              <a href="https://www.instagram.com/fcbnewyork/ " style="cursor:pointer" target="_blank"><svg version="1.1" id="instagramsvg" class="instagramSvg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 510 510" ><path id="instagramIcon" class="instagramIcon" d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z M255,153c56.1,0,102,45.9,102,102c0,56.1-45.9,102-102,102c-56.1,0-102-45.9-102-102C153,198.9,198.9,153,255,153z M63.75,459 C56.1,459,51,453.9,51,446.25V229.5h53.55C102,237.15,102,247.35,102,255c0,84.15,68.85,153,153,153c84.15,0,153-68.85,153-153 c0-7.65,0-17.85-2.55-25.5H459v216.75c0,7.65-5.1,12.75-12.75,12.75H63.75z M459,114.75c0,7.65-5.1,12.75-12.75,12.75h-51 c-7.65,0-12.75-5.1-12.75-12.75v-51c0-7.65,5.1-12.75,12.75-12.75h51C453.9,51,459,56.1,459,63.75V114.75z"/></svg></a>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
