@@ -13,45 +13,45 @@ angular
     $stateProvider
       .state('work', {
         url: '/work',
-        templateUrl: 'app/templates/work.html',
+        templateUrl: 'http://laf.land/fcb-copy/app/templates/work.html',
         controller: 'workCtrl'
       })
       .state('about', {
         url: '/about',
-        templateUrl: 'app/templates/about.html',
+        templateUrl: 'http://laf.land/fcb-copy/app/templates/about.html',
         controller: 'aboutCtrl'
       })
       .state('news', {
         url: '/news',
-        templateUrl: 'app/templates/news.html',
+        templateUrl: 'http://laf.land/fcb-copy/app/templates/news.html',
         controller: 'newsCtrl'
       })
       .state('contact', {
         url: '/contact',
-        templateUrl: 'app/templates/contact.html',
+        templateUrl: 'http://laf.land/fcb-copy/app/templates/contact.html',
         controller: 'contactCtrl'
       })
 
       // people pages off about page 
       .state('ari-halper', {
         url: '/ari-halper',
-        templateUrl: 'app/templates/people/ari-halper.html',
+        templateUrl: 'http://laf.land/fcb-copy/app/templates/people/ari-halper.html',
         controller: 'ariHalperCtrl'
       })
       .state('deb-freeman', {
         url: '/deb-freeman',
-        templateUrl: 'app/templates/people/deb-freeman.html',
+        templateUrl: 'http://laf.land/fcb-copy/app/templates/people/deb-freeman.html',
         controller: 'debFreemanCtrl'
       })
       .state('karyn-rockwell', {
         url: '/karyn-rockwell',
-        templateUrl: 'app/templates/people/karyn-rockwell.html',
+        templateUrl: 'http://laf.land/fcb-copy/app/templates/people/karyn-rockwell.html',
         controller: 'karynRockwellCtrl'
       })
       // work exaqmple pages
      .state('SeaWorld', {
           url: '/SeaWorld-Meet-the-Animals-casestudy-video.html',
-          templateUrl: 'app/templates/portfolio/SeaWorld.html',
+          templateUrl: 'http://laf.land/fcb-copuapp/templates/portfolio/SeaWorld.html',
           controller: 'SeaWorldCtrl'
         })
 
