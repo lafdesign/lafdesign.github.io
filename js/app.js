@@ -2,7 +2,9 @@ angular
   .module('app', [
     'ui.router'
   ])
-  .config(['$urlRouterProvider', '$stateProvider',  function($urlRouterProvider, $stateProvider) {
+  .config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider) {
+         
+    $locationProvider.html5Mode(true);// use the HTML5 History API -- removes the #
 
       $urlRouterProvider.otherwise('/');
     
