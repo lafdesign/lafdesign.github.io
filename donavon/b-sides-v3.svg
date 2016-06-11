@@ -1,0 +1,66 @@
+
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="-267.5 -187.5 1152 1002" style="enable-background:new -267.5 -187.5 1152 1002;"
+	 xml:space="preserve">
+<style type="text/css">
+
+	.st0{stroke:#000000;stroke-width:6;}
+	.st1{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);}
+	.st2{fill:none;stroke:#CCCCCC;stroke-width:5;}
+	.st3{fill:#EEEEEE;}
+	.st4{fill:#333333;stroke:#444444;stroke-width:5;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:6;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{clip-path:url(#SVGID_5_);fill:url(#SVGID_6_);}
+	.st8{font-size:13.555;}
+	.st9{font-size:19.5863;}
+	.st10{font-size:12;}
+
+</style>
+<circle class="st0" cx="300" cy="300" r="100"/>
+<path class="st0" d="M300,10C139.84,10,10,139.84,10,300s129.84,290,290,290s290-129.84,290-290S460.16,10,300,10z M300,450
+	c-82.84,0-150-67.16-150-150s67.16-150,150-150s150,67.16,150,150S382.84,450,300,450z"/>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="300" cy="300" r="287"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<radialGradient id="SVGID_3_" cx="-178.6812" cy="579.9824" r="0.5" fx="-179.0312" fy="579.6324" gradientTransform="matrix(300 0 0 -300 53754.5 174144.5)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</radialGradient>
+	<rect class="st1" width="300" height="300"/>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_4_" cx="300" cy="300" r="287"/>
+	</defs>
+	<clipPath id="SVGID_5_">
+		<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<radialGradient id="SVGID_6_" cx="-178.6812" cy="579.9824" r="0.5" fx="-178.3311" fy="580.3324" gradientTransform="matrix(300 0 0 -300 54054.5 174444.5)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</radialGradient>
+	<rect x="300" y="300" class="st7" width="300" height="300"/>
+</g>
+<circle cx="300" cy="300" r="100"/>
+<circle class="st4" cx="300" cy="300" r="100"/>
+<circle class="st3" cx="300" cy="300" r="80"/>
+<circle cx="300" cy="300" r="8"/>
+<g>
+	<path class="st2" d="M300,210c49.705,0,90,40.294,90,90c0,49.706-40.295,90-90,90c-49.706,0-90-40.294-90-90
+		C210,238.092,246.64,210,300,210z"/>
+</g>
+<text transform="matrix(1 0 0 1 239.6582 274.2783)" class="st6 st9">B-Sides Denim </text>
+<text transform="matrix(1 0 0 1 335.127 302.791)" class="st6 st10">Side B</text>
+<text transform="matrix(1 0 0 1 273.0391 351.6074)" class="st6 st8">Estd. 2008</text>
+<circle class="st5" cx="300" cy="300" r="100"/>
+<path class="st5" d="M301,12.89c-154.95,0-280.57,128.15-280.57,286.22c0,158.081,125.62,286.23,280.57,286.23
+	c154.96,0,280.58-128.149,280.58-286.23C581.58,141.04,455.96,12.89,301,12.89z M300,450c-82.84,0-150-67.16-150-150
+	s67.16-150,150-150s150,67.16,150,150S382.84,450,300,450z"/>
+</svg>
