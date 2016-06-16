@@ -1,0 +1,34 @@
+<style>
+	header{
+		    display: table-caption;
+    margin-top: 15px;
+    padding: 30px;
+    line-height: 30px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    letter-spacing: 1.2pt;
+
+	}
+	li a {text-decoration: none;}
+
+	li.active a {color: green; border-bottom: 1px dashed yellow;}
+
+	li.active a{border-left: 1px;
+  animation: blinker 1.3s linear infinite;
+}
+span.sans {font-family: serif;}
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+
+</style>
+<ul class="nav nav-pills pull-right">
+  <li  ui-sref-active="active" ><a ui-sref="tilde">&nbsp;~&nbsp;</a></li>
+  <li  ui-sref-active="active" ><a ui-sref="active">::Active</a></li>
+  <li  ui-sref-active="active" ><a ui-sref="focus">::Focus</a></li>
+  <li  ui-sref-active="active" ><a ui-sref="hover">::Hover</a></li>
+  <li  ui-sref-active="active" ><a ui-sref="visited">::Visited</a></li>
+  <li  ui-sref-active="active" ><a ui-sref="ampersand">&amp;<span class="sans">A</span>mp;</a></li>
+</ul>
+
